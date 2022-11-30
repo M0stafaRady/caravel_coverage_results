@@ -1,0 +1,275 @@
+<session version="1.1" release="T-2022.06" timestp="2022-11-17 16:34:20 GMT">
+  <info>
+    <attr name="datetime" value="Thu Nov 17 08:34:22 2022
+"/>
+    <attr name="command" value="urg -dir RTL-IRQ_external/simv.vdb RTL-IRQ_timer/simv.vdb RTL-IRQ_uart/simv.vdb RTL-bitbang_cpu_all_i/simv.vdb RTL-bitbang_cpu_all_o/simv.vdb RTL-bitbang_no_cpu_all_i/simv.vdb RTL-bitbang_no_cpu_all_o/simv.vdb RTL-bitbang_spi_i/simv.vdb RTL-bitbang_spi_o/simv.vdb RTL-clock_redirect/simv.vdb RTL-cpu_reset/simv.vdb RTL-cpu_stress/simv.vdb RTL-debug/simv.vdb RTL-gpio_all_bidir_user/simv.vdb RTL-gpio_all_i/simv.vdb RTL-gpio_all_i_pd/simv.vdb RTL-gpio_all_i_pd_user/simv.vdb RTL-gpio_all_i_pu/simv.vdb RTL-gpio_all_i_pu_user/simv.vdb RTL-gpio_all_i_user/simv.vdb RTL-gpio_all_o/simv.vdb RTL-gpio_all_o_user/simv.vdb RTL-hk_disable/simv.vdb RTL-hk_regs_rst_spi/simv.vdb RTL-hk_regs_wr_spi/simv.vdb RTL-hk_regs_wr_wb/simv.vdb RTL-hk_regs_wr_wb_cpu/simv.vdb RTL-la/simv.vdb RTL-mem_dff2_W/simv.vdb RTL-mem_dff_W/simv.vdb RTL-mgmt_gpio_bidir/simv.vdb RTL-mgmt_gpio_in/simv.vdb RTL-mgmt_gpio_out/simv.vdb RTL-pll/simv.vdb RTL-serial_shifting_0011/simv.vdb RTL-serial_shifting_01/simv.vdb RTL-serial_shifting_10/simv.vdb RTL-serial_shifting_1100/simv.vdb RTL-spi_master_rd/simv.vdb RTL-spi_master_temp/simv.vdb RTL-spi_rd_wr_nbyte/simv.vdb RTL-timer0_oneshot/simv.vdb RTL-timer0_periodic/simv.vdb RTL-uart_loopback/simv.vdb RTL-uart_rx/simv.vdb RTL-uart_tx/simv.vdb RTL-user_address_space/simv.vdb RTL-user_pass_thru_rd/simv.vdb -format both -show tests -report coverageRTL/"/>
+    <attr name="top_instance" value="caravel_top"/>
+  </info>
+  <hvp>
+    <datadef>
+      <metdef name="Line" type="ratio" aggregator="average" builtin="1" />
+      <metdef name="Cond" type="ratio" aggregator="average" builtin="1" />
+      <metdef name="Toggle" type="ratio" aggregator="average" builtin="1" />
+      <metdef name="FSM" type="ratio" aggregator="average" builtin="1" />
+      <metdef name="Branch" type="ratio" aggregator="average" builtin="1" />
+    </datadef>
+  </hvp>
+  <old_coverage>
+  <scope type="top" name="top">
+    <metric name="Line" value="11312/16381" />
+    <metric name="Cond" value="1809/2648" />
+    <metric name="Toggle" value="52214/93038" />
+    <metric name="FSM" value="49/91" />
+    <metric name="Branch" value="5567/9263" />
+  </scope>
+  <scope type="instance" name="top">
+  </scope>
+  <scope type="group" name="top">
+  </scope>
+  <scope type="assert" name="Statistics">
+  </scope>
+  <scope type="test" name="test">
+    <test name="count" value="48" />
+    <test name="RTL-IRQ_external/simv/test">
+      <attrval name="user_test_name" value="" />
+      <attrval name="test_status" value="unknown" />
+      <attrval name="cpu_time" value="217.530" />
+    </test>
+    <test name="RTL-IRQ_timer/simv/test">
+      <attrval name="user_test_name" value="" />
+      <attrval name="test_status" value="unknown" />
+      <attrval name="cpu_time" value="199.370" />
+    </test>
+    <test name="RTL-IRQ_uart/simv/test">
+      <attrval name="user_test_name" value="" />
+      <attrval name="test_status" value="unknown" />
+      <attrval name="cpu_time" value="431.550" />
+    </test>
+    <test name="RTL-bitbang_cpu_all_i/simv/test">
+      <attrval name="user_test_name" value="" />
+      <attrval name="test_status" value="unknown" />
+      <attrval name="cpu_time" value="2174.360" />
+    </test>
+    <test name="RTL-bitbang_cpu_all_o/simv/test">
+      <attrval name="user_test_name" value="" />
+      <attrval name="test_status" value="unknown" />
+      <attrval name="cpu_time" value="2487.920" />
+    </test>
+    <test name="RTL-bitbang_no_cpu_all_i/simv/test">
+      <attrval name="user_test_name" value="" />
+      <attrval name="test_status" value="unknown" />
+      <attrval name="cpu_time" value="16.080" />
+    </test>
+    <test name="RTL-bitbang_no_cpu_all_o/simv/test">
+      <attrval name="user_test_name" value="" />
+      <attrval name="test_status" value="unknown" />
+      <attrval name="cpu_time" value="21.430" />
+    </test>
+    <test name="RTL-bitbang_spi_i/simv/test">
+      <attrval name="user_test_name" value="" />
+      <attrval name="test_status" value="unknown" />
+      <attrval name="cpu_time" value="102.190" />
+    </test>
+    <test name="RTL-bitbang_spi_o/simv/test">
+      <attrval name="user_test_name" value="" />
+      <attrval name="test_status" value="unknown" />
+      <attrval name="cpu_time" value="418.750" />
+    </test>
+    <test name="RTL-clock_redirect/simv/test">
+      <attrval name="user_test_name" value="" />
+      <attrval name="test_status" value="unknown" />
+      <attrval name="cpu_time" value="21.920" />
+    </test>
+    <test name="RTL-cpu_reset/simv/test">
+      <attrval name="user_test_name" value="" />
+      <attrval name="test_status" value="unknown" />
+      <attrval name="cpu_time" value="33.680" />
+    </test>
+    <test name="RTL-cpu_stress/simv/test">
+      <attrval name="user_test_name" value="" />
+      <attrval name="test_status" value="unknown" />
+      <attrval name="cpu_time" value="1865.610" />
+    </test>
+    <test name="RTL-debug/simv/test">
+      <attrval name="user_test_name" value="" />
+      <attrval name="test_status" value="unknown" />
+      <attrval name="cpu_time" value="45.910" />
+    </test>
+    <test name="RTL-gpio_all_bidir_user/simv/test">
+      <attrval name="user_test_name" value="" />
+      <attrval name="test_status" value="unknown" />
+      <attrval name="cpu_time" value="351.540" />
+    </test>
+    <test name="RTL-gpio_all_i/simv/test">
+      <attrval name="user_test_name" value="" />
+      <attrval name="test_status" value="unknown" />
+      <attrval name="cpu_time" value="71.830" />
+    </test>
+    <test name="RTL-gpio_all_i_pd/simv/test">
+      <attrval name="user_test_name" value="" />
+      <attrval name="test_status" value="unknown" />
+      <attrval name="cpu_time" value="74.980" />
+    </test>
+    <test name="RTL-gpio_all_i_pd_user/simv/test">
+      <attrval name="user_test_name" value="" />
+      <attrval name="test_status" value="unknown" />
+      <attrval name="cpu_time" value="73.400" />
+    </test>
+    <test name="RTL-gpio_all_i_pu/simv/test">
+      <attrval name="user_test_name" value="" />
+      <attrval name="test_status" value="unknown" />
+      <attrval name="cpu_time" value="75.260" />
+    </test>
+    <test name="RTL-gpio_all_i_pu_user/simv/test">
+      <attrval name="user_test_name" value="" />
+      <attrval name="test_status" value="unknown" />
+      <attrval name="cpu_time" value="84.410" />
+    </test>
+    <test name="RTL-gpio_all_i_user/simv/test">
+      <attrval name="user_test_name" value="" />
+      <attrval name="test_status" value="unknown" />
+      <attrval name="cpu_time" value="71.640" />
+    </test>
+    <test name="RTL-gpio_all_o/simv/test">
+      <attrval name="user_test_name" value="" />
+      <attrval name="test_status" value="unknown" />
+      <attrval name="cpu_time" value="709.250" />
+    </test>
+    <test name="RTL-gpio_all_o_user/simv/test">
+      <attrval name="user_test_name" value="" />
+      <attrval name="test_status" value="unknown" />
+      <attrval name="cpu_time" value="661.500" />
+    </test>
+    <test name="RTL-hk_disable/simv/test">
+      <attrval name="user_test_name" value="" />
+      <attrval name="test_status" value="unknown" />
+      <attrval name="cpu_time" value="16.530" />
+    </test>
+    <test name="RTL-hk_regs_rst_spi/simv/test">
+      <attrval name="user_test_name" value="" />
+      <attrval name="test_status" value="unknown" />
+      <attrval name="cpu_time" value="9.900" />
+    </test>
+    <test name="RTL-hk_regs_wr_spi/simv/test">
+      <attrval name="user_test_name" value="" />
+      <attrval name="test_status" value="unknown" />
+      <attrval name="cpu_time" value="19.070" />
+    </test>
+    <test name="RTL-hk_regs_wr_wb/simv/test">
+      <attrval name="user_test_name" value="" />
+      <attrval name="test_status" value="unknown" />
+      <attrval name="cpu_time" value="1.210" />
+    </test>
+    <test name="RTL-hk_regs_wr_wb_cpu/simv/test">
+      <attrval name="user_test_name" value="" />
+      <attrval name="test_status" value="unknown" />
+      <attrval name="cpu_time" value="349.510" />
+    </test>
+    <test name="RTL-la/simv/test">
+      <attrval name="user_test_name" value="" />
+      <attrval name="test_status" value="unknown" />
+      <attrval name="cpu_time" value="91.400" />
+    </test>
+    <test name="RTL-mem_dff2_W/simv/test">
+      <attrval name="user_test_name" value="" />
+      <attrval name="test_status" value="unknown" />
+      <attrval name="cpu_time" value="2364.530" />
+    </test>
+    <test name="RTL-mem_dff_W/simv/test">
+      <attrval name="user_test_name" value="" />
+      <attrval name="test_status" value="unknown" />
+      <attrval name="cpu_time" value="4752.640" />
+    </test>
+    <test name="RTL-mgmt_gpio_bidir/simv/test">
+      <attrval name="user_test_name" value="" />
+      <attrval name="test_status" value="unknown" />
+      <attrval name="cpu_time" value="256.710" />
+    </test>
+    <test name="RTL-mgmt_gpio_in/simv/test">
+      <attrval name="user_test_name" value="" />
+      <attrval name="test_status" value="unknown" />
+      <attrval name="cpu_time" value="361.890" />
+    </test>
+    <test name="RTL-mgmt_gpio_out/simv/test">
+      <attrval name="user_test_name" value="" />
+      <attrval name="test_status" value="unknown" />
+      <attrval name="cpu_time" value="121.630" />
+    </test>
+    <test name="RTL-pll/simv/test">
+      <attrval name="user_test_name" value="" />
+      <attrval name="test_status" value="unknown" />
+      <attrval name="cpu_time" value="111.040" />
+    </test>
+    <test name="RTL-serial_shifting_0011/simv/test">
+      <attrval name="user_test_name" value="" />
+      <attrval name="test_status" value="unknown" />
+      <attrval name="cpu_time" value="52.570" />
+    </test>
+    <test name="RTL-serial_shifting_01/simv/test">
+      <attrval name="user_test_name" value="" />
+      <attrval name="test_status" value="unknown" />
+      <attrval name="cpu_time" value="59.980" />
+    </test>
+    <test name="RTL-serial_shifting_10/simv/test">
+      <attrval name="user_test_name" value="" />
+      <attrval name="test_status" value="unknown" />
+      <attrval name="cpu_time" value="59.730" />
+    </test>
+    <test name="RTL-serial_shifting_1100/simv/test">
+      <attrval name="user_test_name" value="" />
+      <attrval name="test_status" value="unknown" />
+      <attrval name="cpu_time" value="52.150" />
+    </test>
+    <test name="RTL-spi_master_rd/simv/test">
+      <attrval name="user_test_name" value="" />
+      <attrval name="test_status" value="unknown" />
+      <attrval name="cpu_time" value="288.140" />
+    </test>
+    <test name="RTL-spi_master_temp/simv/test">
+      <attrval name="user_test_name" value="" />
+      <attrval name="test_status" value="unknown" />
+      <attrval name="cpu_time" value="56.620" />
+    </test>
+    <test name="RTL-spi_rd_wr_nbyte/simv/test">
+      <attrval name="user_test_name" value="" />
+      <attrval name="test_status" value="unknown" />
+      <attrval name="cpu_time" value="1.220" />
+    </test>
+    <test name="RTL-timer0_oneshot/simv/test">
+      <attrval name="user_test_name" value="" />
+      <attrval name="test_status" value="unknown" />
+      <attrval name="cpu_time" value="1348.340" />
+    </test>
+    <test name="RTL-timer0_periodic/simv/test">
+      <attrval name="user_test_name" value="" />
+      <attrval name="test_status" value="unknown" />
+      <attrval name="cpu_time" value="67.940" />
+    </test>
+    <test name="RTL-uart_loopback/simv/test">
+      <attrval name="user_test_name" value="" />
+      <attrval name="test_status" value="unknown" />
+      <attrval name="cpu_time" value="281.060" />
+    </test>
+    <test name="RTL-uart_rx/simv/test">
+      <attrval name="user_test_name" value="" />
+      <attrval name="test_status" value="unknown" />
+      <attrval name="cpu_time" value="135.070" />
+    </test>
+    <test name="RTL-uart_tx/simv/test">
+      <attrval name="user_test_name" value="" />
+      <attrval name="test_status" value="unknown" />
+      <attrval name="cpu_time" value="460.250" />
+    </test>
+    <test name="RTL-user_address_space/simv/test">
+      <attrval name="user_test_name" value="" />
+      <attrval name="test_status" value="unknown" />
+      <attrval name="cpu_time" value="24.240" />
+    </test>
+    <test name="RTL-user_pass_thru_rd/simv/test">
+      <attrval name="user_test_name" value="" />
+      <attrval name="test_status" value="unknown" />
+      <attrval name="cpu_time" value="22.000" />
+    </test>
+  </scope>
+  </old_coverage>
+</session>

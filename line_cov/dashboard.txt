@@ -1,0 +1,27 @@
+Dashboard
+
+Date: Thu Nov 17 08:34:23 2022
+
+User: rady
+
+Version: T-2022.06
+Command line: urg -dir RTL-IRQ_external/simv.vdb RTL-IRQ_timer/simv.vdb RTL-IRQ_uart/simv.vdb RTL-bitbang_cpu_all_i/simv.vdb RTL-bitbang_cpu_all_o/simv.vdb RTL-bitbang_no_cpu_all_i/simv.vdb RTL-bitbang_no_cpu_all_o/simv.vdb RTL-bitbang_spi_i/simv.vdb RTL-bitbang_spi_o/simv.vdb RTL-clock_redirect/simv.vdb RTL-cpu_reset/simv.vdb RTL-cpu_stress/simv.vdb RTL-debug/simv.vdb RTL-gpio_all_bidir_user/simv.vdb RTL-gpio_all_i/simv.vdb RTL-gpio_all_i_pd/simv.vdb RTL-gpio_all_i_pd_user/simv.vdb RTL-gpio_all_i_pu/simv.vdb RTL-gpio_all_i_pu_user/simv.vdb RTL-gpio_all_i_user/simv.vdb RTL-gpio_all_o/simv.vdb RTL-gpio_all_o_user/simv.vdb RTL-hk_disable/simv.vdb RTL-hk_regs_rst_spi/simv.vdb RTL-hk_regs_wr_spi/simv.vdb RTL-hk_regs_wr_wb/simv.vdb RTL-hk_regs_wr_wb_cpu/simv.vdb RTL-la/simv.vdb RTL-mem_dff2_W/simv.vdb RTL-mem_dff_W/simv.vdb RTL-mgmt_gpio_bidir/simv.vdb RTL-mgmt_gpio_in/simv.vdb RTL-mgmt_gpio_out/simv.vdb RTL-pll/simv.vdb RTL-serial_shifting_0011/simv.vdb RTL-serial_shifting_01/simv.vdb RTL-serial_shifting_10/simv.vdb RTL-serial_shifting_1100/simv.vdb RTL-spi_master_rd/simv.vdb RTL-spi_master_temp/simv.vdb RTL-spi_rd_wr_nbyte/simv.vdb RTL-timer0_oneshot/simv.vdb RTL-timer0_periodic/simv.vdb RTL-uart_loopback/simv.vdb RTL-uart_rx/simv.vdb RTL-uart_tx/simv.vdb RTL-user_address_space/simv.vdb RTL-user_pass_thru_rd/simv.vdb -format both -show tests -report coverageRTL/
+Number of tests: 48
+
+-------------------------------------------------------------------------------
+Total Coverage Summary 
+SCORE  LINE   COND   TOGGLE FSM    BRANCH 
+ 61.49  69.06  68.32  56.12  53.85  60.10 
+
+
+-------------------------------------------------------------------------------
+Hierarchical coverage data for top-level instances 
+SCORE  LINE   COND   TOGGLE FSM    BRANCH NAME        
+ 61.49  69.06  68.32  56.12  53.85  60.10 caravel_top 
+
+
+-------------------------------------------------------------------------------
+Total Module Definition Coverage Summary 
+SCORE  LINE   COND   TOGGLE FSM    BRANCH 
+ 72.84  87.37  79.31  64.06  53.85  79.60 
+

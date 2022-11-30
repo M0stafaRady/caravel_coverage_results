@@ -1,0 +1,2760 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="Author" content="<username>"> <meta name="GENERATOR" content="urg/version [en] (platform name) [urg]">
+<title>Unified Coverage Report :: Module :: caravel_top</title>
+<link type="text/css" rel="stylesheet" href="css/.urg.css">
+<link type="text/css" rel="stylesheet" href="css/.layout.css">
+<link type="text/css" rel="stylesheet" href="css/.breadcrumb.css">
+<script type="text/javascript" src="js/.jquery.js"></script>
+<script type="text/javascript" src="js/.jquery-ui.js"></script>
+<script type="text/javascript" src="js/.sortable.js"></script>
+<script type="text/javascript" src="js/.layout.js"></script>
+<script type="text/javascript" src="js/.breadcrumb.js"></script>
+<script type="text/javascript">
+var layout, westLayout, centerLayout;
+$(document).ready(function () {
+  if ($("#north-bread-crumb")) {
+    $("#north-bread-crumb").jBreadCrumb({easing:'swing'})
+  }
+  layout = $("body").layout({ 
+    resizable: true,
+    spacing_open: 4,
+    spacing_closed: 4,
+    north: {
+      size: 76
+    },
+    south: {
+      size: 45,
+      initClosed: true
+    },
+    west: {
+      size: 500,
+      resizable: true,
+      initClosed: false
+    }
+  });
+  centerLayout = $('div.ui-layout-center').layout({
+    north__paneSelector: ".ui-layout-center-inner-north",
+    center__paneSelector: ".ui-layout-center-inner-center", 
+    north__size: 50,
+    spacing_open: 4,
+    spacing_closed: 4
+  });
+});
+</script>
+</head>
+<body onLoad="initPage();"><div class="ui-layout-north">
+<div class="logo"></div>
+<center class="pagetitle">Module Definition</center>
+<div align="center"><a href="dashboard.html" ><b>dashboard</b></a> | <a href="hierarchy.html" ><b>hierarchy</b></a> | <a href="modlist.html" ><b>modlist</b></a> | groups | <a href="tests.html" ><b>tests</b></a> | asserts</div>
+
+</div>
+<div class="ui-layout-west">
+<div name='tag_caravel_top'>
+<div class=modhdr>
+<br clear=all>
+<span class=titlename>Module : <a href="#"  onclick="showContent('tag_caravel_top')">caravel_top</a></span>
+<br clear=all>
+<table align=left>
+<tr class="sortablehead">
+<td>SCORE</td><td>LINE</td><td>COND</td><td>TOGGLE</td><td>FSM</td><td>BRANCH</td></tr><tr>
+<td class="s9 cl rt"> 98.09</td>
+<td class="s10 cl rt"><a href="mod55.html#Line" >100.00</a></td>
+<td class="s10 cl rt"><a href="mod55.html#Cond" >100.00</a></td>
+<td class="s9 cl rt"><a href="mod55.html#Toggle" > 92.37</a></td>
+<td class="wht cl rt"></td>
+<td class="s10 cl rt"><a href="mod55.html#Branch" >100.00</a></td>
+</tr></table><br clear=all>
+<span class=repname>Source File(s) : </span>
+<br clear=all>
+<a href="javascript:void(0);"  onclick="openSrcFile('/home/rady/caravel/caravel_redesign_cocotb/caravel/verilog/dv/cocotb/caravel_top.sv')">/home/rady/caravel/caravel_redesign_cocotb/caravel/verilog/dv/cocotb/caravel_top.sv</a><br clear=all>
+<br clear=all>
+<span class=repname>Module self-instances :</span>
+<br clear=all>
+<table align=left>
+<tr class="sortablehead">
+<td class="alfsrt">NAME</td><td>SCORE</td><td>LINE</td><td>COND</td><td>TOGGLE</td><td>FSM</td><td>BRANCH</td></tr><tr>
+<td class="wht cl wordwrap"><a href="mod55.html#inst_tag_3423"  onclick="showContent('inst_tag_3423')">caravel_top</a></td>
+<td class="s9 cl rt"> 98.09</td>
+<td class="s10 cl rt"><a href="mod55.html#Line" >100.00</a></td>
+<td class="s10 cl rt"><a href="mod55.html#Cond" >100.00</a></td>
+<td class="s9 cl rt"><a href="mod55.html#Toggle" > 92.37</a></td>
+<td class="wht cl rt"></td>
+<td class="s10 cl rt"><a href="mod55.html#Branch" >100.00</a></td>
+</tr></table></div>
+</div>
+<br clear=all>
+<div name='tag_caravel_top'>
+<hr>
+<a name="inst_tag_3423"></a>
+<div class=modhdr>
+<br clear=all>
+<span class=titlename>Module Instance : <a href="hierarchy.html#tag_urg_inst_3423" >caravel_top</a></span>
+<br clear=all>
+<br clear=all>
+<span class=repname>Instance :</span>
+<br clear=all>
+<table align=left>
+<tr class="sortablehead">
+<td>SCORE</td><td>LINE</td><td>COND</td><td>TOGGLE</td><td>FSM</td><td>BRANCH</td></tr><tr>
+<td class="s9 cl rt"> 98.09</td>
+<td class="s10 cl rt"><a href="mod55.html#Line" >100.00</a></td>
+<td class="s10 cl rt"><a href="mod55.html#Cond" >100.00</a></td>
+<td class="s9 cl rt"><a href="mod55.html#Toggle" > 92.37</a></td>
+<td class="wht cl rt"></td>
+<td class="s10 cl rt"><a href="mod55.html#Branch" >100.00</a></td>
+</tr></table><br clear=all>
+<br clear=all>
+<span class=repname>Instance's subtree :</span>
+<br clear=all>
+<table align=left>
+<tr class="sortablehead">
+<td>SCORE</td><td>LINE</td><td>COND</td><td>TOGGLE</td><td>FSM</td><td>BRANCH</td></tr><tr>
+<td class="s6 cl rt"> 61.49</td>
+<td class="s6 cl rt"> 69.06</td>
+<td class="s6 cl rt"> 68.32</td>
+<td class="s5 cl rt"> 56.12</td>
+<td class="s5 cl rt"> 53.85</td>
+<td class="s6 cl rt"> 60.10</td>
+</tr></table><br clear=all>
+<br clear=all>
+<span class=repname>Parent : </span>
+<br clear=all>
+<span class=inst>none</span>
+<br clear=all>
+<br clear=all>
+<span class=repname>Subtrees :</span>
+<br clear=all>
+<table align=left>
+<tr class="sortablehead">
+<td class="alfsrt">NAME</td><td>SCORE</td><td>LINE</td><td>COND</td><td>TOGGLE</td><td>FSM</td><td>BRANCH</td></tr><tr>
+<td class="wht cl wordwrap"><a href="mod81.html#inst_tag_4368" id="tag_urg_inst_4368">macros</a></td>
+<td class="s0 cl rt">  0.00</td>
+<td class="wht cl rt"></td>
+<td class="wht cl rt"></td>
+<td class="s0 cl rt">  0.00</td>
+<td class="wht cl rt"></td>
+<td class="wht cl rt"></td>
+</tr><tr>
+<td class="wht cl wordwrap"><a href="mod26.html#inst_tag_1830" id="tag_urg_inst_1830">spiflash</a></td>
+<td class="s4 cl rt"> 42.83</td>
+<td class="s3 cl rt"> 31.68</td>
+<td class="s5 cl rt"> 50.00</td>
+<td class="s5 cl rt"> 51.00</td>
+<td class="wht cl rt"></td>
+<td class="s3 cl rt"> 38.64</td>
+</tr><tr>
+<td class="wht cl wordwrap"><a href="mod15.html#inst_tag_1617" id="tag_urg_inst_1617">uut</a></td>
+<td class="s6 cl rt"> 61.38</td>
+<td class="s6 cl rt"> 69.52</td>
+<td class="s6 cl rt"> 67.50</td>
+<td class="s5 cl rt"> 56.16</td>
+<td class="s5 cl rt"> 53.85</td>
+<td class="s5 cl rt"> 59.87</td>
+</tr></table><br clear=all>
+</div>
+</div>
+<hr>
+Since this is the module's only instance, the coverage report is the same as for the module.</div>
+<div class="ui-layout-center">
+<div class="ui-layout-center-inner-center">
+<div name='tag_caravel_top'>
+<a name="Line"></a>
+Line Coverage for Module : <a href="mod55.html" >caravel_top</a><br clear=all>
+<table class="noborder">
+<col width="122">
+<col span="4" width="82">
+<tr><th></th><th>Line No.</th><th>Total</th><th>Covered</th><th>Percent</th></tr>
+<tr class="s10"><td class="lf">TOTAL</td><td></td><td>2</td><td>2</td><td>100.00</td></tr>
+<tr class="s10"><td class="lf">INITIAL</td><td>34</td><td>2</td><td>2</td><td>100.00</td></tr>
+</table>
+<pre class="code"><br clear=all>
+33                      		`else
+34         1/1          				$vcdplusfile({`MAIN_PATH,&quot;/sim/&quot;,`TAG,&quot;/&quot;,`FTESTNAME,&quot;/&quot;,`TESTNAME ,&quot;.vpd&quot;});
+           Tests:       <span title = "RTL-IRQ_external/simv/test">T1</span>&nbsp;
+35                      		`endif
+36         1/1          		$vcdpluson();
+           Tests:       <span title = "RTL-IRQ_external/simv/test">T1</span>&nbsp;
+</pre>
+<hr>
+<a name="Cond"></a>
+Cond Coverage for Module : <a href="mod55.html" >caravel_top</a><br clear=all>
+<table class="noborder">
+<col width="122">
+<col span="3" width="82">
+<tr><th></th><th>Total</th><th>Covered</th><th>Percent</th></tr>
+<tr class="s10"><td class="lf">Conditions</td><td>76</td><td>76</td><td>100.00</td></tr>
+<tr class="s10"><td class="lf">Logical</td><td>76</td><td>76</td><td>100.00</td></tr>
+<tr class="wht"><td class="lf">Non-Logical</td><td>0</td><td>0</td><td></td></tr>
+<tr class="wht"><td class="lf">Event</td><td>0</td><td>0</td><td></td></tr>
+</table>
+<br clear=all>
+<pre class="code"> LINE       210
+ EXPRESSION (bin0_en ? bin0 : 1'bz)
+             ---1---
+</pre>
+<table class="noborder">
+<col width="40">
+<tr><th>-1-</th><th>Status</th><th>Tests</th></tr>
+<tr class="uGreen"><td>0</td><td class="lf">Covered</td><td class="lf"><span title = "RTL-IRQ_external/simv/test">T1</span>,<span title = "RTL-IRQ_timer/simv/test">T2</span>,<span title = "RTL-IRQ_uart/simv/test">T3</span></td>
+</tr>
+<tr class="uGreen"><td>1</td><td class="lf">Covered</td><td class="lf"><span title = "RTL-bitbang_cpu_all_i/simv/test">T11</span>,<span title = "RTL-bitbang_no_cpu_all_i/simv/test">T13</span>,<span title = "RTL-bitbang_spi_i/simv/test">T23</span></td>
+</tr>
+</table>
+<br clear=all>
+<pre class="code"> LINE       211
+ EXPRESSION (bin1_en ? bin1 : 1'bz)
+             ---1---
+</pre>
+<table class="noborder">
+<col width="40">
+<tr><th>-1-</th><th>Status</th><th>Tests</th></tr>
+<tr class="uGreen"><td>0</td><td class="lf">Covered</td><td class="lf"><span title = "RTL-IRQ_external/simv/test">T1</span>,<span title = "RTL-IRQ_timer/simv/test">T2</span>,<span title = "RTL-IRQ_uart/simv/test">T3</span></td>
+</tr>
+<tr class="uGreen"><td>1</td><td class="lf">Covered</td><td class="lf"><span title = "RTL-bitbang_cpu_all_i/simv/test">T11</span>,<span title = "RTL-bitbang_no_cpu_all_i/simv/test">T13</span>,<span title = "RTL-bitbang_spi_i/simv/test">T23</span></td>
+</tr>
+</table>
+<br clear=all>
+<pre class="code"> LINE       212
+ EXPRESSION (bin2_en ? bin2 : 1'bz)
+             ---1---
+</pre>
+<table class="noborder">
+<col width="40">
+<tr><th>-1-</th><th>Status</th><th>Tests</th></tr>
+<tr class="uGreen"><td>0</td><td class="lf">Covered</td><td class="lf"><span title = "RTL-IRQ_external/simv/test">T1</span>,<span title = "RTL-IRQ_timer/simv/test">T2</span>,<span title = "RTL-IRQ_uart/simv/test">T3</span></td>
+</tr>
+<tr class="uGreen"><td>1</td><td class="lf">Covered</td><td class="lf"><span title = "RTL-IRQ_external/simv/test">T1</span>,<span title = "RTL-bitbang_cpu_all_i/simv/test">T11</span>,<span title = "RTL-bitbang_no_cpu_all_i/simv/test">T13</span></td>
+</tr>
+</table>
+<br clear=all>
+<pre class="code"> LINE       213
+ EXPRESSION (bin3_en ? bin3 : 1'bz)
+             ---1---
+</pre>
+<table class="noborder">
+<col width="40">
+<tr><th>-1-</th><th>Status</th><th>Tests</th></tr>
+<tr class="uGreen"><td>0</td><td class="lf">Covered</td><td class="lf"><span title = "RTL-bitbang_cpu_all_o/simv/test">T12</span>,<span title = "RTL-bitbang_no_cpu_all_o/simv/test">T14</span>,<span title = "RTL-gpio_all_bidir_user/simv/test">T25</span></td>
+</tr>
+<tr class="uGreen"><td>1</td><td class="lf">Covered</td><td class="lf"><span title = "RTL-IRQ_external/simv/test">T1</span>,<span title = "RTL-IRQ_timer/simv/test">T2</span>,<span title = "RTL-IRQ_uart/simv/test">T3</span></td>
+</tr>
+</table>
+<br clear=all>
+<pre class="code"> LINE       214
+ EXPRESSION (bin4_en ? bin4 : 1'bz)
+             ---1---
+</pre>
+<table class="noborder">
+<col width="40">
+<tr><th>-1-</th><th>Status</th><th>Tests</th></tr>
+<tr class="uGreen"><td>0</td><td class="lf">Covered</td><td class="lf"><span title = "RTL-bitbang_cpu_all_o/simv/test">T12</span>,<span title = "RTL-bitbang_no_cpu_all_o/simv/test">T14</span>,<span title = "RTL-gpio_all_bidir_user/simv/test">T25</span></td>
+</tr>
+<tr class="uGreen"><td>1</td><td class="lf">Covered</td><td class="lf"><span title = "RTL-IRQ_external/simv/test">T1</span>,<span title = "RTL-IRQ_timer/simv/test">T2</span>,<span title = "RTL-IRQ_uart/simv/test">T3</span></td>
+</tr>
+</table>
+<br clear=all>
+<pre class="code"> LINE       216
+ EXPRESSION (bin5_en ? bin5 : 1'bz)
+             ---1---
+</pre>
+<table class="noborder">
+<col width="40">
+<tr><th>-1-</th><th>Status</th><th>Tests</th></tr>
+<tr class="uGreen"><td>0</td><td class="lf">Covered</td><td class="lf"><span title = "RTL-IRQ_external/simv/test">T1</span>,<span title = "RTL-IRQ_timer/simv/test">T2</span>,<span title = "RTL-IRQ_uart/simv/test">T3</span></td>
+</tr>
+<tr class="uGreen"><td>1</td><td class="lf">Covered</td><td class="lf"><span title = "RTL-bitbang_cpu_all_i/simv/test">T11</span>,<span title = "RTL-bitbang_no_cpu_all_i/simv/test">T13</span>,<span title = "RTL-bitbang_spi_i/simv/test">T23</span></td>
+</tr>
+</table>
+<br clear=all>
+<pre class="code"> LINE       217
+ EXPRESSION (bin6_en ? bin6 : 1'bz)
+             ---1---
+</pre>
+<table class="noborder">
+<col width="40">
+<tr><th>-1-</th><th>Status</th><th>Tests</th></tr>
+<tr class="uGreen"><td>0</td><td class="lf">Covered</td><td class="lf"><span title = "RTL-IRQ_external/simv/test">T1</span>,<span title = "RTL-IRQ_timer/simv/test">T2</span>,<span title = "RTL-IRQ_uart/simv/test">T3</span></td>
+</tr>
+<tr class="uGreen"><td>1</td><td class="lf">Covered</td><td class="lf"><span title = "RTL-bitbang_cpu_all_i/simv/test">T11</span>,<span title = "RTL-bitbang_no_cpu_all_i/simv/test">T13</span>,<span title = "RTL-bitbang_spi_i/simv/test">T23</span></td>
+</tr>
+</table>
+<br clear=all>
+<pre class="code"> LINE       218
+ EXPRESSION (bin7_en ? bin7 : 1'bz)
+             ---1---
+</pre>
+<table class="noborder">
+<col width="40">
+<tr><th>-1-</th><th>Status</th><th>Tests</th></tr>
+<tr class="uGreen"><td>0</td><td class="lf">Covered</td><td class="lf"><span title = "RTL-IRQ_external/simv/test">T1</span>,<span title = "RTL-IRQ_timer/simv/test">T2</span>,<span title = "RTL-IRQ_uart/simv/test">T3</span></td>
+</tr>
+<tr class="uGreen"><td>1</td><td class="lf">Covered</td><td class="lf"><span title = "RTL-IRQ_external/simv/test">T1</span>,<span title = "RTL-bitbang_cpu_all_i/simv/test">T11</span>,<span title = "RTL-bitbang_no_cpu_all_i/simv/test">T13</span></td>
+</tr>
+</table>
+<br clear=all>
+<pre class="code"> LINE       219
+ EXPRESSION (bin8_en ? bin8 : 1'bz)
+             ---1---
+</pre>
+<table class="noborder">
+<col width="40">
+<tr><th>-1-</th><th>Status</th><th>Tests</th></tr>
+<tr class="uGreen"><td>0</td><td class="lf">Covered</td><td class="lf"><span title = "RTL-IRQ_external/simv/test">T1</span>,<span title = "RTL-IRQ_timer/simv/test">T2</span>,<span title = "RTL-IRQ_uart/simv/test">T3</span></td>
+</tr>
+<tr class="uGreen"><td>1</td><td class="lf">Covered</td><td class="lf"><span title = "RTL-bitbang_cpu_all_i/simv/test">T11</span>,<span title = "RTL-bitbang_no_cpu_all_i/simv/test">T13</span>,<span title = "RTL-bitbang_spi_i/simv/test">T23</span></td>
+</tr>
+</table>
+<br clear=all>
+<pre class="code"> LINE       220
+ EXPRESSION (bin9_en ? bin9 : 1'bz)
+             ---1---
+</pre>
+<table class="noborder">
+<col width="40">
+<tr><th>-1-</th><th>Status</th><th>Tests</th></tr>
+<tr class="uGreen"><td>0</td><td class="lf">Covered</td><td class="lf"><span title = "RTL-IRQ_external/simv/test">T1</span>,<span title = "RTL-IRQ_timer/simv/test">T2</span>,<span title = "RTL-IRQ_uart/simv/test">T3</span></td>
+</tr>
+<tr class="uGreen"><td>1</td><td class="lf">Covered</td><td class="lf"><span title = "RTL-bitbang_cpu_all_i/simv/test">T11</span>,<span title = "RTL-bitbang_no_cpu_all_i/simv/test">T13</span>,<span title = "RTL-bitbang_spi_i/simv/test">T23</span></td>
+</tr>
+</table>
+<br clear=all>
+<pre class="code"> LINE       222
+ EXPRESSION (bin10_en ? bin10 : 1'bz)
+             ----1---
+</pre>
+<table class="noborder">
+<col width="40">
+<tr><th>-1-</th><th>Status</th><th>Tests</th></tr>
+<tr class="uGreen"><td>0</td><td class="lf">Covered</td><td class="lf"><span title = "RTL-IRQ_external/simv/test">T1</span>,<span title = "RTL-IRQ_timer/simv/test">T2</span>,<span title = "RTL-IRQ_uart/simv/test">T3</span></td>
+</tr>
+<tr class="uGreen"><td>1</td><td class="lf">Covered</td><td class="lf"><span title = "RTL-bitbang_cpu_all_i/simv/test">T11</span>,<span title = "RTL-bitbang_no_cpu_all_i/simv/test">T13</span>,<span title = "RTL-bitbang_spi_i/simv/test">T23</span></td>
+</tr>
+</table>
+<br clear=all>
+<pre class="code"> LINE       223
+ EXPRESSION (bin11_en ? bin11 : 1'bz)
+             ----1---
+</pre>
+<table class="noborder">
+<col width="40">
+<tr><th>-1-</th><th>Status</th><th>Tests</th></tr>
+<tr class="uGreen"><td>0</td><td class="lf">Covered</td><td class="lf"><span title = "RTL-IRQ_external/simv/test">T1</span>,<span title = "RTL-IRQ_timer/simv/test">T2</span>,<span title = "RTL-IRQ_uart/simv/test">T3</span></td>
+</tr>
+<tr class="uGreen"><td>1</td><td class="lf">Covered</td><td class="lf"><span title = "RTL-bitbang_cpu_all_i/simv/test">T11</span>,<span title = "RTL-bitbang_no_cpu_all_i/simv/test">T13</span>,<span title = "RTL-bitbang_spi_i/simv/test">T23</span></td>
+</tr>
+</table>
+<br clear=all>
+<pre class="code"> LINE       224
+ EXPRESSION (bin12_en ? bin12 : 1'bz)
+             ----1---
+</pre>
+<table class="noborder">
+<col width="40">
+<tr><th>-1-</th><th>Status</th><th>Tests</th></tr>
+<tr class="uGreen"><td>0</td><td class="lf">Covered</td><td class="lf"><span title = "RTL-IRQ_external/simv/test">T1</span>,<span title = "RTL-IRQ_timer/simv/test">T2</span>,<span title = "RTL-IRQ_uart/simv/test">T3</span></td>
+</tr>
+<tr class="uGreen"><td>1</td><td class="lf">Covered</td><td class="lf"><span title = "RTL-bitbang_cpu_all_i/simv/test">T11</span>,<span title = "RTL-bitbang_no_cpu_all_i/simv/test">T13</span>,<span title = "RTL-bitbang_spi_i/simv/test">T23</span></td>
+</tr>
+</table>
+<br clear=all>
+<pre class="code"> LINE       225
+ EXPRESSION (bin13_en ? bin13 : 1'bz)
+             ----1---
+</pre>
+<table class="noborder">
+<col width="40">
+<tr><th>-1-</th><th>Status</th><th>Tests</th></tr>
+<tr class="uGreen"><td>0</td><td class="lf">Covered</td><td class="lf"><span title = "RTL-IRQ_external/simv/test">T1</span>,<span title = "RTL-IRQ_timer/simv/test">T2</span>,<span title = "RTL-IRQ_uart/simv/test">T3</span></td>
+</tr>
+<tr class="uGreen"><td>1</td><td class="lf">Covered</td><td class="lf"><span title = "RTL-bitbang_cpu_all_i/simv/test">T11</span>,<span title = "RTL-bitbang_no_cpu_all_i/simv/test">T13</span>,<span title = "RTL-bitbang_spi_i/simv/test">T23</span></td>
+</tr>
+</table>
+<br clear=all>
+<pre class="code"> LINE       226
+ EXPRESSION (bin14_en ? bin14 : 1'bz)
+             ----1---
+</pre>
+<table class="noborder">
+<col width="40">
+<tr><th>-1-</th><th>Status</th><th>Tests</th></tr>
+<tr class="uGreen"><td>0</td><td class="lf">Covered</td><td class="lf"><span title = "RTL-IRQ_external/simv/test">T1</span>,<span title = "RTL-IRQ_timer/simv/test">T2</span>,<span title = "RTL-IRQ_uart/simv/test">T3</span></td>
+</tr>
+<tr class="uGreen"><td>1</td><td class="lf">Covered</td><td class="lf"><span title = "RTL-bitbang_cpu_all_i/simv/test">T11</span>,<span title = "RTL-bitbang_no_cpu_all_i/simv/test">T13</span>,<span title = "RTL-bitbang_spi_i/simv/test">T23</span></td>
+</tr>
+</table>
+<br clear=all>
+<pre class="code"> LINE       228
+ EXPRESSION (bin15_en ? bin15 : 1'bz)
+             ----1---
+</pre>
+<table class="noborder">
+<col width="40">
+<tr><th>-1-</th><th>Status</th><th>Tests</th></tr>
+<tr class="uGreen"><td>0</td><td class="lf">Covered</td><td class="lf"><span title = "RTL-IRQ_external/simv/test">T1</span>,<span title = "RTL-IRQ_timer/simv/test">T2</span>,<span title = "RTL-IRQ_uart/simv/test">T3</span></td>
+</tr>
+<tr class="uGreen"><td>1</td><td class="lf">Covered</td><td class="lf"><span title = "RTL-bitbang_cpu_all_i/simv/test">T11</span>,<span title = "RTL-bitbang_no_cpu_all_i/simv/test">T13</span>,<span title = "RTL-bitbang_spi_i/simv/test">T23</span></td>
+</tr>
+</table>
+<br clear=all>
+<pre class="code"> LINE       229
+ EXPRESSION (bin16_en ? bin16 : 1'bz)
+             ----1---
+</pre>
+<table class="noborder">
+<col width="40">
+<tr><th>-1-</th><th>Status</th><th>Tests</th></tr>
+<tr class="uGreen"><td>0</td><td class="lf">Covered</td><td class="lf"><span title = "RTL-IRQ_external/simv/test">T1</span>,<span title = "RTL-IRQ_timer/simv/test">T2</span>,<span title = "RTL-IRQ_uart/simv/test">T3</span></td>
+</tr>
+<tr class="uGreen"><td>1</td><td class="lf">Covered</td><td class="lf"><span title = "RTL-bitbang_cpu_all_i/simv/test">T11</span>,<span title = "RTL-bitbang_no_cpu_all_i/simv/test">T13</span>,<span title = "RTL-bitbang_spi_i/simv/test">T23</span></td>
+</tr>
+</table>
+<br clear=all>
+<pre class="code"> LINE       230
+ EXPRESSION (bin17_en ? bin17 : 1'bz)
+             ----1---
+</pre>
+<table class="noborder">
+<col width="40">
+<tr><th>-1-</th><th>Status</th><th>Tests</th></tr>
+<tr class="uGreen"><td>0</td><td class="lf">Covered</td><td class="lf"><span title = "RTL-IRQ_external/simv/test">T1</span>,<span title = "RTL-IRQ_timer/simv/test">T2</span>,<span title = "RTL-IRQ_uart/simv/test">T3</span></td>
+</tr>
+<tr class="uGreen"><td>1</td><td class="lf">Covered</td><td class="lf"><span title = "RTL-bitbang_cpu_all_i/simv/test">T11</span>,<span title = "RTL-bitbang_no_cpu_all_i/simv/test">T13</span>,<span title = "RTL-bitbang_spi_i/simv/test">T23</span></td>
+</tr>
+</table>
+<br clear=all>
+<pre class="code"> LINE       231
+ EXPRESSION (bin18_en ? bin18 : 1'bz)
+             ----1---
+</pre>
+<table class="noborder">
+<col width="40">
+<tr><th>-1-</th><th>Status</th><th>Tests</th></tr>
+<tr class="uGreen"><td>0</td><td class="lf">Covered</td><td class="lf"><span title = "RTL-IRQ_external/simv/test">T1</span>,<span title = "RTL-IRQ_timer/simv/test">T2</span>,<span title = "RTL-IRQ_uart/simv/test">T3</span></td>
+</tr>
+<tr class="uGreen"><td>1</td><td class="lf">Covered</td><td class="lf"><span title = "RTL-bitbang_cpu_all_i/simv/test">T11</span>,<span title = "RTL-bitbang_no_cpu_all_i/simv/test">T13</span>,<span title = "RTL-bitbang_spi_i/simv/test">T23</span></td>
+</tr>
+</table>
+<br clear=all>
+<pre class="code"> LINE       232
+ EXPRESSION (bin19_en ? bin19 : 1'bz)
+             ----1---
+</pre>
+<table class="noborder">
+<col width="40">
+<tr><th>-1-</th><th>Status</th><th>Tests</th></tr>
+<tr class="uGreen"><td>0</td><td class="lf">Covered</td><td class="lf"><span title = "RTL-IRQ_external/simv/test">T1</span>,<span title = "RTL-IRQ_timer/simv/test">T2</span>,<span title = "RTL-IRQ_uart/simv/test">T3</span></td>
+</tr>
+<tr class="uGreen"><td>1</td><td class="lf">Covered</td><td class="lf"><span title = "RTL-bitbang_cpu_all_i/simv/test">T11</span>,<span title = "RTL-bitbang_no_cpu_all_i/simv/test">T13</span>,<span title = "RTL-bitbang_spi_i/simv/test">T23</span></td>
+</tr>
+</table>
+<br clear=all>
+<pre class="code"> LINE       234
+ EXPRESSION (bin20_en ? bin20 : 1'bz)
+             ----1---
+</pre>
+<table class="noborder">
+<col width="40">
+<tr><th>-1-</th><th>Status</th><th>Tests</th></tr>
+<tr class="uGreen"><td>0</td><td class="lf">Covered</td><td class="lf"><span title = "RTL-IRQ_external/simv/test">T1</span>,<span title = "RTL-IRQ_timer/simv/test">T2</span>,<span title = "RTL-IRQ_uart/simv/test">T3</span></td>
+</tr>
+<tr class="uGreen"><td>1</td><td class="lf">Covered</td><td class="lf"><span title = "RTL-bitbang_cpu_all_i/simv/test">T11</span>,<span title = "RTL-bitbang_no_cpu_all_i/simv/test">T13</span>,<span title = "RTL-bitbang_spi_i/simv/test">T23</span></td>
+</tr>
+</table>
+<br clear=all>
+<pre class="code"> LINE       235
+ EXPRESSION (bin21_en ? bin21 : 1'bz)
+             ----1---
+</pre>
+<table class="noborder">
+<col width="40">
+<tr><th>-1-</th><th>Status</th><th>Tests</th></tr>
+<tr class="uGreen"><td>0</td><td class="lf">Covered</td><td class="lf"><span title = "RTL-IRQ_external/simv/test">T1</span>,<span title = "RTL-IRQ_timer/simv/test">T2</span>,<span title = "RTL-IRQ_uart/simv/test">T3</span></td>
+</tr>
+<tr class="uGreen"><td>1</td><td class="lf">Covered</td><td class="lf"><span title = "RTL-bitbang_cpu_all_i/simv/test">T11</span>,<span title = "RTL-bitbang_no_cpu_all_i/simv/test">T13</span>,<span title = "RTL-bitbang_spi_i/simv/test">T23</span></td>
+</tr>
+</table>
+<br clear=all>
+<pre class="code"> LINE       236
+ EXPRESSION (bin22_en ? bin22 : 1'bz)
+             ----1---
+</pre>
+<table class="noborder">
+<col width="40">
+<tr><th>-1-</th><th>Status</th><th>Tests</th></tr>
+<tr class="uGreen"><td>0</td><td class="lf">Covered</td><td class="lf"><span title = "RTL-IRQ_external/simv/test">T1</span>,<span title = "RTL-IRQ_timer/simv/test">T2</span>,<span title = "RTL-IRQ_uart/simv/test">T3</span></td>
+</tr>
+<tr class="uGreen"><td>1</td><td class="lf">Covered</td><td class="lf"><span title = "RTL-bitbang_cpu_all_i/simv/test">T11</span>,<span title = "RTL-bitbang_no_cpu_all_i/simv/test">T13</span>,<span title = "RTL-bitbang_spi_i/simv/test">T23</span></td>
+</tr>
+</table>
+<br clear=all>
+<pre class="code"> LINE       237
+ EXPRESSION (bin23_en ? bin23 : 1'bz)
+             ----1---
+</pre>
+<table class="noborder">
+<col width="40">
+<tr><th>-1-</th><th>Status</th><th>Tests</th></tr>
+<tr class="uGreen"><td>0</td><td class="lf">Covered</td><td class="lf"><span title = "RTL-IRQ_external/simv/test">T1</span>,<span title = "RTL-IRQ_timer/simv/test">T2</span>,<span title = "RTL-IRQ_uart/simv/test">T3</span></td>
+</tr>
+<tr class="uGreen"><td>1</td><td class="lf">Covered</td><td class="lf"><span title = "RTL-bitbang_cpu_all_i/simv/test">T11</span>,<span title = "RTL-bitbang_no_cpu_all_i/simv/test">T13</span>,<span title = "RTL-bitbang_spi_i/simv/test">T23</span></td>
+</tr>
+</table>
+<br clear=all>
+<pre class="code"> LINE       238
+ EXPRESSION (bin24_en ? bin24 : 1'bz)
+             ----1---
+</pre>
+<table class="noborder">
+<col width="40">
+<tr><th>-1-</th><th>Status</th><th>Tests</th></tr>
+<tr class="uGreen"><td>0</td><td class="lf">Covered</td><td class="lf"><span title = "RTL-IRQ_external/simv/test">T1</span>,<span title = "RTL-IRQ_timer/simv/test">T2</span>,<span title = "RTL-IRQ_uart/simv/test">T3</span></td>
+</tr>
+<tr class="uGreen"><td>1</td><td class="lf">Covered</td><td class="lf"><span title = "RTL-bitbang_cpu_all_i/simv/test">T11</span>,<span title = "RTL-bitbang_no_cpu_all_i/simv/test">T13</span>,<span title = "RTL-bitbang_spi_i/simv/test">T23</span></td>
+</tr>
+</table>
+<br clear=all>
+<pre class="code"> LINE       240
+ EXPRESSION (bin25_en ? bin25 : 1'bz)
+             ----1---
+</pre>
+<table class="noborder">
+<col width="40">
+<tr><th>-1-</th><th>Status</th><th>Tests</th></tr>
+<tr class="uGreen"><td>0</td><td class="lf">Covered</td><td class="lf"><span title = "RTL-IRQ_external/simv/test">T1</span>,<span title = "RTL-IRQ_timer/simv/test">T2</span>,<span title = "RTL-IRQ_uart/simv/test">T3</span></td>
+</tr>
+<tr class="uGreen"><td>1</td><td class="lf">Covered</td><td class="lf"><span title = "RTL-bitbang_cpu_all_i/simv/test">T11</span>,<span title = "RTL-bitbang_no_cpu_all_i/simv/test">T13</span>,<span title = "RTL-bitbang_spi_i/simv/test">T23</span></td>
+</tr>
+</table>
+<br clear=all>
+<pre class="code"> LINE       241
+ EXPRESSION (bin26_en ? bin26 : 1'bz)
+             ----1---
+</pre>
+<table class="noborder">
+<col width="40">
+<tr><th>-1-</th><th>Status</th><th>Tests</th></tr>
+<tr class="uGreen"><td>0</td><td class="lf">Covered</td><td class="lf"><span title = "RTL-IRQ_external/simv/test">T1</span>,<span title = "RTL-IRQ_timer/simv/test">T2</span>,<span title = "RTL-IRQ_uart/simv/test">T3</span></td>
+</tr>
+<tr class="uGreen"><td>1</td><td class="lf">Covered</td><td class="lf"><span title = "RTL-bitbang_cpu_all_i/simv/test">T11</span>,<span title = "RTL-bitbang_no_cpu_all_i/simv/test">T13</span>,<span title = "RTL-bitbang_spi_i/simv/test">T23</span></td>
+</tr>
+</table>
+<br clear=all>
+<pre class="code"> LINE       242
+ EXPRESSION (bin27_en ? bin27 : 1'bz)
+             ----1---
+</pre>
+<table class="noborder">
+<col width="40">
+<tr><th>-1-</th><th>Status</th><th>Tests</th></tr>
+<tr class="uGreen"><td>0</td><td class="lf">Covered</td><td class="lf"><span title = "RTL-IRQ_external/simv/test">T1</span>,<span title = "RTL-IRQ_timer/simv/test">T2</span>,<span title = "RTL-IRQ_uart/simv/test">T3</span></td>
+</tr>
+<tr class="uGreen"><td>1</td><td class="lf">Covered</td><td class="lf"><span title = "RTL-bitbang_cpu_all_i/simv/test">T11</span>,<span title = "RTL-bitbang_no_cpu_all_i/simv/test">T13</span>,<span title = "RTL-bitbang_spi_i/simv/test">T23</span></td>
+</tr>
+</table>
+<br clear=all>
+<pre class="code"> LINE       243
+ EXPRESSION (bin28_en ? bin28 : 1'bz)
+             ----1---
+</pre>
+<table class="noborder">
+<col width="40">
+<tr><th>-1-</th><th>Status</th><th>Tests</th></tr>
+<tr class="uGreen"><td>0</td><td class="lf">Covered</td><td class="lf"><span title = "RTL-IRQ_external/simv/test">T1</span>,<span title = "RTL-IRQ_timer/simv/test">T2</span>,<span title = "RTL-IRQ_uart/simv/test">T3</span></td>
+</tr>
+<tr class="uGreen"><td>1</td><td class="lf">Covered</td><td class="lf"><span title = "RTL-bitbang_cpu_all_i/simv/test">T11</span>,<span title = "RTL-bitbang_no_cpu_all_i/simv/test">T13</span>,<span title = "RTL-bitbang_spi_i/simv/test">T23</span></td>
+</tr>
+</table>
+<br clear=all>
+<pre class="code"> LINE       244
+ EXPRESSION (bin29_en ? bin29 : 1'bz)
+             ----1---
+</pre>
+<table class="noborder">
+<col width="40">
+<tr><th>-1-</th><th>Status</th><th>Tests</th></tr>
+<tr class="uGreen"><td>0</td><td class="lf">Covered</td><td class="lf"><span title = "RTL-IRQ_external/simv/test">T1</span>,<span title = "RTL-IRQ_timer/simv/test">T2</span>,<span title = "RTL-IRQ_uart/simv/test">T3</span></td>
+</tr>
+<tr class="uGreen"><td>1</td><td class="lf">Covered</td><td class="lf"><span title = "RTL-bitbang_cpu_all_i/simv/test">T11</span>,<span title = "RTL-bitbang_no_cpu_all_i/simv/test">T13</span>,<span title = "RTL-bitbang_spi_i/simv/test">T23</span></td>
+</tr>
+</table>
+<br clear=all>
+<pre class="code"> LINE       246
+ EXPRESSION (bin30_en ? bin30 : 1'bz)
+             ----1---
+</pre>
+<table class="noborder">
+<col width="40">
+<tr><th>-1-</th><th>Status</th><th>Tests</th></tr>
+<tr class="uGreen"><td>0</td><td class="lf">Covered</td><td class="lf"><span title = "RTL-IRQ_external/simv/test">T1</span>,<span title = "RTL-IRQ_timer/simv/test">T2</span>,<span title = "RTL-IRQ_uart/simv/test">T3</span></td>
+</tr>
+<tr class="uGreen"><td>1</td><td class="lf">Covered</td><td class="lf"><span title = "RTL-bitbang_cpu_all_i/simv/test">T11</span>,<span title = "RTL-bitbang_no_cpu_all_i/simv/test">T13</span>,<span title = "RTL-bitbang_spi_i/simv/test">T23</span></td>
+</tr>
+</table>
+<br clear=all>
+<pre class="code"> LINE       247
+ EXPRESSION (bin31_en ? bin31 : 1'bz)
+             ----1---
+</pre>
+<table class="noborder">
+<col width="40">
+<tr><th>-1-</th><th>Status</th><th>Tests</th></tr>
+<tr class="uGreen"><td>0</td><td class="lf">Covered</td><td class="lf"><span title = "RTL-IRQ_external/simv/test">T1</span>,<span title = "RTL-IRQ_timer/simv/test">T2</span>,<span title = "RTL-IRQ_uart/simv/test">T3</span></td>
+</tr>
+<tr class="uGreen"><td>1</td><td class="lf">Covered</td><td class="lf"><span title = "RTL-bitbang_cpu_all_i/simv/test">T11</span>,<span title = "RTL-bitbang_no_cpu_all_i/simv/test">T13</span>,<span title = "RTL-bitbang_spi_i/simv/test">T23</span></td>
+</tr>
+</table>
+<br clear=all>
+<pre class="code"> LINE       248
+ EXPRESSION (bin32_en ? bin32 : 1'bz)
+             ----1---
+</pre>
+<table class="noborder">
+<col width="40">
+<tr><th>-1-</th><th>Status</th><th>Tests</th></tr>
+<tr class="uGreen"><td>0</td><td class="lf">Covered</td><td class="lf"><span title = "RTL-IRQ_external/simv/test">T1</span>,<span title = "RTL-IRQ_timer/simv/test">T2</span>,<span title = "RTL-IRQ_uart/simv/test">T3</span></td>
+</tr>
+<tr class="uGreen"><td>1</td><td class="lf">Covered</td><td class="lf"><span title = "RTL-bitbang_cpu_all_i/simv/test">T11</span>,<span title = "RTL-bitbang_spi_i/simv/test">T23</span>,<span title = "RTL-gpio_all_bidir_user/simv/test">T25</span></td>
+</tr>
+</table>
+<br clear=all>
+<pre class="code"> LINE       249
+ EXPRESSION (bin33_en ? bin33 : 1'bz)
+             ----1---
+</pre>
+<table class="noborder">
+<col width="40">
+<tr><th>-1-</th><th>Status</th><th>Tests</th></tr>
+<tr class="uGreen"><td>0</td><td class="lf">Covered</td><td class="lf"><span title = "RTL-IRQ_external/simv/test">T1</span>,<span title = "RTL-IRQ_timer/simv/test">T2</span>,<span title = "RTL-IRQ_uart/simv/test">T3</span></td>
+</tr>
+<tr class="uGreen"><td>1</td><td class="lf">Covered</td><td class="lf"><span title = "RTL-bitbang_cpu_all_i/simv/test">T11</span>,<span title = "RTL-bitbang_spi_i/simv/test">T23</span>,<span title = "RTL-gpio_all_bidir_user/simv/test">T25</span></td>
+</tr>
+</table>
+<br clear=all>
+<pre class="code"> LINE       250
+ EXPRESSION (bin34_en ? bin34 : 1'bz)
+             ----1---
+</pre>
+<table class="noborder">
+<col width="40">
+<tr><th>-1-</th><th>Status</th><th>Tests</th></tr>
+<tr class="uGreen"><td>0</td><td class="lf">Covered</td><td class="lf"><span title = "RTL-IRQ_external/simv/test">T1</span>,<span title = "RTL-IRQ_timer/simv/test">T2</span>,<span title = "RTL-IRQ_uart/simv/test">T3</span></td>
+</tr>
+<tr class="uGreen"><td>1</td><td class="lf">Covered</td><td class="lf"><span title = "RTL-bitbang_cpu_all_i/simv/test">T11</span>,<span title = "RTL-bitbang_spi_i/simv/test">T23</span>,<span title = "RTL-gpio_all_bidir_user/simv/test">T25</span></td>
+</tr>
+</table>
+<br clear=all>
+<pre class="code"> LINE       252
+ EXPRESSION (bin35_en ? bin35 : 1'bz)
+             ----1---
+</pre>
+<table class="noborder">
+<col width="40">
+<tr><th>-1-</th><th>Status</th><th>Tests</th></tr>
+<tr class="uGreen"><td>0</td><td class="lf">Covered</td><td class="lf"><span title = "RTL-IRQ_external/simv/test">T1</span>,<span title = "RTL-IRQ_timer/simv/test">T2</span>,<span title = "RTL-IRQ_uart/simv/test">T3</span></td>
+</tr>
+<tr class="uGreen"><td>1</td><td class="lf">Covered</td><td class="lf"><span title = "RTL-bitbang_cpu_all_i/simv/test">T11</span>,<span title = "RTL-bitbang_spi_i/simv/test">T23</span>,<span title = "RTL-gpio_all_bidir_user/simv/test">T25</span></td>
+</tr>
+</table>
+<br clear=all>
+<pre class="code"> LINE       253
+ EXPRESSION (bin36_en ? bin36 : 1'bz)
+             ----1---
+</pre>
+<table class="noborder">
+<col width="40">
+<tr><th>-1-</th><th>Status</th><th>Tests</th></tr>
+<tr class="uGreen"><td>0</td><td class="lf">Covered</td><td class="lf"><span title = "RTL-IRQ_external/simv/test">T1</span>,<span title = "RTL-IRQ_timer/simv/test">T2</span>,<span title = "RTL-IRQ_uart/simv/test">T3</span></td>
+</tr>
+<tr class="uGreen"><td>1</td><td class="lf">Covered</td><td class="lf"><span title = "RTL-bitbang_cpu_all_i/simv/test">T11</span>,<span title = "RTL-bitbang_spi_i/simv/test">T23</span>,<span title = "RTL-gpio_all_bidir_user/simv/test">T25</span></td>
+</tr>
+</table>
+<br clear=all>
+<pre class="code"> LINE       254
+ EXPRESSION (bin37_en ? bin37 : 1'bz)
+             ----1---
+</pre>
+<table class="noborder">
+<col width="40">
+<tr><th>-1-</th><th>Status</th><th>Tests</th></tr>
+<tr class="uGreen"><td>0</td><td class="lf">Covered</td><td class="lf"><span title = "RTL-IRQ_external/simv/test">T1</span>,<span title = "RTL-IRQ_timer/simv/test">T2</span>,<span title = "RTL-IRQ_uart/simv/test">T3</span></td>
+</tr>
+<tr class="uGreen"><td>1</td><td class="lf">Covered</td><td class="lf"><span title = "RTL-bitbang_cpu_all_i/simv/test">T11</span>,<span title = "RTL-bitbang_spi_i/simv/test">T23</span>,<span title = "RTL-gpio_all_bidir_user/simv/test">T25</span></td>
+</tr>
+</table>
+<hr>
+<a name="Toggle"></a>
+Toggle Coverage for Module : <a href="mod55.html" >caravel_top</a><br clear=all>
+<table align=left class="noborder">
+<tr>
+<th nowrap width=120></th><th nowrap width=80>Total</th><th nowrap width=80>Covered</th><th nowrap width=80>Percent</th></tr><tr class="s8">
+<td>Totals</td>
+<td class="rt">140</td>
+<td class="rt">122</td>
+<td class="rt">87.14 </td>
+</tr><tr class="s9">
+<td>Total Bits</td>
+<td class="rt">354</td>
+<td class="rt">327</td>
+<td class="rt">92.37 </td>
+</tr><tr class="s9">
+<td nowrap>Total Bits 0->1</td>
+<td class="rt">177</td>
+<td class="rt">168</td>
+<td class="rt">94.92 </td>
+</tr><tr class="s8">
+<td nowrap>Total Bits 1->0</td>
+<td class="rt">177</td>
+<td class="rt">159</td>
+<td class="rt">89.83 </td>
+</tr></table><br clear=all>
+<table align=left class="noborder">
+<tr>
+<th nowrap width=120></th><th nowrap width=80></th><th nowrap width=80></th><th nowrap width=80></th></tr><tr class="s8">
+<td>Signals</td>
+<td class="rt">140</td>
+<td class="rt">122</td>
+<td class="rt">87.14 </td>
+</tr><tr class="s9">
+<td>Signal Bits</td>
+<td class="rt">354</td>
+<td class="rt">327</td>
+<td class="rt">92.37 </td>
+</tr><tr class="s9">
+<td nowrap>Signal Bits 0->1</td>
+<td class="rt">177</td>
+<td class="rt">168</td>
+<td class="rt">94.92 </td>
+</tr><tr class="s8">
+<td nowrap>Signal Bits 1->0</td>
+<td class="rt">177</td>
+<td class="rt">159</td>
+<td class="rt">89.83 </td>
+</tr></table><br clear=all>
+<table align=left class="sortable noborder">
+<caption><b>Signal Details</b></caption>
+<tr class="sortablehead">
+<td class="alfsrt">Name</td><td class="alfsrt">Toggle</td><td class="alfsrt">Toggle 1->0</td><td class="alfsrt">Tests</td><td class="alfsrt">Toggle 0->1</td><td class="alfsrt">Tests</td></tr><tr>
+<td>vddio_tb</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl"></td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl" nowrap><span title = "RTL-IRQ_external/simv/test">T1</span>,<span title = "RTL-IRQ_timer/simv/test">T2</span>,<span title = "RTL-IRQ_uart/simv/test">T3</span></td>
+</tr><tr>
+<td>vddio_2_tb</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl"></td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl" nowrap><span title = "RTL-IRQ_external/simv/test">T1</span>,<span title = "RTL-IRQ_timer/simv/test">T2</span>,<span title = "RTL-IRQ_uart/simv/test">T3</span></td>
+</tr><tr>
+<td>vssio_tb</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl"></td>
+<td class="s3 cl">No</td>
+<td class="s3 cl"></td>
+</tr><tr>
+<td>vssio_2_tb</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl"></td>
+<td class="s3 cl">No</td>
+<td class="s3 cl"></td>
+</tr><tr>
+<td>vdda_tb</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl"></td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl" nowrap><span title = "RTL-IRQ_external/simv/test">T1</span>,<span title = "RTL-IRQ_timer/simv/test">T2</span>,<span title = "RTL-IRQ_uart/simv/test">T3</span></td>
+</tr><tr>
+<td>vssa_tb</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl"></td>
+<td class="s3 cl">No</td>
+<td class="s3 cl"></td>
+</tr><tr>
+<td>vccd_tb</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl"></td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl" nowrap><span title = "RTL-IRQ_external/simv/test">T1</span>,<span title = "RTL-IRQ_timer/simv/test">T2</span>,<span title = "RTL-IRQ_uart/simv/test">T3</span></td>
+</tr><tr>
+<td>vssd_tb</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl"></td>
+<td class="s3 cl">No</td>
+<td class="s3 cl"></td>
+</tr><tr>
+<td>vdda1_tb</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl"></td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl" nowrap><span title = "RTL-IRQ_external/simv/test">T1</span>,<span title = "RTL-IRQ_timer/simv/test">T2</span>,<span title = "RTL-IRQ_uart/simv/test">T3</span></td>
+</tr><tr>
+<td>vdda1_2_tb</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl"></td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl" nowrap><span title = "RTL-IRQ_external/simv/test">T1</span>,<span title = "RTL-IRQ_timer/simv/test">T2</span>,<span title = "RTL-IRQ_uart/simv/test">T3</span></td>
+</tr><tr>
+<td>vdda2_tb</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl"></td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl" nowrap><span title = "RTL-IRQ_external/simv/test">T1</span>,<span title = "RTL-IRQ_timer/simv/test">T2</span>,<span title = "RTL-IRQ_uart/simv/test">T3</span></td>
+</tr><tr>
+<td>vssa1_tb</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl"></td>
+<td class="s3 cl">No</td>
+<td class="s3 cl"></td>
+</tr><tr>
+<td>vssa1_2_tb</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl"></td>
+<td class="s3 cl">No</td>
+<td class="s3 cl"></td>
+</tr><tr>
+<td>vssa2_tb</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl"></td>
+<td class="s3 cl">No</td>
+<td class="s3 cl"></td>
+</tr><tr>
+<td>vccd1_tb</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl"></td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl" nowrap><span title = "RTL-IRQ_external/simv/test">T1</span>,<span title = "RTL-IRQ_timer/simv/test">T2</span>,<span title = "RTL-IRQ_uart/simv/test">T3</span></td>
+</tr><tr>
+<td>vccd2_tb</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl"></td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl" nowrap><span title = "RTL-IRQ_external/simv/test">T1</span>,<span title = "RTL-IRQ_timer/simv/test">T2</span>,<span title = "RTL-IRQ_uart/simv/test">T3</span></td>
+</tr><tr>
+<td>vssd1_tb</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl"></td>
+<td class="s3 cl">No</td>
+<td class="s3 cl"></td>
+</tr><tr>
+<td>vssd2_tb</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl"></td>
+<td class="s3 cl">No</td>
+<td class="s3 cl"></td>
+</tr><tr>
+<td>gpio_tb</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl" nowrap><span title = "RTL-mgmt_gpio_bidir/simv/test">T8</span>,<span title = "RTL-mgmt_gpio_in/simv/test">T10</span>,<span title = "RTL-mgmt_gpio_out/simv/test">T9</span></td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl" nowrap><span title = "RTL-mgmt_gpio_bidir/simv/test">T8</span>,<span title = "RTL-mgmt_gpio_in/simv/test">T10</span>,<span title = "RTL-mgmt_gpio_out/simv/test">T9</span></td>
+</tr><tr>
+<td>mprj_io_tb[37:0]</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl" nowrap><span title = "RTL-bitbang_cpu_all_i/simv/test">T11</span>,<span title = "RTL-bitbang_cpu_all_o/simv/test">T12</span>,<span title = "RTL-bitbang_spi_i/simv/test">T23</span></td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl" nowrap><span title = "RTL-bitbang_cpu_all_o/simv/test">T12</span>,<span title = "RTL-bitbang_spi_o/simv/test">T15</span>,<span title = "RTL-gpio_all_bidir_user/simv/test">T25</span></td>
+</tr><tr>
+<td>clock_tb</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl" nowrap><span title = "RTL-IRQ_external/simv/test">T1</span>,<span title = "RTL-IRQ_timer/simv/test">T2</span>,<span title = "RTL-IRQ_uart/simv/test">T3</span></td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl" nowrap><span title = "RTL-IRQ_external/simv/test">T1</span>,<span title = "RTL-IRQ_timer/simv/test">T2</span>,<span title = "RTL-IRQ_uart/simv/test">T3</span></td>
+</tr><tr>
+<td>resetb_tb</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl" nowrap><span title = "RTL-IRQ_external/simv/test">T1</span>,<span title = "RTL-IRQ_timer/simv/test">T2</span>,<span title = "RTL-IRQ_uart/simv/test">T3</span></td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl" nowrap><span title = "RTL-IRQ_external/simv/test">T1</span>,<span title = "RTL-IRQ_timer/simv/test">T2</span>,<span title = "RTL-IRQ_uart/simv/test">T3</span></td>
+</tr><tr>
+<td>flash_csb_tb</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl" nowrap><span title = "RTL-IRQ_external/simv/test">T1</span>,<span title = "RTL-IRQ_timer/simv/test">T2</span>,<span title = "RTL-IRQ_uart/simv/test">T3</span></td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl" nowrap><span title = "RTL-IRQ_external/simv/test">T1</span>,<span title = "RTL-IRQ_timer/simv/test">T2</span>,<span title = "RTL-IRQ_uart/simv/test">T3</span></td>
+</tr><tr>
+<td>flash_clk_tb</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl" nowrap><span title = "RTL-IRQ_external/simv/test">T1</span>,<span title = "RTL-IRQ_timer/simv/test">T2</span>,<span title = "RTL-IRQ_uart/simv/test">T3</span></td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl" nowrap><span title = "RTL-IRQ_external/simv/test">T1</span>,<span title = "RTL-IRQ_timer/simv/test">T2</span>,<span title = "RTL-IRQ_uart/simv/test">T3</span></td>
+</tr><tr>
+<td>flash_io0_tb</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl" nowrap><span title = "RTL-IRQ_external/simv/test">T1</span>,<span title = "RTL-IRQ_timer/simv/test">T2</span>,<span title = "RTL-IRQ_uart/simv/test">T3</span></td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl" nowrap><span title = "RTL-IRQ_external/simv/test">T1</span>,<span title = "RTL-IRQ_timer/simv/test">T2</span>,<span title = "RTL-IRQ_uart/simv/test">T3</span></td>
+</tr><tr>
+<td>flash_io1_tb</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl" nowrap><span title = "RTL-IRQ_external/simv/test">T1</span>,<span title = "RTL-IRQ_timer/simv/test">T2</span>,<span title = "RTL-IRQ_uart/simv/test">T3</span></td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl" nowrap><span title = "RTL-IRQ_external/simv/test">T1</span>,<span title = "RTL-IRQ_timer/simv/test">T2</span>,<span title = "RTL-IRQ_uart/simv/test">T3</span></td>
+</tr><tr>
+<td>bin0</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl" nowrap><span title = "RTL-bitbang_cpu_all_i/simv/test">T11</span>,<span title = "RTL-bitbang_spi_i/simv/test">T23</span>,<span title = "RTL-gpio_all_bidir_user/simv/test">T25</span></td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl" nowrap><span title = "RTL-gpio_all_bidir_user/simv/test">T25</span>,<span title = "RTL-gpio_all_i/simv/test">T19</span>,<span title = "RTL-gpio_all_i_pd/simv/test">T20</span></td>
+</tr><tr>
+<td>bin0_en</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl" nowrap><span title = "RTL-gpio_all_i/simv/test">T19</span>,<span title = "RTL-gpio_all_i_pd/simv/test">T20</span>,<span title = "RTL-gpio_all_i_pd_user/simv/test">T21</span></td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl" nowrap><span title = "RTL-bitbang_cpu_all_i/simv/test">T11</span>,<span title = "RTL-bitbang_no_cpu_all_i/simv/test">T13</span>,<span title = "RTL-bitbang_spi_i/simv/test">T23</span></td>
+</tr><tr>
+<td>bin1</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl" nowrap><span title = "RTL-gpio_all_bidir_user/simv/test">T25</span>,<span title = "RTL-gpio_all_i/simv/test">T19</span>,<span title = "RTL-gpio_all_i_pd/simv/test">T20</span></td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl" nowrap><span title = "RTL-gpio_all_bidir_user/simv/test">T25</span>,<span title = "RTL-gpio_all_i_pd/simv/test">T20</span>,<span title = "RTL-gpio_all_i_pd_user/simv/test">T21</span></td>
+</tr><tr>
+<td>bin1_en</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl" nowrap><span title = "RTL-gpio_all_i/simv/test">T19</span>,<span title = "RTL-gpio_all_i_pd/simv/test">T20</span>,<span title = "RTL-gpio_all_i_pd_user/simv/test">T21</span></td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl" nowrap><span title = "RTL-bitbang_cpu_all_i/simv/test">T11</span>,<span title = "RTL-bitbang_no_cpu_all_i/simv/test">T13</span>,<span title = "RTL-bitbang_spi_i/simv/test">T23</span></td>
+</tr><tr>
+<td>bin2</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl" nowrap><span title = "RTL-IRQ_external/simv/test">T1</span>,<span title = "RTL-bitbang_spi_i/simv/test">T23</span>,<span title = "RTL-bitbang_spi_o/simv/test">T15</span></td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl" nowrap><span title = "RTL-IRQ_external/simv/test">T1</span>,<span title = "RTL-bitbang_cpu_all_i/simv/test">T11</span>,<span title = "RTL-bitbang_spi_i/simv/test">T23</span></td>
+</tr><tr>
+<td>bin2_en</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl" nowrap><span title = "RTL-gpio_all_i/simv/test">T19</span>,<span title = "RTL-gpio_all_i_pd/simv/test">T20</span>,<span title = "RTL-gpio_all_i_pd_user/simv/test">T21</span></td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl" nowrap><span title = "RTL-IRQ_external/simv/test">T1</span>,<span title = "RTL-bitbang_cpu_all_i/simv/test">T11</span>,<span title = "RTL-bitbang_no_cpu_all_i/simv/test">T13</span></td>
+</tr><tr>
+<td>bin3</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl" nowrap><span title = "RTL-IRQ_external/simv/test">T1</span>,<span title = "RTL-bitbang_cpu_all_i/simv/test">T11</span>,<span title = "RTL-bitbang_spi_i/simv/test">T23</span></td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl" nowrap><span title = "RTL-IRQ_external/simv/test">T1</span>,<span title = "RTL-bitbang_spi_i/simv/test">T23</span>,<span title = "RTL-bitbang_spi_o/simv/test">T15</span></td>
+</tr><tr>
+<td>bin3_en</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl" nowrap><span title = "RTL-bitbang_cpu_all_o/simv/test">T12</span>,<span title = "RTL-bitbang_no_cpu_all_o/simv/test">T14</span>,<span title = "RTL-gpio_all_bidir_user/simv/test">T25</span></td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl" nowrap><span title = "RTL-gpio_all_bidir_user/simv/test">T25</span>,<span title = "RTL-gpio_all_i_pd/simv/test">T20</span>,<span title = "RTL-gpio_all_i_pd_user/simv/test">T21</span></td>
+</tr><tr>
+<td>bin4</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl" nowrap><span title = "RTL-IRQ_external/simv/test">T1</span>,<span title = "RTL-bitbang_cpu_all_i/simv/test">T11</span>,<span title = "RTL-bitbang_spi_i/simv/test">T23</span></td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl" nowrap><span title = "RTL-IRQ_external/simv/test">T1</span>,<span title = "RTL-bitbang_cpu_all_i/simv/test">T11</span>,<span title = "RTL-bitbang_no_cpu_all_i/simv/test">T13</span></td>
+</tr><tr>
+<td>bin4_en</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl" nowrap><span title = "RTL-bitbang_cpu_all_o/simv/test">T12</span>,<span title = "RTL-bitbang_no_cpu_all_o/simv/test">T14</span>,<span title = "RTL-gpio_all_bidir_user/simv/test">T25</span></td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl" nowrap><span title = "RTL-gpio_all_bidir_user/simv/test">T25</span>,<span title = "RTL-gpio_all_i_pd/simv/test">T20</span>,<span title = "RTL-gpio_all_i_pd_user/simv/test">T21</span></td>
+</tr><tr>
+<td>bin5</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl" nowrap><span title = "RTL-bitbang_cpu_all_i/simv/test">T11</span>,<span title = "RTL-bitbang_spi_i/simv/test">T23</span>,<span title = "RTL-debug/simv/test">T24</span></td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl" nowrap><span title = "RTL-debug/simv/test">T24</span>,<span title = "RTL-gpio_all_bidir_user/simv/test">T25</span>,<span title = "RTL-gpio_all_i_pd/simv/test">T20</span></td>
+</tr><tr>
+<td>bin5_en</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl" nowrap><span title = "RTL-gpio_all_i/simv/test">T19</span>,<span title = "RTL-gpio_all_i_pd/simv/test">T20</span>,<span title = "RTL-gpio_all_i_pd_user/simv/test">T21</span></td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl" nowrap><span title = "RTL-bitbang_cpu_all_i/simv/test">T11</span>,<span title = "RTL-bitbang_no_cpu_all_i/simv/test">T13</span>,<span title = "RTL-bitbang_spi_i/simv/test">T23</span></td>
+</tr><tr>
+<td>bin6</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl" nowrap><span title = "RTL-gpio_all_bidir_user/simv/test">T25</span>,<span title = "RTL-gpio_all_i/simv/test">T19</span>,<span title = "RTL-gpio_all_i_pd/simv/test">T20</span></td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl" nowrap><span title = "RTL-gpio_all_bidir_user/simv/test">T25</span>,<span title = "RTL-gpio_all_i/simv/test">T19</span>,<span title = "RTL-gpio_all_i_pd/simv/test">T20</span></td>
+</tr><tr>
+<td>bin6_en</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl" nowrap><span title = "RTL-gpio_all_i/simv/test">T19</span>,<span title = "RTL-gpio_all_i_pd/simv/test">T20</span>,<span title = "RTL-gpio_all_i_pd_user/simv/test">T21</span></td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl" nowrap><span title = "RTL-bitbang_cpu_all_i/simv/test">T11</span>,<span title = "RTL-bitbang_no_cpu_all_i/simv/test">T13</span>,<span title = "RTL-bitbang_spi_i/simv/test">T23</span></td>
+</tr><tr>
+<td>bin7</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl" nowrap><span title = "RTL-IRQ_external/simv/test">T1</span>,<span title = "RTL-gpio_all_bidir_user/simv/test">T25</span>,<span title = "RTL-gpio_all_i/simv/test">T19</span></td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl" nowrap><span title = "RTL-IRQ_external/simv/test">T1</span>,<span title = "RTL-gpio_all_bidir_user/simv/test">T25</span>,<span title = "RTL-gpio_all_i_pd/simv/test">T20</span></td>
+</tr><tr>
+<td>bin7_en</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl" nowrap><span title = "RTL-gpio_all_i/simv/test">T19</span>,<span title = "RTL-gpio_all_i_pd/simv/test">T20</span>,<span title = "RTL-gpio_all_i_pd_user/simv/test">T21</span></td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl" nowrap><span title = "RTL-IRQ_external/simv/test">T1</span>,<span title = "RTL-bitbang_cpu_all_i/simv/test">T11</span>,<span title = "RTL-bitbang_no_cpu_all_i/simv/test">T13</span></td>
+</tr><tr>
+<td>bin8</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl" nowrap><span title = "RTL-bitbang_cpu_all_i/simv/test">T11</span>,<span title = "RTL-bitbang_spi_i/simv/test">T23</span>,<span title = "RTL-gpio_all_bidir_user/simv/test">T25</span></td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl" nowrap><span title = "RTL-bitbang_cpu_all_i/simv/test">T11</span>,<span title = "RTL-bitbang_spi_i/simv/test">T23</span>,<span title = "RTL-gpio_all_bidir_user/simv/test">T25</span></td>
+</tr><tr>
+<td>bin8_en</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl" nowrap><span title = "RTL-gpio_all_i/simv/test">T19</span>,<span title = "RTL-gpio_all_i_pd/simv/test">T20</span>,<span title = "RTL-gpio_all_i_pd_user/simv/test">T21</span></td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl" nowrap><span title = "RTL-bitbang_cpu_all_i/simv/test">T11</span>,<span title = "RTL-bitbang_no_cpu_all_i/simv/test">T13</span>,<span title = "RTL-bitbang_spi_i/simv/test">T23</span></td>
+</tr><tr>
+<td>bin9</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl" nowrap><span title = "RTL-gpio_all_bidir_user/simv/test">T25</span>,<span title = "RTL-gpio_all_i/simv/test">T19</span>,<span title = "RTL-gpio_all_i_pd/simv/test">T20</span></td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl" nowrap><span title = "RTL-bitbang_cpu_all_i/simv/test">T11</span>,<span title = "RTL-bitbang_spi_i/simv/test">T23</span>,<span title = "RTL-gpio_all_bidir_user/simv/test">T25</span></td>
+</tr><tr>
+<td>bin9_en</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl" nowrap><span title = "RTL-gpio_all_i/simv/test">T19</span>,<span title = "RTL-gpio_all_i_pd/simv/test">T20</span>,<span title = "RTL-gpio_all_i_pd_user/simv/test">T21</span></td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl" nowrap><span title = "RTL-bitbang_cpu_all_i/simv/test">T11</span>,<span title = "RTL-bitbang_no_cpu_all_i/simv/test">T13</span>,<span title = "RTL-bitbang_spi_i/simv/test">T23</span></td>
+</tr><tr>
+<td>bin10</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl" nowrap><span title = "RTL-bitbang_cpu_all_i/simv/test">T11</span>,<span title = "RTL-bitbang_spi_i/simv/test">T23</span>,<span title = "RTL-gpio_all_bidir_user/simv/test">T25</span></td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl" nowrap><span title = "RTL-gpio_all_bidir_user/simv/test">T25</span>,<span title = "RTL-gpio_all_i/simv/test">T19</span>,<span title = "RTL-gpio_all_i_pd/simv/test">T20</span></td>
+</tr><tr>
+<td>bin10_en</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl" nowrap><span title = "RTL-gpio_all_i/simv/test">T19</span>,<span title = "RTL-gpio_all_i_pd/simv/test">T20</span>,<span title = "RTL-gpio_all_i_pd_user/simv/test">T21</span></td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl" nowrap><span title = "RTL-bitbang_cpu_all_i/simv/test">T11</span>,<span title = "RTL-bitbang_no_cpu_all_i/simv/test">T13</span>,<span title = "RTL-bitbang_spi_i/simv/test">T23</span></td>
+</tr><tr>
+<td>bin11</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl" nowrap><span title = "RTL-bitbang_cpu_all_i/simv/test">T11</span>,<span title = "RTL-bitbang_spi_i/simv/test">T23</span>,<span title = "RTL-gpio_all_bidir_user/simv/test">T25</span></td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl" nowrap><span title = "RTL-gpio_all_bidir_user/simv/test">T25</span>,<span title = "RTL-gpio_all_i_pd/simv/test">T20</span>,<span title = "RTL-gpio_all_i_pd_user/simv/test">T21</span></td>
+</tr><tr>
+<td>bin11_en</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl" nowrap><span title = "RTL-gpio_all_i/simv/test">T19</span>,<span title = "RTL-gpio_all_i_pd/simv/test">T20</span>,<span title = "RTL-gpio_all_i_pd_user/simv/test">T21</span></td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl" nowrap><span title = "RTL-bitbang_cpu_all_i/simv/test">T11</span>,<span title = "RTL-bitbang_no_cpu_all_i/simv/test">T13</span>,<span title = "RTL-bitbang_spi_i/simv/test">T23</span></td>
+</tr><tr>
+<td>bin12</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl" nowrap><span title = "RTL-bitbang_cpu_all_i/simv/test">T11</span>,<span title = "RTL-bitbang_spi_i/simv/test">T23</span>,<span title = "RTL-gpio_all_bidir_user/simv/test">T25</span></td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl" nowrap><span title = "RTL-gpio_all_bidir_user/simv/test">T25</span>,<span title = "RTL-gpio_all_i/simv/test">T19</span>,<span title = "RTL-gpio_all_i_pd/simv/test">T20</span></td>
+</tr><tr>
+<td>bin12_en</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl" nowrap><span title = "RTL-gpio_all_i/simv/test">T19</span>,<span title = "RTL-gpio_all_i_pd/simv/test">T20</span>,<span title = "RTL-gpio_all_i_pd_user/simv/test">T21</span></td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl" nowrap><span title = "RTL-bitbang_cpu_all_i/simv/test">T11</span>,<span title = "RTL-bitbang_no_cpu_all_i/simv/test">T13</span>,<span title = "RTL-bitbang_spi_i/simv/test">T23</span></td>
+</tr><tr>
+<td>bin13</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl" nowrap><span title = "RTL-bitbang_cpu_all_i/simv/test">T11</span>,<span title = "RTL-bitbang_spi_i/simv/test">T23</span>,<span title = "RTL-gpio_all_bidir_user/simv/test">T25</span></td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl" nowrap><span title = "RTL-bitbang_cpu_all_i/simv/test">T11</span>,<span title = "RTL-bitbang_spi_i/simv/test">T23</span>,<span title = "RTL-gpio_all_bidir_user/simv/test">T25</span></td>
+</tr><tr>
+<td>bin13_en</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl" nowrap><span title = "RTL-gpio_all_i/simv/test">T19</span>,<span title = "RTL-gpio_all_i_pd/simv/test">T20</span>,<span title = "RTL-gpio_all_i_pd_user/simv/test">T21</span></td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl" nowrap><span title = "RTL-bitbang_cpu_all_i/simv/test">T11</span>,<span title = "RTL-bitbang_no_cpu_all_i/simv/test">T13</span>,<span title = "RTL-bitbang_spi_i/simv/test">T23</span></td>
+</tr><tr>
+<td>bin14</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl" nowrap><span title = "RTL-bitbang_cpu_all_i/simv/test">T11</span>,<span title = "RTL-bitbang_spi_i/simv/test">T23</span>,<span title = "RTL-gpio_all_bidir_user/simv/test">T25</span></td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl" nowrap><span title = "RTL-bitbang_cpu_all_i/simv/test">T11</span>,<span title = "RTL-bitbang_spi_i/simv/test">T23</span>,<span title = "RTL-gpio_all_bidir_user/simv/test">T25</span></td>
+</tr><tr>
+<td>bin14_en</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl" nowrap><span title = "RTL-gpio_all_i/simv/test">T19</span>,<span title = "RTL-gpio_all_i_pd/simv/test">T20</span>,<span title = "RTL-gpio_all_i_pd_user/simv/test">T21</span></td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl" nowrap><span title = "RTL-bitbang_cpu_all_i/simv/test">T11</span>,<span title = "RTL-bitbang_no_cpu_all_i/simv/test">T13</span>,<span title = "RTL-bitbang_spi_i/simv/test">T23</span></td>
+</tr><tr>
+<td>bin15</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl" nowrap><span title = "RTL-bitbang_cpu_all_i/simv/test">T11</span>,<span title = "RTL-bitbang_spi_i/simv/test">T23</span>,<span title = "RTL-gpio_all_bidir_user/simv/test">T25</span></td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl" nowrap><span title = "RTL-gpio_all_bidir_user/simv/test">T25</span>,<span title = "RTL-gpio_all_i_pd/simv/test">T20</span>,<span title = "RTL-gpio_all_i_pd_user/simv/test">T21</span></td>
+</tr><tr>
+<td>bin15_en</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl" nowrap><span title = "RTL-gpio_all_i/simv/test">T19</span>,<span title = "RTL-gpio_all_i_pd/simv/test">T20</span>,<span title = "RTL-gpio_all_i_pd_user/simv/test">T21</span></td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl" nowrap><span title = "RTL-bitbang_cpu_all_i/simv/test">T11</span>,<span title = "RTL-bitbang_no_cpu_all_i/simv/test">T13</span>,<span title = "RTL-bitbang_spi_i/simv/test">T23</span></td>
+</tr><tr>
+<td>bin16</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl" nowrap><span title = "RTL-gpio_all_bidir_user/simv/test">T25</span>,<span title = "RTL-gpio_all_i/simv/test">T19</span>,<span title = "RTL-gpio_all_i_pd/simv/test">T20</span></td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl" nowrap><span title = "RTL-bitbang_cpu_all_i/simv/test">T11</span>,<span title = "RTL-bitbang_spi_i/simv/test">T23</span>,<span title = "RTL-gpio_all_bidir_user/simv/test">T25</span></td>
+</tr><tr>
+<td>bin16_en</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl" nowrap><span title = "RTL-gpio_all_i/simv/test">T19</span>,<span title = "RTL-gpio_all_i_pd/simv/test">T20</span>,<span title = "RTL-gpio_all_i_pd_user/simv/test">T21</span></td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl" nowrap><span title = "RTL-bitbang_cpu_all_i/simv/test">T11</span>,<span title = "RTL-bitbang_no_cpu_all_i/simv/test">T13</span>,<span title = "RTL-bitbang_spi_i/simv/test">T23</span></td>
+</tr><tr>
+<td>bin17</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl" nowrap><span title = "RTL-bitbang_cpu_all_i/simv/test">T11</span>,<span title = "RTL-bitbang_spi_i/simv/test">T23</span>,<span title = "RTL-gpio_all_bidir_user/simv/test">T25</span></td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl" nowrap><span title = "RTL-bitbang_cpu_all_i/simv/test">T11</span>,<span title = "RTL-bitbang_spi_i/simv/test">T23</span>,<span title = "RTL-gpio_all_bidir_user/simv/test">T25</span></td>
+</tr><tr>
+<td>bin17_en</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl" nowrap><span title = "RTL-gpio_all_i/simv/test">T19</span>,<span title = "RTL-gpio_all_i_pd/simv/test">T20</span>,<span title = "RTL-gpio_all_i_pd_user/simv/test">T21</span></td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl" nowrap><span title = "RTL-bitbang_cpu_all_i/simv/test">T11</span>,<span title = "RTL-bitbang_no_cpu_all_i/simv/test">T13</span>,<span title = "RTL-bitbang_spi_i/simv/test">T23</span></td>
+</tr><tr>
+<td>bin18</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl" nowrap><span title = "RTL-bitbang_cpu_all_i/simv/test">T11</span>,<span title = "RTL-bitbang_spi_i/simv/test">T23</span>,<span title = "RTL-gpio_all_bidir_user/simv/test">T25</span></td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl" nowrap><span title = "RTL-gpio_all_bidir_user/simv/test">T25</span>,<span title = "RTL-gpio_all_i/simv/test">T19</span>,<span title = "RTL-gpio_all_i_pd/simv/test">T20</span></td>
+</tr><tr>
+<td>bin18_en</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl" nowrap><span title = "RTL-gpio_all_i/simv/test">T19</span>,<span title = "RTL-gpio_all_i_pd/simv/test">T20</span>,<span title = "RTL-gpio_all_i_pd_user/simv/test">T21</span></td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl" nowrap><span title = "RTL-bitbang_cpu_all_i/simv/test">T11</span>,<span title = "RTL-bitbang_no_cpu_all_i/simv/test">T13</span>,<span title = "RTL-bitbang_spi_i/simv/test">T23</span></td>
+</tr><tr>
+<td>bin19</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl" nowrap><span title = "RTL-bitbang_cpu_all_i/simv/test">T11</span>,<span title = "RTL-bitbang_spi_i/simv/test">T23</span>,<span title = "RTL-gpio_all_bidir_user/simv/test">T25</span></td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl" nowrap><span title = "RTL-bitbang_cpu_all_i/simv/test">T11</span>,<span title = "RTL-bitbang_spi_i/simv/test">T23</span>,<span title = "RTL-gpio_all_bidir_user/simv/test">T25</span></td>
+</tr><tr>
+<td>bin19_en</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl" nowrap><span title = "RTL-gpio_all_i/simv/test">T19</span>,<span title = "RTL-gpio_all_i_pd/simv/test">T20</span>,<span title = "RTL-gpio_all_i_pd_user/simv/test">T21</span></td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl" nowrap><span title = "RTL-bitbang_cpu_all_i/simv/test">T11</span>,<span title = "RTL-bitbang_no_cpu_all_i/simv/test">T13</span>,<span title = "RTL-bitbang_spi_i/simv/test">T23</span></td>
+</tr><tr>
+<td>bin20</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl" nowrap><span title = "RTL-gpio_all_bidir_user/simv/test">T25</span>,<span title = "RTL-gpio_all_i/simv/test">T19</span>,<span title = "RTL-gpio_all_i_pd/simv/test">T20</span></td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl" nowrap><span title = "RTL-bitbang_cpu_all_i/simv/test">T11</span>,<span title = "RTL-bitbang_spi_i/simv/test">T23</span>,<span title = "RTL-gpio_all_bidir_user/simv/test">T25</span></td>
+</tr><tr>
+<td>bin20_en</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl" nowrap><span title = "RTL-gpio_all_i/simv/test">T19</span>,<span title = "RTL-gpio_all_i_pd/simv/test">T20</span>,<span title = "RTL-gpio_all_i_pd_user/simv/test">T21</span></td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl" nowrap><span title = "RTL-bitbang_cpu_all_i/simv/test">T11</span>,<span title = "RTL-bitbang_no_cpu_all_i/simv/test">T13</span>,<span title = "RTL-bitbang_spi_i/simv/test">T23</span></td>
+</tr><tr>
+<td>bin21</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl" nowrap><span title = "RTL-bitbang_cpu_all_i/simv/test">T11</span>,<span title = "RTL-bitbang_spi_i/simv/test">T23</span>,<span title = "RTL-gpio_all_bidir_user/simv/test">T25</span></td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl" nowrap><span title = "RTL-gpio_all_bidir_user/simv/test">T25</span>,<span title = "RTL-gpio_all_i_pd/simv/test">T20</span>,<span title = "RTL-gpio_all_i_pd_user/simv/test">T21</span></td>
+</tr><tr>
+<td>bin21_en</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl" nowrap><span title = "RTL-gpio_all_i/simv/test">T19</span>,<span title = "RTL-gpio_all_i_pd/simv/test">T20</span>,<span title = "RTL-gpio_all_i_pd_user/simv/test">T21</span></td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl" nowrap><span title = "RTL-bitbang_cpu_all_i/simv/test">T11</span>,<span title = "RTL-bitbang_no_cpu_all_i/simv/test">T13</span>,<span title = "RTL-bitbang_spi_i/simv/test">T23</span></td>
+</tr><tr>
+<td>bin22</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl" nowrap><span title = "RTL-bitbang_cpu_all_i/simv/test">T11</span>,<span title = "RTL-bitbang_spi_i/simv/test">T23</span>,<span title = "RTL-gpio_all_bidir_user/simv/test">T25</span></td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl" nowrap><span title = "RTL-bitbang_cpu_all_i/simv/test">T11</span>,<span title = "RTL-bitbang_spi_i/simv/test">T23</span>,<span title = "RTL-gpio_all_bidir_user/simv/test">T25</span></td>
+</tr><tr>
+<td>bin22_en</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl" nowrap><span title = "RTL-gpio_all_i/simv/test">T19</span>,<span title = "RTL-gpio_all_i_pd/simv/test">T20</span>,<span title = "RTL-gpio_all_i_pd_user/simv/test">T21</span></td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl" nowrap><span title = "RTL-bitbang_cpu_all_i/simv/test">T11</span>,<span title = "RTL-bitbang_no_cpu_all_i/simv/test">T13</span>,<span title = "RTL-bitbang_spi_i/simv/test">T23</span></td>
+</tr><tr>
+<td>bin23</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl" nowrap><span title = "RTL-bitbang_cpu_all_i/simv/test">T11</span>,<span title = "RTL-bitbang_spi_i/simv/test">T23</span>,<span title = "RTL-gpio_all_bidir_user/simv/test">T25</span></td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl" nowrap><span title = "RTL-bitbang_cpu_all_i/simv/test">T11</span>,<span title = "RTL-bitbang_spi_i/simv/test">T23</span>,<span title = "RTL-gpio_all_bidir_user/simv/test">T25</span></td>
+</tr><tr>
+<td>bin23_en</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl" nowrap><span title = "RTL-gpio_all_i/simv/test">T19</span>,<span title = "RTL-gpio_all_i_pd/simv/test">T20</span>,<span title = "RTL-gpio_all_i_pd_user/simv/test">T21</span></td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl" nowrap><span title = "RTL-bitbang_cpu_all_i/simv/test">T11</span>,<span title = "RTL-bitbang_no_cpu_all_i/simv/test">T13</span>,<span title = "RTL-bitbang_spi_i/simv/test">T23</span></td>
+</tr><tr>
+<td>bin24</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl" nowrap><span title = "RTL-gpio_all_bidir_user/simv/test">T25</span>,<span title = "RTL-gpio_all_i/simv/test">T19</span>,<span title = "RTL-gpio_all_i_pd/simv/test">T20</span></td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl" nowrap><span title = "RTL-gpio_all_bidir_user/simv/test">T25</span>,<span title = "RTL-gpio_all_i/simv/test">T19</span>,<span title = "RTL-gpio_all_i_pd/simv/test">T20</span></td>
+</tr><tr>
+<td>bin24_en</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl" nowrap><span title = "RTL-gpio_all_i/simv/test">T19</span>,<span title = "RTL-gpio_all_i_pd/simv/test">T20</span>,<span title = "RTL-gpio_all_i_pd_user/simv/test">T21</span></td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl" nowrap><span title = "RTL-bitbang_cpu_all_i/simv/test">T11</span>,<span title = "RTL-bitbang_no_cpu_all_i/simv/test">T13</span>,<span title = "RTL-bitbang_spi_i/simv/test">T23</span></td>
+</tr><tr>
+<td>bin25</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl" nowrap><span title = "RTL-bitbang_cpu_all_i/simv/test">T11</span>,<span title = "RTL-bitbang_spi_i/simv/test">T23</span>,<span title = "RTL-gpio_all_bidir_user/simv/test">T25</span></td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl" nowrap><span title = "RTL-gpio_all_bidir_user/simv/test">T25</span>,<span title = "RTL-gpio_all_i_pd/simv/test">T20</span>,<span title = "RTL-gpio_all_i_pd_user/simv/test">T21</span></td>
+</tr><tr>
+<td>bin25_en</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl" nowrap><span title = "RTL-gpio_all_i/simv/test">T19</span>,<span title = "RTL-gpio_all_i_pd/simv/test">T20</span>,<span title = "RTL-gpio_all_i_pd_user/simv/test">T21</span></td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl" nowrap><span title = "RTL-bitbang_cpu_all_i/simv/test">T11</span>,<span title = "RTL-bitbang_no_cpu_all_i/simv/test">T13</span>,<span title = "RTL-bitbang_spi_i/simv/test">T23</span></td>
+</tr><tr>
+<td>bin26</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl" nowrap><span title = "RTL-bitbang_cpu_all_i/simv/test">T11</span>,<span title = "RTL-bitbang_spi_i/simv/test">T23</span>,<span title = "RTL-gpio_all_bidir_user/simv/test">T25</span></td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl" nowrap><span title = "RTL-gpio_all_bidir_user/simv/test">T25</span>,<span title = "RTL-gpio_all_i/simv/test">T19</span>,<span title = "RTL-gpio_all_i_pd/simv/test">T20</span></td>
+</tr><tr>
+<td>bin26_en</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl" nowrap><span title = "RTL-gpio_all_i/simv/test">T19</span>,<span title = "RTL-gpio_all_i_pd/simv/test">T20</span>,<span title = "RTL-gpio_all_i_pd_user/simv/test">T21</span></td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl" nowrap><span title = "RTL-bitbang_cpu_all_i/simv/test">T11</span>,<span title = "RTL-bitbang_no_cpu_all_i/simv/test">T13</span>,<span title = "RTL-bitbang_spi_i/simv/test">T23</span></td>
+</tr><tr>
+<td>bin27</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl" nowrap><span title = "RTL-gpio_all_bidir_user/simv/test">T25</span>,<span title = "RTL-gpio_all_i/simv/test">T19</span>,<span title = "RTL-gpio_all_i_pd/simv/test">T20</span></td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl" nowrap><span title = "RTL-gpio_all_bidir_user/simv/test">T25</span>,<span title = "RTL-gpio_all_i_pd/simv/test">T20</span>,<span title = "RTL-gpio_all_i_pd_user/simv/test">T21</span></td>
+</tr><tr>
+<td>bin27_en</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl" nowrap><span title = "RTL-gpio_all_i/simv/test">T19</span>,<span title = "RTL-gpio_all_i_pd/simv/test">T20</span>,<span title = "RTL-gpio_all_i_pd_user/simv/test">T21</span></td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl" nowrap><span title = "RTL-bitbang_cpu_all_i/simv/test">T11</span>,<span title = "RTL-bitbang_no_cpu_all_i/simv/test">T13</span>,<span title = "RTL-bitbang_spi_i/simv/test">T23</span></td>
+</tr><tr>
+<td>bin28</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl" nowrap><span title = "RTL-bitbang_cpu_all_i/simv/test">T11</span>,<span title = "RTL-bitbang_spi_i/simv/test">T23</span>,<span title = "RTL-gpio_all_bidir_user/simv/test">T25</span></td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl" nowrap><span title = "RTL-bitbang_cpu_all_i/simv/test">T11</span>,<span title = "RTL-bitbang_spi_i/simv/test">T23</span>,<span title = "RTL-gpio_all_bidir_user/simv/test">T25</span></td>
+</tr><tr>
+<td>bin28_en</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl" nowrap><span title = "RTL-gpio_all_i/simv/test">T19</span>,<span title = "RTL-gpio_all_i_pd/simv/test">T20</span>,<span title = "RTL-gpio_all_i_pd_user/simv/test">T21</span></td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl" nowrap><span title = "RTL-bitbang_cpu_all_i/simv/test">T11</span>,<span title = "RTL-bitbang_no_cpu_all_i/simv/test">T13</span>,<span title = "RTL-bitbang_spi_i/simv/test">T23</span></td>
+</tr><tr>
+<td>bin29</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl" nowrap><span title = "RTL-bitbang_cpu_all_i/simv/test">T11</span>,<span title = "RTL-bitbang_spi_i/simv/test">T23</span>,<span title = "RTL-gpio_all_bidir_user/simv/test">T25</span></td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl" nowrap><span title = "RTL-bitbang_cpu_all_i/simv/test">T11</span>,<span title = "RTL-bitbang_spi_i/simv/test">T23</span>,<span title = "RTL-gpio_all_bidir_user/simv/test">T25</span></td>
+</tr><tr>
+<td>bin29_en</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl" nowrap><span title = "RTL-gpio_all_i/simv/test">T19</span>,<span title = "RTL-gpio_all_i_pd/simv/test">T20</span>,<span title = "RTL-gpio_all_i_pd_user/simv/test">T21</span></td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl" nowrap><span title = "RTL-bitbang_cpu_all_i/simv/test">T11</span>,<span title = "RTL-bitbang_no_cpu_all_i/simv/test">T13</span>,<span title = "RTL-bitbang_spi_i/simv/test">T23</span></td>
+</tr><tr>
+<td>bin30</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl" nowrap><span title = "RTL-gpio_all_bidir_user/simv/test">T25</span>,<span title = "RTL-gpio_all_i/simv/test">T19</span>,<span title = "RTL-gpio_all_i_pd/simv/test">T20</span></td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl" nowrap><span title = "RTL-bitbang_cpu_all_i/simv/test">T11</span>,<span title = "RTL-bitbang_spi_i/simv/test">T23</span>,<span title = "RTL-gpio_all_bidir_user/simv/test">T25</span></td>
+</tr><tr>
+<td>bin30_en</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl" nowrap><span title = "RTL-gpio_all_i/simv/test">T19</span>,<span title = "RTL-gpio_all_i_pd/simv/test">T20</span>,<span title = "RTL-gpio_all_i_pd_user/simv/test">T21</span></td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl" nowrap><span title = "RTL-bitbang_cpu_all_i/simv/test">T11</span>,<span title = "RTL-bitbang_no_cpu_all_i/simv/test">T13</span>,<span title = "RTL-bitbang_spi_i/simv/test">T23</span></td>
+</tr><tr>
+<td>bin31</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl" nowrap><span title = "RTL-gpio_all_bidir_user/simv/test">T25</span>,<span title = "RTL-gpio_all_i/simv/test">T19</span>,<span title = "RTL-gpio_all_i_pd/simv/test">T20</span></td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl" nowrap><span title = "RTL-gpio_all_bidir_user/simv/test">T25</span>,<span title = "RTL-gpio_all_i_pd/simv/test">T20</span>,<span title = "RTL-gpio_all_i_pd_user/simv/test">T21</span></td>
+</tr><tr>
+<td>bin31_en</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl" nowrap><span title = "RTL-gpio_all_i/simv/test">T19</span>,<span title = "RTL-gpio_all_i_pd/simv/test">T20</span>,<span title = "RTL-gpio_all_i_pd_user/simv/test">T21</span></td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl" nowrap><span title = "RTL-bitbang_cpu_all_i/simv/test">T11</span>,<span title = "RTL-bitbang_no_cpu_all_i/simv/test">T13</span>,<span title = "RTL-bitbang_spi_i/simv/test">T23</span></td>
+</tr><tr>
+<td>bin32</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl" nowrap><span title = "RTL-bitbang_cpu_all_i/simv/test">T11</span>,<span title = "RTL-bitbang_spi_i/simv/test">T23</span>,<span title = "RTL-gpio_all_bidir_user/simv/test">T25</span></td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl" nowrap><span title = "RTL-bitbang_cpu_all_i/simv/test">T11</span>,<span title = "RTL-bitbang_spi_i/simv/test">T23</span>,<span title = "RTL-gpio_all_bidir_user/simv/test">T25</span></td>
+</tr><tr>
+<td>bin32_en</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl" nowrap><span title = "RTL-gpio_all_i/simv/test">T19</span>,<span title = "RTL-gpio_all_i_pd/simv/test">T20</span>,<span title = "RTL-gpio_all_i_pd_user/simv/test">T21</span></td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl" nowrap><span title = "RTL-bitbang_cpu_all_i/simv/test">T11</span>,<span title = "RTL-bitbang_spi_i/simv/test">T23</span>,<span title = "RTL-gpio_all_bidir_user/simv/test">T25</span></td>
+</tr><tr>
+<td>bin33</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl" nowrap><span title = "RTL-bitbang_cpu_all_i/simv/test">T11</span>,<span title = "RTL-bitbang_spi_i/simv/test">T23</span>,<span title = "RTL-gpio_all_bidir_user/simv/test">T25</span></td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl" nowrap><span title = "RTL-bitbang_cpu_all_i/simv/test">T11</span>,<span title = "RTL-bitbang_spi_i/simv/test">T23</span>,<span title = "RTL-gpio_all_bidir_user/simv/test">T25</span></td>
+</tr><tr>
+<td>bin33_en</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl" nowrap><span title = "RTL-gpio_all_i/simv/test">T19</span>,<span title = "RTL-gpio_all_i_pd/simv/test">T20</span>,<span title = "RTL-gpio_all_i_pd_user/simv/test">T21</span></td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl" nowrap><span title = "RTL-bitbang_cpu_all_i/simv/test">T11</span>,<span title = "RTL-bitbang_spi_i/simv/test">T23</span>,<span title = "RTL-gpio_all_bidir_user/simv/test">T25</span></td>
+</tr><tr>
+<td>bin34</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl" nowrap><span title = "RTL-bitbang_cpu_all_i/simv/test">T11</span>,<span title = "RTL-bitbang_spi_i/simv/test">T23</span>,<span title = "RTL-gpio_all_bidir_user/simv/test">T25</span></td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl" nowrap><span title = "RTL-bitbang_cpu_all_i/simv/test">T11</span>,<span title = "RTL-bitbang_spi_i/simv/test">T23</span>,<span title = "RTL-gpio_all_bidir_user/simv/test">T25</span></td>
+</tr><tr>
+<td>bin34_en</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl" nowrap><span title = "RTL-gpio_all_i/simv/test">T19</span>,<span title = "RTL-gpio_all_i_pd/simv/test">T20</span>,<span title = "RTL-gpio_all_i_pd_user/simv/test">T21</span></td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl" nowrap><span title = "RTL-bitbang_cpu_all_i/simv/test">T11</span>,<span title = "RTL-bitbang_spi_i/simv/test">T23</span>,<span title = "RTL-gpio_all_bidir_user/simv/test">T25</span></td>
+</tr><tr>
+<td>bin35</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl" nowrap><span title = "RTL-bitbang_cpu_all_i/simv/test">T11</span>,<span title = "RTL-bitbang_spi_i/simv/test">T23</span>,<span title = "RTL-gpio_all_bidir_user/simv/test">T25</span></td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl" nowrap><span title = "RTL-bitbang_cpu_all_i/simv/test">T11</span>,<span title = "RTL-bitbang_spi_i/simv/test">T23</span>,<span title = "RTL-gpio_all_bidir_user/simv/test">T25</span></td>
+</tr><tr>
+<td>bin35_en</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl" nowrap><span title = "RTL-gpio_all_i/simv/test">T19</span>,<span title = "RTL-gpio_all_i_pd/simv/test">T20</span>,<span title = "RTL-gpio_all_i_pd_user/simv/test">T21</span></td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl" nowrap><span title = "RTL-bitbang_cpu_all_i/simv/test">T11</span>,<span title = "RTL-bitbang_spi_i/simv/test">T23</span>,<span title = "RTL-gpio_all_bidir_user/simv/test">T25</span></td>
+</tr><tr>
+<td>bin36</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl" nowrap><span title = "RTL-bitbang_cpu_all_i/simv/test">T11</span>,<span title = "RTL-bitbang_spi_i/simv/test">T23</span>,<span title = "RTL-gpio_all_bidir_user/simv/test">T25</span></td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl" nowrap><span title = "RTL-bitbang_cpu_all_i/simv/test">T11</span>,<span title = "RTL-bitbang_spi_i/simv/test">T23</span>,<span title = "RTL-gpio_all_bidir_user/simv/test">T25</span></td>
+</tr><tr>
+<td>bin36_en</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl" nowrap><span title = "RTL-gpio_all_i/simv/test">T19</span>,<span title = "RTL-gpio_all_i_pd/simv/test">T20</span>,<span title = "RTL-gpio_all_i_pd_user/simv/test">T21</span></td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl" nowrap><span title = "RTL-bitbang_cpu_all_i/simv/test">T11</span>,<span title = "RTL-bitbang_spi_i/simv/test">T23</span>,<span title = "RTL-gpio_all_bidir_user/simv/test">T25</span></td>
+</tr><tr>
+<td>bin37</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl" nowrap><span title = "RTL-bitbang_cpu_all_i/simv/test">T11</span>,<span title = "RTL-bitbang_spi_i/simv/test">T23</span>,<span title = "RTL-gpio_all_bidir_user/simv/test">T25</span></td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl" nowrap><span title = "RTL-bitbang_cpu_all_i/simv/test">T11</span>,<span title = "RTL-bitbang_spi_i/simv/test">T23</span>,<span title = "RTL-gpio_all_bidir_user/simv/test">T25</span></td>
+</tr><tr>
+<td>bin37_en</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl" nowrap><span title = "RTL-gpio_all_i/simv/test">T19</span>,<span title = "RTL-gpio_all_i_pd/simv/test">T20</span>,<span title = "RTL-gpio_all_i_pd_user/simv/test">T21</span></td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl" nowrap><span title = "RTL-bitbang_cpu_all_i/simv/test">T11</span>,<span title = "RTL-bitbang_spi_i/simv/test">T23</span>,<span title = "RTL-gpio_all_bidir_user/simv/test">T25</span></td>
+</tr><tr>
+<td>bin0_monitor</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl" nowrap><span title = "RTL-bitbang_cpu_all_i/simv/test">T11</span>,<span title = "RTL-bitbang_cpu_all_o/simv/test">T12</span>,<span title = "RTL-bitbang_spi_i/simv/test">T23</span></td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl" nowrap><span title = "RTL-bitbang_cpu_all_o/simv/test">T12</span>,<span title = "RTL-bitbang_spi_o/simv/test">T15</span>,<span title = "RTL-gpio_all_bidir_user/simv/test">T25</span></td>
+</tr><tr>
+<td>bin1_monitor</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl" nowrap><span title = "RTL-bitbang_cpu_all_o/simv/test">T12</span>,<span title = "RTL-bitbang_spi_o/simv/test">T15</span>,<span title = "RTL-gpio_all_bidir_user/simv/test">T25</span></td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl" nowrap><span title = "RTL-bitbang_cpu_all_o/simv/test">T12</span>,<span title = "RTL-bitbang_spi_o/simv/test">T15</span>,<span title = "RTL-gpio_all_bidir_user/simv/test">T25</span></td>
+</tr><tr>
+<td>bin2_monitor</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl" nowrap><span title = "RTL-IRQ_external/simv/test">T1</span>,<span title = "RTL-bitbang_cpu_all_o/simv/test">T12</span>,<span title = "RTL-bitbang_spi_i/simv/test">T23</span></td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl" nowrap><span title = "RTL-IRQ_external/simv/test">T1</span>,<span title = "RTL-bitbang_cpu_all_i/simv/test">T11</span>,<span title = "RTL-bitbang_cpu_all_o/simv/test">T12</span></td>
+</tr><tr>
+<td>bin3_monitor</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl" nowrap><span title = "RTL-IRQ_external/simv/test">T1</span>,<span title = "RTL-bitbang_cpu_all_i/simv/test">T11</span>,<span title = "RTL-bitbang_cpu_all_o/simv/test">T12</span></td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl" nowrap><span title = "RTL-IRQ_external/simv/test">T1</span>,<span title = "RTL-bitbang_cpu_all_o/simv/test">T12</span>,<span title = "RTL-bitbang_spi_i/simv/test">T23</span></td>
+</tr><tr>
+<td>bin4_monitor</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl" nowrap><span title = "RTL-IRQ_external/simv/test">T1</span>,<span title = "RTL-bitbang_cpu_all_i/simv/test">T11</span>,<span title = "RTL-bitbang_cpu_all_o/simv/test">T12</span></td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl" nowrap><span title = "RTL-IRQ_external/simv/test">T1</span>,<span title = "RTL-bitbang_cpu_all_i/simv/test">T11</span>,<span title = "RTL-bitbang_cpu_all_o/simv/test">T12</span></td>
+</tr><tr>
+<td>bin5_monitor</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl" nowrap><span title = "RTL-bitbang_cpu_all_i/simv/test">T11</span>,<span title = "RTL-bitbang_cpu_all_o/simv/test">T12</span>,<span title = "RTL-bitbang_no_cpu_all_o/simv/test">T14</span></td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl" nowrap><span title = "RTL-bitbang_cpu_all_o/simv/test">T12</span>,<span title = "RTL-bitbang_no_cpu_all_o/simv/test">T14</span>,<span title = "RTL-bitbang_spi_o/simv/test">T15</span></td>
+</tr><tr>
+<td>bin6_monitor</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl" nowrap><span title = "RTL-IRQ_uart/simv/test">T3</span>,<span title = "RTL-bitbang_cpu_all_o/simv/test">T12</span>,<span title = "RTL-bitbang_no_cpu_all_o/simv/test">T14</span></td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl" nowrap><span title = "RTL-IRQ_uart/simv/test">T3</span>,<span title = "RTL-bitbang_cpu_all_o/simv/test">T12</span>,<span title = "RTL-bitbang_no_cpu_all_o/simv/test">T14</span></td>
+</tr><tr>
+<td>bin7_monitor</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl" nowrap><span title = "RTL-IRQ_external/simv/test">T1</span>,<span title = "RTL-bitbang_cpu_all_o/simv/test">T12</span>,<span title = "RTL-bitbang_no_cpu_all_o/simv/test">T14</span></td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl" nowrap><span title = "RTL-IRQ_external/simv/test">T1</span>,<span title = "RTL-bitbang_cpu_all_o/simv/test">T12</span>,<span title = "RTL-bitbang_no_cpu_all_o/simv/test">T14</span></td>
+</tr><tr>
+<td>bin8_monitor</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl" nowrap><span title = "RTL-bitbang_cpu_all_i/simv/test">T11</span>,<span title = "RTL-bitbang_cpu_all_o/simv/test">T12</span>,<span title = "RTL-bitbang_no_cpu_all_o/simv/test">T14</span></td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl" nowrap><span title = "RTL-bitbang_cpu_all_i/simv/test">T11</span>,<span title = "RTL-bitbang_cpu_all_o/simv/test">T12</span>,<span title = "RTL-bitbang_no_cpu_all_o/simv/test">T14</span></td>
+</tr><tr>
+<td>bin9_monitor</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl" nowrap><span title = "RTL-bitbang_cpu_all_o/simv/test">T12</span>,<span title = "RTL-bitbang_no_cpu_all_o/simv/test">T14</span>,<span title = "RTL-bitbang_spi_o/simv/test">T15</span></td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl" nowrap><span title = "RTL-bitbang_cpu_all_i/simv/test">T11</span>,<span title = "RTL-bitbang_cpu_all_o/simv/test">T12</span>,<span title = "RTL-bitbang_no_cpu_all_o/simv/test">T14</span></td>
+</tr><tr>
+<td>bin10_monitor</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl" nowrap><span title = "RTL-bitbang_cpu_all_i/simv/test">T11</span>,<span title = "RTL-bitbang_cpu_all_o/simv/test">T12</span>,<span title = "RTL-bitbang_no_cpu_all_o/simv/test">T14</span></td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl" nowrap><span title = "RTL-bitbang_cpu_all_o/simv/test">T12</span>,<span title = "RTL-bitbang_no_cpu_all_o/simv/test">T14</span>,<span title = "RTL-bitbang_spi_o/simv/test">T15</span></td>
+</tr><tr>
+<td>bin11_monitor</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl" nowrap><span title = "RTL-bitbang_cpu_all_i/simv/test">T11</span>,<span title = "RTL-bitbang_cpu_all_o/simv/test">T12</span>,<span title = "RTL-bitbang_no_cpu_all_o/simv/test">T14</span></td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl" nowrap><span title = "RTL-bitbang_cpu_all_o/simv/test">T12</span>,<span title = "RTL-bitbang_no_cpu_all_o/simv/test">T14</span>,<span title = "RTL-bitbang_spi_o/simv/test">T15</span></td>
+</tr><tr>
+<td>bin12_monitor</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl" nowrap><span title = "RTL-bitbang_cpu_all_i/simv/test">T11</span>,<span title = "RTL-bitbang_cpu_all_o/simv/test">T12</span>,<span title = "RTL-bitbang_no_cpu_all_o/simv/test">T14</span></td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl" nowrap><span title = "RTL-bitbang_cpu_all_o/simv/test">T12</span>,<span title = "RTL-bitbang_no_cpu_all_o/simv/test">T14</span>,<span title = "RTL-bitbang_spi_o/simv/test">T15</span></td>
+</tr><tr>
+<td>bin13_monitor</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl" nowrap><span title = "RTL-bitbang_cpu_all_i/simv/test">T11</span>,<span title = "RTL-bitbang_cpu_all_o/simv/test">T12</span>,<span title = "RTL-bitbang_no_cpu_all_o/simv/test">T14</span></td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl" nowrap><span title = "RTL-bitbang_cpu_all_i/simv/test">T11</span>,<span title = "RTL-bitbang_cpu_all_o/simv/test">T12</span>,<span title = "RTL-bitbang_no_cpu_all_o/simv/test">T14</span></td>
+</tr><tr>
+<td>bin14_monitor</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl" nowrap><span title = "RTL-bitbang_cpu_all_i/simv/test">T11</span>,<span title = "RTL-bitbang_cpu_all_o/simv/test">T12</span>,<span title = "RTL-bitbang_no_cpu_all_o/simv/test">T14</span></td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl" nowrap><span title = "RTL-bitbang_cpu_all_i/simv/test">T11</span>,<span title = "RTL-bitbang_cpu_all_o/simv/test">T12</span>,<span title = "RTL-bitbang_no_cpu_all_o/simv/test">T14</span></td>
+</tr><tr>
+<td>bin15_monitor</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl" nowrap><span title = "RTL-bitbang_cpu_all_i/simv/test">T11</span>,<span title = "RTL-bitbang_cpu_all_o/simv/test">T12</span>,<span title = "RTL-bitbang_no_cpu_all_o/simv/test">T14</span></td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl" nowrap><span title = "RTL-bitbang_cpu_all_o/simv/test">T12</span>,<span title = "RTL-bitbang_no_cpu_all_o/simv/test">T14</span>,<span title = "RTL-bitbang_spi_o/simv/test">T15</span></td>
+</tr><tr>
+<td>bin16_monitor</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl" nowrap><span title = "RTL-bitbang_cpu_all_o/simv/test">T12</span>,<span title = "RTL-bitbang_no_cpu_all_o/simv/test">T14</span>,<span title = "RTL-bitbang_spi_o/simv/test">T15</span></td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl" nowrap><span title = "RTL-bitbang_cpu_all_i/simv/test">T11</span>,<span title = "RTL-bitbang_cpu_all_o/simv/test">T12</span>,<span title = "RTL-bitbang_no_cpu_all_o/simv/test">T14</span></td>
+</tr><tr>
+<td>bin17_monitor</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl" nowrap><span title = "RTL-bitbang_cpu_all_i/simv/test">T11</span>,<span title = "RTL-bitbang_cpu_all_o/simv/test">T12</span>,<span title = "RTL-bitbang_no_cpu_all_o/simv/test">T14</span></td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl" nowrap><span title = "RTL-bitbang_cpu_all_i/simv/test">T11</span>,<span title = "RTL-bitbang_cpu_all_o/simv/test">T12</span>,<span title = "RTL-bitbang_no_cpu_all_o/simv/test">T14</span></td>
+</tr><tr>
+<td>bin18_monitor</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl" nowrap><span title = "RTL-bitbang_cpu_all_i/simv/test">T11</span>,<span title = "RTL-bitbang_cpu_all_o/simv/test">T12</span>,<span title = "RTL-bitbang_no_cpu_all_o/simv/test">T14</span></td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl" nowrap><span title = "RTL-bitbang_cpu_all_o/simv/test">T12</span>,<span title = "RTL-bitbang_no_cpu_all_o/simv/test">T14</span>,<span title = "RTL-bitbang_spi_o/simv/test">T15</span></td>
+</tr><tr>
+<td>bin19_monitor</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl" nowrap><span title = "RTL-bitbang_cpu_all_i/simv/test">T11</span>,<span title = "RTL-bitbang_cpu_all_o/simv/test">T12</span>,<span title = "RTL-bitbang_no_cpu_all_o/simv/test">T14</span></td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl" nowrap><span title = "RTL-bitbang_cpu_all_i/simv/test">T11</span>,<span title = "RTL-bitbang_cpu_all_o/simv/test">T12</span>,<span title = "RTL-bitbang_no_cpu_all_o/simv/test">T14</span></td>
+</tr><tr>
+<td>bin20_monitor</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl" nowrap><span title = "RTL-bitbang_cpu_all_o/simv/test">T12</span>,<span title = "RTL-bitbang_no_cpu_all_o/simv/test">T14</span>,<span title = "RTL-bitbang_spi_o/simv/test">T15</span></td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl" nowrap><span title = "RTL-bitbang_cpu_all_i/simv/test">T11</span>,<span title = "RTL-bitbang_cpu_all_o/simv/test">T12</span>,<span title = "RTL-bitbang_no_cpu_all_o/simv/test">T14</span></td>
+</tr><tr>
+<td>bin21_monitor</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl" nowrap><span title = "RTL-bitbang_cpu_all_i/simv/test">T11</span>,<span title = "RTL-bitbang_cpu_all_o/simv/test">T12</span>,<span title = "RTL-bitbang_no_cpu_all_o/simv/test">T14</span></td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl" nowrap><span title = "RTL-bitbang_cpu_all_o/simv/test">T12</span>,<span title = "RTL-bitbang_no_cpu_all_o/simv/test">T14</span>,<span title = "RTL-bitbang_spi_o/simv/test">T15</span></td>
+</tr><tr>
+<td>bin22_monitor</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl" nowrap><span title = "RTL-bitbang_cpu_all_i/simv/test">T11</span>,<span title = "RTL-bitbang_cpu_all_o/simv/test">T12</span>,<span title = "RTL-bitbang_no_cpu_all_o/simv/test">T14</span></td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl" nowrap><span title = "RTL-bitbang_cpu_all_i/simv/test">T11</span>,<span title = "RTL-bitbang_cpu_all_o/simv/test">T12</span>,<span title = "RTL-bitbang_no_cpu_all_o/simv/test">T14</span></td>
+</tr><tr>
+<td>bin23_monitor</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl" nowrap><span title = "RTL-bitbang_cpu_all_i/simv/test">T11</span>,<span title = "RTL-bitbang_cpu_all_o/simv/test">T12</span>,<span title = "RTL-bitbang_no_cpu_all_o/simv/test">T14</span></td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl" nowrap><span title = "RTL-bitbang_cpu_all_i/simv/test">T11</span>,<span title = "RTL-bitbang_cpu_all_o/simv/test">T12</span>,<span title = "RTL-bitbang_no_cpu_all_o/simv/test">T14</span></td>
+</tr><tr>
+<td>bin24_monitor</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl" nowrap><span title = "RTL-bitbang_cpu_all_o/simv/test">T12</span>,<span title = "RTL-bitbang_no_cpu_all_o/simv/test">T14</span>,<span title = "RTL-bitbang_spi_o/simv/test">T15</span></td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl" nowrap><span title = "RTL-bitbang_cpu_all_o/simv/test">T12</span>,<span title = "RTL-bitbang_no_cpu_all_o/simv/test">T14</span>,<span title = "RTL-bitbang_spi_o/simv/test">T15</span></td>
+</tr><tr>
+<td>bin25_monitor</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl" nowrap><span title = "RTL-bitbang_cpu_all_i/simv/test">T11</span>,<span title = "RTL-bitbang_cpu_all_o/simv/test">T12</span>,<span title = "RTL-bitbang_no_cpu_all_o/simv/test">T14</span></td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl" nowrap><span title = "RTL-bitbang_cpu_all_o/simv/test">T12</span>,<span title = "RTL-bitbang_no_cpu_all_o/simv/test">T14</span>,<span title = "RTL-bitbang_spi_o/simv/test">T15</span></td>
+</tr><tr>
+<td>bin26_monitor</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl" nowrap><span title = "RTL-bitbang_cpu_all_i/simv/test">T11</span>,<span title = "RTL-bitbang_cpu_all_o/simv/test">T12</span>,<span title = "RTL-bitbang_no_cpu_all_o/simv/test">T14</span></td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl" nowrap><span title = "RTL-bitbang_cpu_all_o/simv/test">T12</span>,<span title = "RTL-bitbang_no_cpu_all_o/simv/test">T14</span>,<span title = "RTL-bitbang_spi_o/simv/test">T15</span></td>
+</tr><tr>
+<td>bin27_monitor</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl" nowrap><span title = "RTL-bitbang_cpu_all_o/simv/test">T12</span>,<span title = "RTL-bitbang_no_cpu_all_o/simv/test">T14</span>,<span title = "RTL-bitbang_spi_o/simv/test">T15</span></td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl" nowrap><span title = "RTL-bitbang_cpu_all_o/simv/test">T12</span>,<span title = "RTL-bitbang_no_cpu_all_o/simv/test">T14</span>,<span title = "RTL-bitbang_spi_o/simv/test">T15</span></td>
+</tr><tr>
+<td>bin28_monitor</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl" nowrap><span title = "RTL-bitbang_cpu_all_i/simv/test">T11</span>,<span title = "RTL-bitbang_cpu_all_o/simv/test">T12</span>,<span title = "RTL-bitbang_no_cpu_all_o/simv/test">T14</span></td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl" nowrap><span title = "RTL-bitbang_cpu_all_i/simv/test">T11</span>,<span title = "RTL-bitbang_cpu_all_o/simv/test">T12</span>,<span title = "RTL-bitbang_no_cpu_all_o/simv/test">T14</span></td>
+</tr><tr>
+<td>bin29_monitor</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl" nowrap><span title = "RTL-bitbang_cpu_all_i/simv/test">T11</span>,<span title = "RTL-bitbang_cpu_all_o/simv/test">T12</span>,<span title = "RTL-bitbang_no_cpu_all_o/simv/test">T14</span></td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl" nowrap><span title = "RTL-bitbang_cpu_all_i/simv/test">T11</span>,<span title = "RTL-bitbang_cpu_all_o/simv/test">T12</span>,<span title = "RTL-bitbang_no_cpu_all_o/simv/test">T14</span></td>
+</tr><tr>
+<td>bin30_monitor</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl" nowrap><span title = "RTL-bitbang_cpu_all_o/simv/test">T12</span>,<span title = "RTL-bitbang_no_cpu_all_o/simv/test">T14</span>,<span title = "RTL-bitbang_spi_o/simv/test">T15</span></td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl" nowrap><span title = "RTL-bitbang_cpu_all_i/simv/test">T11</span>,<span title = "RTL-bitbang_cpu_all_o/simv/test">T12</span>,<span title = "RTL-bitbang_no_cpu_all_o/simv/test">T14</span></td>
+</tr><tr>
+<td>bin31_monitor</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl" nowrap><span title = "RTL-bitbang_cpu_all_o/simv/test">T12</span>,<span title = "RTL-bitbang_no_cpu_all_o/simv/test">T14</span>,<span title = "RTL-bitbang_spi_o/simv/test">T15</span></td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl" nowrap><span title = "RTL-bitbang_cpu_all_o/simv/test">T12</span>,<span title = "RTL-bitbang_no_cpu_all_o/simv/test">T14</span>,<span title = "RTL-bitbang_spi_o/simv/test">T15</span></td>
+</tr><tr>
+<td>bin32_monitor</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl" nowrap><span title = "RTL-bitbang_cpu_all_i/simv/test">T11</span>,<span title = "RTL-bitbang_cpu_all_o/simv/test">T12</span>,<span title = "RTL-bitbang_no_cpu_all_o/simv/test">T14</span></td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl" nowrap><span title = "RTL-bitbang_cpu_all_i/simv/test">T11</span>,<span title = "RTL-bitbang_cpu_all_o/simv/test">T12</span>,<span title = "RTL-bitbang_no_cpu_all_o/simv/test">T14</span></td>
+</tr><tr>
+<td>bin33_monitor</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl" nowrap><span title = "RTL-bitbang_cpu_all_i/simv/test">T11</span>,<span title = "RTL-bitbang_cpu_all_o/simv/test">T12</span>,<span title = "RTL-bitbang_no_cpu_all_o/simv/test">T14</span></td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl" nowrap><span title = "RTL-bitbang_cpu_all_i/simv/test">T11</span>,<span title = "RTL-bitbang_cpu_all_o/simv/test">T12</span>,<span title = "RTL-bitbang_no_cpu_all_o/simv/test">T14</span></td>
+</tr><tr>
+<td>bin34_monitor</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl" nowrap><span title = "RTL-bitbang_cpu_all_i/simv/test">T11</span>,<span title = "RTL-bitbang_cpu_all_o/simv/test">T12</span>,<span title = "RTL-bitbang_no_cpu_all_o/simv/test">T14</span></td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl" nowrap><span title = "RTL-bitbang_cpu_all_i/simv/test">T11</span>,<span title = "RTL-bitbang_cpu_all_o/simv/test">T12</span>,<span title = "RTL-bitbang_no_cpu_all_o/simv/test">T14</span></td>
+</tr><tr>
+<td>bin35_monitor</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl" nowrap><span title = "RTL-bitbang_cpu_all_i/simv/test">T11</span>,<span title = "RTL-bitbang_cpu_all_o/simv/test">T12</span>,<span title = "RTL-bitbang_no_cpu_all_o/simv/test">T14</span></td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl" nowrap><span title = "RTL-bitbang_cpu_all_i/simv/test">T11</span>,<span title = "RTL-bitbang_cpu_all_o/simv/test">T12</span>,<span title = "RTL-bitbang_no_cpu_all_o/simv/test">T14</span></td>
+</tr><tr>
+<td>bin36_monitor</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl" nowrap><span title = "RTL-bitbang_cpu_all_i/simv/test">T11</span>,<span title = "RTL-bitbang_cpu_all_o/simv/test">T12</span>,<span title = "RTL-bitbang_no_cpu_all_o/simv/test">T14</span></td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl" nowrap><span title = "RTL-bitbang_cpu_all_i/simv/test">T11</span>,<span title = "RTL-bitbang_cpu_all_o/simv/test">T12</span>,<span title = "RTL-bitbang_no_cpu_all_o/simv/test">T14</span></td>
+</tr><tr>
+<td>bin37_monitor</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl" nowrap><span title = "RTL-bitbang_cpu_all_i/simv/test">T11</span>,<span title = "RTL-bitbang_cpu_all_o/simv/test">T12</span>,<span title = "RTL-bitbang_no_cpu_all_o/simv/test">T14</span></td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl" nowrap><span title = "RTL-bitbang_cpu_all_i/simv/test">T11</span>,<span title = "RTL-bitbang_cpu_all_o/simv/test">T12</span>,<span title = "RTL-bitbang_no_cpu_all_o/simv/test">T14</span></td>
+</tr></table><br clear=all>
+<hr>
+<a name="Branch"></a>
+Branch Coverage for Module : <a href="mod55.html" >caravel_top</a><br clear=all>
+<table align=left class="noborder">
+<tr>
+<th nowrap width=120></th><th nowrap width=80>Line No.</th><th nowrap width=80>Total</th><th nowrap width=80>Covered</th><th nowrap width=80>Percent</th></tr><tr class="s10">
+<td>Branches</td>
+<td></td>
+<td class="rt">76</td>
+<td class="rt">76</td>
+<td class="rt">100.00</td>
+</tr><tr class="s10">
+<td>TERNARY</td>
+<td class="rt">210</td>
+<td class="rt">2</td>
+<td class="rt">2</td>
+<td class="rt">100.00</td>
+</tr><tr class="s10">
+<td>TERNARY</td>
+<td class="rt">211</td>
+<td class="rt">2</td>
+<td class="rt">2</td>
+<td class="rt">100.00</td>
+</tr><tr class="s10">
+<td>TERNARY</td>
+<td class="rt">212</td>
+<td class="rt">2</td>
+<td class="rt">2</td>
+<td class="rt">100.00</td>
+</tr><tr class="s10">
+<td>TERNARY</td>
+<td class="rt">213</td>
+<td class="rt">2</td>
+<td class="rt">2</td>
+<td class="rt">100.00</td>
+</tr><tr class="s10">
+<td>TERNARY</td>
+<td class="rt">214</td>
+<td class="rt">2</td>
+<td class="rt">2</td>
+<td class="rt">100.00</td>
+</tr><tr class="s10">
+<td>TERNARY</td>
+<td class="rt">216</td>
+<td class="rt">2</td>
+<td class="rt">2</td>
+<td class="rt">100.00</td>
+</tr><tr class="s10">
+<td>TERNARY</td>
+<td class="rt">217</td>
+<td class="rt">2</td>
+<td class="rt">2</td>
+<td class="rt">100.00</td>
+</tr><tr class="s10">
+<td>TERNARY</td>
+<td class="rt">218</td>
+<td class="rt">2</td>
+<td class="rt">2</td>
+<td class="rt">100.00</td>
+</tr><tr class="s10">
+<td>TERNARY</td>
+<td class="rt">219</td>
+<td class="rt">2</td>
+<td class="rt">2</td>
+<td class="rt">100.00</td>
+</tr><tr class="s10">
+<td>TERNARY</td>
+<td class="rt">220</td>
+<td class="rt">2</td>
+<td class="rt">2</td>
+<td class="rt">100.00</td>
+</tr><tr class="s10">
+<td>TERNARY</td>
+<td class="rt">222</td>
+<td class="rt">2</td>
+<td class="rt">2</td>
+<td class="rt">100.00</td>
+</tr><tr class="s10">
+<td>TERNARY</td>
+<td class="rt">223</td>
+<td class="rt">2</td>
+<td class="rt">2</td>
+<td class="rt">100.00</td>
+</tr><tr class="s10">
+<td>TERNARY</td>
+<td class="rt">224</td>
+<td class="rt">2</td>
+<td class="rt">2</td>
+<td class="rt">100.00</td>
+</tr><tr class="s10">
+<td>TERNARY</td>
+<td class="rt">225</td>
+<td class="rt">2</td>
+<td class="rt">2</td>
+<td class="rt">100.00</td>
+</tr><tr class="s10">
+<td>TERNARY</td>
+<td class="rt">226</td>
+<td class="rt">2</td>
+<td class="rt">2</td>
+<td class="rt">100.00</td>
+</tr><tr class="s10">
+<td>TERNARY</td>
+<td class="rt">228</td>
+<td class="rt">2</td>
+<td class="rt">2</td>
+<td class="rt">100.00</td>
+</tr><tr class="s10">
+<td>TERNARY</td>
+<td class="rt">229</td>
+<td class="rt">2</td>
+<td class="rt">2</td>
+<td class="rt">100.00</td>
+</tr><tr class="s10">
+<td>TERNARY</td>
+<td class="rt">230</td>
+<td class="rt">2</td>
+<td class="rt">2</td>
+<td class="rt">100.00</td>
+</tr><tr class="s10">
+<td>TERNARY</td>
+<td class="rt">231</td>
+<td class="rt">2</td>
+<td class="rt">2</td>
+<td class="rt">100.00</td>
+</tr><tr class="s10">
+<td>TERNARY</td>
+<td class="rt">232</td>
+<td class="rt">2</td>
+<td class="rt">2</td>
+<td class="rt">100.00</td>
+</tr><tr class="s10">
+<td>TERNARY</td>
+<td class="rt">234</td>
+<td class="rt">2</td>
+<td class="rt">2</td>
+<td class="rt">100.00</td>
+</tr><tr class="s10">
+<td>TERNARY</td>
+<td class="rt">235</td>
+<td class="rt">2</td>
+<td class="rt">2</td>
+<td class="rt">100.00</td>
+</tr><tr class="s10">
+<td>TERNARY</td>
+<td class="rt">236</td>
+<td class="rt">2</td>
+<td class="rt">2</td>
+<td class="rt">100.00</td>
+</tr><tr class="s10">
+<td>TERNARY</td>
+<td class="rt">237</td>
+<td class="rt">2</td>
+<td class="rt">2</td>
+<td class="rt">100.00</td>
+</tr><tr class="s10">
+<td>TERNARY</td>
+<td class="rt">238</td>
+<td class="rt">2</td>
+<td class="rt">2</td>
+<td class="rt">100.00</td>
+</tr><tr class="s10">
+<td>TERNARY</td>
+<td class="rt">240</td>
+<td class="rt">2</td>
+<td class="rt">2</td>
+<td class="rt">100.00</td>
+</tr><tr class="s10">
+<td>TERNARY</td>
+<td class="rt">241</td>
+<td class="rt">2</td>
+<td class="rt">2</td>
+<td class="rt">100.00</td>
+</tr><tr class="s10">
+<td>TERNARY</td>
+<td class="rt">242</td>
+<td class="rt">2</td>
+<td class="rt">2</td>
+<td class="rt">100.00</td>
+</tr><tr class="s10">
+<td>TERNARY</td>
+<td class="rt">243</td>
+<td class="rt">2</td>
+<td class="rt">2</td>
+<td class="rt">100.00</td>
+</tr><tr class="s10">
+<td>TERNARY</td>
+<td class="rt">244</td>
+<td class="rt">2</td>
+<td class="rt">2</td>
+<td class="rt">100.00</td>
+</tr><tr class="s10">
+<td>TERNARY</td>
+<td class="rt">246</td>
+<td class="rt">2</td>
+<td class="rt">2</td>
+<td class="rt">100.00</td>
+</tr><tr class="s10">
+<td>TERNARY</td>
+<td class="rt">247</td>
+<td class="rt">2</td>
+<td class="rt">2</td>
+<td class="rt">100.00</td>
+</tr><tr class="s10">
+<td>TERNARY</td>
+<td class="rt">248</td>
+<td class="rt">2</td>
+<td class="rt">2</td>
+<td class="rt">100.00</td>
+</tr><tr class="s10">
+<td>TERNARY</td>
+<td class="rt">249</td>
+<td class="rt">2</td>
+<td class="rt">2</td>
+<td class="rt">100.00</td>
+</tr><tr class="s10">
+<td>TERNARY</td>
+<td class="rt">250</td>
+<td class="rt">2</td>
+<td class="rt">2</td>
+<td class="rt">100.00</td>
+</tr><tr class="s10">
+<td>TERNARY</td>
+<td class="rt">252</td>
+<td class="rt">2</td>
+<td class="rt">2</td>
+<td class="rt">100.00</td>
+</tr><tr class="s10">
+<td>TERNARY</td>
+<td class="rt">253</td>
+<td class="rt">2</td>
+<td class="rt">2</td>
+<td class="rt">100.00</td>
+</tr><tr class="s10">
+<td>TERNARY</td>
+<td class="rt">254</td>
+<td class="rt">2</td>
+<td class="rt">2</td>
+<td class="rt">100.00</td>
+</tr></table><br clear=all>
+<pre class="code"><br clear=all>
+210        	assign mprj_io_tb[0] = (bin0_en) ? bin0 : 1'bz;
+           	                                 <font color = "green">-1-</font>  
+           	                                 <font color = "green">==></font>  
+           	                                 <font color = "green">==></font>  
+</pre>
+<br clear=all>
+<span class=repname>Branches:</span>
+<br clear=all>
+<table align=left class="noborder">
+<tr>
+<th nowrap width=80>-1-</th><th nowrap width=80>Status</th><th nowrap width=80>Tests</th></tr><tr class="uGreen">
+<td align=center>1</td>
+<td>Covered</td>
+<td nowrap><span title = "RTL-bitbang_cpu_all_i/simv/test">T11</span>,<span title = "RTL-bitbang_no_cpu_all_i/simv/test">T13</span>,<span title = "RTL-bitbang_spi_i/simv/test">T23</span></td>
+</tr><tr class="uGreen">
+<td align=center>0</td>
+<td>Covered</td>
+<td nowrap><span title = "RTL-IRQ_external/simv/test">T1</span>,<span title = "RTL-IRQ_timer/simv/test">T2</span>,<span title = "RTL-IRQ_uart/simv/test">T3</span></td>
+</tr></table><br clear=all>
+<pre class="code"><br clear=all>
+211        	assign mprj_io_tb[1] = (bin1_en) ? bin1 : 1'bz;
+           	                                 <font color = "green">-1-</font>  
+           	                                 <font color = "green">==></font>  
+           	                                 <font color = "green">==></font>  
+</pre>
+<br clear=all>
+<span class=repname>Branches:</span>
+<br clear=all>
+<table align=left class="noborder">
+<tr>
+<th nowrap width=80>-1-</th><th nowrap width=80>Status</th><th nowrap width=80>Tests</th></tr><tr class="uGreen">
+<td align=center>1</td>
+<td>Covered</td>
+<td nowrap><span title = "RTL-bitbang_cpu_all_i/simv/test">T11</span>,<span title = "RTL-bitbang_no_cpu_all_i/simv/test">T13</span>,<span title = "RTL-bitbang_spi_i/simv/test">T23</span></td>
+</tr><tr class="uGreen">
+<td align=center>0</td>
+<td>Covered</td>
+<td nowrap><span title = "RTL-IRQ_external/simv/test">T1</span>,<span title = "RTL-IRQ_timer/simv/test">T2</span>,<span title = "RTL-IRQ_uart/simv/test">T3</span></td>
+</tr></table><br clear=all>
+<pre class="code"><br clear=all>
+212        	assign mprj_io_tb[2] = (bin2_en) ? bin2 : 1'bz;
+           	                                 <font color = "green">-1-</font>  
+           	                                 <font color = "green">==></font>  
+           	                                 <font color = "green">==></font>  
+</pre>
+<br clear=all>
+<span class=repname>Branches:</span>
+<br clear=all>
+<table align=left class="noborder">
+<tr>
+<th nowrap width=80>-1-</th><th nowrap width=80>Status</th><th nowrap width=80>Tests</th></tr><tr class="uGreen">
+<td align=center>1</td>
+<td>Covered</td>
+<td nowrap><span title = "RTL-IRQ_external/simv/test">T1</span>,<span title = "RTL-bitbang_cpu_all_i/simv/test">T11</span>,<span title = "RTL-bitbang_no_cpu_all_i/simv/test">T13</span></td>
+</tr><tr class="uGreen">
+<td align=center>0</td>
+<td>Covered</td>
+<td nowrap><span title = "RTL-IRQ_external/simv/test">T1</span>,<span title = "RTL-IRQ_timer/simv/test">T2</span>,<span title = "RTL-IRQ_uart/simv/test">T3</span></td>
+</tr></table><br clear=all>
+<pre class="code"><br clear=all>
+213        	assign mprj_io_tb[3] = (bin3_en) ? bin3 : 1'bz;
+           	                                 <font color = "green">-1-</font>  
+           	                                 <font color = "green">==></font>  
+           	                                 <font color = "green">==></font>  
+</pre>
+<br clear=all>
+<span class=repname>Branches:</span>
+<br clear=all>
+<table align=left class="noborder">
+<tr>
+<th nowrap width=80>-1-</th><th nowrap width=80>Status</th><th nowrap width=80>Tests</th></tr><tr class="uGreen">
+<td align=center>1</td>
+<td>Covered</td>
+<td nowrap><span title = "RTL-IRQ_external/simv/test">T1</span>,<span title = "RTL-IRQ_timer/simv/test">T2</span>,<span title = "RTL-IRQ_uart/simv/test">T3</span></td>
+</tr><tr class="uGreen">
+<td align=center>0</td>
+<td>Covered</td>
+<td nowrap><span title = "RTL-bitbang_cpu_all_o/simv/test">T12</span>,<span title = "RTL-bitbang_no_cpu_all_o/simv/test">T14</span>,<span title = "RTL-gpio_all_bidir_user/simv/test">T25</span></td>
+</tr></table><br clear=all>
+<pre class="code"><br clear=all>
+214        	assign mprj_io_tb[4] = (bin4_en) ? bin4 : 1'bz;
+           	                                 <font color = "green">-1-</font>  
+           	                                 <font color = "green">==></font>  
+           	                                 <font color = "green">==></font>  
+</pre>
+<br clear=all>
+<span class=repname>Branches:</span>
+<br clear=all>
+<table align=left class="noborder">
+<tr>
+<th nowrap width=80>-1-</th><th nowrap width=80>Status</th><th nowrap width=80>Tests</th></tr><tr class="uGreen">
+<td align=center>1</td>
+<td>Covered</td>
+<td nowrap><span title = "RTL-IRQ_external/simv/test">T1</span>,<span title = "RTL-IRQ_timer/simv/test">T2</span>,<span title = "RTL-IRQ_uart/simv/test">T3</span></td>
+</tr><tr class="uGreen">
+<td align=center>0</td>
+<td>Covered</td>
+<td nowrap><span title = "RTL-bitbang_cpu_all_o/simv/test">T12</span>,<span title = "RTL-bitbang_no_cpu_all_o/simv/test">T14</span>,<span title = "RTL-gpio_all_bidir_user/simv/test">T25</span></td>
+</tr></table><br clear=all>
+<pre class="code"><br clear=all>
+216        	assign mprj_io_tb[5] = (bin5_en) ? bin5 : 1'bz;
+           	                                 <font color = "green">-1-</font>  
+           	                                 <font color = "green">==></font>  
+           	                                 <font color = "green">==></font>  
+</pre>
+<br clear=all>
+<span class=repname>Branches:</span>
+<br clear=all>
+<table align=left class="noborder">
+<tr>
+<th nowrap width=80>-1-</th><th nowrap width=80>Status</th><th nowrap width=80>Tests</th></tr><tr class="uGreen">
+<td align=center>1</td>
+<td>Covered</td>
+<td nowrap><span title = "RTL-bitbang_cpu_all_i/simv/test">T11</span>,<span title = "RTL-bitbang_no_cpu_all_i/simv/test">T13</span>,<span title = "RTL-bitbang_spi_i/simv/test">T23</span></td>
+</tr><tr class="uGreen">
+<td align=center>0</td>
+<td>Covered</td>
+<td nowrap><span title = "RTL-IRQ_external/simv/test">T1</span>,<span title = "RTL-IRQ_timer/simv/test">T2</span>,<span title = "RTL-IRQ_uart/simv/test">T3</span></td>
+</tr></table><br clear=all>
+<pre class="code"><br clear=all>
+217        	assign mprj_io_tb[6] = (bin6_en) ? bin6 : 1'bz;
+           	                                 <font color = "green">-1-</font>  
+           	                                 <font color = "green">==></font>  
+           	                                 <font color = "green">==></font>  
+</pre>
+<br clear=all>
+<span class=repname>Branches:</span>
+<br clear=all>
+<table align=left class="noborder">
+<tr>
+<th nowrap width=80>-1-</th><th nowrap width=80>Status</th><th nowrap width=80>Tests</th></tr><tr class="uGreen">
+<td align=center>1</td>
+<td>Covered</td>
+<td nowrap><span title = "RTL-bitbang_cpu_all_i/simv/test">T11</span>,<span title = "RTL-bitbang_no_cpu_all_i/simv/test">T13</span>,<span title = "RTL-bitbang_spi_i/simv/test">T23</span></td>
+</tr><tr class="uGreen">
+<td align=center>0</td>
+<td>Covered</td>
+<td nowrap><span title = "RTL-IRQ_external/simv/test">T1</span>,<span title = "RTL-IRQ_timer/simv/test">T2</span>,<span title = "RTL-IRQ_uart/simv/test">T3</span></td>
+</tr></table><br clear=all>
+<pre class="code"><br clear=all>
+218        	assign mprj_io_tb[7] = (bin7_en) ? bin7 : 1'bz;
+           	                                 <font color = "green">-1-</font>  
+           	                                 <font color = "green">==></font>  
+           	                                 <font color = "green">==></font>  
+</pre>
+<br clear=all>
+<span class=repname>Branches:</span>
+<br clear=all>
+<table align=left class="noborder">
+<tr>
+<th nowrap width=80>-1-</th><th nowrap width=80>Status</th><th nowrap width=80>Tests</th></tr><tr class="uGreen">
+<td align=center>1</td>
+<td>Covered</td>
+<td nowrap><span title = "RTL-IRQ_external/simv/test">T1</span>,<span title = "RTL-bitbang_cpu_all_i/simv/test">T11</span>,<span title = "RTL-bitbang_no_cpu_all_i/simv/test">T13</span></td>
+</tr><tr class="uGreen">
+<td align=center>0</td>
+<td>Covered</td>
+<td nowrap><span title = "RTL-IRQ_external/simv/test">T1</span>,<span title = "RTL-IRQ_timer/simv/test">T2</span>,<span title = "RTL-IRQ_uart/simv/test">T3</span></td>
+</tr></table><br clear=all>
+<pre class="code"><br clear=all>
+219        	assign mprj_io_tb[8] = (bin8_en) ? bin8 : 1'bz;
+           	                                 <font color = "green">-1-</font>  
+           	                                 <font color = "green">==></font>  
+           	                                 <font color = "green">==></font>  
+</pre>
+<br clear=all>
+<span class=repname>Branches:</span>
+<br clear=all>
+<table align=left class="noborder">
+<tr>
+<th nowrap width=80>-1-</th><th nowrap width=80>Status</th><th nowrap width=80>Tests</th></tr><tr class="uGreen">
+<td align=center>1</td>
+<td>Covered</td>
+<td nowrap><span title = "RTL-bitbang_cpu_all_i/simv/test">T11</span>,<span title = "RTL-bitbang_no_cpu_all_i/simv/test">T13</span>,<span title = "RTL-bitbang_spi_i/simv/test">T23</span></td>
+</tr><tr class="uGreen">
+<td align=center>0</td>
+<td>Covered</td>
+<td nowrap><span title = "RTL-IRQ_external/simv/test">T1</span>,<span title = "RTL-IRQ_timer/simv/test">T2</span>,<span title = "RTL-IRQ_uart/simv/test">T3</span></td>
+</tr></table><br clear=all>
+<pre class="code"><br clear=all>
+220        	assign mprj_io_tb[9] = (bin9_en) ? bin9 : 1'bz;
+           	                                 <font color = "green">-1-</font>  
+           	                                 <font color = "green">==></font>  
+           	                                 <font color = "green">==></font>  
+</pre>
+<br clear=all>
+<span class=repname>Branches:</span>
+<br clear=all>
+<table align=left class="noborder">
+<tr>
+<th nowrap width=80>-1-</th><th nowrap width=80>Status</th><th nowrap width=80>Tests</th></tr><tr class="uGreen">
+<td align=center>1</td>
+<td>Covered</td>
+<td nowrap><span title = "RTL-bitbang_cpu_all_i/simv/test">T11</span>,<span title = "RTL-bitbang_no_cpu_all_i/simv/test">T13</span>,<span title = "RTL-bitbang_spi_i/simv/test">T23</span></td>
+</tr><tr class="uGreen">
+<td align=center>0</td>
+<td>Covered</td>
+<td nowrap><span title = "RTL-IRQ_external/simv/test">T1</span>,<span title = "RTL-IRQ_timer/simv/test">T2</span>,<span title = "RTL-IRQ_uart/simv/test">T3</span></td>
+</tr></table><br clear=all>
+<pre class="code"><br clear=all>
+222        	assign mprj_io_tb[10] = (bin10_en) ? bin10 : 1'bz;
+           	                                   <font color = "green">-1-</font>  
+           	                                   <font color = "green">==></font>  
+           	                                   <font color = "green">==></font>  
+</pre>
+<br clear=all>
+<span class=repname>Branches:</span>
+<br clear=all>
+<table align=left class="noborder">
+<tr>
+<th nowrap width=80>-1-</th><th nowrap width=80>Status</th><th nowrap width=80>Tests</th></tr><tr class="uGreen">
+<td align=center>1</td>
+<td>Covered</td>
+<td nowrap><span title = "RTL-bitbang_cpu_all_i/simv/test">T11</span>,<span title = "RTL-bitbang_no_cpu_all_i/simv/test">T13</span>,<span title = "RTL-bitbang_spi_i/simv/test">T23</span></td>
+</tr><tr class="uGreen">
+<td align=center>0</td>
+<td>Covered</td>
+<td nowrap><span title = "RTL-IRQ_external/simv/test">T1</span>,<span title = "RTL-IRQ_timer/simv/test">T2</span>,<span title = "RTL-IRQ_uart/simv/test">T3</span></td>
+</tr></table><br clear=all>
+<pre class="code"><br clear=all>
+223        	assign mprj_io_tb[11] = (bin11_en) ? bin11 : 1'bz;
+           	                                   <font color = "green">-1-</font>  
+           	                                   <font color = "green">==></font>  
+           	                                   <font color = "green">==></font>  
+</pre>
+<br clear=all>
+<span class=repname>Branches:</span>
+<br clear=all>
+<table align=left class="noborder">
+<tr>
+<th nowrap width=80>-1-</th><th nowrap width=80>Status</th><th nowrap width=80>Tests</th></tr><tr class="uGreen">
+<td align=center>1</td>
+<td>Covered</td>
+<td nowrap><span title = "RTL-bitbang_cpu_all_i/simv/test">T11</span>,<span title = "RTL-bitbang_no_cpu_all_i/simv/test">T13</span>,<span title = "RTL-bitbang_spi_i/simv/test">T23</span></td>
+</tr><tr class="uGreen">
+<td align=center>0</td>
+<td>Covered</td>
+<td nowrap><span title = "RTL-IRQ_external/simv/test">T1</span>,<span title = "RTL-IRQ_timer/simv/test">T2</span>,<span title = "RTL-IRQ_uart/simv/test">T3</span></td>
+</tr></table><br clear=all>
+<pre class="code"><br clear=all>
+224        	assign mprj_io_tb[12] = (bin12_en) ? bin12 : 1'bz;
+           	                                   <font color = "green">-1-</font>  
+           	                                   <font color = "green">==></font>  
+           	                                   <font color = "green">==></font>  
+</pre>
+<br clear=all>
+<span class=repname>Branches:</span>
+<br clear=all>
+<table align=left class="noborder">
+<tr>
+<th nowrap width=80>-1-</th><th nowrap width=80>Status</th><th nowrap width=80>Tests</th></tr><tr class="uGreen">
+<td align=center>1</td>
+<td>Covered</td>
+<td nowrap><span title = "RTL-bitbang_cpu_all_i/simv/test">T11</span>,<span title = "RTL-bitbang_no_cpu_all_i/simv/test">T13</span>,<span title = "RTL-bitbang_spi_i/simv/test">T23</span></td>
+</tr><tr class="uGreen">
+<td align=center>0</td>
+<td>Covered</td>
+<td nowrap><span title = "RTL-IRQ_external/simv/test">T1</span>,<span title = "RTL-IRQ_timer/simv/test">T2</span>,<span title = "RTL-IRQ_uart/simv/test">T3</span></td>
+</tr></table><br clear=all>
+<pre class="code"><br clear=all>
+225        	assign mprj_io_tb[13] = (bin13_en) ? bin13 : 1'bz;
+           	                                   <font color = "green">-1-</font>  
+           	                                   <font color = "green">==></font>  
+           	                                   <font color = "green">==></font>  
+</pre>
+<br clear=all>
+<span class=repname>Branches:</span>
+<br clear=all>
+<table align=left class="noborder">
+<tr>
+<th nowrap width=80>-1-</th><th nowrap width=80>Status</th><th nowrap width=80>Tests</th></tr><tr class="uGreen">
+<td align=center>1</td>
+<td>Covered</td>
+<td nowrap><span title = "RTL-bitbang_cpu_all_i/simv/test">T11</span>,<span title = "RTL-bitbang_no_cpu_all_i/simv/test">T13</span>,<span title = "RTL-bitbang_spi_i/simv/test">T23</span></td>
+</tr><tr class="uGreen">
+<td align=center>0</td>
+<td>Covered</td>
+<td nowrap><span title = "RTL-IRQ_external/simv/test">T1</span>,<span title = "RTL-IRQ_timer/simv/test">T2</span>,<span title = "RTL-IRQ_uart/simv/test">T3</span></td>
+</tr></table><br clear=all>
+<pre class="code"><br clear=all>
+226        	assign mprj_io_tb[14] = (bin14_en) ? bin14 : 1'bz;
+           	                                   <font color = "green">-1-</font>  
+           	                                   <font color = "green">==></font>  
+           	                                   <font color = "green">==></font>  
+</pre>
+<br clear=all>
+<span class=repname>Branches:</span>
+<br clear=all>
+<table align=left class="noborder">
+<tr>
+<th nowrap width=80>-1-</th><th nowrap width=80>Status</th><th nowrap width=80>Tests</th></tr><tr class="uGreen">
+<td align=center>1</td>
+<td>Covered</td>
+<td nowrap><span title = "RTL-bitbang_cpu_all_i/simv/test">T11</span>,<span title = "RTL-bitbang_no_cpu_all_i/simv/test">T13</span>,<span title = "RTL-bitbang_spi_i/simv/test">T23</span></td>
+</tr><tr class="uGreen">
+<td align=center>0</td>
+<td>Covered</td>
+<td nowrap><span title = "RTL-IRQ_external/simv/test">T1</span>,<span title = "RTL-IRQ_timer/simv/test">T2</span>,<span title = "RTL-IRQ_uart/simv/test">T3</span></td>
+</tr></table><br clear=all>
+<pre class="code"><br clear=all>
+228        	assign mprj_io_tb[15] = (bin15_en) ? bin15 : 1'bz;
+           	                                   <font color = "green">-1-</font>  
+           	                                   <font color = "green">==></font>  
+           	                                   <font color = "green">==></font>  
+</pre>
+<br clear=all>
+<span class=repname>Branches:</span>
+<br clear=all>
+<table align=left class="noborder">
+<tr>
+<th nowrap width=80>-1-</th><th nowrap width=80>Status</th><th nowrap width=80>Tests</th></tr><tr class="uGreen">
+<td align=center>1</td>
+<td>Covered</td>
+<td nowrap><span title = "RTL-bitbang_cpu_all_i/simv/test">T11</span>,<span title = "RTL-bitbang_no_cpu_all_i/simv/test">T13</span>,<span title = "RTL-bitbang_spi_i/simv/test">T23</span></td>
+</tr><tr class="uGreen">
+<td align=center>0</td>
+<td>Covered</td>
+<td nowrap><span title = "RTL-IRQ_external/simv/test">T1</span>,<span title = "RTL-IRQ_timer/simv/test">T2</span>,<span title = "RTL-IRQ_uart/simv/test">T3</span></td>
+</tr></table><br clear=all>
+<pre class="code"><br clear=all>
+229        	assign mprj_io_tb[16] = (bin16_en) ? bin16 : 1'bz;
+           	                                   <font color = "green">-1-</font>  
+           	                                   <font color = "green">==></font>  
+           	                                   <font color = "green">==></font>  
+</pre>
+<br clear=all>
+<span class=repname>Branches:</span>
+<br clear=all>
+<table align=left class="noborder">
+<tr>
+<th nowrap width=80>-1-</th><th nowrap width=80>Status</th><th nowrap width=80>Tests</th></tr><tr class="uGreen">
+<td align=center>1</td>
+<td>Covered</td>
+<td nowrap><span title = "RTL-bitbang_cpu_all_i/simv/test">T11</span>,<span title = "RTL-bitbang_no_cpu_all_i/simv/test">T13</span>,<span title = "RTL-bitbang_spi_i/simv/test">T23</span></td>
+</tr><tr class="uGreen">
+<td align=center>0</td>
+<td>Covered</td>
+<td nowrap><span title = "RTL-IRQ_external/simv/test">T1</span>,<span title = "RTL-IRQ_timer/simv/test">T2</span>,<span title = "RTL-IRQ_uart/simv/test">T3</span></td>
+</tr></table><br clear=all>
+<pre class="code"><br clear=all>
+230        	assign mprj_io_tb[17] = (bin17_en) ? bin17 : 1'bz;
+           	                                   <font color = "green">-1-</font>  
+           	                                   <font color = "green">==></font>  
+           	                                   <font color = "green">==></font>  
+</pre>
+<br clear=all>
+<span class=repname>Branches:</span>
+<br clear=all>
+<table align=left class="noborder">
+<tr>
+<th nowrap width=80>-1-</th><th nowrap width=80>Status</th><th nowrap width=80>Tests</th></tr><tr class="uGreen">
+<td align=center>1</td>
+<td>Covered</td>
+<td nowrap><span title = "RTL-bitbang_cpu_all_i/simv/test">T11</span>,<span title = "RTL-bitbang_no_cpu_all_i/simv/test">T13</span>,<span title = "RTL-bitbang_spi_i/simv/test">T23</span></td>
+</tr><tr class="uGreen">
+<td align=center>0</td>
+<td>Covered</td>
+<td nowrap><span title = "RTL-IRQ_external/simv/test">T1</span>,<span title = "RTL-IRQ_timer/simv/test">T2</span>,<span title = "RTL-IRQ_uart/simv/test">T3</span></td>
+</tr></table><br clear=all>
+<pre class="code"><br clear=all>
+231        	assign mprj_io_tb[18] = (bin18_en) ? bin18 : 1'bz;
+           	                                   <font color = "green">-1-</font>  
+           	                                   <font color = "green">==></font>  
+           	                                   <font color = "green">==></font>  
+</pre>
+<br clear=all>
+<span class=repname>Branches:</span>
+<br clear=all>
+<table align=left class="noborder">
+<tr>
+<th nowrap width=80>-1-</th><th nowrap width=80>Status</th><th nowrap width=80>Tests</th></tr><tr class="uGreen">
+<td align=center>1</td>
+<td>Covered</td>
+<td nowrap><span title = "RTL-bitbang_cpu_all_i/simv/test">T11</span>,<span title = "RTL-bitbang_no_cpu_all_i/simv/test">T13</span>,<span title = "RTL-bitbang_spi_i/simv/test">T23</span></td>
+</tr><tr class="uGreen">
+<td align=center>0</td>
+<td>Covered</td>
+<td nowrap><span title = "RTL-IRQ_external/simv/test">T1</span>,<span title = "RTL-IRQ_timer/simv/test">T2</span>,<span title = "RTL-IRQ_uart/simv/test">T3</span></td>
+</tr></table><br clear=all>
+<pre class="code"><br clear=all>
+232        	assign mprj_io_tb[19] = (bin19_en) ? bin19 : 1'bz;
+           	                                   <font color = "green">-1-</font>  
+           	                                   <font color = "green">==></font>  
+           	                                   <font color = "green">==></font>  
+</pre>
+<br clear=all>
+<span class=repname>Branches:</span>
+<br clear=all>
+<table align=left class="noborder">
+<tr>
+<th nowrap width=80>-1-</th><th nowrap width=80>Status</th><th nowrap width=80>Tests</th></tr><tr class="uGreen">
+<td align=center>1</td>
+<td>Covered</td>
+<td nowrap><span title = "RTL-bitbang_cpu_all_i/simv/test">T11</span>,<span title = "RTL-bitbang_no_cpu_all_i/simv/test">T13</span>,<span title = "RTL-bitbang_spi_i/simv/test">T23</span></td>
+</tr><tr class="uGreen">
+<td align=center>0</td>
+<td>Covered</td>
+<td nowrap><span title = "RTL-IRQ_external/simv/test">T1</span>,<span title = "RTL-IRQ_timer/simv/test">T2</span>,<span title = "RTL-IRQ_uart/simv/test">T3</span></td>
+</tr></table><br clear=all>
+<pre class="code"><br clear=all>
+234        	assign mprj_io_tb[20] = (bin20_en) ? bin20 : 1'bz;
+           	                                   <font color = "green">-1-</font>  
+           	                                   <font color = "green">==></font>  
+           	                                   <font color = "green">==></font>  
+</pre>
+<br clear=all>
+<span class=repname>Branches:</span>
+<br clear=all>
+<table align=left class="noborder">
+<tr>
+<th nowrap width=80>-1-</th><th nowrap width=80>Status</th><th nowrap width=80>Tests</th></tr><tr class="uGreen">
+<td align=center>1</td>
+<td>Covered</td>
+<td nowrap><span title = "RTL-bitbang_cpu_all_i/simv/test">T11</span>,<span title = "RTL-bitbang_no_cpu_all_i/simv/test">T13</span>,<span title = "RTL-bitbang_spi_i/simv/test">T23</span></td>
+</tr><tr class="uGreen">
+<td align=center>0</td>
+<td>Covered</td>
+<td nowrap><span title = "RTL-IRQ_external/simv/test">T1</span>,<span title = "RTL-IRQ_timer/simv/test">T2</span>,<span title = "RTL-IRQ_uart/simv/test">T3</span></td>
+</tr></table><br clear=all>
+<pre class="code"><br clear=all>
+235        	assign mprj_io_tb[21] = (bin21_en) ? bin21 : 1'bz;
+           	                                   <font color = "green">-1-</font>  
+           	                                   <font color = "green">==></font>  
+           	                                   <font color = "green">==></font>  
+</pre>
+<br clear=all>
+<span class=repname>Branches:</span>
+<br clear=all>
+<table align=left class="noborder">
+<tr>
+<th nowrap width=80>-1-</th><th nowrap width=80>Status</th><th nowrap width=80>Tests</th></tr><tr class="uGreen">
+<td align=center>1</td>
+<td>Covered</td>
+<td nowrap><span title = "RTL-bitbang_cpu_all_i/simv/test">T11</span>,<span title = "RTL-bitbang_no_cpu_all_i/simv/test">T13</span>,<span title = "RTL-bitbang_spi_i/simv/test">T23</span></td>
+</tr><tr class="uGreen">
+<td align=center>0</td>
+<td>Covered</td>
+<td nowrap><span title = "RTL-IRQ_external/simv/test">T1</span>,<span title = "RTL-IRQ_timer/simv/test">T2</span>,<span title = "RTL-IRQ_uart/simv/test">T3</span></td>
+</tr></table><br clear=all>
+<pre class="code"><br clear=all>
+236        	assign mprj_io_tb[22] = (bin22_en) ? bin22 : 1'bz;
+           	                                   <font color = "green">-1-</font>  
+           	                                   <font color = "green">==></font>  
+           	                                   <font color = "green">==></font>  
+</pre>
+<br clear=all>
+<span class=repname>Branches:</span>
+<br clear=all>
+<table align=left class="noborder">
+<tr>
+<th nowrap width=80>-1-</th><th nowrap width=80>Status</th><th nowrap width=80>Tests</th></tr><tr class="uGreen">
+<td align=center>1</td>
+<td>Covered</td>
+<td nowrap><span title = "RTL-bitbang_cpu_all_i/simv/test">T11</span>,<span title = "RTL-bitbang_no_cpu_all_i/simv/test">T13</span>,<span title = "RTL-bitbang_spi_i/simv/test">T23</span></td>
+</tr><tr class="uGreen">
+<td align=center>0</td>
+<td>Covered</td>
+<td nowrap><span title = "RTL-IRQ_external/simv/test">T1</span>,<span title = "RTL-IRQ_timer/simv/test">T2</span>,<span title = "RTL-IRQ_uart/simv/test">T3</span></td>
+</tr></table><br clear=all>
+<pre class="code"><br clear=all>
+237        	assign mprj_io_tb[23] = (bin23_en) ? bin23 : 1'bz;
+           	                                   <font color = "green">-1-</font>  
+           	                                   <font color = "green">==></font>  
+           	                                   <font color = "green">==></font>  
+</pre>
+<br clear=all>
+<span class=repname>Branches:</span>
+<br clear=all>
+<table align=left class="noborder">
+<tr>
+<th nowrap width=80>-1-</th><th nowrap width=80>Status</th><th nowrap width=80>Tests</th></tr><tr class="uGreen">
+<td align=center>1</td>
+<td>Covered</td>
+<td nowrap><span title = "RTL-bitbang_cpu_all_i/simv/test">T11</span>,<span title = "RTL-bitbang_no_cpu_all_i/simv/test">T13</span>,<span title = "RTL-bitbang_spi_i/simv/test">T23</span></td>
+</tr><tr class="uGreen">
+<td align=center>0</td>
+<td>Covered</td>
+<td nowrap><span title = "RTL-IRQ_external/simv/test">T1</span>,<span title = "RTL-IRQ_timer/simv/test">T2</span>,<span title = "RTL-IRQ_uart/simv/test">T3</span></td>
+</tr></table><br clear=all>
+<pre class="code"><br clear=all>
+238        	assign mprj_io_tb[24] = (bin24_en) ? bin24 : 1'bz;
+           	                                   <font color = "green">-1-</font>  
+           	                                   <font color = "green">==></font>  
+           	                                   <font color = "green">==></font>  
+</pre>
+<br clear=all>
+<span class=repname>Branches:</span>
+<br clear=all>
+<table align=left class="noborder">
+<tr>
+<th nowrap width=80>-1-</th><th nowrap width=80>Status</th><th nowrap width=80>Tests</th></tr><tr class="uGreen">
+<td align=center>1</td>
+<td>Covered</td>
+<td nowrap><span title = "RTL-bitbang_cpu_all_i/simv/test">T11</span>,<span title = "RTL-bitbang_no_cpu_all_i/simv/test">T13</span>,<span title = "RTL-bitbang_spi_i/simv/test">T23</span></td>
+</tr><tr class="uGreen">
+<td align=center>0</td>
+<td>Covered</td>
+<td nowrap><span title = "RTL-IRQ_external/simv/test">T1</span>,<span title = "RTL-IRQ_timer/simv/test">T2</span>,<span title = "RTL-IRQ_uart/simv/test">T3</span></td>
+</tr></table><br clear=all>
+<pre class="code"><br clear=all>
+240        	assign mprj_io_tb[25] = (bin25_en) ? bin25 : 1'bz;
+           	                                   <font color = "green">-1-</font>  
+           	                                   <font color = "green">==></font>  
+           	                                   <font color = "green">==></font>  
+</pre>
+<br clear=all>
+<span class=repname>Branches:</span>
+<br clear=all>
+<table align=left class="noborder">
+<tr>
+<th nowrap width=80>-1-</th><th nowrap width=80>Status</th><th nowrap width=80>Tests</th></tr><tr class="uGreen">
+<td align=center>1</td>
+<td>Covered</td>
+<td nowrap><span title = "RTL-bitbang_cpu_all_i/simv/test">T11</span>,<span title = "RTL-bitbang_no_cpu_all_i/simv/test">T13</span>,<span title = "RTL-bitbang_spi_i/simv/test">T23</span></td>
+</tr><tr class="uGreen">
+<td align=center>0</td>
+<td>Covered</td>
+<td nowrap><span title = "RTL-IRQ_external/simv/test">T1</span>,<span title = "RTL-IRQ_timer/simv/test">T2</span>,<span title = "RTL-IRQ_uart/simv/test">T3</span></td>
+</tr></table><br clear=all>
+<pre class="code"><br clear=all>
+241        	assign mprj_io_tb[26] = (bin26_en) ? bin26 : 1'bz;
+           	                                   <font color = "green">-1-</font>  
+           	                                   <font color = "green">==></font>  
+           	                                   <font color = "green">==></font>  
+</pre>
+<br clear=all>
+<span class=repname>Branches:</span>
+<br clear=all>
+<table align=left class="noborder">
+<tr>
+<th nowrap width=80>-1-</th><th nowrap width=80>Status</th><th nowrap width=80>Tests</th></tr><tr class="uGreen">
+<td align=center>1</td>
+<td>Covered</td>
+<td nowrap><span title = "RTL-bitbang_cpu_all_i/simv/test">T11</span>,<span title = "RTL-bitbang_no_cpu_all_i/simv/test">T13</span>,<span title = "RTL-bitbang_spi_i/simv/test">T23</span></td>
+</tr><tr class="uGreen">
+<td align=center>0</td>
+<td>Covered</td>
+<td nowrap><span title = "RTL-IRQ_external/simv/test">T1</span>,<span title = "RTL-IRQ_timer/simv/test">T2</span>,<span title = "RTL-IRQ_uart/simv/test">T3</span></td>
+</tr></table><br clear=all>
+<pre class="code"><br clear=all>
+242        	assign mprj_io_tb[27] = (bin27_en) ? bin27 : 1'bz;
+           	                                   <font color = "green">-1-</font>  
+           	                                   <font color = "green">==></font>  
+           	                                   <font color = "green">==></font>  
+</pre>
+<br clear=all>
+<span class=repname>Branches:</span>
+<br clear=all>
+<table align=left class="noborder">
+<tr>
+<th nowrap width=80>-1-</th><th nowrap width=80>Status</th><th nowrap width=80>Tests</th></tr><tr class="uGreen">
+<td align=center>1</td>
+<td>Covered</td>
+<td nowrap><span title = "RTL-bitbang_cpu_all_i/simv/test">T11</span>,<span title = "RTL-bitbang_no_cpu_all_i/simv/test">T13</span>,<span title = "RTL-bitbang_spi_i/simv/test">T23</span></td>
+</tr><tr class="uGreen">
+<td align=center>0</td>
+<td>Covered</td>
+<td nowrap><span title = "RTL-IRQ_external/simv/test">T1</span>,<span title = "RTL-IRQ_timer/simv/test">T2</span>,<span title = "RTL-IRQ_uart/simv/test">T3</span></td>
+</tr></table><br clear=all>
+<pre class="code"><br clear=all>
+243        	assign mprj_io_tb[28] = (bin28_en) ? bin28 : 1'bz;
+           	                                   <font color = "green">-1-</font>  
+           	                                   <font color = "green">==></font>  
+           	                                   <font color = "green">==></font>  
+</pre>
+<br clear=all>
+<span class=repname>Branches:</span>
+<br clear=all>
+<table align=left class="noborder">
+<tr>
+<th nowrap width=80>-1-</th><th nowrap width=80>Status</th><th nowrap width=80>Tests</th></tr><tr class="uGreen">
+<td align=center>1</td>
+<td>Covered</td>
+<td nowrap><span title = "RTL-bitbang_cpu_all_i/simv/test">T11</span>,<span title = "RTL-bitbang_no_cpu_all_i/simv/test">T13</span>,<span title = "RTL-bitbang_spi_i/simv/test">T23</span></td>
+</tr><tr class="uGreen">
+<td align=center>0</td>
+<td>Covered</td>
+<td nowrap><span title = "RTL-IRQ_external/simv/test">T1</span>,<span title = "RTL-IRQ_timer/simv/test">T2</span>,<span title = "RTL-IRQ_uart/simv/test">T3</span></td>
+</tr></table><br clear=all>
+<pre class="code"><br clear=all>
+244        	assign mprj_io_tb[29] = (bin29_en) ? bin29 : 1'bz;
+           	                                   <font color = "green">-1-</font>  
+           	                                   <font color = "green">==></font>  
+           	                                   <font color = "green">==></font>  
+</pre>
+<br clear=all>
+<span class=repname>Branches:</span>
+<br clear=all>
+<table align=left class="noborder">
+<tr>
+<th nowrap width=80>-1-</th><th nowrap width=80>Status</th><th nowrap width=80>Tests</th></tr><tr class="uGreen">
+<td align=center>1</td>
+<td>Covered</td>
+<td nowrap><span title = "RTL-bitbang_cpu_all_i/simv/test">T11</span>,<span title = "RTL-bitbang_no_cpu_all_i/simv/test">T13</span>,<span title = "RTL-bitbang_spi_i/simv/test">T23</span></td>
+</tr><tr class="uGreen">
+<td align=center>0</td>
+<td>Covered</td>
+<td nowrap><span title = "RTL-IRQ_external/simv/test">T1</span>,<span title = "RTL-IRQ_timer/simv/test">T2</span>,<span title = "RTL-IRQ_uart/simv/test">T3</span></td>
+</tr></table><br clear=all>
+<pre class="code"><br clear=all>
+246        	assign mprj_io_tb[30] = (bin30_en) ? bin30 : 1'bz;
+           	                                   <font color = "green">-1-</font>  
+           	                                   <font color = "green">==></font>  
+           	                                   <font color = "green">==></font>  
+</pre>
+<br clear=all>
+<span class=repname>Branches:</span>
+<br clear=all>
+<table align=left class="noborder">
+<tr>
+<th nowrap width=80>-1-</th><th nowrap width=80>Status</th><th nowrap width=80>Tests</th></tr><tr class="uGreen">
+<td align=center>1</td>
+<td>Covered</td>
+<td nowrap><span title = "RTL-bitbang_cpu_all_i/simv/test">T11</span>,<span title = "RTL-bitbang_no_cpu_all_i/simv/test">T13</span>,<span title = "RTL-bitbang_spi_i/simv/test">T23</span></td>
+</tr><tr class="uGreen">
+<td align=center>0</td>
+<td>Covered</td>
+<td nowrap><span title = "RTL-IRQ_external/simv/test">T1</span>,<span title = "RTL-IRQ_timer/simv/test">T2</span>,<span title = "RTL-IRQ_uart/simv/test">T3</span></td>
+</tr></table><br clear=all>
+<pre class="code"><br clear=all>
+247        	assign mprj_io_tb[31] = (bin31_en) ? bin31 : 1'bz;
+           	                                   <font color = "green">-1-</font>  
+           	                                   <font color = "green">==></font>  
+           	                                   <font color = "green">==></font>  
+</pre>
+<br clear=all>
+<span class=repname>Branches:</span>
+<br clear=all>
+<table align=left class="noborder">
+<tr>
+<th nowrap width=80>-1-</th><th nowrap width=80>Status</th><th nowrap width=80>Tests</th></tr><tr class="uGreen">
+<td align=center>1</td>
+<td>Covered</td>
+<td nowrap><span title = "RTL-bitbang_cpu_all_i/simv/test">T11</span>,<span title = "RTL-bitbang_no_cpu_all_i/simv/test">T13</span>,<span title = "RTL-bitbang_spi_i/simv/test">T23</span></td>
+</tr><tr class="uGreen">
+<td align=center>0</td>
+<td>Covered</td>
+<td nowrap><span title = "RTL-IRQ_external/simv/test">T1</span>,<span title = "RTL-IRQ_timer/simv/test">T2</span>,<span title = "RTL-IRQ_uart/simv/test">T3</span></td>
+</tr></table><br clear=all>
+<pre class="code"><br clear=all>
+248        	assign mprj_io_tb[32] = (bin32_en) ? bin32 : 1'bz;
+           	                                   <font color = "green">-1-</font>  
+           	                                   <font color = "green">==></font>  
+           	                                   <font color = "green">==></font>  
+</pre>
+<br clear=all>
+<span class=repname>Branches:</span>
+<br clear=all>
+<table align=left class="noborder">
+<tr>
+<th nowrap width=80>-1-</th><th nowrap width=80>Status</th><th nowrap width=80>Tests</th></tr><tr class="uGreen">
+<td align=center>1</td>
+<td>Covered</td>
+<td nowrap><span title = "RTL-bitbang_cpu_all_i/simv/test">T11</span>,<span title = "RTL-bitbang_spi_i/simv/test">T23</span>,<span title = "RTL-gpio_all_bidir_user/simv/test">T25</span></td>
+</tr><tr class="uGreen">
+<td align=center>0</td>
+<td>Covered</td>
+<td nowrap><span title = "RTL-IRQ_external/simv/test">T1</span>,<span title = "RTL-IRQ_timer/simv/test">T2</span>,<span title = "RTL-IRQ_uart/simv/test">T3</span></td>
+</tr></table><br clear=all>
+<pre class="code"><br clear=all>
+249        	assign mprj_io_tb[33] = (bin33_en) ? bin33 : 1'bz;
+           	                                   <font color = "green">-1-</font>  
+           	                                   <font color = "green">==></font>  
+           	                                   <font color = "green">==></font>  
+</pre>
+<br clear=all>
+<span class=repname>Branches:</span>
+<br clear=all>
+<table align=left class="noborder">
+<tr>
+<th nowrap width=80>-1-</th><th nowrap width=80>Status</th><th nowrap width=80>Tests</th></tr><tr class="uGreen">
+<td align=center>1</td>
+<td>Covered</td>
+<td nowrap><span title = "RTL-bitbang_cpu_all_i/simv/test">T11</span>,<span title = "RTL-bitbang_spi_i/simv/test">T23</span>,<span title = "RTL-gpio_all_bidir_user/simv/test">T25</span></td>
+</tr><tr class="uGreen">
+<td align=center>0</td>
+<td>Covered</td>
+<td nowrap><span title = "RTL-IRQ_external/simv/test">T1</span>,<span title = "RTL-IRQ_timer/simv/test">T2</span>,<span title = "RTL-IRQ_uart/simv/test">T3</span></td>
+</tr></table><br clear=all>
+<pre class="code"><br clear=all>
+250        	assign mprj_io_tb[34] = (bin34_en) ? bin34 : 1'bz;
+           	                                   <font color = "green">-1-</font>  
+           	                                   <font color = "green">==></font>  
+           	                                   <font color = "green">==></font>  
+</pre>
+<br clear=all>
+<span class=repname>Branches:</span>
+<br clear=all>
+<table align=left class="noborder">
+<tr>
+<th nowrap width=80>-1-</th><th nowrap width=80>Status</th><th nowrap width=80>Tests</th></tr><tr class="uGreen">
+<td align=center>1</td>
+<td>Covered</td>
+<td nowrap><span title = "RTL-bitbang_cpu_all_i/simv/test">T11</span>,<span title = "RTL-bitbang_spi_i/simv/test">T23</span>,<span title = "RTL-gpio_all_bidir_user/simv/test">T25</span></td>
+</tr><tr class="uGreen">
+<td align=center>0</td>
+<td>Covered</td>
+<td nowrap><span title = "RTL-IRQ_external/simv/test">T1</span>,<span title = "RTL-IRQ_timer/simv/test">T2</span>,<span title = "RTL-IRQ_uart/simv/test">T3</span></td>
+</tr></table><br clear=all>
+<pre class="code"><br clear=all>
+252        	assign mprj_io_tb[35] = (bin35_en) ? bin35 : 1'bz;
+           	                                   <font color = "green">-1-</font>  
+           	                                   <font color = "green">==></font>  
+           	                                   <font color = "green">==></font>  
+</pre>
+<br clear=all>
+<span class=repname>Branches:</span>
+<br clear=all>
+<table align=left class="noborder">
+<tr>
+<th nowrap width=80>-1-</th><th nowrap width=80>Status</th><th nowrap width=80>Tests</th></tr><tr class="uGreen">
+<td align=center>1</td>
+<td>Covered</td>
+<td nowrap><span title = "RTL-bitbang_cpu_all_i/simv/test">T11</span>,<span title = "RTL-bitbang_spi_i/simv/test">T23</span>,<span title = "RTL-gpio_all_bidir_user/simv/test">T25</span></td>
+</tr><tr class="uGreen">
+<td align=center>0</td>
+<td>Covered</td>
+<td nowrap><span title = "RTL-IRQ_external/simv/test">T1</span>,<span title = "RTL-IRQ_timer/simv/test">T2</span>,<span title = "RTL-IRQ_uart/simv/test">T3</span></td>
+</tr></table><br clear=all>
+<pre class="code"><br clear=all>
+253        	assign mprj_io_tb[36] = (bin36_en) ? bin36 : 1'bz;
+           	                                   <font color = "green">-1-</font>  
+           	                                   <font color = "green">==></font>  
+           	                                   <font color = "green">==></font>  
+</pre>
+<br clear=all>
+<span class=repname>Branches:</span>
+<br clear=all>
+<table align=left class="noborder">
+<tr>
+<th nowrap width=80>-1-</th><th nowrap width=80>Status</th><th nowrap width=80>Tests</th></tr><tr class="uGreen">
+<td align=center>1</td>
+<td>Covered</td>
+<td nowrap><span title = "RTL-bitbang_cpu_all_i/simv/test">T11</span>,<span title = "RTL-bitbang_spi_i/simv/test">T23</span>,<span title = "RTL-gpio_all_bidir_user/simv/test">T25</span></td>
+</tr><tr class="uGreen">
+<td align=center>0</td>
+<td>Covered</td>
+<td nowrap><span title = "RTL-IRQ_external/simv/test">T1</span>,<span title = "RTL-IRQ_timer/simv/test">T2</span>,<span title = "RTL-IRQ_uart/simv/test">T3</span></td>
+</tr></table><br clear=all>
+<pre class="code"><br clear=all>
+254        	assign mprj_io_tb[37] = (bin37_en) ? bin37 : 1'bz;
+           	                                   <font color = "green">-1-</font>  
+           	                                   <font color = "green">==></font>  
+           	                                   <font color = "green">==></font>  
+</pre>
+<br clear=all>
+<span class=repname>Branches:</span>
+<br clear=all>
+<table align=left class="noborder">
+<tr>
+<th nowrap width=80>-1-</th><th nowrap width=80>Status</th><th nowrap width=80>Tests</th></tr><tr class="uGreen">
+<td align=center>1</td>
+<td>Covered</td>
+<td nowrap><span title = "RTL-bitbang_cpu_all_i/simv/test">T11</span>,<span title = "RTL-bitbang_spi_i/simv/test">T23</span>,<span title = "RTL-gpio_all_bidir_user/simv/test">T25</span></td>
+</tr><tr class="uGreen">
+<td align=center>0</td>
+<td>Covered</td>
+<td nowrap><span title = "RTL-IRQ_external/simv/test">T1</span>,<span title = "RTL-IRQ_timer/simv/test">T2</span>,<span title = "RTL-IRQ_uart/simv/test">T3</span></td>
+</tr></table><br clear=all>
+</div>
+</div>
+<div class="ui-layout-center-inner-north">
+<div id="center-bread-crumb" class="breadCrumb module urg-margin-bottom">
+  <ul name="inst_tag_3423">
+    <li>
+      <a href="#Line">Line</a>    </li>
+    <li>
+      <a href="#Cond">Cond</a>    </li>
+    <li>
+      <a href="#Toggle">Toggle</a>    </li>
+    <li>
+      <a href="#Branch">Branch</a>    </li>
+  </ul>
+  <ul name="tag_caravel_top">
+    <li>
+      <a href="#Line">Line</a>    </li>
+    <li>
+      <a href="#Cond">Cond</a>    </li>
+    <li>
+      <a href="#Toggle">Toggle</a>    </li>
+    <li>
+      <a href="#Branch">Branch</a>    </li>
+  </ul>
+</div>
+</div>
+</div>
+<div class="ui-layout-south">
+<table align=center><tr><td class="s0 cl">0%</td>
+<td class="s1 cl">10%</td>
+<td class="s2 cl">20%</td>
+<td class="s3 cl">30%</td>
+<td class="s4 cl">40%</td>
+<td class="s5 cl">50%</td>
+<td class="s6 cl">60%</td>
+<td class="s7 cl">70%</td>
+<td class="s8 cl">80%</td>
+<td class="s9 cl">90%</td>
+<td class="s10 cl">100%</td></tr></table></div>
+</body>
+</html>

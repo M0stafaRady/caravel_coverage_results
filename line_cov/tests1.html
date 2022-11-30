@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="Author" content="<username>"> <meta name="GENERATOR" content="urg/version [en] (platform name) [urg]">
+<title>Unified Coverage Report :: Tests</title>
+<link type="text/css" rel="stylesheet" href="css/.urg.css">
+<link type="text/css" rel="stylesheet" href="css/.layout.css">
+<script type="text/javascript" src="js/.jquery.js"></script>
+<script type="text/javascript" src="js/.jquery-ui.js"></script>
+<script type="text/javascript" src="js/.sortable.js"></script>
+<script type="text/javascript" src="js/.colResizable.js"></script>
+<script type="text/javascript" src="js/.layout.js"></script>
+<script type="text/javascript">
+var layout, westLayout, centerLayout;
+$(document).ready(function () {
+  layout = $("body").layout({ 
+    resizable: true,
+    spacing_open: 4,
+    spacing_closed: 4,
+    north: {
+      size: 76
+    },
+    south: {
+      size: 45,
+      initClosed: true
+    }  });
+  $("table").colResizable({    liveDrag:true,
+    fixed:false,
+    draggingClass:"dragging"
+  });
+});
+</script>
+</head>
+<body><div class="ui-layout-north">
+<div class="logo"></div>
+<center class="pagetitle">Tests</center>
+<div align="center"><a href="dashboard.html" ><b>dashboard</b></a> | <a href="hierarchy.html" ><b>hierarchy</b></a> | <a href="modlist.html" ><b>modlist</b></a> | groups | <a href="tests.html" ><b>tests</b></a> | asserts</div>
+
+</div>
+<div class="ui-layout-center">
+<b>Total Coverage Summary</b>&nbsp;<br clear=all>
+<table align=left>
+<tr class="sortablehead">
+<td nowrap width=65>SCORE</td><td nowrap width=65>LINE</td><td nowrap width=65>COND</td><td nowrap width=65>TOGGLE</td><td nowrap width=65>FSM</td><td nowrap width=65>BRANCH</td></tr><tr>
+<td class="s6 cl rt"> 61.49</td>
+<td class="s6 cl rt"> 69.06</td>
+<td class="s6 cl rt"> 68.32</td>
+<td class="s5 cl rt"> 56.12</td>
+<td class="s5 cl rt"> 53.85</td>
+<td class="s6 cl rt"> 60.10</td>
+</tr></table><br clear=all>
+<hr>
+<a name="T31"></a>
+<table align=left>
+<tr>
+<td><b>Test location</b></td>
+<td nowrap><b>RTL-uart_tx/simv/test</b></td>
+</tr><tr>
+<td>Short name</td>
+<td>T31</td>
+</tr><tr>
+<td>Test name</td>
+<td></td>
+</tr><tr>
+<td>Test status</td>
+<td></td>
+</tr><tr>
+<td>Simulation time</td>
+<td>8567839001 ps</td>
+</tr><tr>
+<td>CPU time</td>
+<td>460.25 seconds</td>
+</tr><tr>
+<td>Started</td>
+<td>Nov 17 04:52:27 AM PST 22</td>
+</tr><tr>
+<td>Finished</td>
+<td>Nov 17 05:00:08 AM PST 22</td>
+</tr><tr>
+<td>Peak memory</td>
+<td>223256 kb</td>
+</tr><tr>
+<td>Host</td>
+<td nowrap>license-server-00</td>
+</tr><tr>
+<td>User</td>
+<td>rady</td>
+</tr><tr>
+<td>Command</td>
+<td nowrap>sim/r_rtl_02_28_43_17_11/RTL-uart_tx//simv +lint=TFIPC-L -cm_runsilent -cm line+tgl+cond+fsm+branch+assert +error+30 +sdfverbose +neg_tchk -a sim/r_rt<br>l_02_28_43_17_11/RTL-uart_tx//test.log</td>
+</tr><tr>
+<td>Directory</td>
+<td>/home/rady/caravel/caravel_redesign_cocotb/caravel/verilog/dv/cocotb</td>
+</tr></table><br clear=all>
+<hr>
+<a name="T48"></a>
+<table align=left>
+<tr>
+<td><b>Test location</b></td>
+<td nowrap><b>RTL-user_address_space/simv/test</b></td>
+</tr><tr>
+<td>Short name</td>
+<td>T48</td>
+</tr><tr>
+<td>Test name</td>
+<td></td>
+</tr><tr>
+<td>Test status</td>
+<td></td>
+</tr><tr>
+<td>Simulation time</td>
+<td>443875001 ps</td>
+</tr><tr>
+<td>CPU time</td>
+<td>24.24 seconds</td>
+</tr><tr>
+<td>Started</td>
+<td>Nov 17 08:33:56 AM PST 22</td>
+</tr><tr>
+<td>Finished</td>
+<td>Nov 17 08:34:20 AM PST 22</td>
+</tr><tr>
+<td>Peak memory</td>
+<td>192044 kb</td>
+</tr><tr>
+<td>Host</td>
+<td nowrap>license-server-00</td>
+</tr><tr>
+<td>User</td>
+<td>rady</td>
+</tr><tr>
+<td>Command</td>
+<td nowrap>sim/r_rtl_02_28_43_17_11/RTL-user_address_space//simv +lint=TFIPC-L -cm_runsilent -cm line+tgl+cond+fsm+branch+assert +error+30 +sdfverbose +neg_tchk <br>-a sim/r_rtl_02_28_43_17_11/RTL-user_address_space//test.log</td>
+</tr><tr>
+<td>Directory</td>
+<td>/home/rady/caravel/caravel_redesign_cocotb/caravel/verilog/dv/cocotb</td>
+</tr></table><br clear=all>
+<hr>
+<a name="T46"></a>
+<table align=left>
+<tr>
+<td><b>Test location</b></td>
+<td nowrap><b>RTL-user_pass_thru_rd/simv/test</b></td>
+</tr><tr>
+<td>Short name</td>
+<td>T46</td>
+</tr><tr>
+<td>Test name</td>
+<td></td>
+</tr><tr>
+<td>Test status</td>
+<td></td>
+</tr><tr>
+<td>Simulation time</td>
+<td>338425001 ps</td>
+</tr><tr>
+<td>CPU time</td>
+<td>22 seconds</td>
+</tr><tr>
+<td>Started</td>
+<td>Nov 17 05:06:05 AM PST 22</td>
+</tr><tr>
+<td>Finished</td>
+<td>Nov 17 05:06:27 AM PST 22</td>
+</tr><tr>
+<td>Peak memory</td>
+<td>197616 kb</td>
+</tr><tr>
+<td>Host</td>
+<td nowrap>license-server-00</td>
+</tr><tr>
+<td>User</td>
+<td>rady</td>
+</tr><tr>
+<td>Command</td>
+<td nowrap>sim/r_rtl_02_28_43_17_11/RTL-user_pass_thru_rd//simv +lint=TFIPC-L -cm_runsilent -cm line+tgl+cond+fsm+branch+assert +error+30 +sdfverbose +neg_tchk -<br>a sim/r_rtl_02_28_43_17_11/RTL-user_pass_thru_rd//test.log</td>
+</tr><tr>
+<td>Directory</td>
+<td>/home/rady/caravel/caravel_redesign_cocotb/caravel/verilog/dv/cocotb</td>
+</tr></table></div>
+<div class="ui-layout-south">
+<table align=center><tr><td class="s0 cl">0%</td>
+<td class="s1 cl">10%</td>
+<td class="s2 cl">20%</td>
+<td class="s3 cl">30%</td>
+<td class="s4 cl">40%</td>
+<td class="s5 cl">50%</td>
+<td class="s6 cl">60%</td>
+<td class="s7 cl">70%</td>
+<td class="s8 cl">80%</td>
+<td class="s9 cl">90%</td>
+<td class="s10 cl">100%</td></tr></table></div>
+</body>
+</html>

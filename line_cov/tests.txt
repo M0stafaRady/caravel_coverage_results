@@ -1,0 +1,929 @@
+Tests
+
+Total Coverage Summary 
+SCORE  LINE   COND   TOGGLE FSM    BRANCH 
+ 61.49  69.06  68.32  56.12  53.85  60.10 
+
+
+Total tests in report: 48
+-------------------------------------------------------------------------------
+Data from the following tests was used to generate this report
+TEST LOCATION                      
+RTL-IRQ_external/simv/test         
+RTL-IRQ_timer/simv/test            
+RTL-IRQ_uart/simv/test             
+RTL-bitbang_cpu_all_i/simv/test    
+RTL-bitbang_cpu_all_o/simv/test    
+RTL-bitbang_no_cpu_all_i/simv/test 
+RTL-bitbang_no_cpu_all_o/simv/test 
+RTL-bitbang_spi_i/simv/test        
+RTL-bitbang_spi_o/simv/test        
+RTL-clock_redirect/simv/test       
+RTL-cpu_reset/simv/test            
+RTL-cpu_stress/simv/test           
+RTL-debug/simv/test                
+RTL-gpio_all_bidir_user/simv/test  
+RTL-gpio_all_i/simv/test           
+RTL-gpio_all_i_pd/simv/test        
+RTL-gpio_all_i_pd_user/simv/test   
+RTL-gpio_all_i_pu/simv/test        
+RTL-gpio_all_i_pu_user/simv/test   
+RTL-gpio_all_i_user/simv/test      
+RTL-gpio_all_o/simv/test           
+RTL-gpio_all_o_user/simv/test      
+RTL-hk_disable/simv/test           
+RTL-hk_regs_rst_spi/simv/test      
+RTL-hk_regs_wr_spi/simv/test       
+RTL-hk_regs_wr_wb/simv/test        
+RTL-hk_regs_wr_wb_cpu/simv/test    
+RTL-la/simv/test                   
+RTL-mem_dff2_W/simv/test           
+RTL-mem_dff_W/simv/test            
+RTL-mgmt_gpio_bidir/simv/test      
+RTL-mgmt_gpio_in/simv/test         
+RTL-mgmt_gpio_out/simv/test        
+RTL-pll/simv/test                  
+RTL-serial_shifting_0011/simv/test 
+RTL-serial_shifting_01/simv/test   
+RTL-serial_shifting_10/simv/test   
+RTL-serial_shifting_1100/simv/test 
+RTL-spi_master_rd/simv/test        
+RTL-spi_master_temp/simv/test      
+RTL-spi_rd_wr_nbyte/simv/test      
+RTL-timer0_oneshot/simv/test       
+RTL-timer0_periodic/simv/test      
+RTL-uart_loopback/simv/test        
+RTL-uart_rx/simv/test              
+RTL-uart_tx/simv/test              
+RTL-user_address_space/simv/test   
+RTL-user_pass_thru_rd/simv/test    
+
+
+Total test records in report: 48
+-------------------------------------------------------------------------------
+TEST NO TEST LOCATION                      TEST NAME STATUS STARTED                   FINISHED                  SIMULATION TIME 
+T1      RTL-IRQ_external/simv/test                          Nov 17 04:06:33 AM PST 22 Nov 17 04:10:11 AM PST 22 3842225001 ps   
+T2      RTL-IRQ_timer/simv/test                             Nov 17 03:15:12 AM PST 22 Nov 17 03:18:32 AM PST 22 3783525001 ps   
+T3      RTL-IRQ_uart/simv/test                              Nov 17 04:10:18 AM PST 22 Nov 17 04:17:30 AM PST 22 7872275001 ps   
+T11     RTL-bitbang_cpu_all_i/simv/test                     Nov 17 03:18:39 AM PST 22 Nov 17 03:54:54 AM PST 22 40628275001 ps  
+T12     RTL-bitbang_cpu_all_o/simv/test                     Nov 17 05:16:10 AM PST 22 Nov 17 05:57:38 AM PST 22 45607300001 ps  
+T13     RTL-bitbang_no_cpu_all_i/simv/test                  Nov 17 08:32:35 AM PST 22 Nov 17 08:32:51 AM PST 22 165250001 ps    
+T14     RTL-bitbang_no_cpu_all_o/simv/test                  Nov 17 08:32:06 AM PST 22 Nov 17 08:32:27 AM PST 22 232025001 ps    
+T23     RTL-bitbang_spi_i/simv/test                         Nov 17 04:04:17 AM PST 22 Nov 17 04:05:59 AM PST 22 1370975001 ps   
+T15     RTL-bitbang_spi_o/simv/test                         Nov 17 03:55:01 AM PST 22 Nov 17 04:02:00 AM PST 22 7283475001 ps   
+T47     RTL-clock_redirect/simv/test                        Nov 17 05:06:34 AM PST 22 Nov 17 05:06:56 AM PST 22 323075001 ps    
+T33     RTL-cpu_reset/simv/test                             Nov 17 08:33:15 AM PST 22 Nov 17 08:33:49 AM PST 22 614225001 ps    
+T28     RTL-cpu_stress/simv/test                            Nov 17 08:00:52 AM PST 22 Nov 17 08:31:58 AM PST 22 34094875001 ps  
+T24     RTL-debug/simv/test                                 Nov 17 05:00:16 AM PST 22 Nov 17 05:01:01 AM PST 22 767605001 ps    
+T25     RTL-gpio_all_bidir_user/simv/test                   Nov 17 02:40:10 AM PST 22 Nov 17 02:46:02 AM PST 22 6600550001 ps   
+T19     RTL-gpio_all_i/simv/test                            Nov 17 02:28:50 AM PST 22 Nov 17 02:30:02 AM PST 22 1292025001 ps   
+T20     RTL-gpio_all_i_pd/simv/test                         Nov 17 02:37:27 AM PST 22 Nov 17 02:38:42 AM PST 22 1340050001 ps   
+T21     RTL-gpio_all_i_pd_user/simv/test                    Nov 17 02:38:50 AM PST 22 Nov 17 02:40:03 AM PST 22 1340050001 ps   
+T32     RTL-gpio_all_i_pu/simv/test                         Nov 17 02:34:32 AM PST 22 Nov 17 02:35:48 AM PST 22 1340050001 ps   
+T35     RTL-gpio_all_i_pu_user/simv/test                    Nov 17 02:35:55 AM PST 22 Nov 17 02:37:20 AM PST 22 1407800001 ps   
+T22     RTL-gpio_all_i_user/simv/test                       Nov 17 02:33:13 AM PST 22 Nov 17 02:34:25 AM PST 22 1288525001 ps   
+T16     RTL-gpio_all_o/simv/test                            Nov 17 02:46:09 AM PST 22 Nov 17 02:57:59 AM PST 22 13332300001 ps  
+T17     RTL-gpio_all_o_user/simv/test                       Nov 17 02:58:06 AM PST 22 Nov 17 03:09:08 AM PST 22 12333050001 ps  
+T41     RTL-hk_disable/simv/test                            Nov 17 02:30:09 AM PST 22 Nov 17 02:30:26 AM PST 22 282025001 ps    
+T26     RTL-hk_regs_rst_spi/simv/test                       Nov 17 02:32:56 AM PST 22 Nov 17 02:33:06 AM PST 22 71275001 ps     
+T27     RTL-hk_regs_wr_spi/simv/test                        Nov 17 04:06:06 AM PST 22 Nov 17 04:06:25 AM PST 22 159425001 ps    
+T44     RTL-hk_regs_wr_wb/simv/test                         Nov 17 08:32:58 AM PST 22 Nov 17 08:32:59 AM PST 22 2125001 ps      
+T4      RTL-hk_regs_wr_wb_cpu/simv/test                     Nov 17 03:09:15 AM PST 22 Nov 17 03:15:05 AM PST 22 4529300001 ps   
+T36     RTL-la/simv/test                                    Nov 17 05:11:28 AM PST 22 Nov 17 05:12:59 AM PST 22 1668700001 ps   
+T29     RTL-mem_dff2_W/simv/test                            Nov 17 07:18:14 AM PST 22 Nov 17 07:57:39 AM PST 22 44651275001 ps  
+T30     RTL-mem_dff_W/simv/test                             Nov 17 05:57:46 AM PST 22 Nov 17 07:16:59 AM PST 22 88901275001 ps  
+T8      RTL-mgmt_gpio_bidir/simv/test                       Nov 17 05:07:04 AM PST 22 Nov 17 05:11:20 AM PST 22 4739975001 ps   
+T10     RTL-mgmt_gpio_in/simv/test                          Nov 17 04:17:37 AM PST 22 Nov 17 04:23:39 AM PST 22 6857275001 ps   
+T9      RTL-mgmt_gpio_out/simv/test                         Nov 17 04:02:08 AM PST 22 Nov 17 04:04:09 AM PST 22 2262025001 ps   
+T34     RTL-pll/simv/test                                   Nov 17 05:13:07 AM PST 22 Nov 17 05:14:58 AM PST 22 1170275001 ps   
+T5      RTL-serial_shifting_0011/simv/test                  Nov 17 07:59:53 AM PST 22 Nov 17 08:00:45 AM PST 22 908275001 ps    
+T6      RTL-serial_shifting_01/simv/test                    Nov 17 07:17:06 AM PST 22 Nov 17 07:18:06 AM PST 22 936275001 ps    
+T7      RTL-serial_shifting_10/simv/test                    Nov 17 07:57:46 AM PST 22 Nov 17 07:58:46 AM PST 22 938025001 ps    
+T18     RTL-serial_shifting_1100/simv/test                  Nov 17 07:58:53 AM PST 22 Nov 17 07:59:45 AM PST 22 909775001 ps    
+T38     RTL-spi_master_rd/simv/test                         Nov 17 05:01:09 AM PST 22 Nov 17 05:05:57 AM PST 22 5294275001 ps   
+T39     RTL-spi_master_temp/simv/test                       Nov 17 05:15:06 AM PST 22 Nov 17 05:16:02 AM PST 22 979075001 ps    
+T45     RTL-spi_rd_wr_nbyte/simv/test                       Nov 17 08:33:06 AM PST 22 Nov 17 08:33:08 AM PST 22 1775001 ps      
+T42     RTL-timer0_oneshot/simv/test                        Nov 17 04:23:47 AM PST 22 Nov 17 04:46:15 AM PST 22 25335275001 ps  
+T43     RTL-timer0_periodic/simv/test                       Nov 17 04:51:12 AM PST 22 Nov 17 04:52:20 AM PST 22 1287525001 ps   
+T37     RTL-uart_loopback/simv/test                         Nov 17 04:46:23 AM PST 22 Nov 17 04:51:04 AM PST 22 4926275001 ps   
+T40     RTL-uart_rx/simv/test                               Nov 17 02:30:33 AM PST 22 Nov 17 02:32:49 AM PST 22 2433550001 ps   
+T31     RTL-uart_tx/simv/test                               Nov 17 04:52:27 AM PST 22 Nov 17 05:00:08 AM PST 22 8567839001 ps   
+T48     RTL-user_address_space/simv/test                    Nov 17 08:33:56 AM PST 22 Nov 17 08:34:20 AM PST 22 443875001 ps    
+T46     RTL-user_pass_thru_rd/simv/test                     Nov 17 05:06:05 AM PST 22 Nov 17 05:06:27 AM PST 22 338425001 ps    
+
+
+-------------------------------------------------------------------------------
+Test location   RTL-IRQ_external/simv/test                                                                                                                             
+Short name      T1                                                                                                                                                     
+Test name       
+Test status     
+Simulation time 3842225001 ps                                                                                                                                          
+CPU time        217.53 seconds                                                                                                                                         
+Started         Nov 17 04:06:33 AM PST 22                                                                                                                              
+Finished        Nov 17 04:10:11 AM PST 22                                                                                                                              
+Peak memory     213648 kb                                                                                                                                              
+Host            license-server-00                                                                                                                                      
+User            rady                                                                                                                                                   
+Command         sim/r_rtl_02_28_43_17_11/RTL-IRQ_external//simv +lint=TFIPC-L -cm_runsilent -cm line+tgl+cond+fsm+branch+assert +error+30 +sdfverbose +neg_tchk -a sim 
+                /r_rtl_02_28_43_17_11/RTL-IRQ_external//test.log                                                                                                       
+Directory       /home/rady/caravel/caravel_redesign_cocotb/caravel/verilog/dv/cocotb                                                                                   
+
+
+-------------------------------------------------------------------------------
+Test location   RTL-IRQ_timer/simv/test                                                                                                                                
+Short name      T2                                                                                                                                                     
+Test name       
+Test status     
+Simulation time 3783525001 ps                                                                                                                                          
+CPU time        199.37 seconds                                                                                                                                         
+Started         Nov 17 03:15:12 AM PST 22                                                                                                                              
+Finished        Nov 17 03:18:32 AM PST 22                                                                                                                              
+Peak memory     203148 kb                                                                                                                                              
+Host            license-server-00                                                                                                                                      
+User            rady                                                                                                                                                   
+Command         sim/r_rtl_02_28_43_17_11/RTL-IRQ_timer//simv +lint=TFIPC-L -cm_runsilent -cm line+tgl+cond+fsm+branch+assert +error+30 +sdfverbose +neg_tchk -a sim/r_ 
+                rtl_02_28_43_17_11/RTL-IRQ_timer//test.log                                                                                                             
+Directory       /home/rady/caravel/caravel_redesign_cocotb/caravel/verilog/dv/cocotb                                                                                   
+
+
+-------------------------------------------------------------------------------
+Test location   RTL-IRQ_uart/simv/test                                                                                                                                 
+Short name      T3                                                                                                                                                     
+Test name       
+Test status     
+Simulation time 7872275001 ps                                                                                                                                          
+CPU time        431.55 seconds                                                                                                                                         
+Started         Nov 17 04:10:18 AM PST 22                                                                                                                              
+Finished        Nov 17 04:17:30 AM PST 22                                                                                                                              
+Peak memory     212872 kb                                                                                                                                              
+Host            license-server-00                                                                                                                                      
+User            rady                                                                                                                                                   
+Command         sim/r_rtl_02_28_43_17_11/RTL-IRQ_uart//simv +lint=TFIPC-L -cm_runsilent -cm line+tgl+cond+fsm+branch+assert +error+30 +sdfverbose +neg_tchk -a sim/r_r 
+                tl_02_28_43_17_11/RTL-IRQ_uart//test.log                                                                                                               
+Directory       /home/rady/caravel/caravel_redesign_cocotb/caravel/verilog/dv/cocotb                                                                                   
+
+
+-------------------------------------------------------------------------------
+Test location   RTL-bitbang_cpu_all_i/simv/test                                                                                                                        
+Short name      T11                                                                                                                                                    
+Test name       
+Test status     
+Simulation time 40628275001 ps                                                                                                                                         
+CPU time        2174.36 seconds                                                                                                                                        
+Started         Nov 17 03:18:39 AM PST 22                                                                                                                              
+Finished        Nov 17 03:54:54 AM PST 22                                                                                                                              
+Peak memory     254624 kb                                                                                                                                              
+Host            license-server-00                                                                                                                                      
+User            rady                                                                                                                                                   
+Command         sim/r_rtl_02_28_43_17_11/RTL-bitbang_cpu_all_i//simv +lint=TFIPC-L -cm_runsilent -cm line+tgl+cond+fsm+branch+assert +error+30 +sdfverbose +neg_tchk - 
+                a sim/r_rtl_02_28_43_17_11/RTL-bitbang_cpu_all_i//test.log                                                                                             
+Directory       /home/rady/caravel/caravel_redesign_cocotb/caravel/verilog/dv/cocotb                                                                                   
+
+
+-------------------------------------------------------------------------------
+Test location   RTL-bitbang_cpu_all_o/simv/test                                                                                                                        
+Short name      T12                                                                                                                                                    
+Test name       
+Test status     
+Simulation time 45607300001 ps                                                                                                                                         
+CPU time        2487.92 seconds                                                                                                                                        
+Started         Nov 17 05:16:10 AM PST 22                                                                                                                              
+Finished        Nov 17 05:57:38 AM PST 22                                                                                                                              
+Peak memory     261000 kb                                                                                                                                              
+Host            license-server-00                                                                                                                                      
+User            rady                                                                                                                                                   
+Command         sim/r_rtl_02_28_43_17_11/RTL-bitbang_cpu_all_o//simv +lint=TFIPC-L -cm_runsilent -cm line+tgl+cond+fsm+branch+assert +error+30 +sdfverbose +neg_tchk - 
+                a sim/r_rtl_02_28_43_17_11/RTL-bitbang_cpu_all_o//test.log                                                                                             
+Directory       /home/rady/caravel/caravel_redesign_cocotb/caravel/verilog/dv/cocotb                                                                                   
+
+
+-------------------------------------------------------------------------------
+Test location   RTL-bitbang_no_cpu_all_i/simv/test                                                                                                                     
+Short name      T13                                                                                                                                                    
+Test name       
+Test status     
+Simulation time 165250001 ps                                                                                                                                           
+CPU time        16.08 seconds                                                                                                                                          
+Started         Nov 17 08:32:35 AM PST 22                                                                                                                              
+Finished        Nov 17 08:32:51 AM PST 22                                                                                                                              
+Peak memory     199728 kb                                                                                                                                              
+Host            license-server-00                                                                                                                                      
+User            rady                                                                                                                                                   
+Command         sim/r_rtl_02_28_43_17_11/RTL-bitbang_no_cpu_all_i//simv +lint=TFIPC-L -cm_runsilent -cm line+tgl+cond+fsm+branch+assert +error+30 +sdfverbose +neg_tch 
+                k -a sim/r_rtl_02_28_43_17_11/RTL-bitbang_no_cpu_all_i//test.log                                                                                       
+Directory       /home/rady/caravel/caravel_redesign_cocotb/caravel/verilog/dv/cocotb                                                                                   
+
+
+-------------------------------------------------------------------------------
+Test location   RTL-bitbang_no_cpu_all_o/simv/test                                                                                                                     
+Short name      T14                                                                                                                                                    
+Test name       
+Test status     
+Simulation time 232025001 ps                                                                                                                                           
+CPU time        21.43 seconds                                                                                                                                          
+Started         Nov 17 08:32:06 AM PST 22                                                                                                                              
+Finished        Nov 17 08:32:27 AM PST 22                                                                                                                              
+Peak memory     202436 kb                                                                                                                                              
+Host            license-server-00                                                                                                                                      
+User            rady                                                                                                                                                   
+Command         sim/r_rtl_02_28_43_17_11/RTL-bitbang_no_cpu_all_o//simv +lint=TFIPC-L -cm_runsilent -cm line+tgl+cond+fsm+branch+assert +error+30 +sdfverbose +neg_tch 
+                k -a sim/r_rtl_02_28_43_17_11/RTL-bitbang_no_cpu_all_o//test.log                                                                                       
+Directory       /home/rady/caravel/caravel_redesign_cocotb/caravel/verilog/dv/cocotb                                                                                   
+
+
+-------------------------------------------------------------------------------
+Test location   RTL-bitbang_spi_i/simv/test                                                                                                                            
+Short name      T23                                                                                                                                                    
+Test name       
+Test status     
+Simulation time 1370975001 ps                                                                                                                                          
+CPU time        102.19 seconds                                                                                                                                         
+Started         Nov 17 04:04:17 AM PST 22                                                                                                                              
+Finished        Nov 17 04:05:59 AM PST 22                                                                                                                              
+Peak memory     203688 kb                                                                                                                                              
+Host            license-server-00                                                                                                                                      
+User            rady                                                                                                                                                   
+Command         sim/r_rtl_02_28_43_17_11/RTL-bitbang_spi_i//simv +lint=TFIPC-L -cm_runsilent -cm line+tgl+cond+fsm+branch+assert +error+30 +sdfverbose +neg_tchk -a si 
+                m/r_rtl_02_28_43_17_11/RTL-bitbang_spi_i//test.log                                                                                                     
+Directory       /home/rady/caravel/caravel_redesign_cocotb/caravel/verilog/dv/cocotb                                                                                   
+
+
+-------------------------------------------------------------------------------
+Test location   RTL-bitbang_spi_o/simv/test                                                                                                                            
+Short name      T15                                                                                                                                                    
+Test name       
+Test status     
+Simulation time 7283475001 ps                                                                                                                                          
+CPU time        418.75 seconds                                                                                                                                         
+Started         Nov 17 03:55:01 AM PST 22                                                                                                                              
+Finished        Nov 17 04:02:00 AM PST 22                                                                                                                              
+Peak memory     211992 kb                                                                                                                                              
+Host            license-server-00                                                                                                                                      
+User            rady                                                                                                                                                   
+Command         sim/r_rtl_02_28_43_17_11/RTL-bitbang_spi_o//simv +lint=TFIPC-L -cm_runsilent -cm line+tgl+cond+fsm+branch+assert +error+30 +sdfverbose +neg_tchk -a si 
+                m/r_rtl_02_28_43_17_11/RTL-bitbang_spi_o//test.log                                                                                                     
+Directory       /home/rady/caravel/caravel_redesign_cocotb/caravel/verilog/dv/cocotb                                                                                   
+
+
+-------------------------------------------------------------------------------
+Test location   RTL-clock_redirect/simv/test                                                                                                                           
+Short name      T47                                                                                                                                                    
+Test name       
+Test status     
+Simulation time 323075001 ps                                                                                                                                           
+CPU time        21.92 seconds                                                                                                                                          
+Started         Nov 17 05:06:34 AM PST 22                                                                                                                              
+Finished        Nov 17 05:06:56 AM PST 22                                                                                                                              
+Peak memory     197880 kb                                                                                                                                              
+Host            license-server-00                                                                                                                                      
+User            rady                                                                                                                                                   
+Command         sim/r_rtl_02_28_43_17_11/RTL-clock_redirect//simv +lint=TFIPC-L -cm_runsilent -cm line+tgl+cond+fsm+branch+assert +error+30 +sdfverbose +neg_tchk -a s 
+                im/r_rtl_02_28_43_17_11/RTL-clock_redirect//test.log                                                                                                   
+Directory       /home/rady/caravel/caravel_redesign_cocotb/caravel/verilog/dv/cocotb                                                                                   
+
+
+-------------------------------------------------------------------------------
+Test location   RTL-cpu_reset/simv/test                                                                                                                                
+Short name      T33                                                                                                                                                    
+Test name       
+Test status     
+Simulation time 614225001 ps                                                                                                                                           
+CPU time        33.68 seconds                                                                                                                                          
+Started         Nov 17 08:33:15 AM PST 22                                                                                                                              
+Finished        Nov 17 08:33:49 AM PST 22                                                                                                                              
+Peak memory     193948 kb                                                                                                                                              
+Host            license-server-00                                                                                                                                      
+User            rady                                                                                                                                                   
+Command         sim/r_rtl_02_28_43_17_11/RTL-cpu_reset//simv +lint=TFIPC-L -cm_runsilent -cm line+tgl+cond+fsm+branch+assert +error+30 +sdfverbose +neg_tchk -a sim/r_ 
+                rtl_02_28_43_17_11/RTL-cpu_reset//test.log                                                                                                             
+Directory       /home/rady/caravel/caravel_redesign_cocotb/caravel/verilog/dv/cocotb                                                                                   
+
+
+-------------------------------------------------------------------------------
+Test location   RTL-cpu_stress/simv/test                                                                                                                               
+Short name      T28                                                                                                                                                    
+Test name       
+Test status     
+Simulation time 34094875001 ps                                                                                                                                         
+CPU time        1865.61 seconds                                                                                                                                        
+Started         Nov 17 08:00:52 AM PST 22                                                                                                                              
+Finished        Nov 17 08:31:58 AM PST 22                                                                                                                              
+Peak memory     242480 kb                                                                                                                                              
+Host            license-server-00                                                                                                                                      
+User            rady                                                                                                                                                   
+Command         sim/r_rtl_02_28_43_17_11/RTL-cpu_stress//simv +lint=TFIPC-L -cm_runsilent -cm line+tgl+cond+fsm+branch+assert +error+30 +sdfverbose +neg_tchk -a sim/r 
+                _rtl_02_28_43_17_11/RTL-cpu_stress//test.log                                                                                                           
+Directory       /home/rady/caravel/caravel_redesign_cocotb/caravel/verilog/dv/cocotb                                                                                   
+
+
+-------------------------------------------------------------------------------
+Test location   RTL-debug/simv/test                                                                                                                                    
+Short name      T24                                                                                                                                                    
+Test name       
+Test status     
+Simulation time 767605001 ps                                                                                                                                           
+CPU time        45.91 seconds                                                                                                                                          
+Started         Nov 17 05:00:16 AM PST 22                                                                                                                              
+Finished        Nov 17 05:01:01 AM PST 22                                                                                                                              
+Peak memory     204752 kb                                                                                                                                              
+Host            license-server-00                                                                                                                                      
+User            rady                                                                                                                                                   
+Command         sim/r_rtl_02_28_43_17_11/RTL-debug//simv +lint=TFIPC-L -cm_runsilent -cm line+tgl+cond+fsm+branch+assert +error+30 +sdfverbose +neg_tchk -a sim/r_rtl_ 
+                02_28_43_17_11/RTL-debug//test.log                                                                                                                     
+Directory       /home/rady/caravel/caravel_redesign_cocotb/caravel/verilog/dv/cocotb                                                                                   
+
+
+-------------------------------------------------------------------------------
+Test location   RTL-gpio_all_bidir_user/simv/test                                                                                                                      
+Short name      T25                                                                                                                                                    
+Test name       
+Test status     
+Simulation time 6600550001 ps                                                                                                                                          
+CPU time        351.54 seconds                                                                                                                                         
+Started         Nov 17 02:40:10 AM PST 22                                                                                                                              
+Finished        Nov 17 02:46:02 AM PST 22                                                                                                                              
+Peak memory     208684 kb                                                                                                                                              
+Host            license-server-00                                                                                                                                      
+User            rady                                                                                                                                                   
+Command         sim/r_rtl_02_28_43_17_11/RTL-gpio_all_bidir_user//simv +lint=TFIPC-L -cm_runsilent -cm line+tgl+cond+fsm+branch+assert +error+30 +sdfverbose +neg_tchk 
+                 -a sim/r_rtl_02_28_43_17_11/RTL-gpio_all_bidir_user//test.log                                                                                         
+Directory       /home/rady/caravel/caravel_redesign_cocotb/caravel/verilog/dv/cocotb                                                                                   
+
+
+-------------------------------------------------------------------------------
+Test location   RTL-gpio_all_i/simv/test                                                                                                                               
+Short name      T19                                                                                                                                                    
+Test name       
+Test status     
+Simulation time 1292025001 ps                                                                                                                                          
+CPU time        71.83 seconds                                                                                                                                          
+Started         Nov 17 02:28:50 AM PST 22                                                                                                                              
+Finished        Nov 17 02:30:02 AM PST 22                                                                                                                              
+Peak memory     202256 kb                                                                                                                                              
+Host            license-server-00                                                                                                                                      
+User            rady                                                                                                                                                   
+Command         sim/r_rtl_02_28_43_17_11/RTL-gpio_all_i//simv +lint=TFIPC-L -cm_runsilent -cm line+tgl+cond+fsm+branch+assert +error+30 +sdfverbose +neg_tchk -a sim/r 
+                _rtl_02_28_43_17_11/RTL-gpio_all_i//test.log                                                                                                           
+Directory       /home/rady/caravel/caravel_redesign_cocotb/caravel/verilog/dv/cocotb                                                                                   
+
+
+-------------------------------------------------------------------------------
+Test location   RTL-gpio_all_i_pd/simv/test                                                                                                                            
+Short name      T20                                                                                                                                                    
+Test name       
+Test status     
+Simulation time 1340050001 ps                                                                                                                                          
+CPU time        74.98 seconds                                                                                                                                          
+Started         Nov 17 02:37:27 AM PST 22                                                                                                                              
+Finished        Nov 17 02:38:42 AM PST 22                                                                                                                              
+Peak memory     202284 kb                                                                                                                                              
+Host            license-server-00                                                                                                                                      
+User            rady                                                                                                                                                   
+Command         sim/r_rtl_02_28_43_17_11/RTL-gpio_all_i_pd//simv +lint=TFIPC-L -cm_runsilent -cm line+tgl+cond+fsm+branch+assert +error+30 +sdfverbose +neg_tchk -a si 
+                m/r_rtl_02_28_43_17_11/RTL-gpio_all_i_pd//test.log                                                                                                     
+Directory       /home/rady/caravel/caravel_redesign_cocotb/caravel/verilog/dv/cocotb                                                                                   
+
+
+-------------------------------------------------------------------------------
+Test location   RTL-gpio_all_i_pd_user/simv/test                                                                                                                       
+Short name      T21                                                                                                                                                    
+Test name       
+Test status     
+Simulation time 1340050001 ps                                                                                                                                          
+CPU time        73.4 seconds                                                                                                                                           
+Started         Nov 17 02:38:50 AM PST 22                                                                                                                              
+Finished        Nov 17 02:40:03 AM PST 22                                                                                                                              
+Peak memory     200092 kb                                                                                                                                              
+Host            license-server-00                                                                                                                                      
+User            rady                                                                                                                                                   
+Command         sim/r_rtl_02_28_43_17_11/RTL-gpio_all_i_pd_user//simv +lint=TFIPC-L -cm_runsilent -cm line+tgl+cond+fsm+branch+assert +error+30 +sdfverbose +neg_tchk  
+                -a sim/r_rtl_02_28_43_17_11/RTL-gpio_all_i_pd_user//test.log                                                                                           
+Directory       /home/rady/caravel/caravel_redesign_cocotb/caravel/verilog/dv/cocotb                                                                                   
+
+
+-------------------------------------------------------------------------------
+Test location   RTL-gpio_all_i_pu/simv/test                                                                                                                            
+Short name      T32                                                                                                                                                    
+Test name       
+Test status     
+Simulation time 1340050001 ps                                                                                                                                          
+CPU time        75.26 seconds                                                                                                                                          
+Started         Nov 17 02:34:32 AM PST 22                                                                                                                              
+Finished        Nov 17 02:35:48 AM PST 22                                                                                                                              
+Peak memory     202228 kb                                                                                                                                              
+Host            license-server-00                                                                                                                                      
+User            rady                                                                                                                                                   
+Command         sim/r_rtl_02_28_43_17_11/RTL-gpio_all_i_pu//simv +lint=TFIPC-L -cm_runsilent -cm line+tgl+cond+fsm+branch+assert +error+30 +sdfverbose +neg_tchk -a si 
+                m/r_rtl_02_28_43_17_11/RTL-gpio_all_i_pu//test.log                                                                                                     
+Directory       /home/rady/caravel/caravel_redesign_cocotb/caravel/verilog/dv/cocotb                                                                                   
+
+
+-------------------------------------------------------------------------------
+Test location   RTL-gpio_all_i_pu_user/simv/test                                                                                                                       
+Short name      T35                                                                                                                                                    
+Test name       
+Test status     
+Simulation time 1407800001 ps                                                                                                                                          
+CPU time        84.41 seconds                                                                                                                                          
+Started         Nov 17 02:35:55 AM PST 22                                                                                                                              
+Finished        Nov 17 02:37:20 AM PST 22                                                                                                                              
+Peak memory     207144 kb                                                                                                                                              
+Host            license-server-00                                                                                                                                      
+User            rady                                                                                                                                                   
+Command         sim/r_rtl_02_28_43_17_11/RTL-gpio_all_i_pu_user//simv +lint=TFIPC-L -cm_runsilent -cm line+tgl+cond+fsm+branch+assert +error+30 +sdfverbose +neg_tchk  
+                -a sim/r_rtl_02_28_43_17_11/RTL-gpio_all_i_pu_user//test.log                                                                                           
+Directory       /home/rady/caravel/caravel_redesign_cocotb/caravel/verilog/dv/cocotb                                                                                   
+
+
+-------------------------------------------------------------------------------
+Test location   RTL-gpio_all_i_user/simv/test                                                                                                                          
+Short name      T22                                                                                                                                                    
+Test name       
+Test status     
+Simulation time 1288525001 ps                                                                                                                                          
+CPU time        71.64 seconds                                                                                                                                          
+Started         Nov 17 02:33:13 AM PST 22                                                                                                                              
+Finished        Nov 17 02:34:25 AM PST 22                                                                                                                              
+Peak memory     199784 kb                                                                                                                                              
+Host            license-server-00                                                                                                                                      
+User            rady                                                                                                                                                   
+Command         sim/r_rtl_02_28_43_17_11/RTL-gpio_all_i_user//simv +lint=TFIPC-L -cm_runsilent -cm line+tgl+cond+fsm+branch+assert +error+30 +sdfverbose +neg_tchk -a  
+                sim/r_rtl_02_28_43_17_11/RTL-gpio_all_i_user//test.log                                                                                                 
+Directory       /home/rady/caravel/caravel_redesign_cocotb/caravel/verilog/dv/cocotb                                                                                   
+
+
+-------------------------------------------------------------------------------
+Test location   RTL-gpio_all_o/simv/test                                                                                                                               
+Short name      T16                                                                                                                                                    
+Test name       
+Test status     
+Simulation time 13332300001 ps                                                                                                                                         
+CPU time        709.25 seconds                                                                                                                                         
+Started         Nov 17 02:46:09 AM PST 22                                                                                                                              
+Finished        Nov 17 02:57:59 AM PST 22                                                                                                                              
+Peak memory     220424 kb                                                                                                                                              
+Host            license-server-00                                                                                                                                      
+User            rady                                                                                                                                                   
+Command         sim/r_rtl_02_28_43_17_11/RTL-gpio_all_o//simv +lint=TFIPC-L -cm_runsilent -cm line+tgl+cond+fsm+branch+assert +error+30 +sdfverbose +neg_tchk -a sim/r 
+                _rtl_02_28_43_17_11/RTL-gpio_all_o//test.log                                                                                                           
+Directory       /home/rady/caravel/caravel_redesign_cocotb/caravel/verilog/dv/cocotb                                                                                   
+
+
+-------------------------------------------------------------------------------
+Test location   RTL-gpio_all_o_user/simv/test                                                                                                                          
+Short name      T17                                                                                                                                                    
+Test name       
+Test status     
+Simulation time 12333050001 ps                                                                                                                                         
+CPU time        661.5 seconds                                                                                                                                          
+Started         Nov 17 02:58:06 AM PST 22                                                                                                                              
+Finished        Nov 17 03:09:08 AM PST 22                                                                                                                              
+Peak memory     215876 kb                                                                                                                                              
+Host            license-server-00                                                                                                                                      
+User            rady                                                                                                                                                   
+Command         sim/r_rtl_02_28_43_17_11/RTL-gpio_all_o_user//simv +lint=TFIPC-L -cm_runsilent -cm line+tgl+cond+fsm+branch+assert +error+30 +sdfverbose +neg_tchk -a  
+                sim/r_rtl_02_28_43_17_11/RTL-gpio_all_o_user//test.log                                                                                                 
+Directory       /home/rady/caravel/caravel_redesign_cocotb/caravel/verilog/dv/cocotb                                                                                   
+
+
+-------------------------------------------------------------------------------
+Test location   RTL-hk_disable/simv/test                                                                                                                               
+Short name      T41                                                                                                                                                    
+Test name       
+Test status     
+Simulation time 282025001 ps                                                                                                                                           
+CPU time        16.53 seconds                                                                                                                                          
+Started         Nov 17 02:30:09 AM PST 22                                                                                                                              
+Finished        Nov 17 02:30:26 AM PST 22                                                                                                                              
+Peak memory     194368 kb                                                                                                                                              
+Host            license-server-00                                                                                                                                      
+User            rady                                                                                                                                                   
+Command         sim/r_rtl_02_28_43_17_11/RTL-hk_disable//simv +lint=TFIPC-L -cm_runsilent -cm line+tgl+cond+fsm+branch+assert +error+30 +sdfverbose +neg_tchk -a sim/r 
+                _rtl_02_28_43_17_11/RTL-hk_disable//test.log                                                                                                           
+Directory       /home/rady/caravel/caravel_redesign_cocotb/caravel/verilog/dv/cocotb                                                                                   
+
+
+-------------------------------------------------------------------------------
+Test location   RTL-hk_regs_rst_spi/simv/test                                                                                                                          
+Short name      T26                                                                                                                                                    
+Test name       
+Test status     
+Simulation time 71275001 ps                                                                                                                                            
+CPU time        9.9 seconds                                                                                                                                            
+Started         Nov 17 02:32:56 AM PST 22                                                                                                                              
+Finished        Nov 17 02:33:06 AM PST 22                                                                                                                              
+Peak memory     192768 kb                                                                                                                                              
+Host            license-server-00                                                                                                                                      
+User            rady                                                                                                                                                   
+Command         sim/r_rtl_02_28_43_17_11/RTL-hk_regs_rst_spi//simv +lint=TFIPC-L -cm_runsilent -cm line+tgl+cond+fsm+branch+assert +error+30 +sdfverbose +neg_tchk -a  
+                sim/r_rtl_02_28_43_17_11/RTL-hk_regs_rst_spi//test.log                                                                                                 
+Directory       /home/rady/caravel/caravel_redesign_cocotb/caravel/verilog/dv/cocotb                                                                                   
+
+
+-------------------------------------------------------------------------------
+Test location   RTL-hk_regs_wr_spi/simv/test                                                                                                                           
+Short name      T27                                                                                                                                                    
+Test name       
+Test status     
+Simulation time 159425001 ps                                                                                                                                           
+CPU time        19.07 seconds                                                                                                                                          
+Started         Nov 17 04:06:06 AM PST 22                                                                                                                              
+Finished        Nov 17 04:06:25 AM PST 22                                                                                                                              
+Peak memory     193332 kb                                                                                                                                              
+Host            license-server-00                                                                                                                                      
+User            rady                                                                                                                                                   
+Command         sim/r_rtl_02_28_43_17_11/RTL-hk_regs_wr_spi//simv +lint=TFIPC-L -cm_runsilent -cm line+tgl+cond+fsm+branch+assert +error+30 +sdfverbose +neg_tchk -a s 
+                im/r_rtl_02_28_43_17_11/RTL-hk_regs_wr_spi//test.log                                                                                                   
+Directory       /home/rady/caravel/caravel_redesign_cocotb/caravel/verilog/dv/cocotb                                                                                   
+
+
+-------------------------------------------------------------------------------
+Test location   RTL-hk_regs_wr_wb/simv/test                                                                                                                            
+Short name      T44                                                                                                                                                    
+Test name       
+Test status     
+Simulation time 2125001 ps                                                                                                                                             
+CPU time        1.21 seconds                                                                                                                                           
+Started         Nov 17 08:32:58 AM PST 22                                                                                                                              
+Finished        Nov 17 08:32:59 AM PST 22                                                                                                                              
+Peak memory     194848 kb                                                                                                                                              
+Host            license-server-00                                                                                                                                      
+User            rady                                                                                                                                                   
+Command         sim/r_rtl_02_28_43_17_11/RTL-hk_regs_wr_wb//simv +lint=TFIPC-L -cm_runsilent -cm line+tgl+cond+fsm+branch+assert +error+30 +sdfverbose +neg_tchk -a si 
+                m/r_rtl_02_28_43_17_11/RTL-hk_regs_wr_wb//test.log                                                                                                     
+Directory       /home/rady/caravel/caravel_redesign_cocotb/caravel/verilog/dv/cocotb                                                                                   
+
+
+-------------------------------------------------------------------------------
+Test location   RTL-hk_regs_wr_wb_cpu/simv/test                                                                                                                        
+Short name      T4                                                                                                                                                     
+Test name       
+Test status     
+Simulation time 4529300001 ps                                                                                                                                          
+CPU time        349.51 seconds                                                                                                                                         
+Started         Nov 17 03:09:15 AM PST 22                                                                                                                              
+Finished        Nov 17 03:15:05 AM PST 22                                                                                                                              
+Peak memory     204156 kb                                                                                                                                              
+Host            license-server-00                                                                                                                                      
+User            rady                                                                                                                                                   
+Command         sim/r_rtl_02_28_43_17_11/RTL-hk_regs_wr_wb_cpu//simv +lint=TFIPC-L -cm_runsilent -cm line+tgl+cond+fsm+branch+assert +error+30 +sdfverbose +neg_tchk - 
+                a sim/r_rtl_02_28_43_17_11/RTL-hk_regs_wr_wb_cpu//test.log                                                                                             
+Directory       /home/rady/caravel/caravel_redesign_cocotb/caravel/verilog/dv/cocotb                                                                                   
+
+
+-------------------------------------------------------------------------------
+Test location   RTL-la/simv/test                                                                                                                                       
+Short name      T36                                                                                                                                                    
+Test name       
+Test status     
+Simulation time 1668700001 ps                                                                                                                                          
+CPU time        91.4 seconds                                                                                                                                           
+Started         Nov 17 05:11:28 AM PST 22                                                                                                                              
+Finished        Nov 17 05:12:59 AM PST 22                                                                                                                              
+Peak memory     197776 kb                                                                                                                                              
+Host            license-server-00                                                                                                                                      
+User            rady                                                                                                                                                   
+Command         sim/r_rtl_02_28_43_17_11/RTL-la//simv +lint=TFIPC-L -cm_runsilent -cm line+tgl+cond+fsm+branch+assert +error+30 +sdfverbose +neg_tchk -a sim/r_rtl_02_ 
+                28_43_17_11/RTL-la//test.log                                                                                                                           
+Directory       /home/rady/caravel/caravel_redesign_cocotb/caravel/verilog/dv/cocotb                                                                                   
+
+
+-------------------------------------------------------------------------------
+Test location   RTL-mem_dff2_W/simv/test                                                                                                                               
+Short name      T29                                                                                                                                                    
+Test name       
+Test status     
+Simulation time 44651275001 ps                                                                                                                                         
+CPU time        2364.53 seconds                                                                                                                                        
+Started         Nov 17 07:18:14 AM PST 22                                                                                                                              
+Finished        Nov 17 07:57:39 AM PST 22                                                                                                                              
+Peak memory     256180 kb                                                                                                                                              
+Host            license-server-00                                                                                                                                      
+User            rady                                                                                                                                                   
+Command         sim/r_rtl_02_28_43_17_11/RTL-mem_dff2_W//simv +lint=TFIPC-L -cm_runsilent -cm line+tgl+cond+fsm+branch+assert +error+30 +sdfverbose +neg_tchk -a sim/r 
+                _rtl_02_28_43_17_11/RTL-mem_dff2_W//test.log                                                                                                           
+Directory       /home/rady/caravel/caravel_redesign_cocotb/caravel/verilog/dv/cocotb                                                                                   
+
+
+-------------------------------------------------------------------------------
+Test location   RTL-mem_dff_W/simv/test                                                                                                                                
+Short name      T30                                                                                                                                                    
+Test name       
+Test status     
+Simulation time 88901275001 ps                                                                                                                                         
+CPU time        4752.64 seconds                                                                                                                                        
+Started         Nov 17 05:57:46 AM PST 22                                                                                                                              
+Finished        Nov 17 07:16:59 AM PST 22                                                                                                                              
+Peak memory     313460 kb                                                                                                                                              
+Host            license-server-00                                                                                                                                      
+User            rady                                                                                                                                                   
+Command         sim/r_rtl_02_28_43_17_11/RTL-mem_dff_W//simv +lint=TFIPC-L -cm_runsilent -cm line+tgl+cond+fsm+branch+assert +error+30 +sdfverbose +neg_tchk -a sim/r_ 
+                rtl_02_28_43_17_11/RTL-mem_dff_W//test.log                                                                                                             
+Directory       /home/rady/caravel/caravel_redesign_cocotb/caravel/verilog/dv/cocotb                                                                                   
+
+
+-------------------------------------------------------------------------------
+Test location   RTL-mgmt_gpio_bidir/simv/test                                                                                                                          
+Short name      T8                                                                                                                                                     
+Test name       
+Test status     
+Simulation time 4739975001 ps                                                                                                                                          
+CPU time        256.71 seconds                                                                                                                                         
+Started         Nov 17 05:07:04 AM PST 22                                                                                                                              
+Finished        Nov 17 05:11:20 AM PST 22                                                                                                                              
+Peak memory     204052 kb                                                                                                                                              
+Host            license-server-00                                                                                                                                      
+User            rady                                                                                                                                                   
+Command         sim/r_rtl_02_28_43_17_11/RTL-mgmt_gpio_bidir//simv +lint=TFIPC-L -cm_runsilent -cm line+tgl+cond+fsm+branch+assert +error+30 +sdfverbose +neg_tchk -a  
+                sim/r_rtl_02_28_43_17_11/RTL-mgmt_gpio_bidir//test.log                                                                                                 
+Directory       /home/rady/caravel/caravel_redesign_cocotb/caravel/verilog/dv/cocotb                                                                                   
+
+
+-------------------------------------------------------------------------------
+Test location   RTL-mgmt_gpio_in/simv/test                                                                                                                             
+Short name      T10                                                                                                                                                    
+Test name       
+Test status     
+Simulation time 6857275001 ps                                                                                                                                          
+CPU time        361.89 seconds                                                                                                                                         
+Started         Nov 17 04:17:37 AM PST 22                                                                                                                              
+Finished        Nov 17 04:23:39 AM PST 22                                                                                                                              
+Peak memory     206556 kb                                                                                                                                              
+Host            license-server-00                                                                                                                                      
+User            rady                                                                                                                                                   
+Command         sim/r_rtl_02_28_43_17_11/RTL-mgmt_gpio_in//simv +lint=TFIPC-L -cm_runsilent -cm line+tgl+cond+fsm+branch+assert +error+30 +sdfverbose +neg_tchk -a sim 
+                /r_rtl_02_28_43_17_11/RTL-mgmt_gpio_in//test.log                                                                                                       
+Directory       /home/rady/caravel/caravel_redesign_cocotb/caravel/verilog/dv/cocotb                                                                                   
+
+
+-------------------------------------------------------------------------------
+Test location   RTL-mgmt_gpio_out/simv/test                                                                                                                            
+Short name      T9                                                                                                                                                     
+Test name       
+Test status     
+Simulation time 2262025001 ps                                                                                                                                          
+CPU time        121.63 seconds                                                                                                                                         
+Started         Nov 17 04:02:08 AM PST 22                                                                                                                              
+Finished        Nov 17 04:04:09 AM PST 22                                                                                                                              
+Peak memory     200248 kb                                                                                                                                              
+Host            license-server-00                                                                                                                                      
+User            rady                                                                                                                                                   
+Command         sim/r_rtl_02_28_43_17_11/RTL-mgmt_gpio_out//simv +lint=TFIPC-L -cm_runsilent -cm line+tgl+cond+fsm+branch+assert +error+30 +sdfverbose +neg_tchk -a si 
+                m/r_rtl_02_28_43_17_11/RTL-mgmt_gpio_out//test.log                                                                                                     
+Directory       /home/rady/caravel/caravel_redesign_cocotb/caravel/verilog/dv/cocotb                                                                                   
+
+
+-------------------------------------------------------------------------------
+Test location   RTL-pll/simv/test                                                                                                                                      
+Short name      T34                                                                                                                                                    
+Test name       
+Test status     
+Simulation time 1170275001 ps                                                                                                                                          
+CPU time        111.04 seconds                                                                                                                                         
+Started         Nov 17 05:13:07 AM PST 22                                                                                                                              
+Finished        Nov 17 05:14:58 AM PST 22                                                                                                                              
+Peak memory     203984 kb                                                                                                                                              
+Host            license-server-00                                                                                                                                      
+User            rady                                                                                                                                                   
+Command         sim/r_rtl_02_28_43_17_11/RTL-pll//simv +lint=TFIPC-L -cm_runsilent -cm line+tgl+cond+fsm+branch+assert +error+30 +sdfverbose +neg_tchk -a sim/r_rtl_02 
+                _28_43_17_11/RTL-pll//test.log                                                                                                                         
+Directory       /home/rady/caravel/caravel_redesign_cocotb/caravel/verilog/dv/cocotb                                                                                   
+
+
+-------------------------------------------------------------------------------
+Test location   RTL-serial_shifting_0011/simv/test                                                                                                                     
+Short name      T5                                                                                                                                                     
+Test name       
+Test status     
+Simulation time 908275001 ps                                                                                                                                           
+CPU time        52.57 seconds                                                                                                                                          
+Started         Nov 17 07:59:53 AM PST 22                                                                                                                              
+Finished        Nov 17 08:00:45 AM PST 22                                                                                                                              
+Peak memory     200260 kb                                                                                                                                              
+Host            license-server-00                                                                                                                                      
+User            rady                                                                                                                                                   
+Command         sim/r_rtl_02_28_43_17_11/RTL-serial_shifting_0011//simv +lint=TFIPC-L -cm_runsilent -cm line+tgl+cond+fsm+branch+assert +error+30 +sdfverbose +neg_tch 
+                k -a sim/r_rtl_02_28_43_17_11/RTL-serial_shifting_0011//test.log                                                                                       
+Directory       /home/rady/caravel/caravel_redesign_cocotb/caravel/verilog/dv/cocotb                                                                                   
+
+
+-------------------------------------------------------------------------------
+Test location   RTL-serial_shifting_01/simv/test                                                                                                                       
+Short name      T6                                                                                                                                                     
+Test name       
+Test status     
+Simulation time 936275001 ps                                                                                                                                           
+CPU time        59.98 seconds                                                                                                                                          
+Started         Nov 17 07:17:06 AM PST 22                                                                                                                              
+Finished        Nov 17 07:18:06 AM PST 22                                                                                                                              
+Peak memory     207496 kb                                                                                                                                              
+Host            license-server-00                                                                                                                                      
+User            rady                                                                                                                                                   
+Command         sim/r_rtl_02_28_43_17_11/RTL-serial_shifting_01//simv +lint=TFIPC-L -cm_runsilent -cm line+tgl+cond+fsm+branch+assert +error+30 +sdfverbose +neg_tchk  
+                -a sim/r_rtl_02_28_43_17_11/RTL-serial_shifting_01//test.log                                                                                           
+Directory       /home/rady/caravel/caravel_redesign_cocotb/caravel/verilog/dv/cocotb                                                                                   
+
+
+-------------------------------------------------------------------------------
+Test location   RTL-serial_shifting_10/simv/test                                                                                                                       
+Short name      T7                                                                                                                                                     
+Test name       
+Test status     
+Simulation time 938025001 ps                                                                                                                                           
+CPU time        59.73 seconds                                                                                                                                          
+Started         Nov 17 07:57:46 AM PST 22                                                                                                                              
+Finished        Nov 17 07:58:46 AM PST 22                                                                                                                              
+Peak memory     207680 kb                                                                                                                                              
+Host            license-server-00                                                                                                                                      
+User            rady                                                                                                                                                   
+Command         sim/r_rtl_02_28_43_17_11/RTL-serial_shifting_10//simv +lint=TFIPC-L -cm_runsilent -cm line+tgl+cond+fsm+branch+assert +error+30 +sdfverbose +neg_tchk  
+                -a sim/r_rtl_02_28_43_17_11/RTL-serial_shifting_10//test.log                                                                                           
+Directory       /home/rady/caravel/caravel_redesign_cocotb/caravel/verilog/dv/cocotb                                                                                   
+
+
+-------------------------------------------------------------------------------
+Test location   RTL-serial_shifting_1100/simv/test                                                                                                                     
+Short name      T18                                                                                                                                                    
+Test name       
+Test status     
+Simulation time 909775001 ps                                                                                                                                           
+CPU time        52.15 seconds                                                                                                                                          
+Started         Nov 17 07:58:53 AM PST 22                                                                                                                              
+Finished        Nov 17 07:59:45 AM PST 22                                                                                                                              
+Peak memory     200004 kb                                                                                                                                              
+Host            license-server-00                                                                                                                                      
+User            rady                                                                                                                                                   
+Command         sim/r_rtl_02_28_43_17_11/RTL-serial_shifting_1100//simv +lint=TFIPC-L -cm_runsilent -cm line+tgl+cond+fsm+branch+assert +error+30 +sdfverbose +neg_tch 
+                k -a sim/r_rtl_02_28_43_17_11/RTL-serial_shifting_1100//test.log                                                                                       
+Directory       /home/rady/caravel/caravel_redesign_cocotb/caravel/verilog/dv/cocotb                                                                                   
+
+
+-------------------------------------------------------------------------------
+Test location   RTL-spi_master_rd/simv/test                                                                                                                            
+Short name      T38                                                                                                                                                    
+Test name       
+Test status     
+Simulation time 5294275001 ps                                                                                                                                          
+CPU time        288.14 seconds                                                                                                                                         
+Started         Nov 17 05:01:09 AM PST 22                                                                                                                              
+Finished        Nov 17 05:05:57 AM PST 22                                                                                                                              
+Peak memory     208908 kb                                                                                                                                              
+Host            license-server-00                                                                                                                                      
+User            rady                                                                                                                                                   
+Command         sim/r_rtl_02_28_43_17_11/RTL-spi_master_rd//simv +lint=TFIPC-L -cm_runsilent -cm line+tgl+cond+fsm+branch+assert +error+30 +sdfverbose +neg_tchk -a si 
+                m/r_rtl_02_28_43_17_11/RTL-spi_master_rd//test.log                                                                                                     
+Directory       /home/rady/caravel/caravel_redesign_cocotb/caravel/verilog/dv/cocotb                                                                                   
+
+
+-------------------------------------------------------------------------------
+Test location   RTL-spi_master_temp/simv/test                                                                                                                          
+Short name      T39                                                                                                                                                    
+Test name       
+Test status     
+Simulation time 979075001 ps                                                                                                                                           
+CPU time        56.62 seconds                                                                                                                                          
+Started         Nov 17 05:15:06 AM PST 22                                                                                                                              
+Finished        Nov 17 05:16:02 AM PST 22                                                                                                                              
+Peak memory     200384 kb                                                                                                                                              
+Host            license-server-00                                                                                                                                      
+User            rady                                                                                                                                                   
+Command         sim/r_rtl_02_28_43_17_11/RTL-spi_master_temp//simv +lint=TFIPC-L -cm_runsilent -cm line+tgl+cond+fsm+branch+assert +error+30 +sdfverbose +neg_tchk -a  
+                sim/r_rtl_02_28_43_17_11/RTL-spi_master_temp//test.log                                                                                                 
+Directory       /home/rady/caravel/caravel_redesign_cocotb/caravel/verilog/dv/cocotb                                                                                   
+
+
+-------------------------------------------------------------------------------
+Test location   RTL-spi_rd_wr_nbyte/simv/test                                                                                                                          
+Short name      T45                                                                                                                                                    
+Test name       
+Test status     
+Simulation time 1775001 ps                                                                                                                                             
+CPU time        1.22 seconds                                                                                                                                           
+Started         Nov 17 08:33:06 AM PST 22                                                                                                                              
+Finished        Nov 17 08:33:08 AM PST 22                                                                                                                              
+Peak memory     190584 kb                                                                                                                                              
+Host            license-server-00                                                                                                                                      
+User            rady                                                                                                                                                   
+Command         sim/r_rtl_02_28_43_17_11/RTL-spi_rd_wr_nbyte//simv +lint=TFIPC-L -cm_runsilent -cm line+tgl+cond+fsm+branch+assert +error+30 +sdfverbose +neg_tchk -a  
+                sim/r_rtl_02_28_43_17_11/RTL-spi_rd_wr_nbyte//test.log                                                                                                 
+Directory       /home/rady/caravel/caravel_redesign_cocotb/caravel/verilog/dv/cocotb                                                                                   
+
+
+-------------------------------------------------------------------------------
+Test location   RTL-timer0_oneshot/simv/test                                                                                                                           
+Short name      T42                                                                                                                                                    
+Test name       
+Test status     
+Simulation time 25335275001 ps                                                                                                                                         
+CPU time        1348.34 seconds                                                                                                                                        
+Started         Nov 17 04:23:47 AM PST 22                                                                                                                              
+Finished        Nov 17 04:46:15 AM PST 22                                                                                                                              
+Peak memory     230760 kb                                                                                                                                              
+Host            license-server-00                                                                                                                                      
+User            rady                                                                                                                                                   
+Command         sim/r_rtl_02_28_43_17_11/RTL-timer0_oneshot//simv +lint=TFIPC-L -cm_runsilent -cm line+tgl+cond+fsm+branch+assert +error+30 +sdfverbose +neg_tchk -a s 
+                im/r_rtl_02_28_43_17_11/RTL-timer0_oneshot//test.log                                                                                                   
+Directory       /home/rady/caravel/caravel_redesign_cocotb/caravel/verilog/dv/cocotb                                                                                   
+
+
+-------------------------------------------------------------------------------
+Test location   RTL-timer0_periodic/simv/test                                                                                                                          
+Short name      T43                                                                                                                                                    
+Test name       
+Test status     
+Simulation time 1287525001 ps                                                                                                                                          
+CPU time        67.94 seconds                                                                                                                                          
+Started         Nov 17 04:51:12 AM PST 22                                                                                                                              
+Finished        Nov 17 04:52:20 AM PST 22                                                                                                                              
+Peak memory     200644 kb                                                                                                                                              
+Host            license-server-00                                                                                                                                      
+User            rady                                                                                                                                                   
+Command         sim/r_rtl_02_28_43_17_11/RTL-timer0_periodic//simv +lint=TFIPC-L -cm_runsilent -cm line+tgl+cond+fsm+branch+assert +error+30 +sdfverbose +neg_tchk -a  
+                sim/r_rtl_02_28_43_17_11/RTL-timer0_periodic//test.log                                                                                                 
+Directory       /home/rady/caravel/caravel_redesign_cocotb/caravel/verilog/dv/cocotb                                                                                   
+
+
+-------------------------------------------------------------------------------
+Test location   RTL-uart_loopback/simv/test                                                                                                                            
+Short name      T37                                                                                                                                                    
+Test name       
+Test status     
+Simulation time 4926275001 ps                                                                                                                                          
+CPU time        281.06 seconds                                                                                                                                         
+Started         Nov 17 04:46:23 AM PST 22                                                                                                                              
+Finished        Nov 17 04:51:04 AM PST 22                                                                                                                              
+Peak memory     214820 kb                                                                                                                                              
+Host            license-server-00                                                                                                                                      
+User            rady                                                                                                                                                   
+Command         sim/r_rtl_02_28_43_17_11/RTL-uart_loopback//simv +lint=TFIPC-L -cm_runsilent -cm line+tgl+cond+fsm+branch+assert +error+30 +sdfverbose +neg_tchk -a si 
+                m/r_rtl_02_28_43_17_11/RTL-uart_loopback//test.log                                                                                                     
+Directory       /home/rady/caravel/caravel_redesign_cocotb/caravel/verilog/dv/cocotb                                                                                   
+
+
+-------------------------------------------------------------------------------
+Test location   RTL-uart_rx/simv/test                                                                                                                                  
+Short name      T40                                                                                                                                                    
+Test name       
+Test status     
+Simulation time 2433550001 ps                                                                                                                                          
+CPU time        135.07 seconds                                                                                                                                         
+Started         Nov 17 02:30:33 AM PST 22                                                                                                                              
+Finished        Nov 17 02:32:49 AM PST 22                                                                                                                              
+Peak memory     205728 kb                                                                                                                                              
+Host            license-server-00                                                                                                                                      
+User            rady                                                                                                                                                   
+Command         sim/r_rtl_02_28_43_17_11/RTL-uart_rx//simv +lint=TFIPC-L -cm_runsilent -cm line+tgl+cond+fsm+branch+assert +error+30 +sdfverbose +neg_tchk -a sim/r_rt 
+                l_02_28_43_17_11/RTL-uart_rx//test.log                                                                                                                 
+Directory       /home/rady/caravel/caravel_redesign_cocotb/caravel/verilog/dv/cocotb                                                                                   
+
+
+-------------------------------------------------------------------------------
+Test location   RTL-uart_tx/simv/test                                                                                                                                  
+Short name      T31                                                                                                                                                    
+Test name       
+Test status     
+Simulation time 8567839001 ps                                                                                                                                          
+CPU time        460.25 seconds                                                                                                                                         
+Started         Nov 17 04:52:27 AM PST 22                                                                                                                              
+Finished        Nov 17 05:00:08 AM PST 22                                                                                                                              
+Peak memory     223256 kb                                                                                                                                              
+Host            license-server-00                                                                                                                                      
+User            rady                                                                                                                                                   
+Command         sim/r_rtl_02_28_43_17_11/RTL-uart_tx//simv +lint=TFIPC-L -cm_runsilent -cm line+tgl+cond+fsm+branch+assert +error+30 +sdfverbose +neg_tchk -a sim/r_rt 
+                l_02_28_43_17_11/RTL-uart_tx//test.log                                                                                                                 
+Directory       /home/rady/caravel/caravel_redesign_cocotb/caravel/verilog/dv/cocotb                                                                                   
+
+
+-------------------------------------------------------------------------------
+Test location   RTL-user_address_space/simv/test                                                                                                                       
+Short name      T48                                                                                                                                                    
+Test name       
+Test status     
+Simulation time 443875001 ps                                                                                                                                           
+CPU time        24.24 seconds                                                                                                                                          
+Started         Nov 17 08:33:56 AM PST 22                                                                                                                              
+Finished        Nov 17 08:34:20 AM PST 22                                                                                                                              
+Peak memory     192044 kb                                                                                                                                              
+Host            license-server-00                                                                                                                                      
+User            rady                                                                                                                                                   
+Command         sim/r_rtl_02_28_43_17_11/RTL-user_address_space//simv +lint=TFIPC-L -cm_runsilent -cm line+tgl+cond+fsm+branch+assert +error+30 +sdfverbose +neg_tchk  
+                -a sim/r_rtl_02_28_43_17_11/RTL-user_address_space//test.log                                                                                           
+Directory       /home/rady/caravel/caravel_redesign_cocotb/caravel/verilog/dv/cocotb                                                                                   
+
+
+-------------------------------------------------------------------------------
+Test location   RTL-user_pass_thru_rd/simv/test                                                                                                                        
+Short name      T46                                                                                                                                                    
+Test name       
+Test status     
+Simulation time 338425001 ps                                                                                                                                           
+CPU time        22 seconds                                                                                                                                             
+Started         Nov 17 05:06:05 AM PST 22                                                                                                                              
+Finished        Nov 17 05:06:27 AM PST 22                                                                                                                              
+Peak memory     197616 kb                                                                                                                                              
+Host            license-server-00                                                                                                                                      
+User            rady                                                                                                                                                   
+Command         sim/r_rtl_02_28_43_17_11/RTL-user_pass_thru_rd//simv +lint=TFIPC-L -cm_runsilent -cm line+tgl+cond+fsm+branch+assert +error+30 +sdfverbose +neg_tchk - 
+                a sim/r_rtl_02_28_43_17_11/RTL-user_pass_thru_rd//test.log                                                                                             
+Directory       /home/rady/caravel/caravel_redesign_cocotb/caravel/verilog/dv/cocotb                                                                                   
+
