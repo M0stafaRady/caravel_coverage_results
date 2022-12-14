@@ -43,15 +43,15 @@ $(document).ready(function () {
 <table align=left>
 <tr class="sortablehead">
 <td nowrap width=65>SCORE</td><td nowrap width=65>LINE</td><td nowrap width=65>COND</td><td nowrap width=65>TOGGLE</td><td nowrap width=65>FSM</td><td nowrap width=65>BRANCH</td></tr><tr>
-<td class="s6 cl rt"> 61.49</td>
-<td class="s6 cl rt"> 69.06</td>
-<td class="s6 cl rt"> 68.32</td>
-<td class="s5 cl rt"> 56.12</td>
-<td class="s5 cl rt"> 53.85</td>
-<td class="s6 cl rt"> 60.10</td>
+<td class="s7 cl rt"> 72.32</td>
+<td class="s8 cl rt"> 89.31</td>
+<td class="s8 cl rt"> 83.59</td>
+<td class="s5 cl rt"> 50.64</td>
+<td class="s5 cl rt"> 55.91</td>
+<td class="s8 cl rt"> 82.13</td>
 </tr></table><br clear=all>
 <br clear=all>
-Total tests in report: 48<hr>
+Total tests in report: 51<hr>
 <b>Data from the following tests was used to generate this report</b><br clear=all>
 <table align=left>
 <tr>
@@ -62,6 +62,8 @@ Total tests in report: 48<hr>
 </tr><tr>
 <td nowrap>RTL-IRQ_uart/simv/test</td>
 </tr><tr>
+<td nowrap>RTL-PoR/simv/test</td>
+</tr><tr>
 <td nowrap>RTL-bitbang_cpu_all_i/simv/test</td>
 </tr><tr>
 <td nowrap>RTL-bitbang_cpu_all_o/simv/test</td>
@@ -112,17 +114,17 @@ Total tests in report: 48<hr>
 </tr><tr>
 <td nowrap>RTL-la/simv/test</td>
 </tr><tr>
-<td nowrap>RTL-mem_dff2_W/simv/test</td>
+<td nowrap>RTL-mem_sram_W/simv/test</td>
 </tr><tr>
-<td nowrap>RTL-mem_dff_W/simv/test</td>
+<td nowrap>RTL-mem_sram_smoke/simv/test</td>
 </tr><tr>
 <td nowrap>RTL-mgmt_gpio_bidir/simv/test</td>
+</tr><tr>
+<td nowrap>RTL-mgmt_gpio_disable/simv/test</td>
 </tr><tr>
 <td nowrap>RTL-mgmt_gpio_in/simv/test</td>
 </tr><tr>
 <td nowrap>RTL-mgmt_gpio_out/simv/test</td>
-</tr><tr>
-<td nowrap>RTL-pll/simv/test</td>
 </tr><tr>
 <td nowrap>RTL-serial_shifting_0011/simv/test</td>
 </tr><tr>
@@ -138,6 +140,8 @@ Total tests in report: 48<hr>
 </tr><tr>
 <td nowrap>RTL-spi_rd_wr_nbyte/simv/test</td>
 </tr><tr>
+<td nowrap>RTL-spi_rd_wr_stream/simv/test</td>
+</tr><tr>
 <td nowrap>RTL-timer0_oneshot/simv/test</td>
 </tr><tr>
 <td nowrap>RTL-timer0_periodic/simv/test</td>
@@ -150,10 +154,12 @@ Total tests in report: 48<hr>
 </tr><tr>
 <td nowrap>RTL-user_address_space/simv/test</td>
 </tr><tr>
+<td nowrap>RTL-user_pass_thru_connection/simv/test</td>
+</tr><tr>
 <td nowrap>RTL-user_pass_thru_rd/simv/test</td>
 </tr></table><br clear=all>
 <br clear=all>
-Total test records in report: 48<hr>
+Total test records in report: 51<hr>
 <table align=left>
 <tr>
 <th nowrap width=80>TEST NO</th><th nowrap width=80>TEST LOCATION</th><th nowrap width=80>TEST NAME</th><th nowrap width=80>STATUS</th><th nowrap width=80>STARTED</th><th nowrap width=80>FINISHED</th><th nowrap width=80>SIMULATION TIME</th></tr><tr>
@@ -161,385 +167,409 @@ Total test records in report: 48<hr>
 <td nowrap>RTL-IRQ_external/simv/test</td>
 <td></td>
 <td></td>
-<td>Nov 17 04:06:33 AM PST 22</td>
-<td>Nov 17 04:10:11 AM PST 22</td>
-<td>3842225001 ps</td>
+<td>Dec 12 06:19:51 AM PST 22</td>
+<td>Dec 12 06:23:10 AM PST 22</td>
+<td>4482060001 ps</td>
 </tr><tr>
 <td><a href="#T2" >T2</a></td>
 <td nowrap>RTL-IRQ_timer/simv/test</td>
 <td></td>
 <td></td>
-<td>Nov 17 03:15:12 AM PST 22</td>
-<td>Nov 17 03:18:32 AM PST 22</td>
-<td>3783525001 ps</td>
+<td>Dec 12 05:41:27 AM PST 22</td>
+<td>Dec 12 05:44:40 AM PST 22</td>
+<td>4541460001 ps</td>
 </tr><tr>
 <td><a href="#T3" >T3</a></td>
 <td nowrap>RTL-IRQ_uart/simv/test</td>
 <td></td>
 <td></td>
-<td>Nov 17 04:10:18 AM PST 22</td>
-<td>Nov 17 04:17:30 AM PST 22</td>
-<td>7872275001 ps</td>
+<td>Dec 12 06:23:18 AM PST 22</td>
+<td>Dec 12 06:30:13 AM PST 22</td>
+<td>9388260001 ps</td>
 </tr><tr>
-<td><a href="#T11" >T11</a></td>
+<td><a href="#T18" >T18</a></td>
+<td nowrap>RTL-PoR/simv/test</td>
+<td></td>
+<td></td>
+<td>Dec 12 11:42:53 AM PST 22</td>
+<td>Dec 12 11:43:23 AM PST 22</td>
+<td>2986470001 ps</td>
+</tr><tr>
+<td><a href="#T16" >T16</a></td>
 <td nowrap>RTL-bitbang_cpu_all_i/simv/test</td>
 <td></td>
 <td></td>
-<td>Nov 17 03:18:39 AM PST 22</td>
-<td>Nov 17 03:54:54 AM PST 22</td>
-<td>40628275001 ps</td>
+<td>Dec 12 05:44:47 AM PST 22</td>
+<td>Dec 12 06:07:32 AM PST 22</td>
+<td>31764360001 ps</td>
 </tr><tr>
-<td><a href="#T12" >T12</a></td>
+<td><a href="#T6" >T6</a></td>
 <td nowrap>RTL-bitbang_cpu_all_o/simv/test</td>
 <td></td>
 <td></td>
-<td>Nov 17 05:16:10 AM PST 22</td>
-<td>Nov 17 05:57:38 AM PST 22</td>
-<td>45607300001 ps</td>
+<td>Dec 12 07:22:46 AM PST 22</td>
+<td>Dec 12 07:52:23 AM PST 22</td>
+<td>40030290001 ps</td>
 </tr><tr>
-<td><a href="#T13" >T13</a></td>
+<td><a href="#T15" >T15</a></td>
 <td nowrap>RTL-bitbang_no_cpu_all_i/simv/test</td>
 <td></td>
 <td></td>
-<td>Nov 17 08:32:35 AM PST 22</td>
-<td>Nov 17 08:32:51 AM PST 22</td>
-<td>165250001 ps</td>
+<td>Dec 12 08:26:56 AM PST 22</td>
+<td>Dec 12 08:26:57 AM PST 22</td>
+<td>1921001 ps</td>
 </tr><tr>
-<td><a href="#T14" >T14</a></td>
+<td><a href="#T38" >T38</a></td>
 <td nowrap>RTL-bitbang_no_cpu_all_o/simv/test</td>
 <td></td>
 <td></td>
-<td>Nov 17 08:32:06 AM PST 22</td>
-<td>Nov 17 08:32:27 AM PST 22</td>
-<td>232025001 ps</td>
+<td>Dec 12 08:26:46 AM PST 22</td>
+<td>Dec 12 08:26:47 AM PST 22</td>
+<td>1921001 ps</td>
 </tr><tr>
-<td><a href="#T23" >T23</a></td>
+<td><a href="#T9" >T9</a></td>
 <td nowrap>RTL-bitbang_spi_i/simv/test</td>
 <td></td>
 <td></td>
-<td>Nov 17 04:04:17 AM PST 22</td>
-<td>Nov 17 04:05:59 AM PST 22</td>
-<td>1370975001 ps</td>
+<td>Dec 12 06:16:43 AM PST 22</td>
+<td>Dec 12 06:18:57 AM PST 22</td>
+<td>2107560001 ps</td>
 </tr><tr>
-<td><a href="#T15" >T15</a></td>
+<td><a href="#T7" >T7</a></td>
 <td nowrap>RTL-bitbang_spi_o/simv/test</td>
 <td></td>
 <td></td>
-<td>Nov 17 03:55:01 AM PST 22</td>
-<td>Nov 17 04:02:00 AM PST 22</td>
-<td>7283475001 ps</td>
+<td>Dec 12 06:07:39 AM PST 22</td>
+<td>Dec 12 06:14:50 AM PST 22</td>
+<td>9079860001 ps</td>
 </tr><tr>
-<td><a href="#T47" >T47</a></td>
+<td><a href="#T32" >T32</a></td>
 <td nowrap>RTL-clock_redirect/simv/test</td>
 <td></td>
 <td></td>
-<td>Nov 17 05:06:34 AM PST 22</td>
-<td>Nov 17 05:06:56 AM PST 22</td>
-<td>323075001 ps</td>
+<td>Dec 12 07:17:55 AM PST 22</td>
+<td>Dec 12 07:18:14 AM PST 22</td>
+<td>363060001 ps</td>
 </tr><tr>
-<td><a href="#T33" >T33</a></td>
+<td><a href="#T19" >T19</a></td>
 <td nowrap>RTL-cpu_reset/simv/test</td>
 <td></td>
 <td></td>
-<td>Nov 17 08:33:15 AM PST 22</td>
-<td>Nov 17 08:33:49 AM PST 22</td>
-<td>614225001 ps</td>
+<td>Dec 12 08:27:29 AM PST 22</td>
+<td>Dec 12 08:28:01 AM PST 22</td>
+<td>677761001 ps</td>
 </tr><tr>
-<td><a href="#T28" >T28</a></td>
+<td><a href="#T34" >T34</a></td>
 <td nowrap>RTL-cpu_stress/simv/test</td>
 <td></td>
 <td></td>
-<td>Nov 17 08:00:52 AM PST 22</td>
-<td>Nov 17 08:31:58 AM PST 22</td>
-<td>34094875001 ps</td>
+<td>Dec 12 07:56:22 AM PST 22</td>
+<td>Dec 12 08:26:35 AM PST 22</td>
+<td>40705770001 ps</td>
 </tr><tr>
-<td><a href="#T24" >T24</a></td>
+<td><a href="#T31" >T31</a></td>
 <td nowrap>RTL-debug/simv/test</td>
 <td></td>
 <td></td>
-<td>Nov 17 05:00:16 AM PST 22</td>
-<td>Nov 17 05:01:01 AM PST 22</td>
-<td>767605001 ps</td>
+<td>Dec 12 07:12:17 AM PST 22</td>
+<td>Dec 12 07:13:04 AM PST 22</td>
+<td>889656001 ps</td>
 </tr><tr>
-<td><a href="#T25" >T25</a></td>
+<td><a href="#T8" >T8</a></td>
 <td nowrap>RTL-gpio_all_bidir_user/simv/test</td>
 <td></td>
 <td></td>
-<td>Nov 17 02:40:10 AM PST 22</td>
-<td>Nov 17 02:46:02 AM PST 22</td>
-<td>6600550001 ps</td>
+<td>Dec 12 05:12:05 AM PST 22</td>
+<td>Dec 12 05:19:00 AM PST 22</td>
+<td>8911590001 ps</td>
 </tr><tr>
-<td><a href="#T19" >T19</a></td>
+<td><a href="#T11" >T11</a></td>
 <td nowrap>RTL-gpio_all_i/simv/test</td>
 <td></td>
 <td></td>
-<td>Nov 17 02:28:50 AM PST 22</td>
-<td>Nov 17 02:30:02 AM PST 22</td>
-<td>1292025001 ps</td>
+<td>Dec 12 05:00:50 AM PST 22</td>
+<td>Dec 12 05:02:05 AM PST 22</td>
+<td>1546860001 ps</td>
 </tr><tr>
-<td><a href="#T20" >T20</a></td>
+<td><a href="#T14" >T14</a></td>
 <td nowrap>RTL-gpio_all_i_pd/simv/test</td>
 <td></td>
 <td></td>
-<td>Nov 17 02:37:27 AM PST 22</td>
-<td>Nov 17 02:38:42 AM PST 22</td>
-<td>1340050001 ps</td>
+<td>Dec 12 05:09:29 AM PST 22</td>
+<td>Dec 12 05:10:37 AM PST 22</td>
+<td>1410390001 ps</td>
 </tr><tr>
-<td><a href="#T21" >T21</a></td>
+<td><a href="#T17" >T17</a></td>
 <td nowrap>RTL-gpio_all_i_pd_user/simv/test</td>
 <td></td>
 <td></td>
-<td>Nov 17 02:38:50 AM PST 22</td>
-<td>Nov 17 02:40:03 AM PST 22</td>
-<td>1340050001 ps</td>
+<td>Dec 12 05:10:46 AM PST 22</td>
+<td>Dec 12 05:11:55 AM PST 22</td>
+<td>1410390001 ps</td>
 </tr><tr>
-<td><a href="#T32" >T32</a></td>
+<td><a href="#T25" >T25</a></td>
 <td nowrap>RTL-gpio_all_i_pu/simv/test</td>
 <td></td>
 <td></td>
-<td>Nov 17 02:34:32 AM PST 22</td>
-<td>Nov 17 02:35:48 AM PST 22</td>
-<td>1340050001 ps</td>
+<td>Dec 12 05:06:53 AM PST 22</td>
+<td>Dec 12 05:08:00 AM PST 22</td>
+<td>1410390001 ps</td>
 </tr><tr>
-<td><a href="#T35" >T35</a></td>
+<td><a href="#T26" >T26</a></td>
 <td nowrap>RTL-gpio_all_i_pu_user/simv/test</td>
 <td></td>
 <td></td>
-<td>Nov 17 02:35:55 AM PST 22</td>
-<td>Nov 17 02:37:20 AM PST 22</td>
-<td>1407800001 ps</td>
+<td>Dec 12 05:08:09 AM PST 22</td>
+<td>Dec 12 05:09:19 AM PST 22</td>
+<td>1443390001 ps</td>
 </tr><tr>
-<td><a href="#T22" >T22</a></td>
+<td><a href="#T21" >T21</a></td>
 <td nowrap>RTL-gpio_all_i_user/simv/test</td>
 <td></td>
 <td></td>
-<td>Nov 17 02:33:13 AM PST 22</td>
-<td>Nov 17 02:34:25 AM PST 22</td>
-<td>1288525001 ps</td>
+<td>Dec 12 05:05:29 AM PST 22</td>
+<td>Dec 12 05:06:44 AM PST 22</td>
+<td>1542960001 ps</td>
 </tr><tr>
-<td><a href="#T16" >T16</a></td>
+<td><a href="#T10" >T10</a></td>
 <td nowrap>RTL-gpio_all_o/simv/test</td>
 <td></td>
 <td></td>
-<td>Nov 17 02:46:09 AM PST 22</td>
-<td>Nov 17 02:57:59 AM PST 22</td>
-<td>13332300001 ps</td>
+<td>Dec 12 05:19:10 AM PST 22</td>
+<td>Dec 12 05:27:26 AM PST 22</td>
+<td>10660290001 ps</td>
 </tr><tr>
-<td><a href="#T17" >T17</a></td>
+<td><a href="#T33" >T33</a></td>
 <td nowrap>RTL-gpio_all_o_user/simv/test</td>
 <td></td>
 <td></td>
-<td>Nov 17 02:58:06 AM PST 22</td>
-<td>Nov 17 03:09:08 AM PST 22</td>
-<td>12333050001 ps</td>
+<td>Dec 12 05:27:36 AM PST 22</td>
+<td>Dec 12 05:34:56 AM PST 22</td>
+<td>9461790001 ps</td>
 </tr><tr>
 <td><a href="#T41" >T41</a></td>
 <td nowrap>RTL-hk_disable/simv/test</td>
 <td></td>
 <td></td>
-<td>Nov 17 02:30:09 AM PST 22</td>
-<td>Nov 17 02:30:26 AM PST 22</td>
-<td>282025001 ps</td>
+<td>Dec 12 05:02:15 AM PST 22</td>
+<td>Dec 12 05:02:31 AM PST 22</td>
+<td>309060001 ps</td>
 </tr><tr>
-<td><a href="#T26" >T26</a></td>
+<td><a href="#T45" >T45</a></td>
 <td nowrap>RTL-hk_regs_rst_spi/simv/test</td>
 <td></td>
 <td></td>
-<td>Nov 17 02:32:56 AM PST 22</td>
-<td>Nov 17 02:33:06 AM PST 22</td>
-<td>71275001 ps</td>
+<td>Dec 12 05:05:03 AM PST 22</td>
+<td>Dec 12 05:05:20 AM PST 22</td>
+<td>241560001 ps</td>
 </tr><tr>
-<td><a href="#T27" >T27</a></td>
+<td><a href="#T5" >T5</a></td>
 <td nowrap>RTL-hk_regs_wr_spi/simv/test</td>
 <td></td>
 <td></td>
-<td>Nov 17 04:06:06 AM PST 22</td>
-<td>Nov 17 04:06:25 AM PST 22</td>
-<td>159425001 ps</td>
+<td>Dec 12 06:19:09 AM PST 22</td>
+<td>Dec 12 06:19:42 AM PST 22</td>
+<td>490860001 ps</td>
 </tr><tr>
 <td><a href="#T44" >T44</a></td>
 <td nowrap>RTL-hk_regs_wr_wb/simv/test</td>
 <td></td>
 <td></td>
-<td>Nov 17 08:32:58 AM PST 22</td>
-<td>Nov 17 08:32:59 AM PST 22</td>
-<td>2125001 ps</td>
+<td>Dec 12 08:27:05 AM PST 22</td>
+<td>Dec 12 08:27:07 AM PST 22</td>
+<td>2491001 ps</td>
 </tr><tr>
 <td><a href="#T4" >T4</a></td>
 <td nowrap>RTL-hk_regs_wr_wb_cpu/simv/test</td>
 <td></td>
 <td></td>
-<td>Nov 17 03:09:15 AM PST 22</td>
-<td>Nov 17 03:15:05 AM PST 22</td>
-<td>4529300001 ps</td>
+<td>Dec 12 05:35:03 AM PST 22</td>
+<td>Dec 12 05:41:20 AM PST 22</td>
+<td>6221460001 ps</td>
 </tr><tr>
-<td><a href="#T36" >T36</a></td>
+<td><a href="#T20" >T20</a></td>
 <td nowrap>RTL-la/simv/test</td>
 <td></td>
 <td></td>
-<td>Nov 17 05:11:28 AM PST 22</td>
-<td>Nov 17 05:12:59 AM PST 22</td>
-<td>1668700001 ps</td>
+<td>Dec 12 07:20:29 AM PST 22</td>
+<td>Dec 12 07:21:46 AM PST 22</td>
+<td>1732710001 ps</td>
 </tr><tr>
-<td><a href="#T29" >T29</a></td>
-<td nowrap>RTL-mem_dff2_W/simv/test</td>
+<td><a href="#T35" >T35</a></td>
+<td nowrap>RTL-mem_sram_W/simv/test</td>
 <td></td>
 <td></td>
-<td>Nov 17 07:18:14 AM PST 22</td>
-<td>Nov 17 07:57:39 AM PST 22</td>
-<td>44651275001 ps</td>
+<td>Dec 12 08:43:05 AM PST 22</td>
+<td>Dec 12 11:41:18 AM PST 22</td>
+<td>240091560001 ps</td>
 </tr><tr>
-<td><a href="#T30" >T30</a></td>
-<td nowrap>RTL-mem_dff_W/simv/test</td>
+<td><a href="#T36" >T36</a></td>
+<td nowrap>RTL-mem_sram_smoke/simv/test</td>
 <td></td>
 <td></td>
-<td>Nov 17 05:57:46 AM PST 22</td>
-<td>Nov 17 07:16:59 AM PST 22</td>
-<td>88901275001 ps</td>
+<td>Dec 12 08:28:41 AM PST 22</td>
+<td>Dec 12 08:42:54 AM PST 22</td>
+<td>19471560001 ps</td>
 </tr><tr>
-<td><a href="#T8" >T8</a></td>
+<td><a href="#T27" >T27</a></td>
 <td nowrap>RTL-mgmt_gpio_bidir/simv/test</td>
 <td></td>
 <td></td>
-<td>Nov 17 05:07:04 AM PST 22</td>
-<td>Nov 17 05:11:20 AM PST 22</td>
-<td>4739975001 ps</td>
+<td>Dec 12 07:18:21 AM PST 22</td>
+<td>Dec 12 07:20:22 AM PST 22</td>
+<td>2732760001 ps</td>
 </tr><tr>
-<td><a href="#T10" >T10</a></td>
+<td><a href="#T28" >T28</a></td>
+<td nowrap>RTL-mgmt_gpio_disable/simv/test</td>
+<td></td>
+<td></td>
+<td>Dec 12 11:41:32 AM PST 22</td>
+<td>Dec 12 11:42:07 AM PST 22</td>
+<td>759060001 ps</td>
+</tr><tr>
+<td><a href="#T50" >T50</a></td>
 <td nowrap>RTL-mgmt_gpio_in/simv/test</td>
 <td></td>
 <td></td>
-<td>Nov 17 04:17:37 AM PST 22</td>
-<td>Nov 17 04:23:39 AM PST 22</td>
-<td>6857275001 ps</td>
+<td>Dec 12 06:30:21 AM PST 22</td>
+<td>Dec 12 06:36:19 AM PST 22</td>
+<td>8349360001 ps</td>
 </tr><tr>
-<td><a href="#T9" >T9</a></td>
+<td><a href="#T29" >T29</a></td>
 <td nowrap>RTL-mgmt_gpio_out/simv/test</td>
 <td></td>
 <td></td>
-<td>Nov 17 04:02:08 AM PST 22</td>
-<td>Nov 17 04:04:09 AM PST 22</td>
-<td>2262025001 ps</td>
+<td>Dec 12 06:15:02 AM PST 22</td>
+<td>Dec 12 06:16:35 AM PST 22</td>
+<td>2058960001 ps</td>
 </tr><tr>
-<td><a href="#T34" >T34</a></td>
-<td nowrap>RTL-pll/simv/test</td>
-<td></td>
-<td></td>
-<td>Nov 17 05:13:07 AM PST 22</td>
-<td>Nov 17 05:14:58 AM PST 22</td>
-<td>1170275001 ps</td>
-</tr><tr>
-<td><a href="#T5" >T5</a></td>
+<td><a href="#T22" >T22</a></td>
 <td nowrap>RTL-serial_shifting_0011/simv/test</td>
 <td></td>
 <td></td>
-<td>Nov 17 07:59:53 AM PST 22</td>
-<td>Nov 17 08:00:45 AM PST 22</td>
-<td>908275001 ps</td>
+<td>Dec 12 07:55:25 AM PST 22</td>
+<td>Dec 12 07:56:15 AM PST 22</td>
+<td>1059060001 ps</td>
 </tr><tr>
-<td><a href="#T6" >T6</a></td>
+<td><a href="#T23" >T23</a></td>
 <td nowrap>RTL-serial_shifting_01/simv/test</td>
 <td></td>
 <td></td>
-<td>Nov 17 07:17:06 AM PST 22</td>
-<td>Nov 17 07:18:06 AM PST 22</td>
-<td>936275001 ps</td>
+<td>Dec 12 07:52:31 AM PST 22</td>
+<td>Dec 12 07:53:23 AM PST 22</td>
+<td>1091760001 ps</td>
 </tr><tr>
-<td><a href="#T7" >T7</a></td>
+<td><a href="#T24" >T24</a></td>
 <td nowrap>RTL-serial_shifting_10/simv/test</td>
 <td></td>
 <td></td>
-<td>Nov 17 07:57:46 AM PST 22</td>
-<td>Nov 17 07:58:46 AM PST 22</td>
-<td>938025001 ps</td>
+<td>Dec 12 07:53:30 AM PST 22</td>
+<td>Dec 12 07:54:21 AM PST 22</td>
+<td>1091760001 ps</td>
 </tr><tr>
-<td><a href="#T18" >T18</a></td>
+<td><a href="#T30" >T30</a></td>
 <td nowrap>RTL-serial_shifting_1100/simv/test</td>
 <td></td>
 <td></td>
-<td>Nov 17 07:58:53 AM PST 22</td>
-<td>Nov 17 07:59:45 AM PST 22</td>
-<td>909775001 ps</td>
+<td>Dec 12 07:54:28 AM PST 22</td>
+<td>Dec 12 07:55:18 AM PST 22</td>
+<td>1059360001 ps</td>
 </tr><tr>
-<td><a href="#T38" >T38</a></td>
+<td><a href="#T12" >T12</a></td>
 <td nowrap>RTL-spi_master_rd/simv/test</td>
 <td></td>
 <td></td>
-<td>Nov 17 05:01:09 AM PST 22</td>
-<td>Nov 17 05:05:57 AM PST 22</td>
-<td>5294275001 ps</td>
+<td>Dec 12 07:13:11 AM PST 22</td>
+<td>Dec 12 07:17:20 AM PST 22</td>
+<td>5575860001 ps</td>
 </tr><tr>
-<td><a href="#T39" >T39</a></td>
+<td><a href="#T13" >T13</a></td>
 <td nowrap>RTL-spi_master_temp/simv/test</td>
 <td></td>
 <td></td>
-<td>Nov 17 05:15:06 AM PST 22</td>
-<td>Nov 17 05:16:02 AM PST 22</td>
-<td>979075001 ps</td>
+<td>Dec 12 07:21:53 AM PST 22</td>
+<td>Dec 12 07:22:39 AM PST 22</td>
+<td>983520001 ps</td>
 </tr><tr>
-<td><a href="#T45" >T45</a></td>
+<td><a href="#T46" >T46</a></td>
 <td nowrap>RTL-spi_rd_wr_nbyte/simv/test</td>
 <td></td>
 <td></td>
-<td>Nov 17 08:33:06 AM PST 22</td>
-<td>Nov 17 08:33:08 AM PST 22</td>
-<td>1775001 ps</td>
+<td>Dec 12 08:27:14 AM PST 22</td>
+<td>Dec 12 08:27:20 AM PST 22</td>
+<td>78300001 ps</td>
+</tr><tr>
+<td><a href="#T49" >T49</a></td>
+<td nowrap>RTL-spi_rd_wr_stream/simv/test</td>
+<td></td>
+<td></td>
+<td>Dec 12 11:42:42 AM PST 22</td>
+<td>Dec 12 11:42:46 AM PST 22</td>
+<td>41160001 ps</td>
 </tr><tr>
 <td><a href="#T42" >T42</a></td>
 <td nowrap>RTL-timer0_oneshot/simv/test</td>
 <td></td>
 <td></td>
-<td>Nov 17 04:23:47 AM PST 22</td>
-<td>Nov 17 04:46:15 AM PST 22</td>
-<td>25335275001 ps</td>
+<td>Dec 12 06:36:26 AM PST 22</td>
+<td>Dec 12 06:58:28 AM PST 22</td>
+<td>30385560001 ps</td>
 </tr><tr>
 <td><a href="#T43" >T43</a></td>
 <td nowrap>RTL-timer0_periodic/simv/test</td>
 <td></td>
 <td></td>
-<td>Nov 17 04:51:12 AM PST 22</td>
-<td>Nov 17 04:52:20 AM PST 22</td>
-<td>1287525001 ps</td>
+<td>Dec 12 07:03:16 AM PST 22</td>
+<td>Dec 12 07:04:27 AM PST 22</td>
+<td>1589160001 ps</td>
 </tr><tr>
-<td><a href="#T37" >T37</a></td>
+<td><a href="#T39" >T39</a></td>
 <td nowrap>RTL-uart_loopback/simv/test</td>
 <td></td>
 <td></td>
-<td>Nov 17 04:46:23 AM PST 22</td>
-<td>Nov 17 04:51:04 AM PST 22</td>
-<td>4926275001 ps</td>
+<td>Dec 12 06:58:36 AM PST 22</td>
+<td>Dec 12 07:03:09 AM PST 22</td>
+<td>5911560001 ps</td>
 </tr><tr>
 <td><a href="#T40" >T40</a></td>
 <td nowrap>RTL-uart_rx/simv/test</td>
 <td></td>
 <td></td>
-<td>Nov 17 02:30:33 AM PST 22</td>
-<td>Nov 17 02:32:49 AM PST 22</td>
-<td>2433550001 ps</td>
+<td>Dec 12 05:02:40 AM PST 22</td>
+<td>Dec 12 05:04:54 AM PST 22</td>
+<td>2837040001 ps</td>
 </tr><tr>
-<td><a href="#T31" >T31</a></td>
+<td><a href="#T37" >T37</a></td>
 <td nowrap>RTL-uart_tx/simv/test</td>
 <td></td>
 <td></td>
-<td>Nov 17 04:52:27 AM PST 22</td>
-<td>Nov 17 05:00:08 AM PST 22</td>
-<td>8567839001 ps</td>
+<td>Dec 12 07:04:34 AM PST 22</td>
+<td>Dec 12 07:12:09 AM PST 22</td>
+<td>10244710001 ps</td>
 </tr><tr>
-<td><a href="#T48" >T48</a></td>
+<td><a href="#T51" >T51</a></td>
 <td nowrap>RTL-user_address_space/simv/test</td>
 <td></td>
 <td></td>
-<td>Nov 17 08:33:56 AM PST 22</td>
-<td>Nov 17 08:34:20 AM PST 22</td>
-<td>443875001 ps</td>
+<td>Dec 12 08:28:09 AM PST 22</td>
+<td>Dec 12 08:28:33 AM PST 22</td>
+<td>501451001 ps</td>
 </tr><tr>
-<td><a href="#T46" >T46</a></td>
+<td><a href="#T47" >T47</a></td>
+<td nowrap>RTL-user_pass_thru_connection/simv/test</td>
+<td></td>
+<td></td>
+<td>Dec 12 11:42:14 AM PST 22</td>
+<td>Dec 12 11:42:34 AM PST 22</td>
+<td>377505001 ps</td>
+</tr><tr>
+<td><a href="#T48" >T48</a></td>
 <td nowrap>RTL-user_pass_thru_rd/simv/test</td>
 <td></td>
 <td></td>
-<td>Nov 17 05:06:05 AM PST 22</td>
-<td>Nov 17 05:06:27 AM PST 22</td>
-<td>338425001 ps</td>
+<td>Dec 12 07:17:27 AM PST 22</td>
+<td>Dec 12 07:17:48 AM PST 22</td>
+<td>387960001 ps</td>
 </tr></table><br clear=all>
 <hr>
 <a name="T1"></a>
@@ -558,19 +588,19 @@ Total test records in report: 48<hr>
 <td></td>
 </tr><tr>
 <td>Simulation time</td>
-<td>3842225001 ps</td>
+<td>4482060001 ps</td>
 </tr><tr>
 <td>CPU time</td>
-<td>217.53 seconds</td>
+<td>199.06 seconds</td>
 </tr><tr>
 <td>Started</td>
-<td>Nov 17 04:06:33 AM PST 22</td>
+<td>Dec 12 06:19:51 AM PST 22</td>
 </tr><tr>
 <td>Finished</td>
-<td>Nov 17 04:10:11 AM PST 22</td>
+<td>Dec 12 06:23:10 AM PST 22</td>
 </tr><tr>
 <td>Peak memory</td>
-<td>213648 kb</td>
+<td>168576 kb</td>
 </tr><tr>
 <td>Host</td>
 <td nowrap>license-server-00</td>
@@ -579,10 +609,10 @@ Total test records in report: 48<hr>
 <td>rady</td>
 </tr><tr>
 <td>Command</td>
-<td nowrap>sim/r_rtl_02_28_43_17_11/RTL-IRQ_external//simv +lint=TFIPC-L -cm_runsilent -cm line+tgl+cond+fsm+branch+assert +error+30 +sdfverbose +neg_tchk -a sim<br>/r_rtl_02_28_43_17_11/RTL-IRQ_external//test.log</td>
+<td nowrap>sim/coverage/RTL-IRQ_external//simv +lint=all -cm_runsilent -cm line+tgl+cond+fsm+branch+assert +error+50 +sdfverbose +neg_tchk -a sim/coverage/RTL-IR<br>Q_external//test.log</td>
 </tr><tr>
 <td>Directory</td>
-<td>/home/rady/caravel/caravel_redesign_cocotb/caravel/verilog/dv/cocotb</td>
+<td>/home/rady/caravel/gf_signoff_sims/mem/cocotb</td>
 </tr></table><br clear=all>
 <hr>
 <a name="T2"></a>
@@ -601,19 +631,19 @@ Total test records in report: 48<hr>
 <td></td>
 </tr><tr>
 <td>Simulation time</td>
-<td>3783525001 ps</td>
+<td>4541460001 ps</td>
 </tr><tr>
 <td>CPU time</td>
-<td>199.37 seconds</td>
+<td>193 seconds</td>
 </tr><tr>
 <td>Started</td>
-<td>Nov 17 03:15:12 AM PST 22</td>
+<td>Dec 12 05:41:27 AM PST 22</td>
 </tr><tr>
 <td>Finished</td>
-<td>Nov 17 03:18:32 AM PST 22</td>
+<td>Dec 12 05:44:40 AM PST 22</td>
 </tr><tr>
 <td>Peak memory</td>
-<td>203148 kb</td>
+<td>178748 kb</td>
 </tr><tr>
 <td>Host</td>
 <td nowrap>license-server-00</td>
@@ -622,10 +652,10 @@ Total test records in report: 48<hr>
 <td>rady</td>
 </tr><tr>
 <td>Command</td>
-<td nowrap>sim/r_rtl_02_28_43_17_11/RTL-IRQ_timer//simv +lint=TFIPC-L -cm_runsilent -cm line+tgl+cond+fsm+branch+assert +error+30 +sdfverbose +neg_tchk -a sim/r_<br>rtl_02_28_43_17_11/RTL-IRQ_timer//test.log</td>
+<td nowrap>sim/coverage/RTL-IRQ_timer//simv +lint=all -cm_runsilent -cm line+tgl+cond+fsm+branch+assert +error+50 +sdfverbose +neg_tchk -a sim/coverage/RTL-IRQ_t<br>imer//test.log</td>
 </tr><tr>
 <td>Directory</td>
-<td>/home/rady/caravel/caravel_redesign_cocotb/caravel/verilog/dv/cocotb</td>
+<td>/home/rady/caravel/gf_signoff_sims/mem/cocotb</td>
 </tr></table><br clear=all>
 <hr>
 <a name="T3"></a>
@@ -644,19 +674,19 @@ Total test records in report: 48<hr>
 <td></td>
 </tr><tr>
 <td>Simulation time</td>
-<td>7872275001 ps</td>
+<td>9388260001 ps</td>
 </tr><tr>
 <td>CPU time</td>
-<td>431.55 seconds</td>
+<td>415 seconds</td>
 </tr><tr>
 <td>Started</td>
-<td>Nov 17 04:10:18 AM PST 22</td>
+<td>Dec 12 06:23:18 AM PST 22</td>
 </tr><tr>
 <td>Finished</td>
-<td>Nov 17 04:17:30 AM PST 22</td>
+<td>Dec 12 06:30:13 AM PST 22</td>
 </tr><tr>
 <td>Peak memory</td>
-<td>212872 kb</td>
+<td>187724 kb</td>
 </tr><tr>
 <td>Host</td>
 <td nowrap>license-server-00</td>
@@ -665,20 +695,20 @@ Total test records in report: 48<hr>
 <td>rady</td>
 </tr><tr>
 <td>Command</td>
-<td nowrap>sim/r_rtl_02_28_43_17_11/RTL-IRQ_uart//simv +lint=TFIPC-L -cm_runsilent -cm line+tgl+cond+fsm+branch+assert +error+30 +sdfverbose +neg_tchk -a sim/r_r<br>tl_02_28_43_17_11/RTL-IRQ_uart//test.log</td>
+<td nowrap>sim/coverage/RTL-IRQ_uart//simv +lint=all -cm_runsilent -cm line+tgl+cond+fsm+branch+assert +error+50 +sdfverbose +neg_tchk -a sim/coverage/RTL-IRQ_ua<br>rt//test.log</td>
 </tr><tr>
 <td>Directory</td>
-<td>/home/rady/caravel/caravel_redesign_cocotb/caravel/verilog/dv/cocotb</td>
+<td>/home/rady/caravel/gf_signoff_sims/mem/cocotb</td>
 </tr></table><br clear=all>
 <hr>
-<a name="T11"></a>
+<a name="T18"></a>
 <table align=left>
 <tr>
 <td><b>Test location</b></td>
-<td nowrap><b>RTL-bitbang_cpu_all_i/simv/test</b></td>
+<td nowrap><b>RTL-PoR/simv/test</b></td>
 </tr><tr>
 <td>Short name</td>
-<td>T11</td>
+<td>T18</td>
 </tr><tr>
 <td>Test name</td>
 <td></td>
@@ -687,19 +717,19 @@ Total test records in report: 48<hr>
 <td></td>
 </tr><tr>
 <td>Simulation time</td>
-<td>40628275001 ps</td>
+<td>2986470001 ps</td>
 </tr><tr>
 <td>CPU time</td>
-<td>2174.36 seconds</td>
+<td>28.08 seconds</td>
 </tr><tr>
 <td>Started</td>
-<td>Nov 17 03:18:39 AM PST 22</td>
+<td>Dec 12 11:42:53 AM PST 22</td>
 </tr><tr>
 <td>Finished</td>
-<td>Nov 17 03:54:54 AM PST 22</td>
+<td>Dec 12 11:43:23 AM PST 22</td>
 </tr><tr>
 <td>Peak memory</td>
-<td>254624 kb</td>
+<td>168540 kb</td>
 </tr><tr>
 <td>Host</td>
 <td nowrap>license-server-00</td>
@@ -708,705 +738,17 @@ Total test records in report: 48<hr>
 <td>rady</td>
 </tr><tr>
 <td>Command</td>
-<td nowrap>sim/r_rtl_02_28_43_17_11/RTL-bitbang_cpu_all_i//simv +lint=TFIPC-L -cm_runsilent -cm line+tgl+cond+fsm+branch+assert +error+30 +sdfverbose +neg_tchk -<br>a sim/r_rtl_02_28_43_17_11/RTL-bitbang_cpu_all_i//test.log</td>
+<td nowrap>sim/coverage/RTL-PoR//simv +lint=all -cm_runsilent -cm line+tgl+cond+fsm+branch+assert +error+50 +sdfverbose +neg_tchk -a sim/coverage/RTL-PoR//test.l<br>og</td>
 </tr><tr>
 <td>Directory</td>
-<td>/home/rady/caravel/caravel_redesign_cocotb/caravel/verilog/dv/cocotb</td>
-</tr></table><br clear=all>
-<hr>
-<a name="T12"></a>
-<table align=left>
-<tr>
-<td><b>Test location</b></td>
-<td nowrap><b>RTL-bitbang_cpu_all_o/simv/test</b></td>
-</tr><tr>
-<td>Short name</td>
-<td>T12</td>
-</tr><tr>
-<td>Test name</td>
-<td></td>
-</tr><tr>
-<td>Test status</td>
-<td></td>
-</tr><tr>
-<td>Simulation time</td>
-<td>45607300001 ps</td>
-</tr><tr>
-<td>CPU time</td>
-<td>2487.92 seconds</td>
-</tr><tr>
-<td>Started</td>
-<td>Nov 17 05:16:10 AM PST 22</td>
-</tr><tr>
-<td>Finished</td>
-<td>Nov 17 05:57:38 AM PST 22</td>
-</tr><tr>
-<td>Peak memory</td>
-<td>261000 kb</td>
-</tr><tr>
-<td>Host</td>
-<td nowrap>license-server-00</td>
-</tr><tr>
-<td>User</td>
-<td>rady</td>
-</tr><tr>
-<td>Command</td>
-<td nowrap>sim/r_rtl_02_28_43_17_11/RTL-bitbang_cpu_all_o//simv +lint=TFIPC-L -cm_runsilent -cm line+tgl+cond+fsm+branch+assert +error+30 +sdfverbose +neg_tchk -<br>a sim/r_rtl_02_28_43_17_11/RTL-bitbang_cpu_all_o//test.log</td>
-</tr><tr>
-<td>Directory</td>
-<td>/home/rady/caravel/caravel_redesign_cocotb/caravel/verilog/dv/cocotb</td>
-</tr></table><br clear=all>
-<hr>
-<a name="T13"></a>
-<table align=left>
-<tr>
-<td><b>Test location</b></td>
-<td nowrap><b>RTL-bitbang_no_cpu_all_i/simv/test</b></td>
-</tr><tr>
-<td>Short name</td>
-<td>T13</td>
-</tr><tr>
-<td>Test name</td>
-<td></td>
-</tr><tr>
-<td>Test status</td>
-<td></td>
-</tr><tr>
-<td>Simulation time</td>
-<td>165250001 ps</td>
-</tr><tr>
-<td>CPU time</td>
-<td>16.08 seconds</td>
-</tr><tr>
-<td>Started</td>
-<td>Nov 17 08:32:35 AM PST 22</td>
-</tr><tr>
-<td>Finished</td>
-<td>Nov 17 08:32:51 AM PST 22</td>
-</tr><tr>
-<td>Peak memory</td>
-<td>199728 kb</td>
-</tr><tr>
-<td>Host</td>
-<td nowrap>license-server-00</td>
-</tr><tr>
-<td>User</td>
-<td>rady</td>
-</tr><tr>
-<td>Command</td>
-<td nowrap>sim/r_rtl_02_28_43_17_11/RTL-bitbang_no_cpu_all_i//simv +lint=TFIPC-L -cm_runsilent -cm line+tgl+cond+fsm+branch+assert +error+30 +sdfverbose +neg_tch<br>k -a sim/r_rtl_02_28_43_17_11/RTL-bitbang_no_cpu_all_i//test.log</td>
-</tr><tr>
-<td>Directory</td>
-<td>/home/rady/caravel/caravel_redesign_cocotb/caravel/verilog/dv/cocotb</td>
-</tr></table><br clear=all>
-<hr>
-<a name="T14"></a>
-<table align=left>
-<tr>
-<td><b>Test location</b></td>
-<td nowrap><b>RTL-bitbang_no_cpu_all_o/simv/test</b></td>
-</tr><tr>
-<td>Short name</td>
-<td>T14</td>
-</tr><tr>
-<td>Test name</td>
-<td></td>
-</tr><tr>
-<td>Test status</td>
-<td></td>
-</tr><tr>
-<td>Simulation time</td>
-<td>232025001 ps</td>
-</tr><tr>
-<td>CPU time</td>
-<td>21.43 seconds</td>
-</tr><tr>
-<td>Started</td>
-<td>Nov 17 08:32:06 AM PST 22</td>
-</tr><tr>
-<td>Finished</td>
-<td>Nov 17 08:32:27 AM PST 22</td>
-</tr><tr>
-<td>Peak memory</td>
-<td>202436 kb</td>
-</tr><tr>
-<td>Host</td>
-<td nowrap>license-server-00</td>
-</tr><tr>
-<td>User</td>
-<td>rady</td>
-</tr><tr>
-<td>Command</td>
-<td nowrap>sim/r_rtl_02_28_43_17_11/RTL-bitbang_no_cpu_all_o//simv +lint=TFIPC-L -cm_runsilent -cm line+tgl+cond+fsm+branch+assert +error+30 +sdfverbose +neg_tch<br>k -a sim/r_rtl_02_28_43_17_11/RTL-bitbang_no_cpu_all_o//test.log</td>
-</tr><tr>
-<td>Directory</td>
-<td>/home/rady/caravel/caravel_redesign_cocotb/caravel/verilog/dv/cocotb</td>
-</tr></table><br clear=all>
-<hr>
-<a name="T23"></a>
-<table align=left>
-<tr>
-<td><b>Test location</b></td>
-<td nowrap><b>RTL-bitbang_spi_i/simv/test</b></td>
-</tr><tr>
-<td>Short name</td>
-<td>T23</td>
-</tr><tr>
-<td>Test name</td>
-<td></td>
-</tr><tr>
-<td>Test status</td>
-<td></td>
-</tr><tr>
-<td>Simulation time</td>
-<td>1370975001 ps</td>
-</tr><tr>
-<td>CPU time</td>
-<td>102.19 seconds</td>
-</tr><tr>
-<td>Started</td>
-<td>Nov 17 04:04:17 AM PST 22</td>
-</tr><tr>
-<td>Finished</td>
-<td>Nov 17 04:05:59 AM PST 22</td>
-</tr><tr>
-<td>Peak memory</td>
-<td>203688 kb</td>
-</tr><tr>
-<td>Host</td>
-<td nowrap>license-server-00</td>
-</tr><tr>
-<td>User</td>
-<td>rady</td>
-</tr><tr>
-<td>Command</td>
-<td nowrap>sim/r_rtl_02_28_43_17_11/RTL-bitbang_spi_i//simv +lint=TFIPC-L -cm_runsilent -cm line+tgl+cond+fsm+branch+assert +error+30 +sdfverbose +neg_tchk -a si<br>m/r_rtl_02_28_43_17_11/RTL-bitbang_spi_i//test.log</td>
-</tr><tr>
-<td>Directory</td>
-<td>/home/rady/caravel/caravel_redesign_cocotb/caravel/verilog/dv/cocotb</td>
-</tr></table><br clear=all>
-<hr>
-<a name="T15"></a>
-<table align=left>
-<tr>
-<td><b>Test location</b></td>
-<td nowrap><b>RTL-bitbang_spi_o/simv/test</b></td>
-</tr><tr>
-<td>Short name</td>
-<td>T15</td>
-</tr><tr>
-<td>Test name</td>
-<td></td>
-</tr><tr>
-<td>Test status</td>
-<td></td>
-</tr><tr>
-<td>Simulation time</td>
-<td>7283475001 ps</td>
-</tr><tr>
-<td>CPU time</td>
-<td>418.75 seconds</td>
-</tr><tr>
-<td>Started</td>
-<td>Nov 17 03:55:01 AM PST 22</td>
-</tr><tr>
-<td>Finished</td>
-<td>Nov 17 04:02:00 AM PST 22</td>
-</tr><tr>
-<td>Peak memory</td>
-<td>211992 kb</td>
-</tr><tr>
-<td>Host</td>
-<td nowrap>license-server-00</td>
-</tr><tr>
-<td>User</td>
-<td>rady</td>
-</tr><tr>
-<td>Command</td>
-<td nowrap>sim/r_rtl_02_28_43_17_11/RTL-bitbang_spi_o//simv +lint=TFIPC-L -cm_runsilent -cm line+tgl+cond+fsm+branch+assert +error+30 +sdfverbose +neg_tchk -a si<br>m/r_rtl_02_28_43_17_11/RTL-bitbang_spi_o//test.log</td>
-</tr><tr>
-<td>Directory</td>
-<td>/home/rady/caravel/caravel_redesign_cocotb/caravel/verilog/dv/cocotb</td>
-</tr></table><br clear=all>
-<hr>
-<a name="T47"></a>
-<table align=left>
-<tr>
-<td><b>Test location</b></td>
-<td nowrap><b>RTL-clock_redirect/simv/test</b></td>
-</tr><tr>
-<td>Short name</td>
-<td>T47</td>
-</tr><tr>
-<td>Test name</td>
-<td></td>
-</tr><tr>
-<td>Test status</td>
-<td></td>
-</tr><tr>
-<td>Simulation time</td>
-<td>323075001 ps</td>
-</tr><tr>
-<td>CPU time</td>
-<td>21.92 seconds</td>
-</tr><tr>
-<td>Started</td>
-<td>Nov 17 05:06:34 AM PST 22</td>
-</tr><tr>
-<td>Finished</td>
-<td>Nov 17 05:06:56 AM PST 22</td>
-</tr><tr>
-<td>Peak memory</td>
-<td>197880 kb</td>
-</tr><tr>
-<td>Host</td>
-<td nowrap>license-server-00</td>
-</tr><tr>
-<td>User</td>
-<td>rady</td>
-</tr><tr>
-<td>Command</td>
-<td nowrap>sim/r_rtl_02_28_43_17_11/RTL-clock_redirect//simv +lint=TFIPC-L -cm_runsilent -cm line+tgl+cond+fsm+branch+assert +error+30 +sdfverbose +neg_tchk -a s<br>im/r_rtl_02_28_43_17_11/RTL-clock_redirect//test.log</td>
-</tr><tr>
-<td>Directory</td>
-<td>/home/rady/caravel/caravel_redesign_cocotb/caravel/verilog/dv/cocotb</td>
-</tr></table><br clear=all>
-<hr>
-<a name="T33"></a>
-<table align=left>
-<tr>
-<td><b>Test location</b></td>
-<td nowrap><b>RTL-cpu_reset/simv/test</b></td>
-</tr><tr>
-<td>Short name</td>
-<td>T33</td>
-</tr><tr>
-<td>Test name</td>
-<td></td>
-</tr><tr>
-<td>Test status</td>
-<td></td>
-</tr><tr>
-<td>Simulation time</td>
-<td>614225001 ps</td>
-</tr><tr>
-<td>CPU time</td>
-<td>33.68 seconds</td>
-</tr><tr>
-<td>Started</td>
-<td>Nov 17 08:33:15 AM PST 22</td>
-</tr><tr>
-<td>Finished</td>
-<td>Nov 17 08:33:49 AM PST 22</td>
-</tr><tr>
-<td>Peak memory</td>
-<td>193948 kb</td>
-</tr><tr>
-<td>Host</td>
-<td nowrap>license-server-00</td>
-</tr><tr>
-<td>User</td>
-<td>rady</td>
-</tr><tr>
-<td>Command</td>
-<td nowrap>sim/r_rtl_02_28_43_17_11/RTL-cpu_reset//simv +lint=TFIPC-L -cm_runsilent -cm line+tgl+cond+fsm+branch+assert +error+30 +sdfverbose +neg_tchk -a sim/r_<br>rtl_02_28_43_17_11/RTL-cpu_reset//test.log</td>
-</tr><tr>
-<td>Directory</td>
-<td>/home/rady/caravel/caravel_redesign_cocotb/caravel/verilog/dv/cocotb</td>
-</tr></table><br clear=all>
-<hr>
-<a name="T28"></a>
-<table align=left>
-<tr>
-<td><b>Test location</b></td>
-<td nowrap><b>RTL-cpu_stress/simv/test</b></td>
-</tr><tr>
-<td>Short name</td>
-<td>T28</td>
-</tr><tr>
-<td>Test name</td>
-<td></td>
-</tr><tr>
-<td>Test status</td>
-<td></td>
-</tr><tr>
-<td>Simulation time</td>
-<td>34094875001 ps</td>
-</tr><tr>
-<td>CPU time</td>
-<td>1865.61 seconds</td>
-</tr><tr>
-<td>Started</td>
-<td>Nov 17 08:00:52 AM PST 22</td>
-</tr><tr>
-<td>Finished</td>
-<td>Nov 17 08:31:58 AM PST 22</td>
-</tr><tr>
-<td>Peak memory</td>
-<td>242480 kb</td>
-</tr><tr>
-<td>Host</td>
-<td nowrap>license-server-00</td>
-</tr><tr>
-<td>User</td>
-<td>rady</td>
-</tr><tr>
-<td>Command</td>
-<td nowrap>sim/r_rtl_02_28_43_17_11/RTL-cpu_stress//simv +lint=TFIPC-L -cm_runsilent -cm line+tgl+cond+fsm+branch+assert +error+30 +sdfverbose +neg_tchk -a sim/r<br>_rtl_02_28_43_17_11/RTL-cpu_stress//test.log</td>
-</tr><tr>
-<td>Directory</td>
-<td>/home/rady/caravel/caravel_redesign_cocotb/caravel/verilog/dv/cocotb</td>
-</tr></table><br clear=all>
-<hr>
-<a name="T24"></a>
-<table align=left>
-<tr>
-<td><b>Test location</b></td>
-<td nowrap><b>RTL-debug/simv/test</b></td>
-</tr><tr>
-<td>Short name</td>
-<td>T24</td>
-</tr><tr>
-<td>Test name</td>
-<td></td>
-</tr><tr>
-<td>Test status</td>
-<td></td>
-</tr><tr>
-<td>Simulation time</td>
-<td>767605001 ps</td>
-</tr><tr>
-<td>CPU time</td>
-<td>45.91 seconds</td>
-</tr><tr>
-<td>Started</td>
-<td>Nov 17 05:00:16 AM PST 22</td>
-</tr><tr>
-<td>Finished</td>
-<td>Nov 17 05:01:01 AM PST 22</td>
-</tr><tr>
-<td>Peak memory</td>
-<td>204752 kb</td>
-</tr><tr>
-<td>Host</td>
-<td nowrap>license-server-00</td>
-</tr><tr>
-<td>User</td>
-<td>rady</td>
-</tr><tr>
-<td>Command</td>
-<td nowrap>sim/r_rtl_02_28_43_17_11/RTL-debug//simv +lint=TFIPC-L -cm_runsilent -cm line+tgl+cond+fsm+branch+assert +error+30 +sdfverbose +neg_tchk -a sim/r_rtl_<br>02_28_43_17_11/RTL-debug//test.log</td>
-</tr><tr>
-<td>Directory</td>
-<td>/home/rady/caravel/caravel_redesign_cocotb/caravel/verilog/dv/cocotb</td>
-</tr></table><br clear=all>
-<hr>
-<a name="T25"></a>
-<table align=left>
-<tr>
-<td><b>Test location</b></td>
-<td nowrap><b>RTL-gpio_all_bidir_user/simv/test</b></td>
-</tr><tr>
-<td>Short name</td>
-<td>T25</td>
-</tr><tr>
-<td>Test name</td>
-<td></td>
-</tr><tr>
-<td>Test status</td>
-<td></td>
-</tr><tr>
-<td>Simulation time</td>
-<td>6600550001 ps</td>
-</tr><tr>
-<td>CPU time</td>
-<td>351.54 seconds</td>
-</tr><tr>
-<td>Started</td>
-<td>Nov 17 02:40:10 AM PST 22</td>
-</tr><tr>
-<td>Finished</td>
-<td>Nov 17 02:46:02 AM PST 22</td>
-</tr><tr>
-<td>Peak memory</td>
-<td>208684 kb</td>
-</tr><tr>
-<td>Host</td>
-<td nowrap>license-server-00</td>
-</tr><tr>
-<td>User</td>
-<td>rady</td>
-</tr><tr>
-<td>Command</td>
-<td nowrap>sim/r_rtl_02_28_43_17_11/RTL-gpio_all_bidir_user//simv +lint=TFIPC-L -cm_runsilent -cm line+tgl+cond+fsm+branch+assert +error+30 +sdfverbose +neg_tchk<br> -a sim/r_rtl_02_28_43_17_11/RTL-gpio_all_bidir_user//test.log</td>
-</tr><tr>
-<td>Directory</td>
-<td>/home/rady/caravel/caravel_redesign_cocotb/caravel/verilog/dv/cocotb</td>
-</tr></table><br clear=all>
-<hr>
-<a name="T19"></a>
-<table align=left>
-<tr>
-<td><b>Test location</b></td>
-<td nowrap><b>RTL-gpio_all_i/simv/test</b></td>
-</tr><tr>
-<td>Short name</td>
-<td>T19</td>
-</tr><tr>
-<td>Test name</td>
-<td></td>
-</tr><tr>
-<td>Test status</td>
-<td></td>
-</tr><tr>
-<td>Simulation time</td>
-<td>1292025001 ps</td>
-</tr><tr>
-<td>CPU time</td>
-<td>71.83 seconds</td>
-</tr><tr>
-<td>Started</td>
-<td>Nov 17 02:28:50 AM PST 22</td>
-</tr><tr>
-<td>Finished</td>
-<td>Nov 17 02:30:02 AM PST 22</td>
-</tr><tr>
-<td>Peak memory</td>
-<td>202256 kb</td>
-</tr><tr>
-<td>Host</td>
-<td nowrap>license-server-00</td>
-</tr><tr>
-<td>User</td>
-<td>rady</td>
-</tr><tr>
-<td>Command</td>
-<td nowrap>sim/r_rtl_02_28_43_17_11/RTL-gpio_all_i//simv +lint=TFIPC-L -cm_runsilent -cm line+tgl+cond+fsm+branch+assert +error+30 +sdfverbose +neg_tchk -a sim/r<br>_rtl_02_28_43_17_11/RTL-gpio_all_i//test.log</td>
-</tr><tr>
-<td>Directory</td>
-<td>/home/rady/caravel/caravel_redesign_cocotb/caravel/verilog/dv/cocotb</td>
-</tr></table><br clear=all>
-<hr>
-<a name="T20"></a>
-<table align=left>
-<tr>
-<td><b>Test location</b></td>
-<td nowrap><b>RTL-gpio_all_i_pd/simv/test</b></td>
-</tr><tr>
-<td>Short name</td>
-<td>T20</td>
-</tr><tr>
-<td>Test name</td>
-<td></td>
-</tr><tr>
-<td>Test status</td>
-<td></td>
-</tr><tr>
-<td>Simulation time</td>
-<td>1340050001 ps</td>
-</tr><tr>
-<td>CPU time</td>
-<td>74.98 seconds</td>
-</tr><tr>
-<td>Started</td>
-<td>Nov 17 02:37:27 AM PST 22</td>
-</tr><tr>
-<td>Finished</td>
-<td>Nov 17 02:38:42 AM PST 22</td>
-</tr><tr>
-<td>Peak memory</td>
-<td>202284 kb</td>
-</tr><tr>
-<td>Host</td>
-<td nowrap>license-server-00</td>
-</tr><tr>
-<td>User</td>
-<td>rady</td>
-</tr><tr>
-<td>Command</td>
-<td nowrap>sim/r_rtl_02_28_43_17_11/RTL-gpio_all_i_pd//simv +lint=TFIPC-L -cm_runsilent -cm line+tgl+cond+fsm+branch+assert +error+30 +sdfverbose +neg_tchk -a si<br>m/r_rtl_02_28_43_17_11/RTL-gpio_all_i_pd//test.log</td>
-</tr><tr>
-<td>Directory</td>
-<td>/home/rady/caravel/caravel_redesign_cocotb/caravel/verilog/dv/cocotb</td>
-</tr></table><br clear=all>
-<hr>
-<a name="T21"></a>
-<table align=left>
-<tr>
-<td><b>Test location</b></td>
-<td nowrap><b>RTL-gpio_all_i_pd_user/simv/test</b></td>
-</tr><tr>
-<td>Short name</td>
-<td>T21</td>
-</tr><tr>
-<td>Test name</td>
-<td></td>
-</tr><tr>
-<td>Test status</td>
-<td></td>
-</tr><tr>
-<td>Simulation time</td>
-<td>1340050001 ps</td>
-</tr><tr>
-<td>CPU time</td>
-<td>73.4 seconds</td>
-</tr><tr>
-<td>Started</td>
-<td>Nov 17 02:38:50 AM PST 22</td>
-</tr><tr>
-<td>Finished</td>
-<td>Nov 17 02:40:03 AM PST 22</td>
-</tr><tr>
-<td>Peak memory</td>
-<td>200092 kb</td>
-</tr><tr>
-<td>Host</td>
-<td nowrap>license-server-00</td>
-</tr><tr>
-<td>User</td>
-<td>rady</td>
-</tr><tr>
-<td>Command</td>
-<td nowrap>sim/r_rtl_02_28_43_17_11/RTL-gpio_all_i_pd_user//simv +lint=TFIPC-L -cm_runsilent -cm line+tgl+cond+fsm+branch+assert +error+30 +sdfverbose +neg_tchk <br>-a sim/r_rtl_02_28_43_17_11/RTL-gpio_all_i_pd_user//test.log</td>
-</tr><tr>
-<td>Directory</td>
-<td>/home/rady/caravel/caravel_redesign_cocotb/caravel/verilog/dv/cocotb</td>
-</tr></table><br clear=all>
-<hr>
-<a name="T32"></a>
-<table align=left>
-<tr>
-<td><b>Test location</b></td>
-<td nowrap><b>RTL-gpio_all_i_pu/simv/test</b></td>
-</tr><tr>
-<td>Short name</td>
-<td>T32</td>
-</tr><tr>
-<td>Test name</td>
-<td></td>
-</tr><tr>
-<td>Test status</td>
-<td></td>
-</tr><tr>
-<td>Simulation time</td>
-<td>1340050001 ps</td>
-</tr><tr>
-<td>CPU time</td>
-<td>75.26 seconds</td>
-</tr><tr>
-<td>Started</td>
-<td>Nov 17 02:34:32 AM PST 22</td>
-</tr><tr>
-<td>Finished</td>
-<td>Nov 17 02:35:48 AM PST 22</td>
-</tr><tr>
-<td>Peak memory</td>
-<td>202228 kb</td>
-</tr><tr>
-<td>Host</td>
-<td nowrap>license-server-00</td>
-</tr><tr>
-<td>User</td>
-<td>rady</td>
-</tr><tr>
-<td>Command</td>
-<td nowrap>sim/r_rtl_02_28_43_17_11/RTL-gpio_all_i_pu//simv +lint=TFIPC-L -cm_runsilent -cm line+tgl+cond+fsm+branch+assert +error+30 +sdfverbose +neg_tchk -a si<br>m/r_rtl_02_28_43_17_11/RTL-gpio_all_i_pu//test.log</td>
-</tr><tr>
-<td>Directory</td>
-<td>/home/rady/caravel/caravel_redesign_cocotb/caravel/verilog/dv/cocotb</td>
-</tr></table><br clear=all>
-<hr>
-<a name="T35"></a>
-<table align=left>
-<tr>
-<td><b>Test location</b></td>
-<td nowrap><b>RTL-gpio_all_i_pu_user/simv/test</b></td>
-</tr><tr>
-<td>Short name</td>
-<td>T35</td>
-</tr><tr>
-<td>Test name</td>
-<td></td>
-</tr><tr>
-<td>Test status</td>
-<td></td>
-</tr><tr>
-<td>Simulation time</td>
-<td>1407800001 ps</td>
-</tr><tr>
-<td>CPU time</td>
-<td>84.41 seconds</td>
-</tr><tr>
-<td>Started</td>
-<td>Nov 17 02:35:55 AM PST 22</td>
-</tr><tr>
-<td>Finished</td>
-<td>Nov 17 02:37:20 AM PST 22</td>
-</tr><tr>
-<td>Peak memory</td>
-<td>207144 kb</td>
-</tr><tr>
-<td>Host</td>
-<td nowrap>license-server-00</td>
-</tr><tr>
-<td>User</td>
-<td>rady</td>
-</tr><tr>
-<td>Command</td>
-<td nowrap>sim/r_rtl_02_28_43_17_11/RTL-gpio_all_i_pu_user//simv +lint=TFIPC-L -cm_runsilent -cm line+tgl+cond+fsm+branch+assert +error+30 +sdfverbose +neg_tchk <br>-a sim/r_rtl_02_28_43_17_11/RTL-gpio_all_i_pu_user//test.log</td>
-</tr><tr>
-<td>Directory</td>
-<td>/home/rady/caravel/caravel_redesign_cocotb/caravel/verilog/dv/cocotb</td>
-</tr></table><br clear=all>
-<hr>
-<a name="T22"></a>
-<table align=left>
-<tr>
-<td><b>Test location</b></td>
-<td nowrap><b>RTL-gpio_all_i_user/simv/test</b></td>
-</tr><tr>
-<td>Short name</td>
-<td>T22</td>
-</tr><tr>
-<td>Test name</td>
-<td></td>
-</tr><tr>
-<td>Test status</td>
-<td></td>
-</tr><tr>
-<td>Simulation time</td>
-<td>1288525001 ps</td>
-</tr><tr>
-<td>CPU time</td>
-<td>71.64 seconds</td>
-</tr><tr>
-<td>Started</td>
-<td>Nov 17 02:33:13 AM PST 22</td>
-</tr><tr>
-<td>Finished</td>
-<td>Nov 17 02:34:25 AM PST 22</td>
-</tr><tr>
-<td>Peak memory</td>
-<td>199784 kb</td>
-</tr><tr>
-<td>Host</td>
-<td nowrap>license-server-00</td>
-</tr><tr>
-<td>User</td>
-<td>rady</td>
-</tr><tr>
-<td>Command</td>
-<td nowrap>sim/r_rtl_02_28_43_17_11/RTL-gpio_all_i_user//simv +lint=TFIPC-L -cm_runsilent -cm line+tgl+cond+fsm+branch+assert +error+30 +sdfverbose +neg_tchk -a <br>sim/r_rtl_02_28_43_17_11/RTL-gpio_all_i_user//test.log</td>
-</tr><tr>
-<td>Directory</td>
-<td>/home/rady/caravel/caravel_redesign_cocotb/caravel/verilog/dv/cocotb</td>
+<td>/home/rady/caravel/gf_signoff_sims/mem/cocotb</td>
 </tr></table><br clear=all>
 <hr>
 <a name="T16"></a>
 <table align=left>
 <tr>
 <td><b>Test location</b></td>
-<td nowrap><b>RTL-gpio_all_o/simv/test</b></td>
+<td nowrap><b>RTL-bitbang_cpu_all_i/simv/test</b></td>
 </tr><tr>
 <td>Short name</td>
 <td>T16</td>
@@ -1418,19 +760,19 @@ Total test records in report: 48<hr>
 <td></td>
 </tr><tr>
 <td>Simulation time</td>
-<td>13332300001 ps</td>
+<td>31764360001 ps</td>
 </tr><tr>
 <td>CPU time</td>
-<td>709.25 seconds</td>
+<td>1364.29 seconds</td>
 </tr><tr>
 <td>Started</td>
-<td>Nov 17 02:46:09 AM PST 22</td>
+<td>Dec 12 05:44:47 AM PST 22</td>
 </tr><tr>
 <td>Finished</td>
-<td>Nov 17 02:57:59 AM PST 22</td>
+<td>Dec 12 06:07:32 AM PST 22</td>
 </tr><tr>
 <td>Peak memory</td>
-<td>220424 kb</td>
+<td>211852 kb</td>
 </tr><tr>
 <td>Host</td>
 <td nowrap>license-server-00</td>
@@ -1439,17 +781,533 @@ Total test records in report: 48<hr>
 <td>rady</td>
 </tr><tr>
 <td>Command</td>
-<td nowrap>sim/r_rtl_02_28_43_17_11/RTL-gpio_all_o//simv +lint=TFIPC-L -cm_runsilent -cm line+tgl+cond+fsm+branch+assert +error+30 +sdfverbose +neg_tchk -a sim/r<br>_rtl_02_28_43_17_11/RTL-gpio_all_o//test.log</td>
+<td nowrap>sim/coverage/RTL-bitbang_cpu_all_i//simv +lint=all -cm_runsilent -cm line+tgl+cond+fsm+branch+assert +error+50 +sdfverbose +neg_tchk -a sim/coverage/R<br>TL-bitbang_cpu_all_i//test.log</td>
 </tr><tr>
 <td>Directory</td>
-<td>/home/rady/caravel/caravel_redesign_cocotb/caravel/verilog/dv/cocotb</td>
+<td>/home/rady/caravel/gf_signoff_sims/mem/cocotb</td>
+</tr></table><br clear=all>
+<hr>
+<a name="T6"></a>
+<table align=left>
+<tr>
+<td><b>Test location</b></td>
+<td nowrap><b>RTL-bitbang_cpu_all_o/simv/test</b></td>
+</tr><tr>
+<td>Short name</td>
+<td>T6</td>
+</tr><tr>
+<td>Test name</td>
+<td></td>
+</tr><tr>
+<td>Test status</td>
+<td></td>
+</tr><tr>
+<td>Simulation time</td>
+<td>40030290001 ps</td>
+</tr><tr>
+<td>CPU time</td>
+<td>1776.34 seconds</td>
+</tr><tr>
+<td>Started</td>
+<td>Dec 12 07:22:46 AM PST 22</td>
+</tr><tr>
+<td>Finished</td>
+<td>Dec 12 07:52:23 AM PST 22</td>
+</tr><tr>
+<td>Peak memory</td>
+<td>180392 kb</td>
+</tr><tr>
+<td>Host</td>
+<td nowrap>license-server-00</td>
+</tr><tr>
+<td>User</td>
+<td>rady</td>
+</tr><tr>
+<td>Command</td>
+<td nowrap>sim/coverage/RTL-bitbang_cpu_all_o//simv +lint=all -cm_runsilent -cm line+tgl+cond+fsm+branch+assert +error+50 +sdfverbose +neg_tchk -a sim/coverage/R<br>TL-bitbang_cpu_all_o//test.log</td>
+</tr><tr>
+<td>Directory</td>
+<td>/home/rady/caravel/gf_signoff_sims/mem/cocotb</td>
+</tr></table><br clear=all>
+<hr>
+<a name="T15"></a>
+<table align=left>
+<tr>
+<td><b>Test location</b></td>
+<td nowrap><b>RTL-bitbang_no_cpu_all_i/simv/test</b></td>
+</tr><tr>
+<td>Short name</td>
+<td>T15</td>
+</tr><tr>
+<td>Test name</td>
+<td></td>
+</tr><tr>
+<td>Test status</td>
+<td></td>
+</tr><tr>
+<td>Simulation time</td>
+<td>1921001 ps</td>
+</tr><tr>
+<td>CPU time</td>
+<td>1.2 seconds</td>
+</tr><tr>
+<td>Started</td>
+<td>Dec 12 08:26:56 AM PST 22</td>
+</tr><tr>
+<td>Finished</td>
+<td>Dec 12 08:26:57 AM PST 22</td>
+</tr><tr>
+<td>Peak memory</td>
+<td>188504 kb</td>
+</tr><tr>
+<td>Host</td>
+<td nowrap>license-server-00</td>
+</tr><tr>
+<td>User</td>
+<td>rady</td>
+</tr><tr>
+<td>Command</td>
+<td nowrap>sim/coverage/RTL-bitbang_no_cpu_all_i//simv +lint=all -cm_runsilent -cm line+tgl+cond+fsm+branch+assert +error+50 +sdfverbose +neg_tchk -a sim/coverag<br>e/RTL-bitbang_no_cpu_all_i//test.log</td>
+</tr><tr>
+<td>Directory</td>
+<td>/home/rady/caravel/gf_signoff_sims/mem/cocotb</td>
+</tr></table><br clear=all>
+<hr>
+<a name="T38"></a>
+<table align=left>
+<tr>
+<td><b>Test location</b></td>
+<td nowrap><b>RTL-bitbang_no_cpu_all_o/simv/test</b></td>
+</tr><tr>
+<td>Short name</td>
+<td>T38</td>
+</tr><tr>
+<td>Test name</td>
+<td></td>
+</tr><tr>
+<td>Test status</td>
+<td></td>
+</tr><tr>
+<td>Simulation time</td>
+<td>1921001 ps</td>
+</tr><tr>
+<td>CPU time</td>
+<td>1.32 seconds</td>
+</tr><tr>
+<td>Started</td>
+<td>Dec 12 08:26:46 AM PST 22</td>
+</tr><tr>
+<td>Finished</td>
+<td>Dec 12 08:26:47 AM PST 22</td>
+</tr><tr>
+<td>Peak memory</td>
+<td>188800 kb</td>
+</tr><tr>
+<td>Host</td>
+<td nowrap>license-server-00</td>
+</tr><tr>
+<td>User</td>
+<td>rady</td>
+</tr><tr>
+<td>Command</td>
+<td nowrap>sim/coverage/RTL-bitbang_no_cpu_all_o//simv +lint=all -cm_runsilent -cm line+tgl+cond+fsm+branch+assert +error+50 +sdfverbose +neg_tchk -a sim/coverag<br>e/RTL-bitbang_no_cpu_all_o//test.log</td>
+</tr><tr>
+<td>Directory</td>
+<td>/home/rady/caravel/gf_signoff_sims/mem/cocotb</td>
+</tr></table><br clear=all>
+<hr>
+<a name="T9"></a>
+<table align=left>
+<tr>
+<td><b>Test location</b></td>
+<td nowrap><b>RTL-bitbang_spi_i/simv/test</b></td>
+</tr><tr>
+<td>Short name</td>
+<td>T9</td>
+</tr><tr>
+<td>Test name</td>
+<td></td>
+</tr><tr>
+<td>Test status</td>
+<td></td>
+</tr><tr>
+<td>Simulation time</td>
+<td>2107560001 ps</td>
+</tr><tr>
+<td>CPU time</td>
+<td>134.07 seconds</td>
+</tr><tr>
+<td>Started</td>
+<td>Dec 12 06:16:43 AM PST 22</td>
+</tr><tr>
+<td>Finished</td>
+<td>Dec 12 06:18:57 AM PST 22</td>
+</tr><tr>
+<td>Peak memory</td>
+<td>179708 kb</td>
+</tr><tr>
+<td>Host</td>
+<td nowrap>license-server-00</td>
+</tr><tr>
+<td>User</td>
+<td>rady</td>
+</tr><tr>
+<td>Command</td>
+<td nowrap>sim/coverage/RTL-bitbang_spi_i//simv +lint=all -cm_runsilent -cm line+tgl+cond+fsm+branch+assert +error+50 +sdfverbose +neg_tchk -a sim/coverage/RTL-b<br>itbang_spi_i//test.log</td>
+</tr><tr>
+<td>Directory</td>
+<td>/home/rady/caravel/gf_signoff_sims/mem/cocotb</td>
+</tr></table><br clear=all>
+<hr>
+<a name="T7"></a>
+<table align=left>
+<tr>
+<td><b>Test location</b></td>
+<td nowrap><b>RTL-bitbang_spi_o/simv/test</b></td>
+</tr><tr>
+<td>Short name</td>
+<td>T7</td>
+</tr><tr>
+<td>Test name</td>
+<td></td>
+</tr><tr>
+<td>Test status</td>
+<td></td>
+</tr><tr>
+<td>Simulation time</td>
+<td>9079860001 ps</td>
+</tr><tr>
+<td>CPU time</td>
+<td>430.48 seconds</td>
+</tr><tr>
+<td>Started</td>
+<td>Dec 12 06:07:39 AM PST 22</td>
+</tr><tr>
+<td>Finished</td>
+<td>Dec 12 06:14:50 AM PST 22</td>
+</tr><tr>
+<td>Peak memory</td>
+<td>170772 kb</td>
+</tr><tr>
+<td>Host</td>
+<td nowrap>license-server-00</td>
+</tr><tr>
+<td>User</td>
+<td>rady</td>
+</tr><tr>
+<td>Command</td>
+<td nowrap>sim/coverage/RTL-bitbang_spi_o//simv +lint=all -cm_runsilent -cm line+tgl+cond+fsm+branch+assert +error+50 +sdfverbose +neg_tchk -a sim/coverage/RTL-b<br>itbang_spi_o//test.log</td>
+</tr><tr>
+<td>Directory</td>
+<td>/home/rady/caravel/gf_signoff_sims/mem/cocotb</td>
+</tr></table><br clear=all>
+<hr>
+<a name="T32"></a>
+<table align=left>
+<tr>
+<td><b>Test location</b></td>
+<td nowrap><b>RTL-clock_redirect/simv/test</b></td>
+</tr><tr>
+<td>Short name</td>
+<td>T32</td>
+</tr><tr>
+<td>Test name</td>
+<td></td>
+</tr><tr>
+<td>Test status</td>
+<td></td>
+</tr><tr>
+<td>Simulation time</td>
+<td>363060001 ps</td>
+</tr><tr>
+<td>CPU time</td>
+<td>19.35 seconds</td>
+</tr><tr>
+<td>Started</td>
+<td>Dec 12 07:17:55 AM PST 22</td>
+</tr><tr>
+<td>Finished</td>
+<td>Dec 12 07:18:14 AM PST 22</td>
+</tr><tr>
+<td>Peak memory</td>
+<td>178288 kb</td>
+</tr><tr>
+<td>Host</td>
+<td nowrap>license-server-00</td>
+</tr><tr>
+<td>User</td>
+<td>rady</td>
+</tr><tr>
+<td>Command</td>
+<td nowrap>sim/coverage/RTL-clock_redirect//simv +lint=all -cm_runsilent -cm line+tgl+cond+fsm+branch+assert +error+50 +sdfverbose +neg_tchk -a sim/coverage/RTL-<br>clock_redirect//test.log</td>
+</tr><tr>
+<td>Directory</td>
+<td>/home/rady/caravel/gf_signoff_sims/mem/cocotb</td>
+</tr></table><br clear=all>
+<hr>
+<a name="T19"></a>
+<table align=left>
+<tr>
+<td><b>Test location</b></td>
+<td nowrap><b>RTL-cpu_reset/simv/test</b></td>
+</tr><tr>
+<td>Short name</td>
+<td>T19</td>
+</tr><tr>
+<td>Test name</td>
+<td></td>
+</tr><tr>
+<td>Test status</td>
+<td></td>
+</tr><tr>
+<td>Simulation time</td>
+<td>677761001 ps</td>
+</tr><tr>
+<td>CPU time</td>
+<td>31.94 seconds</td>
+</tr><tr>
+<td>Started</td>
+<td>Dec 12 08:27:29 AM PST 22</td>
+</tr><tr>
+<td>Finished</td>
+<td>Dec 12 08:28:01 AM PST 22</td>
+</tr><tr>
+<td>Peak memory</td>
+<td>173872 kb</td>
+</tr><tr>
+<td>Host</td>
+<td nowrap>license-server-00</td>
+</tr><tr>
+<td>User</td>
+<td>rady</td>
+</tr><tr>
+<td>Command</td>
+<td nowrap>sim/coverage/RTL-cpu_reset//simv +lint=all -cm_runsilent -cm line+tgl+cond+fsm+branch+assert +error+50 +sdfverbose +neg_tchk -a sim/coverage/RTL-cpu_r<br>eset//test.log</td>
+</tr><tr>
+<td>Directory</td>
+<td>/home/rady/caravel/gf_signoff_sims/mem/cocotb</td>
+</tr></table><br clear=all>
+<hr>
+<a name="T34"></a>
+<table align=left>
+<tr>
+<td><b>Test location</b></td>
+<td nowrap><b>RTL-cpu_stress/simv/test</b></td>
+</tr><tr>
+<td>Short name</td>
+<td>T34</td>
+</tr><tr>
+<td>Test name</td>
+<td></td>
+</tr><tr>
+<td>Test status</td>
+<td></td>
+</tr><tr>
+<td>Simulation time</td>
+<td>40705770001 ps</td>
+</tr><tr>
+<td>CPU time</td>
+<td>1812.96 seconds</td>
+</tr><tr>
+<td>Started</td>
+<td>Dec 12 07:56:22 AM PST 22</td>
+</tr><tr>
+<td>Finished</td>
+<td>Dec 12 08:26:35 AM PST 22</td>
+</tr><tr>
+<td>Peak memory</td>
+<td>208160 kb</td>
+</tr><tr>
+<td>Host</td>
+<td nowrap>license-server-00</td>
+</tr><tr>
+<td>User</td>
+<td>rady</td>
+</tr><tr>
+<td>Command</td>
+<td nowrap>sim/coverage/RTL-cpu_stress//simv +lint=all -cm_runsilent -cm line+tgl+cond+fsm+branch+assert +error+50 +sdfverbose +neg_tchk -a sim/coverage/RTL-cpu_<br>stress//test.log</td>
+</tr><tr>
+<td>Directory</td>
+<td>/home/rady/caravel/gf_signoff_sims/mem/cocotb</td>
+</tr></table><br clear=all>
+<hr>
+<a name="T31"></a>
+<table align=left>
+<tr>
+<td><b>Test location</b></td>
+<td nowrap><b>RTL-debug/simv/test</b></td>
+</tr><tr>
+<td>Short name</td>
+<td>T31</td>
+</tr><tr>
+<td>Test name</td>
+<td></td>
+</tr><tr>
+<td>Test status</td>
+<td></td>
+</tr><tr>
+<td>Simulation time</td>
+<td>889656001 ps</td>
+</tr><tr>
+<td>CPU time</td>
+<td>47.29 seconds</td>
+</tr><tr>
+<td>Started</td>
+<td>Dec 12 07:12:17 AM PST 22</td>
+</tr><tr>
+<td>Finished</td>
+<td>Dec 12 07:13:04 AM PST 22</td>
+</tr><tr>
+<td>Peak memory</td>
+<td>179076 kb</td>
+</tr><tr>
+<td>Host</td>
+<td nowrap>license-server-00</td>
+</tr><tr>
+<td>User</td>
+<td>rady</td>
+</tr><tr>
+<td>Command</td>
+<td nowrap>sim/coverage/RTL-debug//simv +lint=all -cm_runsilent -cm line+tgl+cond+fsm+branch+assert +error+50 +sdfverbose +neg_tchk -a sim/coverage/RTL-debug//te<br>st.log</td>
+</tr><tr>
+<td>Directory</td>
+<td>/home/rady/caravel/gf_signoff_sims/mem/cocotb</td>
+</tr></table><br clear=all>
+<hr>
+<a name="T8"></a>
+<table align=left>
+<tr>
+<td><b>Test location</b></td>
+<td nowrap><b>RTL-gpio_all_bidir_user/simv/test</b></td>
+</tr><tr>
+<td>Short name</td>
+<td>T8</td>
+</tr><tr>
+<td>Test name</td>
+<td></td>
+</tr><tr>
+<td>Test status</td>
+<td></td>
+</tr><tr>
+<td>Simulation time</td>
+<td>8911590001 ps</td>
+</tr><tr>
+<td>CPU time</td>
+<td>415.17 seconds</td>
+</tr><tr>
+<td>Started</td>
+<td>Dec 12 05:12:05 AM PST 22</td>
+</tr><tr>
+<td>Finished</td>
+<td>Dec 12 05:19:00 AM PST 22</td>
+</tr><tr>
+<td>Peak memory</td>
+<td>182108 kb</td>
+</tr><tr>
+<td>Host</td>
+<td nowrap>license-server-00</td>
+</tr><tr>
+<td>User</td>
+<td>rady</td>
+</tr><tr>
+<td>Command</td>
+<td nowrap>sim/coverage/RTL-gpio_all_bidir_user//simv +lint=all -cm_runsilent -cm line+tgl+cond+fsm+branch+assert +error+50 +sdfverbose +neg_tchk -a sim/coverage<br>/RTL-gpio_all_bidir_user//test.log</td>
+</tr><tr>
+<td>Directory</td>
+<td>/home/rady/caravel/gf_signoff_sims/mem/cocotb</td>
+</tr></table><br clear=all>
+<hr>
+<a name="T11"></a>
+<table align=left>
+<tr>
+<td><b>Test location</b></td>
+<td nowrap><b>RTL-gpio_all_i/simv/test</b></td>
+</tr><tr>
+<td>Short name</td>
+<td>T11</td>
+</tr><tr>
+<td>Test name</td>
+<td></td>
+</tr><tr>
+<td>Test status</td>
+<td></td>
+</tr><tr>
+<td>Simulation time</td>
+<td>1546860001 ps</td>
+</tr><tr>
+<td>CPU time</td>
+<td>74.9 seconds</td>
+</tr><tr>
+<td>Started</td>
+<td>Dec 12 05:00:50 AM PST 22</td>
+</tr><tr>
+<td>Finished</td>
+<td>Dec 12 05:02:05 AM PST 22</td>
+</tr><tr>
+<td>Peak memory</td>
+<td>173940 kb</td>
+</tr><tr>
+<td>Host</td>
+<td nowrap>license-server-00</td>
+</tr><tr>
+<td>User</td>
+<td>rady</td>
+</tr><tr>
+<td>Command</td>
+<td nowrap>sim/coverage/RTL-gpio_all_i//simv +lint=all -cm_runsilent -cm line+tgl+cond+fsm+branch+assert +error+50 +sdfverbose +neg_tchk -a sim/coverage/RTL-gpio<br>_all_i//test.log</td>
+</tr><tr>
+<td>Directory</td>
+<td>/home/rady/caravel/gf_signoff_sims/mem/cocotb</td>
+</tr></table><br clear=all>
+<hr>
+<a name="T14"></a>
+<table align=left>
+<tr>
+<td><b>Test location</b></td>
+<td nowrap><b>RTL-gpio_all_i_pd/simv/test</b></td>
+</tr><tr>
+<td>Short name</td>
+<td>T14</td>
+</tr><tr>
+<td>Test name</td>
+<td></td>
+</tr><tr>
+<td>Test status</td>
+<td></td>
+</tr><tr>
+<td>Simulation time</td>
+<td>1410390001 ps</td>
+</tr><tr>
+<td>CPU time</td>
+<td>68.24 seconds</td>
+</tr><tr>
+<td>Started</td>
+<td>Dec 12 05:09:29 AM PST 22</td>
+</tr><tr>
+<td>Finished</td>
+<td>Dec 12 05:10:37 AM PST 22</td>
+</tr><tr>
+<td>Peak memory</td>
+<td>173208 kb</td>
+</tr><tr>
+<td>Host</td>
+<td nowrap>license-server-00</td>
+</tr><tr>
+<td>User</td>
+<td>rady</td>
+</tr><tr>
+<td>Command</td>
+<td nowrap>sim/coverage/RTL-gpio_all_i_pd//simv +lint=all -cm_runsilent -cm line+tgl+cond+fsm+branch+assert +error+50 +sdfverbose +neg_tchk -a sim/coverage/RTL-g<br>pio_all_i_pd//test.log</td>
+</tr><tr>
+<td>Directory</td>
+<td>/home/rady/caravel/gf_signoff_sims/mem/cocotb</td>
 </tr></table><br clear=all>
 <hr>
 <a name="T17"></a>
 <table align=left>
 <tr>
 <td><b>Test location</b></td>
-<td nowrap><b>RTL-gpio_all_o_user/simv/test</b></td>
+<td nowrap><b>RTL-gpio_all_i_pd_user/simv/test</b></td>
 </tr><tr>
 <td>Short name</td>
 <td>T17</td>
@@ -1461,19 +1319,19 @@ Total test records in report: 48<hr>
 <td></td>
 </tr><tr>
 <td>Simulation time</td>
-<td>12333050001 ps</td>
+<td>1410390001 ps</td>
 </tr><tr>
 <td>CPU time</td>
-<td>661.5 seconds</td>
+<td>68.36 seconds</td>
 </tr><tr>
 <td>Started</td>
-<td>Nov 17 02:58:06 AM PST 22</td>
+<td>Dec 12 05:10:46 AM PST 22</td>
 </tr><tr>
 <td>Finished</td>
-<td>Nov 17 03:09:08 AM PST 22</td>
+<td>Dec 12 05:11:55 AM PST 22</td>
 </tr><tr>
 <td>Peak memory</td>
-<td>215876 kb</td>
+<td>173728 kb</td>
 </tr><tr>
 <td>Host</td>
 <td nowrap>license-server-00</td>
@@ -1482,10 +1340,225 @@ Total test records in report: 48<hr>
 <td>rady</td>
 </tr><tr>
 <td>Command</td>
-<td nowrap>sim/r_rtl_02_28_43_17_11/RTL-gpio_all_o_user//simv +lint=TFIPC-L -cm_runsilent -cm line+tgl+cond+fsm+branch+assert +error+30 +sdfverbose +neg_tchk -a <br>sim/r_rtl_02_28_43_17_11/RTL-gpio_all_o_user//test.log</td>
+<td nowrap>sim/coverage/RTL-gpio_all_i_pd_user//simv +lint=all -cm_runsilent -cm line+tgl+cond+fsm+branch+assert +error+50 +sdfverbose +neg_tchk -a sim/coverage/<br>RTL-gpio_all_i_pd_user//test.log</td>
 </tr><tr>
 <td>Directory</td>
-<td>/home/rady/caravel/caravel_redesign_cocotb/caravel/verilog/dv/cocotb</td>
+<td>/home/rady/caravel/gf_signoff_sims/mem/cocotb</td>
+</tr></table><br clear=all>
+<hr>
+<a name="T25"></a>
+<table align=left>
+<tr>
+<td><b>Test location</b></td>
+<td nowrap><b>RTL-gpio_all_i_pu/simv/test</b></td>
+</tr><tr>
+<td>Short name</td>
+<td>T25</td>
+</tr><tr>
+<td>Test name</td>
+<td></td>
+</tr><tr>
+<td>Test status</td>
+<td></td>
+</tr><tr>
+<td>Simulation time</td>
+<td>1410390001 ps</td>
+</tr><tr>
+<td>CPU time</td>
+<td>67.36 seconds</td>
+</tr><tr>
+<td>Started</td>
+<td>Dec 12 05:06:53 AM PST 22</td>
+</tr><tr>
+<td>Finished</td>
+<td>Dec 12 05:08:00 AM PST 22</td>
+</tr><tr>
+<td>Peak memory</td>
+<td>173344 kb</td>
+</tr><tr>
+<td>Host</td>
+<td nowrap>license-server-00</td>
+</tr><tr>
+<td>User</td>
+<td>rady</td>
+</tr><tr>
+<td>Command</td>
+<td nowrap>sim/coverage/RTL-gpio_all_i_pu//simv +lint=all -cm_runsilent -cm line+tgl+cond+fsm+branch+assert +error+50 +sdfverbose +neg_tchk -a sim/coverage/RTL-g<br>pio_all_i_pu//test.log</td>
+</tr><tr>
+<td>Directory</td>
+<td>/home/rady/caravel/gf_signoff_sims/mem/cocotb</td>
+</tr></table><br clear=all>
+<hr>
+<a name="T26"></a>
+<table align=left>
+<tr>
+<td><b>Test location</b></td>
+<td nowrap><b>RTL-gpio_all_i_pu_user/simv/test</b></td>
+</tr><tr>
+<td>Short name</td>
+<td>T26</td>
+</tr><tr>
+<td>Test name</td>
+<td></td>
+</tr><tr>
+<td>Test status</td>
+<td></td>
+</tr><tr>
+<td>Simulation time</td>
+<td>1443390001 ps</td>
+</tr><tr>
+<td>CPU time</td>
+<td>69.87 seconds</td>
+</tr><tr>
+<td>Started</td>
+<td>Dec 12 05:08:09 AM PST 22</td>
+</tr><tr>
+<td>Finished</td>
+<td>Dec 12 05:09:19 AM PST 22</td>
+</tr><tr>
+<td>Peak memory</td>
+<td>173868 kb</td>
+</tr><tr>
+<td>Host</td>
+<td nowrap>license-server-00</td>
+</tr><tr>
+<td>User</td>
+<td>rady</td>
+</tr><tr>
+<td>Command</td>
+<td nowrap>sim/coverage/RTL-gpio_all_i_pu_user//simv +lint=all -cm_runsilent -cm line+tgl+cond+fsm+branch+assert +error+50 +sdfverbose +neg_tchk -a sim/coverage/<br>RTL-gpio_all_i_pu_user//test.log</td>
+</tr><tr>
+<td>Directory</td>
+<td>/home/rady/caravel/gf_signoff_sims/mem/cocotb</td>
+</tr></table><br clear=all>
+<hr>
+<a name="T21"></a>
+<table align=left>
+<tr>
+<td><b>Test location</b></td>
+<td nowrap><b>RTL-gpio_all_i_user/simv/test</b></td>
+</tr><tr>
+<td>Short name</td>
+<td>T21</td>
+</tr><tr>
+<td>Test name</td>
+<td></td>
+</tr><tr>
+<td>Test status</td>
+<td></td>
+</tr><tr>
+<td>Simulation time</td>
+<td>1542960001 ps</td>
+</tr><tr>
+<td>CPU time</td>
+<td>74.01 seconds</td>
+</tr><tr>
+<td>Started</td>
+<td>Dec 12 05:05:29 AM PST 22</td>
+</tr><tr>
+<td>Finished</td>
+<td>Dec 12 05:06:44 AM PST 22</td>
+</tr><tr>
+<td>Peak memory</td>
+<td>174584 kb</td>
+</tr><tr>
+<td>Host</td>
+<td nowrap>license-server-00</td>
+</tr><tr>
+<td>User</td>
+<td>rady</td>
+</tr><tr>
+<td>Command</td>
+<td nowrap>sim/coverage/RTL-gpio_all_i_user//simv +lint=all -cm_runsilent -cm line+tgl+cond+fsm+branch+assert +error+50 +sdfverbose +neg_tchk -a sim/coverage/RTL<br>-gpio_all_i_user//test.log</td>
+</tr><tr>
+<td>Directory</td>
+<td>/home/rady/caravel/gf_signoff_sims/mem/cocotb</td>
+</tr></table><br clear=all>
+<hr>
+<a name="T10"></a>
+<table align=left>
+<tr>
+<td><b>Test location</b></td>
+<td nowrap><b>RTL-gpio_all_o/simv/test</b></td>
+</tr><tr>
+<td>Short name</td>
+<td>T10</td>
+</tr><tr>
+<td>Test name</td>
+<td></td>
+</tr><tr>
+<td>Test status</td>
+<td></td>
+</tr><tr>
+<td>Simulation time</td>
+<td>10660290001 ps</td>
+</tr><tr>
+<td>CPU time</td>
+<td>495.64 seconds</td>
+</tr><tr>
+<td>Started</td>
+<td>Dec 12 05:19:10 AM PST 22</td>
+</tr><tr>
+<td>Finished</td>
+<td>Dec 12 05:27:26 AM PST 22</td>
+</tr><tr>
+<td>Peak memory</td>
+<td>178892 kb</td>
+</tr><tr>
+<td>Host</td>
+<td nowrap>license-server-00</td>
+</tr><tr>
+<td>User</td>
+<td>rady</td>
+</tr><tr>
+<td>Command</td>
+<td nowrap>sim/coverage/RTL-gpio_all_o//simv +lint=all -cm_runsilent -cm line+tgl+cond+fsm+branch+assert +error+50 +sdfverbose +neg_tchk -a sim/coverage/RTL-gpio<br>_all_o//test.log</td>
+</tr><tr>
+<td>Directory</td>
+<td>/home/rady/caravel/gf_signoff_sims/mem/cocotb</td>
+</tr></table><br clear=all>
+<hr>
+<a name="T33"></a>
+<table align=left>
+<tr>
+<td><b>Test location</b></td>
+<td nowrap><b>RTL-gpio_all_o_user/simv/test</b></td>
+</tr><tr>
+<td>Short name</td>
+<td>T33</td>
+</tr><tr>
+<td>Test name</td>
+<td></td>
+</tr><tr>
+<td>Test status</td>
+<td></td>
+</tr><tr>
+<td>Simulation time</td>
+<td>9461790001 ps</td>
+</tr><tr>
+<td>CPU time</td>
+<td>439.71 seconds</td>
+</tr><tr>
+<td>Started</td>
+<td>Dec 12 05:27:36 AM PST 22</td>
+</tr><tr>
+<td>Finished</td>
+<td>Dec 12 05:34:56 AM PST 22</td>
+</tr><tr>
+<td>Peak memory</td>
+<td>166724 kb</td>
+</tr><tr>
+<td>Host</td>
+<td nowrap>license-server-00</td>
+</tr><tr>
+<td>User</td>
+<td>rady</td>
+</tr><tr>
+<td>Command</td>
+<td nowrap>sim/coverage/RTL-gpio_all_o_user//simv +lint=all -cm_runsilent -cm line+tgl+cond+fsm+branch+assert +error+50 +sdfverbose +neg_tchk -a sim/coverage/RTL<br>-gpio_all_o_user//test.log</td>
+</tr><tr>
+<td>Directory</td>
+<td>/home/rady/caravel/gf_signoff_sims/mem/cocotb</td>
 </tr></table><br clear=all>
 <hr>
 <a name="T41"></a>
@@ -1504,19 +1577,19 @@ Total test records in report: 48<hr>
 <td></td>
 </tr><tr>
 <td>Simulation time</td>
-<td>282025001 ps</td>
+<td>309060001 ps</td>
 </tr><tr>
 <td>CPU time</td>
-<td>16.53 seconds</td>
+<td>16.29 seconds</td>
 </tr><tr>
 <td>Started</td>
-<td>Nov 17 02:30:09 AM PST 22</td>
+<td>Dec 12 05:02:15 AM PST 22</td>
 </tr><tr>
 <td>Finished</td>
-<td>Nov 17 02:30:26 AM PST 22</td>
+<td>Dec 12 05:02:31 AM PST 22</td>
 </tr><tr>
 <td>Peak memory</td>
-<td>194368 kb</td>
+<td>170384 kb</td>
 </tr><tr>
 <td>Host</td>
 <td nowrap>license-server-00</td>
@@ -1525,20 +1598,20 @@ Total test records in report: 48<hr>
 <td>rady</td>
 </tr><tr>
 <td>Command</td>
-<td nowrap>sim/r_rtl_02_28_43_17_11/RTL-hk_disable//simv +lint=TFIPC-L -cm_runsilent -cm line+tgl+cond+fsm+branch+assert +error+30 +sdfverbose +neg_tchk -a sim/r<br>_rtl_02_28_43_17_11/RTL-hk_disable//test.log</td>
+<td nowrap>sim/coverage/RTL-hk_disable//simv +lint=all -cm_runsilent -cm line+tgl+cond+fsm+branch+assert +error+50 +sdfverbose +neg_tchk -a sim/coverage/RTL-hk_d<br>isable//test.log</td>
 </tr><tr>
 <td>Directory</td>
-<td>/home/rady/caravel/caravel_redesign_cocotb/caravel/verilog/dv/cocotb</td>
+<td>/home/rady/caravel/gf_signoff_sims/mem/cocotb</td>
 </tr></table><br clear=all>
 <hr>
-<a name="T26"></a>
+<a name="T45"></a>
 <table align=left>
 <tr>
 <td><b>Test location</b></td>
 <td nowrap><b>RTL-hk_regs_rst_spi/simv/test</b></td>
 </tr><tr>
 <td>Short name</td>
-<td>T26</td>
+<td>T45</td>
 </tr><tr>
 <td>Test name</td>
 <td></td>
@@ -1547,19 +1620,19 @@ Total test records in report: 48<hr>
 <td></td>
 </tr><tr>
 <td>Simulation time</td>
-<td>71275001 ps</td>
+<td>241560001 ps</td>
 </tr><tr>
 <td>CPU time</td>
-<td>9.9 seconds</td>
+<td>16.92 seconds</td>
 </tr><tr>
 <td>Started</td>
-<td>Nov 17 02:32:56 AM PST 22</td>
+<td>Dec 12 05:05:03 AM PST 22</td>
 </tr><tr>
 <td>Finished</td>
-<td>Nov 17 02:33:06 AM PST 22</td>
+<td>Dec 12 05:05:20 AM PST 22</td>
 </tr><tr>
 <td>Peak memory</td>
-<td>192768 kb</td>
+<td>169292 kb</td>
 </tr><tr>
 <td>Host</td>
 <td nowrap>license-server-00</td>
@@ -1568,20 +1641,20 @@ Total test records in report: 48<hr>
 <td>rady</td>
 </tr><tr>
 <td>Command</td>
-<td nowrap>sim/r_rtl_02_28_43_17_11/RTL-hk_regs_rst_spi//simv +lint=TFIPC-L -cm_runsilent -cm line+tgl+cond+fsm+branch+assert +error+30 +sdfverbose +neg_tchk -a <br>sim/r_rtl_02_28_43_17_11/RTL-hk_regs_rst_spi//test.log</td>
+<td nowrap>sim/coverage/RTL-hk_regs_rst_spi//simv +lint=all -cm_runsilent -cm line+tgl+cond+fsm+branch+assert +error+50 +sdfverbose +neg_tchk -a sim/coverage/RTL<br>-hk_regs_rst_spi//test.log</td>
 </tr><tr>
 <td>Directory</td>
-<td>/home/rady/caravel/caravel_redesign_cocotb/caravel/verilog/dv/cocotb</td>
+<td>/home/rady/caravel/gf_signoff_sims/mem/cocotb</td>
 </tr></table><br clear=all>
 <hr>
-<a name="T27"></a>
+<a name="T5"></a>
 <table align=left>
 <tr>
 <td><b>Test location</b></td>
 <td nowrap><b>RTL-hk_regs_wr_spi/simv/test</b></td>
 </tr><tr>
 <td>Short name</td>
-<td>T27</td>
+<td>T5</td>
 </tr><tr>
 <td>Test name</td>
 <td></td>
@@ -1590,19 +1663,19 @@ Total test records in report: 48<hr>
 <td></td>
 </tr><tr>
 <td>Simulation time</td>
-<td>159425001 ps</td>
+<td>490860001 ps</td>
 </tr><tr>
 <td>CPU time</td>
-<td>19.07 seconds</td>
+<td>33.21 seconds</td>
 </tr><tr>
 <td>Started</td>
-<td>Nov 17 04:06:06 AM PST 22</td>
+<td>Dec 12 06:19:09 AM PST 22</td>
 </tr><tr>
 <td>Finished</td>
-<td>Nov 17 04:06:25 AM PST 22</td>
+<td>Dec 12 06:19:42 AM PST 22</td>
 </tr><tr>
 <td>Peak memory</td>
-<td>193332 kb</td>
+<td>174796 kb</td>
 </tr><tr>
 <td>Host</td>
 <td nowrap>license-server-00</td>
@@ -1611,10 +1684,10 @@ Total test records in report: 48<hr>
 <td>rady</td>
 </tr><tr>
 <td>Command</td>
-<td nowrap>sim/r_rtl_02_28_43_17_11/RTL-hk_regs_wr_spi//simv +lint=TFIPC-L -cm_runsilent -cm line+tgl+cond+fsm+branch+assert +error+30 +sdfverbose +neg_tchk -a s<br>im/r_rtl_02_28_43_17_11/RTL-hk_regs_wr_spi//test.log</td>
+<td nowrap>sim/coverage/RTL-hk_regs_wr_spi//simv +lint=all -cm_runsilent -cm line+tgl+cond+fsm+branch+assert +error+50 +sdfverbose +neg_tchk -a sim/coverage/RTL-<br>hk_regs_wr_spi//test.log</td>
 </tr><tr>
 <td>Directory</td>
-<td>/home/rady/caravel/caravel_redesign_cocotb/caravel/verilog/dv/cocotb</td>
+<td>/home/rady/caravel/gf_signoff_sims/mem/cocotb</td>
 </tr></table><br clear=all>
 <hr>
 <a name="T44"></a>
@@ -1633,19 +1706,19 @@ Total test records in report: 48<hr>
 <td></td>
 </tr><tr>
 <td>Simulation time</td>
-<td>2125001 ps</td>
+<td>2491001 ps</td>
 </tr><tr>
 <td>CPU time</td>
-<td>1.21 seconds</td>
+<td>1.12 seconds</td>
 </tr><tr>
 <td>Started</td>
-<td>Nov 17 08:32:58 AM PST 22</td>
+<td>Dec 12 08:27:05 AM PST 22</td>
 </tr><tr>
 <td>Finished</td>
-<td>Nov 17 08:32:59 AM PST 22</td>
+<td>Dec 12 08:27:07 AM PST 22</td>
 </tr><tr>
 <td>Peak memory</td>
-<td>194848 kb</td>
+<td>188932 kb</td>
 </tr><tr>
 <td>Host</td>
 <td nowrap>license-server-00</td>
@@ -1654,10 +1727,10 @@ Total test records in report: 48<hr>
 <td>rady</td>
 </tr><tr>
 <td>Command</td>
-<td nowrap>sim/r_rtl_02_28_43_17_11/RTL-hk_regs_wr_wb//simv +lint=TFIPC-L -cm_runsilent -cm line+tgl+cond+fsm+branch+assert +error+30 +sdfverbose +neg_tchk -a si<br>m/r_rtl_02_28_43_17_11/RTL-hk_regs_wr_wb//test.log</td>
+<td nowrap>sim/coverage/RTL-hk_regs_wr_wb//simv +lint=all -cm_runsilent -cm line+tgl+cond+fsm+branch+assert +error+50 +sdfverbose +neg_tchk -a sim/coverage/RTL-h<br>k_regs_wr_wb//test.log</td>
 </tr><tr>
 <td>Directory</td>
-<td>/home/rady/caravel/caravel_redesign_cocotb/caravel/verilog/dv/cocotb</td>
+<td>/home/rady/caravel/gf_signoff_sims/mem/cocotb</td>
 </tr></table><br clear=all>
 <hr>
 <a name="T4"></a>
@@ -1676,19 +1749,19 @@ Total test records in report: 48<hr>
 <td></td>
 </tr><tr>
 <td>Simulation time</td>
-<td>4529300001 ps</td>
+<td>6221460001 ps</td>
 </tr><tr>
 <td>CPU time</td>
-<td>349.51 seconds</td>
+<td>376.44 seconds</td>
 </tr><tr>
 <td>Started</td>
-<td>Nov 17 03:09:15 AM PST 22</td>
+<td>Dec 12 05:35:03 AM PST 22</td>
 </tr><tr>
 <td>Finished</td>
-<td>Nov 17 03:15:05 AM PST 22</td>
+<td>Dec 12 05:41:20 AM PST 22</td>
 </tr><tr>
 <td>Peak memory</td>
-<td>204156 kb</td>
+<td>181124 kb</td>
 </tr><tr>
 <td>Host</td>
 <td nowrap>license-server-00</td>
@@ -1697,17 +1770,103 @@ Total test records in report: 48<hr>
 <td>rady</td>
 </tr><tr>
 <td>Command</td>
-<td nowrap>sim/r_rtl_02_28_43_17_11/RTL-hk_regs_wr_wb_cpu//simv +lint=TFIPC-L -cm_runsilent -cm line+tgl+cond+fsm+branch+assert +error+30 +sdfverbose +neg_tchk -<br>a sim/r_rtl_02_28_43_17_11/RTL-hk_regs_wr_wb_cpu//test.log</td>
+<td nowrap>sim/coverage/RTL-hk_regs_wr_wb_cpu//simv +lint=all -cm_runsilent -cm line+tgl+cond+fsm+branch+assert +error+50 +sdfverbose +neg_tchk -a sim/coverage/R<br>TL-hk_regs_wr_wb_cpu//test.log</td>
 </tr><tr>
 <td>Directory</td>
-<td>/home/rady/caravel/caravel_redesign_cocotb/caravel/verilog/dv/cocotb</td>
+<td>/home/rady/caravel/gf_signoff_sims/mem/cocotb</td>
+</tr></table><br clear=all>
+<hr>
+<a name="T20"></a>
+<table align=left>
+<tr>
+<td><b>Test location</b></td>
+<td nowrap><b>RTL-la/simv/test</b></td>
+</tr><tr>
+<td>Short name</td>
+<td>T20</td>
+</tr><tr>
+<td>Test name</td>
+<td></td>
+</tr><tr>
+<td>Test status</td>
+<td></td>
+</tr><tr>
+<td>Simulation time</td>
+<td>1732710001 ps</td>
+</tr><tr>
+<td>CPU time</td>
+<td>76.72 seconds</td>
+</tr><tr>
+<td>Started</td>
+<td>Dec 12 07:20:29 AM PST 22</td>
+</tr><tr>
+<td>Finished</td>
+<td>Dec 12 07:21:46 AM PST 22</td>
+</tr><tr>
+<td>Peak memory</td>
+<td>174980 kb</td>
+</tr><tr>
+<td>Host</td>
+<td nowrap>license-server-00</td>
+</tr><tr>
+<td>User</td>
+<td>rady</td>
+</tr><tr>
+<td>Command</td>
+<td nowrap>sim/coverage/RTL-la//simv +lint=all -cm_runsilent -cm line+tgl+cond+fsm+branch+assert +error+50 +sdfverbose +neg_tchk -a sim/coverage/RTL-la//test.log</td>
+</tr><tr>
+<td>Directory</td>
+<td>/home/rady/caravel/gf_signoff_sims/mem/cocotb</td>
+</tr></table><br clear=all>
+<hr>
+<a name="T35"></a>
+<table align=left>
+<tr>
+<td><b>Test location</b></td>
+<td nowrap><b>RTL-mem_sram_W/simv/test</b></td>
+</tr><tr>
+<td>Short name</td>
+<td>T35</td>
+</tr><tr>
+<td>Test name</td>
+<td></td>
+</tr><tr>
+<td>Test status</td>
+<td></td>
+</tr><tr>
+<td>Simulation time</td>
+<td>240091560001 ps</td>
+</tr><tr>
+<td>CPU time</td>
+<td>10690.5 seconds</td>
+</tr><tr>
+<td>Started</td>
+<td>Dec 12 08:43:05 AM PST 22</td>
+</tr><tr>
+<td>Finished</td>
+<td>Dec 12 11:41:18 AM PST 22</td>
+</tr><tr>
+<td>Peak memory</td>
+<td>366784 kb</td>
+</tr><tr>
+<td>Host</td>
+<td nowrap>license-server-00</td>
+</tr><tr>
+<td>User</td>
+<td>rady</td>
+</tr><tr>
+<td>Command</td>
+<td nowrap>sim/coverage/RTL-mem_sram_W//simv +lint=all -cm_runsilent -cm line+tgl+cond+fsm+branch+assert +error+50 +sdfverbose +neg_tchk -a sim/coverage/RTL-mem_<br>sram_W//test.log</td>
+</tr><tr>
+<td>Directory</td>
+<td>/home/rady/caravel/gf_signoff_sims/mem/cocotb</td>
 </tr></table><br clear=all>
 <hr>
 <a name="T36"></a>
 <table align=left>
 <tr>
 <td><b>Test location</b></td>
-<td nowrap><b>RTL-la/simv/test</b></td>
+<td nowrap><b>RTL-mem_sram_smoke/simv/test</b></td>
 </tr><tr>
 <td>Short name</td>
 <td>T36</td>
@@ -1719,19 +1878,19 @@ Total test records in report: 48<hr>
 <td></td>
 </tr><tr>
 <td>Simulation time</td>
-<td>1668700001 ps</td>
+<td>19471560001 ps</td>
 </tr><tr>
 <td>CPU time</td>
-<td>91.4 seconds</td>
+<td>852.98 seconds</td>
 </tr><tr>
 <td>Started</td>
-<td>Nov 17 05:11:28 AM PST 22</td>
+<td>Dec 12 08:28:41 AM PST 22</td>
 </tr><tr>
 <td>Finished</td>
-<td>Nov 17 05:12:59 AM PST 22</td>
+<td>Dec 12 08:42:54 AM PST 22</td>
 </tr><tr>
 <td>Peak memory</td>
-<td>197776 kb</td>
+<td>166044 kb</td>
 </tr><tr>
 <td>Host</td>
 <td nowrap>license-server-00</td>
@@ -1740,17 +1899,146 @@ Total test records in report: 48<hr>
 <td>rady</td>
 </tr><tr>
 <td>Command</td>
-<td nowrap>sim/r_rtl_02_28_43_17_11/RTL-la//simv +lint=TFIPC-L -cm_runsilent -cm line+tgl+cond+fsm+branch+assert +error+30 +sdfverbose +neg_tchk -a sim/r_rtl_02_<br>28_43_17_11/RTL-la//test.log</td>
+<td nowrap>sim/coverage/RTL-mem_sram_smoke//simv +lint=all -cm_runsilent -cm line+tgl+cond+fsm+branch+assert +error+50 +sdfverbose +neg_tchk -a sim/coverage/RTL-<br>mem_sram_smoke//test.log</td>
 </tr><tr>
 <td>Directory</td>
-<td>/home/rady/caravel/caravel_redesign_cocotb/caravel/verilog/dv/cocotb</td>
+<td>/home/rady/caravel/gf_signoff_sims/mem/cocotb</td>
+</tr></table><br clear=all>
+<hr>
+<a name="T27"></a>
+<table align=left>
+<tr>
+<td><b>Test location</b></td>
+<td nowrap><b>RTL-mgmt_gpio_bidir/simv/test</b></td>
+</tr><tr>
+<td>Short name</td>
+<td>T27</td>
+</tr><tr>
+<td>Test name</td>
+<td></td>
+</tr><tr>
+<td>Test status</td>
+<td></td>
+</tr><tr>
+<td>Simulation time</td>
+<td>2732760001 ps</td>
+</tr><tr>
+<td>CPU time</td>
+<td>120.73 seconds</td>
+</tr><tr>
+<td>Started</td>
+<td>Dec 12 07:18:21 AM PST 22</td>
+</tr><tr>
+<td>Finished</td>
+<td>Dec 12 07:20:22 AM PST 22</td>
+</tr><tr>
+<td>Peak memory</td>
+<td>177356 kb</td>
+</tr><tr>
+<td>Host</td>
+<td nowrap>license-server-00</td>
+</tr><tr>
+<td>User</td>
+<td>rady</td>
+</tr><tr>
+<td>Command</td>
+<td nowrap>sim/coverage/RTL-mgmt_gpio_bidir//simv +lint=all -cm_runsilent -cm line+tgl+cond+fsm+branch+assert +error+50 +sdfverbose +neg_tchk -a sim/coverage/RTL<br>-mgmt_gpio_bidir//test.log</td>
+</tr><tr>
+<td>Directory</td>
+<td>/home/rady/caravel/gf_signoff_sims/mem/cocotb</td>
+</tr></table><br clear=all>
+<hr>
+<a name="T28"></a>
+<table align=left>
+<tr>
+<td><b>Test location</b></td>
+<td nowrap><b>RTL-mgmt_gpio_disable/simv/test</b></td>
+</tr><tr>
+<td>Short name</td>
+<td>T28</td>
+</tr><tr>
+<td>Test name</td>
+<td></td>
+</tr><tr>
+<td>Test status</td>
+<td></td>
+</tr><tr>
+<td>Simulation time</td>
+<td>759060001 ps</td>
+</tr><tr>
+<td>CPU time</td>
+<td>34.26 seconds</td>
+</tr><tr>
+<td>Started</td>
+<td>Dec 12 11:41:32 AM PST 22</td>
+</tr><tr>
+<td>Finished</td>
+<td>Dec 12 11:42:07 AM PST 22</td>
+</tr><tr>
+<td>Peak memory</td>
+<td>174640 kb</td>
+</tr><tr>
+<td>Host</td>
+<td nowrap>license-server-00</td>
+</tr><tr>
+<td>User</td>
+<td>rady</td>
+</tr><tr>
+<td>Command</td>
+<td nowrap>sim/coverage/RTL-mgmt_gpio_disable//simv +lint=all -cm_runsilent -cm line+tgl+cond+fsm+branch+assert +error+50 +sdfverbose +neg_tchk -a sim/coverage/R<br>TL-mgmt_gpio_disable//test.log</td>
+</tr><tr>
+<td>Directory</td>
+<td>/home/rady/caravel/gf_signoff_sims/mem/cocotb</td>
+</tr></table><br clear=all>
+<hr>
+<a name="T50"></a>
+<table align=left>
+<tr>
+<td><b>Test location</b></td>
+<td nowrap><b>RTL-mgmt_gpio_in/simv/test</b></td>
+</tr><tr>
+<td>Short name</td>
+<td>T50</td>
+</tr><tr>
+<td>Test name</td>
+<td></td>
+</tr><tr>
+<td>Test status</td>
+<td></td>
+</tr><tr>
+<td>Simulation time</td>
+<td>8349360001 ps</td>
+</tr><tr>
+<td>CPU time</td>
+<td>357.96 seconds</td>
+</tr><tr>
+<td>Started</td>
+<td>Dec 12 06:30:21 AM PST 22</td>
+</tr><tr>
+<td>Finished</td>
+<td>Dec 12 06:36:19 AM PST 22</td>
+</tr><tr>
+<td>Peak memory</td>
+<td>183744 kb</td>
+</tr><tr>
+<td>Host</td>
+<td nowrap>license-server-00</td>
+</tr><tr>
+<td>User</td>
+<td>rady</td>
+</tr><tr>
+<td>Command</td>
+<td nowrap>sim/coverage/RTL-mgmt_gpio_in//simv +lint=all -cm_runsilent -cm line+tgl+cond+fsm+branch+assert +error+50 +sdfverbose +neg_tchk -a sim/coverage/RTL-mg<br>mt_gpio_in//test.log</td>
+</tr><tr>
+<td>Directory</td>
+<td>/home/rady/caravel/gf_signoff_sims/mem/cocotb</td>
 </tr></table><br clear=all>
 <hr>
 <a name="T29"></a>
 <table align=left>
 <tr>
 <td><b>Test location</b></td>
-<td nowrap><b>RTL-mem_dff2_W/simv/test</b></td>
+<td nowrap><b>RTL-mgmt_gpio_out/simv/test</b></td>
 </tr><tr>
 <td>Short name</td>
 <td>T29</td>
@@ -1762,19 +2050,19 @@ Total test records in report: 48<hr>
 <td></td>
 </tr><tr>
 <td>Simulation time</td>
-<td>44651275001 ps</td>
+<td>2058960001 ps</td>
 </tr><tr>
 <td>CPU time</td>
-<td>2364.53 seconds</td>
+<td>92.5 seconds</td>
 </tr><tr>
 <td>Started</td>
-<td>Nov 17 07:18:14 AM PST 22</td>
+<td>Dec 12 06:15:02 AM PST 22</td>
 </tr><tr>
 <td>Finished</td>
-<td>Nov 17 07:57:39 AM PST 22</td>
+<td>Dec 12 06:16:35 AM PST 22</td>
 </tr><tr>
 <td>Peak memory</td>
-<td>256180 kb</td>
+<td>175764 kb</td>
 </tr><tr>
 <td>Host</td>
 <td nowrap>license-server-00</td>
@@ -1783,17 +2071,146 @@ Total test records in report: 48<hr>
 <td>rady</td>
 </tr><tr>
 <td>Command</td>
-<td nowrap>sim/r_rtl_02_28_43_17_11/RTL-mem_dff2_W//simv +lint=TFIPC-L -cm_runsilent -cm line+tgl+cond+fsm+branch+assert +error+30 +sdfverbose +neg_tchk -a sim/r<br>_rtl_02_28_43_17_11/RTL-mem_dff2_W//test.log</td>
+<td nowrap>sim/coverage/RTL-mgmt_gpio_out//simv +lint=all -cm_runsilent -cm line+tgl+cond+fsm+branch+assert +error+50 +sdfverbose +neg_tchk -a sim/coverage/RTL-m<br>gmt_gpio_out//test.log</td>
 </tr><tr>
 <td>Directory</td>
-<td>/home/rady/caravel/caravel_redesign_cocotb/caravel/verilog/dv/cocotb</td>
+<td>/home/rady/caravel/gf_signoff_sims/mem/cocotb</td>
+</tr></table><br clear=all>
+<hr>
+<a name="T22"></a>
+<table align=left>
+<tr>
+<td><b>Test location</b></td>
+<td nowrap><b>RTL-serial_shifting_0011/simv/test</b></td>
+</tr><tr>
+<td>Short name</td>
+<td>T22</td>
+</tr><tr>
+<td>Test name</td>
+<td></td>
+</tr><tr>
+<td>Test status</td>
+<td></td>
+</tr><tr>
+<td>Simulation time</td>
+<td>1059060001 ps</td>
+</tr><tr>
+<td>CPU time</td>
+<td>49.87 seconds</td>
+</tr><tr>
+<td>Started</td>
+<td>Dec 12 07:55:25 AM PST 22</td>
+</tr><tr>
+<td>Finished</td>
+<td>Dec 12 07:56:15 AM PST 22</td>
+</tr><tr>
+<td>Peak memory</td>
+<td>179236 kb</td>
+</tr><tr>
+<td>Host</td>
+<td nowrap>license-server-00</td>
+</tr><tr>
+<td>User</td>
+<td>rady</td>
+</tr><tr>
+<td>Command</td>
+<td nowrap>sim/coverage/RTL-serial_shifting_0011//simv +lint=all -cm_runsilent -cm line+tgl+cond+fsm+branch+assert +error+50 +sdfverbose +neg_tchk -a sim/coverag<br>e/RTL-serial_shifting_0011//test.log</td>
+</tr><tr>
+<td>Directory</td>
+<td>/home/rady/caravel/gf_signoff_sims/mem/cocotb</td>
+</tr></table><br clear=all>
+<hr>
+<a name="T23"></a>
+<table align=left>
+<tr>
+<td><b>Test location</b></td>
+<td nowrap><b>RTL-serial_shifting_01/simv/test</b></td>
+</tr><tr>
+<td>Short name</td>
+<td>T23</td>
+</tr><tr>
+<td>Test name</td>
+<td></td>
+</tr><tr>
+<td>Test status</td>
+<td></td>
+</tr><tr>
+<td>Simulation time</td>
+<td>1091760001 ps</td>
+</tr><tr>
+<td>CPU time</td>
+<td>51.13 seconds</td>
+</tr><tr>
+<td>Started</td>
+<td>Dec 12 07:52:31 AM PST 22</td>
+</tr><tr>
+<td>Finished</td>
+<td>Dec 12 07:53:23 AM PST 22</td>
+</tr><tr>
+<td>Peak memory</td>
+<td>179020 kb</td>
+</tr><tr>
+<td>Host</td>
+<td nowrap>license-server-00</td>
+</tr><tr>
+<td>User</td>
+<td>rady</td>
+</tr><tr>
+<td>Command</td>
+<td nowrap>sim/coverage/RTL-serial_shifting_01//simv +lint=all -cm_runsilent -cm line+tgl+cond+fsm+branch+assert +error+50 +sdfverbose +neg_tchk -a sim/coverage/<br>RTL-serial_shifting_01//test.log</td>
+</tr><tr>
+<td>Directory</td>
+<td>/home/rady/caravel/gf_signoff_sims/mem/cocotb</td>
+</tr></table><br clear=all>
+<hr>
+<a name="T24"></a>
+<table align=left>
+<tr>
+<td><b>Test location</b></td>
+<td nowrap><b>RTL-serial_shifting_10/simv/test</b></td>
+</tr><tr>
+<td>Short name</td>
+<td>T24</td>
+</tr><tr>
+<td>Test name</td>
+<td></td>
+</tr><tr>
+<td>Test status</td>
+<td></td>
+</tr><tr>
+<td>Simulation time</td>
+<td>1091760001 ps</td>
+</tr><tr>
+<td>CPU time</td>
+<td>50.98 seconds</td>
+</tr><tr>
+<td>Started</td>
+<td>Dec 12 07:53:30 AM PST 22</td>
+</tr><tr>
+<td>Finished</td>
+<td>Dec 12 07:54:21 AM PST 22</td>
+</tr><tr>
+<td>Peak memory</td>
+<td>179120 kb</td>
+</tr><tr>
+<td>Host</td>
+<td nowrap>license-server-00</td>
+</tr><tr>
+<td>User</td>
+<td>rady</td>
+</tr><tr>
+<td>Command</td>
+<td nowrap>sim/coverage/RTL-serial_shifting_10//simv +lint=all -cm_runsilent -cm line+tgl+cond+fsm+branch+assert +error+50 +sdfverbose +neg_tchk -a sim/coverage/<br>RTL-serial_shifting_10//test.log</td>
+</tr><tr>
+<td>Directory</td>
+<td>/home/rady/caravel/gf_signoff_sims/mem/cocotb</td>
 </tr></table><br clear=all>
 <hr>
 <a name="T30"></a>
 <table align=left>
 <tr>
 <td><b>Test location</b></td>
-<td nowrap><b>RTL-mem_dff_W/simv/test</b></td>
+<td nowrap><b>RTL-serial_shifting_1100/simv/test</b></td>
 </tr><tr>
 <td>Short name</td>
 <td>T30</td>
@@ -1805,19 +2222,19 @@ Total test records in report: 48<hr>
 <td></td>
 </tr><tr>
 <td>Simulation time</td>
-<td>88901275001 ps</td>
+<td>1059360001 ps</td>
 </tr><tr>
 <td>CPU time</td>
-<td>4752.64 seconds</td>
+<td>49.23 seconds</td>
 </tr><tr>
 <td>Started</td>
-<td>Nov 17 05:57:46 AM PST 22</td>
+<td>Dec 12 07:54:28 AM PST 22</td>
 </tr><tr>
 <td>Finished</td>
-<td>Nov 17 07:16:59 AM PST 22</td>
+<td>Dec 12 07:55:18 AM PST 22</td>
 </tr><tr>
 <td>Peak memory</td>
-<td>313460 kb</td>
+<td>178920 kb</td>
 </tr><tr>
 <td>Host</td>
 <td nowrap>license-server-00</td>
@@ -1826,364 +2243,20 @@ Total test records in report: 48<hr>
 <td>rady</td>
 </tr><tr>
 <td>Command</td>
-<td nowrap>sim/r_rtl_02_28_43_17_11/RTL-mem_dff_W//simv +lint=TFIPC-L -cm_runsilent -cm line+tgl+cond+fsm+branch+assert +error+30 +sdfverbose +neg_tchk -a sim/r_<br>rtl_02_28_43_17_11/RTL-mem_dff_W//test.log</td>
+<td nowrap>sim/coverage/RTL-serial_shifting_1100//simv +lint=all -cm_runsilent -cm line+tgl+cond+fsm+branch+assert +error+50 +sdfverbose +neg_tchk -a sim/coverag<br>e/RTL-serial_shifting_1100//test.log</td>
 </tr><tr>
 <td>Directory</td>
-<td>/home/rady/caravel/caravel_redesign_cocotb/caravel/verilog/dv/cocotb</td>
+<td>/home/rady/caravel/gf_signoff_sims/mem/cocotb</td>
 </tr></table><br clear=all>
 <hr>
-<a name="T8"></a>
-<table align=left>
-<tr>
-<td><b>Test location</b></td>
-<td nowrap><b>RTL-mgmt_gpio_bidir/simv/test</b></td>
-</tr><tr>
-<td>Short name</td>
-<td>T8</td>
-</tr><tr>
-<td>Test name</td>
-<td></td>
-</tr><tr>
-<td>Test status</td>
-<td></td>
-</tr><tr>
-<td>Simulation time</td>
-<td>4739975001 ps</td>
-</tr><tr>
-<td>CPU time</td>
-<td>256.71 seconds</td>
-</tr><tr>
-<td>Started</td>
-<td>Nov 17 05:07:04 AM PST 22</td>
-</tr><tr>
-<td>Finished</td>
-<td>Nov 17 05:11:20 AM PST 22</td>
-</tr><tr>
-<td>Peak memory</td>
-<td>204052 kb</td>
-</tr><tr>
-<td>Host</td>
-<td nowrap>license-server-00</td>
-</tr><tr>
-<td>User</td>
-<td>rady</td>
-</tr><tr>
-<td>Command</td>
-<td nowrap>sim/r_rtl_02_28_43_17_11/RTL-mgmt_gpio_bidir//simv +lint=TFIPC-L -cm_runsilent -cm line+tgl+cond+fsm+branch+assert +error+30 +sdfverbose +neg_tchk -a <br>sim/r_rtl_02_28_43_17_11/RTL-mgmt_gpio_bidir//test.log</td>
-</tr><tr>
-<td>Directory</td>
-<td>/home/rady/caravel/caravel_redesign_cocotb/caravel/verilog/dv/cocotb</td>
-</tr></table><br clear=all>
-<hr>
-<a name="T10"></a>
-<table align=left>
-<tr>
-<td><b>Test location</b></td>
-<td nowrap><b>RTL-mgmt_gpio_in/simv/test</b></td>
-</tr><tr>
-<td>Short name</td>
-<td>T10</td>
-</tr><tr>
-<td>Test name</td>
-<td></td>
-</tr><tr>
-<td>Test status</td>
-<td></td>
-</tr><tr>
-<td>Simulation time</td>
-<td>6857275001 ps</td>
-</tr><tr>
-<td>CPU time</td>
-<td>361.89 seconds</td>
-</tr><tr>
-<td>Started</td>
-<td>Nov 17 04:17:37 AM PST 22</td>
-</tr><tr>
-<td>Finished</td>
-<td>Nov 17 04:23:39 AM PST 22</td>
-</tr><tr>
-<td>Peak memory</td>
-<td>206556 kb</td>
-</tr><tr>
-<td>Host</td>
-<td nowrap>license-server-00</td>
-</tr><tr>
-<td>User</td>
-<td>rady</td>
-</tr><tr>
-<td>Command</td>
-<td nowrap>sim/r_rtl_02_28_43_17_11/RTL-mgmt_gpio_in//simv +lint=TFIPC-L -cm_runsilent -cm line+tgl+cond+fsm+branch+assert +error+30 +sdfverbose +neg_tchk -a sim<br>/r_rtl_02_28_43_17_11/RTL-mgmt_gpio_in//test.log</td>
-</tr><tr>
-<td>Directory</td>
-<td>/home/rady/caravel/caravel_redesign_cocotb/caravel/verilog/dv/cocotb</td>
-</tr></table><br clear=all>
-<hr>
-<a name="T9"></a>
-<table align=left>
-<tr>
-<td><b>Test location</b></td>
-<td nowrap><b>RTL-mgmt_gpio_out/simv/test</b></td>
-</tr><tr>
-<td>Short name</td>
-<td>T9</td>
-</tr><tr>
-<td>Test name</td>
-<td></td>
-</tr><tr>
-<td>Test status</td>
-<td></td>
-</tr><tr>
-<td>Simulation time</td>
-<td>2262025001 ps</td>
-</tr><tr>
-<td>CPU time</td>
-<td>121.63 seconds</td>
-</tr><tr>
-<td>Started</td>
-<td>Nov 17 04:02:08 AM PST 22</td>
-</tr><tr>
-<td>Finished</td>
-<td>Nov 17 04:04:09 AM PST 22</td>
-</tr><tr>
-<td>Peak memory</td>
-<td>200248 kb</td>
-</tr><tr>
-<td>Host</td>
-<td nowrap>license-server-00</td>
-</tr><tr>
-<td>User</td>
-<td>rady</td>
-</tr><tr>
-<td>Command</td>
-<td nowrap>sim/r_rtl_02_28_43_17_11/RTL-mgmt_gpio_out//simv +lint=TFIPC-L -cm_runsilent -cm line+tgl+cond+fsm+branch+assert +error+30 +sdfverbose +neg_tchk -a si<br>m/r_rtl_02_28_43_17_11/RTL-mgmt_gpio_out//test.log</td>
-</tr><tr>
-<td>Directory</td>
-<td>/home/rady/caravel/caravel_redesign_cocotb/caravel/verilog/dv/cocotb</td>
-</tr></table><br clear=all>
-<hr>
-<a name="T34"></a>
-<table align=left>
-<tr>
-<td><b>Test location</b></td>
-<td nowrap><b>RTL-pll/simv/test</b></td>
-</tr><tr>
-<td>Short name</td>
-<td>T34</td>
-</tr><tr>
-<td>Test name</td>
-<td></td>
-</tr><tr>
-<td>Test status</td>
-<td></td>
-</tr><tr>
-<td>Simulation time</td>
-<td>1170275001 ps</td>
-</tr><tr>
-<td>CPU time</td>
-<td>111.04 seconds</td>
-</tr><tr>
-<td>Started</td>
-<td>Nov 17 05:13:07 AM PST 22</td>
-</tr><tr>
-<td>Finished</td>
-<td>Nov 17 05:14:58 AM PST 22</td>
-</tr><tr>
-<td>Peak memory</td>
-<td>203984 kb</td>
-</tr><tr>
-<td>Host</td>
-<td nowrap>license-server-00</td>
-</tr><tr>
-<td>User</td>
-<td>rady</td>
-</tr><tr>
-<td>Command</td>
-<td nowrap>sim/r_rtl_02_28_43_17_11/RTL-pll//simv +lint=TFIPC-L -cm_runsilent -cm line+tgl+cond+fsm+branch+assert +error+30 +sdfverbose +neg_tchk -a sim/r_rtl_02<br>_28_43_17_11/RTL-pll//test.log</td>
-</tr><tr>
-<td>Directory</td>
-<td>/home/rady/caravel/caravel_redesign_cocotb/caravel/verilog/dv/cocotb</td>
-</tr></table><br clear=all>
-<hr>
-<a name="T5"></a>
-<table align=left>
-<tr>
-<td><b>Test location</b></td>
-<td nowrap><b>RTL-serial_shifting_0011/simv/test</b></td>
-</tr><tr>
-<td>Short name</td>
-<td>T5</td>
-</tr><tr>
-<td>Test name</td>
-<td></td>
-</tr><tr>
-<td>Test status</td>
-<td></td>
-</tr><tr>
-<td>Simulation time</td>
-<td>908275001 ps</td>
-</tr><tr>
-<td>CPU time</td>
-<td>52.57 seconds</td>
-</tr><tr>
-<td>Started</td>
-<td>Nov 17 07:59:53 AM PST 22</td>
-</tr><tr>
-<td>Finished</td>
-<td>Nov 17 08:00:45 AM PST 22</td>
-</tr><tr>
-<td>Peak memory</td>
-<td>200260 kb</td>
-</tr><tr>
-<td>Host</td>
-<td nowrap>license-server-00</td>
-</tr><tr>
-<td>User</td>
-<td>rady</td>
-</tr><tr>
-<td>Command</td>
-<td nowrap>sim/r_rtl_02_28_43_17_11/RTL-serial_shifting_0011//simv +lint=TFIPC-L -cm_runsilent -cm line+tgl+cond+fsm+branch+assert +error+30 +sdfverbose +neg_tch<br>k -a sim/r_rtl_02_28_43_17_11/RTL-serial_shifting_0011//test.log</td>
-</tr><tr>
-<td>Directory</td>
-<td>/home/rady/caravel/caravel_redesign_cocotb/caravel/verilog/dv/cocotb</td>
-</tr></table><br clear=all>
-<hr>
-<a name="T6"></a>
-<table align=left>
-<tr>
-<td><b>Test location</b></td>
-<td nowrap><b>RTL-serial_shifting_01/simv/test</b></td>
-</tr><tr>
-<td>Short name</td>
-<td>T6</td>
-</tr><tr>
-<td>Test name</td>
-<td></td>
-</tr><tr>
-<td>Test status</td>
-<td></td>
-</tr><tr>
-<td>Simulation time</td>
-<td>936275001 ps</td>
-</tr><tr>
-<td>CPU time</td>
-<td>59.98 seconds</td>
-</tr><tr>
-<td>Started</td>
-<td>Nov 17 07:17:06 AM PST 22</td>
-</tr><tr>
-<td>Finished</td>
-<td>Nov 17 07:18:06 AM PST 22</td>
-</tr><tr>
-<td>Peak memory</td>
-<td>207496 kb</td>
-</tr><tr>
-<td>Host</td>
-<td nowrap>license-server-00</td>
-</tr><tr>
-<td>User</td>
-<td>rady</td>
-</tr><tr>
-<td>Command</td>
-<td nowrap>sim/r_rtl_02_28_43_17_11/RTL-serial_shifting_01//simv +lint=TFIPC-L -cm_runsilent -cm line+tgl+cond+fsm+branch+assert +error+30 +sdfverbose +neg_tchk <br>-a sim/r_rtl_02_28_43_17_11/RTL-serial_shifting_01//test.log</td>
-</tr><tr>
-<td>Directory</td>
-<td>/home/rady/caravel/caravel_redesign_cocotb/caravel/verilog/dv/cocotb</td>
-</tr></table><br clear=all>
-<hr>
-<a name="T7"></a>
-<table align=left>
-<tr>
-<td><b>Test location</b></td>
-<td nowrap><b>RTL-serial_shifting_10/simv/test</b></td>
-</tr><tr>
-<td>Short name</td>
-<td>T7</td>
-</tr><tr>
-<td>Test name</td>
-<td></td>
-</tr><tr>
-<td>Test status</td>
-<td></td>
-</tr><tr>
-<td>Simulation time</td>
-<td>938025001 ps</td>
-</tr><tr>
-<td>CPU time</td>
-<td>59.73 seconds</td>
-</tr><tr>
-<td>Started</td>
-<td>Nov 17 07:57:46 AM PST 22</td>
-</tr><tr>
-<td>Finished</td>
-<td>Nov 17 07:58:46 AM PST 22</td>
-</tr><tr>
-<td>Peak memory</td>
-<td>207680 kb</td>
-</tr><tr>
-<td>Host</td>
-<td nowrap>license-server-00</td>
-</tr><tr>
-<td>User</td>
-<td>rady</td>
-</tr><tr>
-<td>Command</td>
-<td nowrap>sim/r_rtl_02_28_43_17_11/RTL-serial_shifting_10//simv +lint=TFIPC-L -cm_runsilent -cm line+tgl+cond+fsm+branch+assert +error+30 +sdfverbose +neg_tchk <br>-a sim/r_rtl_02_28_43_17_11/RTL-serial_shifting_10//test.log</td>
-</tr><tr>
-<td>Directory</td>
-<td>/home/rady/caravel/caravel_redesign_cocotb/caravel/verilog/dv/cocotb</td>
-</tr></table><br clear=all>
-<hr>
-<a name="T18"></a>
-<table align=left>
-<tr>
-<td><b>Test location</b></td>
-<td nowrap><b>RTL-serial_shifting_1100/simv/test</b></td>
-</tr><tr>
-<td>Short name</td>
-<td>T18</td>
-</tr><tr>
-<td>Test name</td>
-<td></td>
-</tr><tr>
-<td>Test status</td>
-<td></td>
-</tr><tr>
-<td>Simulation time</td>
-<td>909775001 ps</td>
-</tr><tr>
-<td>CPU time</td>
-<td>52.15 seconds</td>
-</tr><tr>
-<td>Started</td>
-<td>Nov 17 07:58:53 AM PST 22</td>
-</tr><tr>
-<td>Finished</td>
-<td>Nov 17 07:59:45 AM PST 22</td>
-</tr><tr>
-<td>Peak memory</td>
-<td>200004 kb</td>
-</tr><tr>
-<td>Host</td>
-<td nowrap>license-server-00</td>
-</tr><tr>
-<td>User</td>
-<td>rady</td>
-</tr><tr>
-<td>Command</td>
-<td nowrap>sim/r_rtl_02_28_43_17_11/RTL-serial_shifting_1100//simv +lint=TFIPC-L -cm_runsilent -cm line+tgl+cond+fsm+branch+assert +error+30 +sdfverbose +neg_tch<br>k -a sim/r_rtl_02_28_43_17_11/RTL-serial_shifting_1100//test.log</td>
-</tr><tr>
-<td>Directory</td>
-<td>/home/rady/caravel/caravel_redesign_cocotb/caravel/verilog/dv/cocotb</td>
-</tr></table><br clear=all>
-<hr>
-<a name="T38"></a>
+<a name="T12"></a>
 <table align=left>
 <tr>
 <td><b>Test location</b></td>
 <td nowrap><b>RTL-spi_master_rd/simv/test</b></td>
 </tr><tr>
 <td>Short name</td>
-<td>T38</td>
+<td>T12</td>
 </tr><tr>
 <td>Test name</td>
 <td></td>
@@ -2192,19 +2265,19 @@ Total test records in report: 48<hr>
 <td></td>
 </tr><tr>
 <td>Simulation time</td>
-<td>5294275001 ps</td>
+<td>5575860001 ps</td>
 </tr><tr>
 <td>CPU time</td>
-<td>288.14 seconds</td>
+<td>248.49 seconds</td>
 </tr><tr>
 <td>Started</td>
-<td>Nov 17 05:01:09 AM PST 22</td>
+<td>Dec 12 07:13:11 AM PST 22</td>
 </tr><tr>
 <td>Finished</td>
-<td>Nov 17 05:05:57 AM PST 22</td>
+<td>Dec 12 07:17:20 AM PST 22</td>
 </tr><tr>
 <td>Peak memory</td>
-<td>208908 kb</td>
+<td>184132 kb</td>
 </tr><tr>
 <td>Host</td>
 <td nowrap>license-server-00</td>
@@ -2213,20 +2286,20 @@ Total test records in report: 48<hr>
 <td>rady</td>
 </tr><tr>
 <td>Command</td>
-<td nowrap>sim/r_rtl_02_28_43_17_11/RTL-spi_master_rd//simv +lint=TFIPC-L -cm_runsilent -cm line+tgl+cond+fsm+branch+assert +error+30 +sdfverbose +neg_tchk -a si<br>m/r_rtl_02_28_43_17_11/RTL-spi_master_rd//test.log</td>
+<td nowrap>sim/coverage/RTL-spi_master_rd//simv +lint=all -cm_runsilent -cm line+tgl+cond+fsm+branch+assert +error+50 +sdfverbose +neg_tchk -a sim/coverage/RTL-s<br>pi_master_rd//test.log</td>
 </tr><tr>
 <td>Directory</td>
-<td>/home/rady/caravel/caravel_redesign_cocotb/caravel/verilog/dv/cocotb</td>
+<td>/home/rady/caravel/gf_signoff_sims/mem/cocotb</td>
 </tr></table><br clear=all>
 <hr>
-<a name="T39"></a>
+<a name="T13"></a>
 <table align=left>
 <tr>
 <td><b>Test location</b></td>
 <td nowrap><b>RTL-spi_master_temp/simv/test</b></td>
 </tr><tr>
 <td>Short name</td>
-<td>T39</td>
+<td>T13</td>
 </tr><tr>
 <td>Test name</td>
 <td></td>
@@ -2235,19 +2308,19 @@ Total test records in report: 48<hr>
 <td></td>
 </tr><tr>
 <td>Simulation time</td>
-<td>979075001 ps</td>
+<td>983520001 ps</td>
 </tr><tr>
 <td>CPU time</td>
-<td>56.62 seconds</td>
+<td>46.09 seconds</td>
 </tr><tr>
 <td>Started</td>
-<td>Nov 17 05:15:06 AM PST 22</td>
+<td>Dec 12 07:21:53 AM PST 22</td>
 </tr><tr>
 <td>Finished</td>
-<td>Nov 17 05:16:02 AM PST 22</td>
+<td>Dec 12 07:22:39 AM PST 22</td>
 </tr><tr>
 <td>Peak memory</td>
-<td>200384 kb</td>
+<td>178744 kb</td>
 </tr><tr>
 <td>Host</td>
 <td nowrap>license-server-00</td>
@@ -2256,20 +2329,20 @@ Total test records in report: 48<hr>
 <td>rady</td>
 </tr><tr>
 <td>Command</td>
-<td nowrap>sim/r_rtl_02_28_43_17_11/RTL-spi_master_temp//simv +lint=TFIPC-L -cm_runsilent -cm line+tgl+cond+fsm+branch+assert +error+30 +sdfverbose +neg_tchk -a <br>sim/r_rtl_02_28_43_17_11/RTL-spi_master_temp//test.log</td>
+<td nowrap>sim/coverage/RTL-spi_master_temp//simv +lint=all -cm_runsilent -cm line+tgl+cond+fsm+branch+assert +error+50 +sdfverbose +neg_tchk -a sim/coverage/RTL<br>-spi_master_temp//test.log</td>
 </tr><tr>
 <td>Directory</td>
-<td>/home/rady/caravel/caravel_redesign_cocotb/caravel/verilog/dv/cocotb</td>
+<td>/home/rady/caravel/gf_signoff_sims/mem/cocotb</td>
 </tr></table><br clear=all>
 <hr>
-<a name="T45"></a>
+<a name="T46"></a>
 <table align=left>
 <tr>
 <td><b>Test location</b></td>
 <td nowrap><b>RTL-spi_rd_wr_nbyte/simv/test</b></td>
 </tr><tr>
 <td>Short name</td>
-<td>T45</td>
+<td>T46</td>
 </tr><tr>
 <td>Test name</td>
 <td></td>
@@ -2278,19 +2351,19 @@ Total test records in report: 48<hr>
 <td></td>
 </tr><tr>
 <td>Simulation time</td>
-<td>1775001 ps</td>
+<td>78300001 ps</td>
 </tr><tr>
 <td>CPU time</td>
-<td>1.22 seconds</td>
+<td>6.51 seconds</td>
 </tr><tr>
 <td>Started</td>
-<td>Nov 17 08:33:06 AM PST 22</td>
+<td>Dec 12 08:27:14 AM PST 22</td>
 </tr><tr>
 <td>Finished</td>
-<td>Nov 17 08:33:08 AM PST 22</td>
+<td>Dec 12 08:27:20 AM PST 22</td>
 </tr><tr>
 <td>Peak memory</td>
-<td>190584 kb</td>
+<td>174644 kb</td>
 </tr><tr>
 <td>Host</td>
 <td nowrap>license-server-00</td>
@@ -2299,10 +2372,53 @@ Total test records in report: 48<hr>
 <td>rady</td>
 </tr><tr>
 <td>Command</td>
-<td nowrap>sim/r_rtl_02_28_43_17_11/RTL-spi_rd_wr_nbyte//simv +lint=TFIPC-L -cm_runsilent -cm line+tgl+cond+fsm+branch+assert +error+30 +sdfverbose +neg_tchk -a <br>sim/r_rtl_02_28_43_17_11/RTL-spi_rd_wr_nbyte//test.log</td>
+<td nowrap>sim/coverage/RTL-spi_rd_wr_nbyte//simv +lint=all -cm_runsilent -cm line+tgl+cond+fsm+branch+assert +error+50 +sdfverbose +neg_tchk -a sim/coverage/RTL<br>-spi_rd_wr_nbyte//test.log</td>
 </tr><tr>
 <td>Directory</td>
-<td>/home/rady/caravel/caravel_redesign_cocotb/caravel/verilog/dv/cocotb</td>
+<td>/home/rady/caravel/gf_signoff_sims/mem/cocotb</td>
+</tr></table><br clear=all>
+<hr>
+<a name="T49"></a>
+<table align=left>
+<tr>
+<td><b>Test location</b></td>
+<td nowrap><b>RTL-spi_rd_wr_stream/simv/test</b></td>
+</tr><tr>
+<td>Short name</td>
+<td>T49</td>
+</tr><tr>
+<td>Test name</td>
+<td></td>
+</tr><tr>
+<td>Test status</td>
+<td></td>
+</tr><tr>
+<td>Simulation time</td>
+<td>41160001 ps</td>
+</tr><tr>
+<td>CPU time</td>
+<td>3.88 seconds</td>
+</tr><tr>
+<td>Started</td>
+<td>Dec 12 11:42:42 AM PST 22</td>
+</tr><tr>
+<td>Finished</td>
+<td>Dec 12 11:42:46 AM PST 22</td>
+</tr><tr>
+<td>Peak memory</td>
+<td>174392 kb</td>
+</tr><tr>
+<td>Host</td>
+<td nowrap>license-server-00</td>
+</tr><tr>
+<td>User</td>
+<td>rady</td>
+</tr><tr>
+<td>Command</td>
+<td nowrap>sim/coverage/RTL-spi_rd_wr_stream//simv +lint=all -cm_runsilent -cm line+tgl+cond+fsm+branch+assert +error+50 +sdfverbose +neg_tchk -a sim/coverage/RT<br>L-spi_rd_wr_stream//test.log</td>
+</tr><tr>
+<td>Directory</td>
+<td>/home/rady/caravel/gf_signoff_sims/mem/cocotb</td>
 </tr></table><br clear=all>
 <hr>
 <a name="T42"></a>
@@ -2321,19 +2437,19 @@ Total test records in report: 48<hr>
 <td></td>
 </tr><tr>
 <td>Simulation time</td>
-<td>25335275001 ps</td>
+<td>30385560001 ps</td>
 </tr><tr>
 <td>CPU time</td>
-<td>1348.34 seconds</td>
+<td>1322.4 seconds</td>
 </tr><tr>
 <td>Started</td>
-<td>Nov 17 04:23:47 AM PST 22</td>
+<td>Dec 12 06:36:26 AM PST 22</td>
 </tr><tr>
 <td>Finished</td>
-<td>Nov 17 04:46:15 AM PST 22</td>
+<td>Dec 12 06:58:28 AM PST 22</td>
 </tr><tr>
 <td>Peak memory</td>
-<td>230760 kb</td>
+<td>207036 kb</td>
 </tr><tr>
 <td>Host</td>
 <td nowrap>license-server-00</td>
@@ -2342,10 +2458,10 @@ Total test records in report: 48<hr>
 <td>rady</td>
 </tr><tr>
 <td>Command</td>
-<td nowrap>sim/r_rtl_02_28_43_17_11/RTL-timer0_oneshot//simv +lint=TFIPC-L -cm_runsilent -cm line+tgl+cond+fsm+branch+assert +error+30 +sdfverbose +neg_tchk -a s<br>im/r_rtl_02_28_43_17_11/RTL-timer0_oneshot//test.log</td>
+<td nowrap>sim/coverage/RTL-timer0_oneshot//simv +lint=all -cm_runsilent -cm line+tgl+cond+fsm+branch+assert +error+50 +sdfverbose +neg_tchk -a sim/coverage/RTL-<br>timer0_oneshot//test.log</td>
 </tr><tr>
 <td>Directory</td>
-<td>/home/rady/caravel/caravel_redesign_cocotb/caravel/verilog/dv/cocotb</td>
+<td>/home/rady/caravel/gf_signoff_sims/mem/cocotb</td>
 </tr></table><br clear=all>
 <hr>
 <a name="T43"></a>
@@ -2364,19 +2480,19 @@ Total test records in report: 48<hr>
 <td></td>
 </tr><tr>
 <td>Simulation time</td>
-<td>1287525001 ps</td>
+<td>1589160001 ps</td>
 </tr><tr>
 <td>CPU time</td>
-<td>67.94 seconds</td>
+<td>70.67 seconds</td>
 </tr><tr>
 <td>Started</td>
-<td>Nov 17 04:51:12 AM PST 22</td>
+<td>Dec 12 07:03:16 AM PST 22</td>
 </tr><tr>
 <td>Finished</td>
-<td>Nov 17 04:52:20 AM PST 22</td>
+<td>Dec 12 07:04:27 AM PST 22</td>
 </tr><tr>
 <td>Peak memory</td>
-<td>200644 kb</td>
+<td>176208 kb</td>
 </tr><tr>
 <td>Host</td>
 <td nowrap>license-server-00</td>
@@ -2385,96 +2501,10 @@ Total test records in report: 48<hr>
 <td>rady</td>
 </tr><tr>
 <td>Command</td>
-<td nowrap>sim/r_rtl_02_28_43_17_11/RTL-timer0_periodic//simv +lint=TFIPC-L -cm_runsilent -cm line+tgl+cond+fsm+branch+assert +error+30 +sdfverbose +neg_tchk -a <br>sim/r_rtl_02_28_43_17_11/RTL-timer0_periodic//test.log</td>
+<td nowrap>sim/coverage/RTL-timer0_periodic//simv +lint=all -cm_runsilent -cm line+tgl+cond+fsm+branch+assert +error+50 +sdfverbose +neg_tchk -a sim/coverage/RTL<br>-timer0_periodic//test.log</td>
 </tr><tr>
 <td>Directory</td>
-<td>/home/rady/caravel/caravel_redesign_cocotb/caravel/verilog/dv/cocotb</td>
-</tr></table><br clear=all>
-<hr>
-<a name="T37"></a>
-<table align=left>
-<tr>
-<td><b>Test location</b></td>
-<td nowrap><b>RTL-uart_loopback/simv/test</b></td>
-</tr><tr>
-<td>Short name</td>
-<td>T37</td>
-</tr><tr>
-<td>Test name</td>
-<td></td>
-</tr><tr>
-<td>Test status</td>
-<td></td>
-</tr><tr>
-<td>Simulation time</td>
-<td>4926275001 ps</td>
-</tr><tr>
-<td>CPU time</td>
-<td>281.06 seconds</td>
-</tr><tr>
-<td>Started</td>
-<td>Nov 17 04:46:23 AM PST 22</td>
-</tr><tr>
-<td>Finished</td>
-<td>Nov 17 04:51:04 AM PST 22</td>
-</tr><tr>
-<td>Peak memory</td>
-<td>214820 kb</td>
-</tr><tr>
-<td>Host</td>
-<td nowrap>license-server-00</td>
-</tr><tr>
-<td>User</td>
-<td>rady</td>
-</tr><tr>
-<td>Command</td>
-<td nowrap>sim/r_rtl_02_28_43_17_11/RTL-uart_loopback//simv +lint=TFIPC-L -cm_runsilent -cm line+tgl+cond+fsm+branch+assert +error+30 +sdfverbose +neg_tchk -a si<br>m/r_rtl_02_28_43_17_11/RTL-uart_loopback//test.log</td>
-</tr><tr>
-<td>Directory</td>
-<td>/home/rady/caravel/caravel_redesign_cocotb/caravel/verilog/dv/cocotb</td>
-</tr></table><br clear=all>
-<hr>
-<a name="T40"></a>
-<table align=left>
-<tr>
-<td><b>Test location</b></td>
-<td nowrap><b>RTL-uart_rx/simv/test</b></td>
-</tr><tr>
-<td>Short name</td>
-<td>T40</td>
-</tr><tr>
-<td>Test name</td>
-<td></td>
-</tr><tr>
-<td>Test status</td>
-<td></td>
-</tr><tr>
-<td>Simulation time</td>
-<td>2433550001 ps</td>
-</tr><tr>
-<td>CPU time</td>
-<td>135.07 seconds</td>
-</tr><tr>
-<td>Started</td>
-<td>Nov 17 02:30:33 AM PST 22</td>
-</tr><tr>
-<td>Finished</td>
-<td>Nov 17 02:32:49 AM PST 22</td>
-</tr><tr>
-<td>Peak memory</td>
-<td>205728 kb</td>
-</tr><tr>
-<td>Host</td>
-<td nowrap>license-server-00</td>
-</tr><tr>
-<td>User</td>
-<td>rady</td>
-</tr><tr>
-<td>Command</td>
-<td nowrap>sim/r_rtl_02_28_43_17_11/RTL-uart_rx//simv +lint=TFIPC-L -cm_runsilent -cm line+tgl+cond+fsm+branch+assert +error+30 +sdfverbose +neg_tchk -a sim/r_rt<br>l_02_28_43_17_11/RTL-uart_rx//test.log</td>
-</tr><tr>
-<td>Directory</td>
-<td>/home/rady/caravel/caravel_redesign_cocotb/caravel/verilog/dv/cocotb</td>
+<td>/home/rady/caravel/gf_signoff_sims/mem/cocotb</td>
 </tr></table></div>
 <div class="ui-layout-south">
 <table align=center><tr><td class="s0 cl">0%</td>

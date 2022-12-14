@@ -1,0 +1,2809 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="Author" content="<username>"> <meta name="GENERATOR" content="urg/version [en] (platform name) [urg]">
+<title>Unified Coverage Report :: Module :: gf180mcu_fd_sc_mcu7t5v0__antenna_func</title>
+<link type="text/css" rel="stylesheet" href="css/.urg.css">
+<link type="text/css" rel="stylesheet" href="css/.layout.css">
+<link type="text/css" rel="stylesheet" href="css/.breadcrumb.css">
+<script type="text/javascript" src="js/.jquery.js"></script>
+<script type="text/javascript" src="js/.jquery-ui.js"></script>
+<script type="text/javascript" src="js/.sortable.js"></script>
+<script type="text/javascript" src="js/.layout.js"></script>
+<script type="text/javascript" src="js/.breadcrumb.js"></script>
+<script type="text/javascript">
+var layout, westLayout, centerLayout;
+$(document).ready(function () {
+  if ($("#north-bread-crumb")) {
+    $("#north-bread-crumb").jBreadCrumb({easing:'swing'})
+  }
+  layout = $("body").layout({ 
+    resizable: true,
+    spacing_open: 4,
+    spacing_closed: 4,
+    north: {
+      size: 76
+    },
+    south: {
+      size: 45,
+      initClosed: true
+    },
+    west: {
+      size: 500,
+      resizable: true,
+      initClosed: false
+    }
+  });
+  centerLayout = $('div.ui-layout-center').layout({
+    north__paneSelector: ".ui-layout-center-inner-north",
+    center__paneSelector: ".ui-layout-center-inner-center", 
+    north__size: 50,
+    spacing_open: 4,
+    spacing_closed: 4
+  });
+});
+</script>
+</head>
+<body onLoad="initPage();"><div class="ui-layout-north">
+<div class="logo"></div>
+<center class="pagetitle">Module Definition</center>
+<div align="center"><a href="dashboard.html" ><b>dashboard</b></a> | <a href="hierarchy.html" ><b>hierarchy</b></a> | <a href="modlist.html" ><b>modlist</b></a> | groups | <a href="tests.html" ><b>tests</b></a> | asserts</div>
+
+</div>
+<div class="ui-layout-west">
+<div name='tag_gf180mcu_fd_sc_mcu7t5v0__antenna_func'>
+<div class=modhdr>
+<br clear=all>
+<span class=titlename>Module : <a href="#"  onclick="showContent('tag_gf180mcu_fd_sc_mcu7t5v0__antenna_func')">gf180mcu_fd_sc_mcu7t5v0__antenna_func</a></span>
+<br clear=all>
+<table align=left>
+<tr class="sortablehead">
+<td>SCORE</td><td>LINE</td><td>COND</td><td>TOGGLE</td><td>FSM</td><td>BRANCH</td></tr><tr>
+<td class="s2 cl rt"> 20.00</td>
+<td class="wht cl rt"></td>
+<td class="wht cl rt"></td>
+<td class="s2 cl rt"><a href="mod35.html#Toggle" > 20.00</a></td>
+<td class="wht cl rt"></td>
+<td class="wht cl rt"></td>
+</tr></table><br clear=all>
+<span class=repname>Source File(s) : </span>
+<br clear=all>
+<a href="javascript:void(0);"  onclick="openSrcFile('/home/rady/caravel/files4vcs/pdk/gf180mcuC/libs.ref/gf180mcu_fd_sc_mcu7t5v0/verilog/gf180mcu_fd_sc_mcu7t5v0.v')">/home/rady/caravel/files4vcs/pdk/gf180mcuC/libs.ref/gf180mcu_fd_sc_mcu7t5v0/verilog/gf180mcu_fd_sc_mcu7t5v0.v</a><br clear=all>
+<br clear=all>
+<span class=repname>Module self-instances :</span>
+<br clear=all>
+<table align=left class="sortable">
+<tr class="sortablehead">
+<td class="alfsrt">NAME</td><td>SCORE</td><td>LINE</td><td>COND</td><td>TOGGLE</td><td>FSM</td><td>BRANCH</td></tr><tr>
+<td class="wht cl wordwrap"><a href="mod35.html#inst_tag_2378"  onclick="showContent('inst_tag_2378')">caravel_top.uut.chip_core.spare_logic[0].spare_logic_diode[0].gf180mcu_fd_sc_mcu7t5v0__antenna_inst</a></td>
+<td class="s2 cl rt"> 20.00</td>
+<td class="wht cl rt"></td>
+<td class="wht cl rt"></td>
+<td class="s2 cl rt"><a href="mod35.html#inst_tag_2378_Toggle" > 20.00</a></td>
+<td class="wht cl rt"></td>
+<td class="wht cl rt"></td>
+</tr><tr>
+<td class="wht cl wordwrap"><a href="mod35.html#inst_tag_2379"  onclick="showContent('inst_tag_2379')">caravel_top.uut.chip_core.spare_logic[0].spare_logic_diode[1].gf180mcu_fd_sc_mcu7t5v0__antenna_inst</a></td>
+<td class="s2 cl rt"> 20.00</td>
+<td class="wht cl rt"></td>
+<td class="wht cl rt"></td>
+<td class="s2 cl rt"><a href="mod35.html#inst_tag_2379_Toggle" > 20.00</a></td>
+<td class="wht cl rt"></td>
+<td class="wht cl rt"></td>
+</tr><tr>
+<td class="wht cl wordwrap"><a href="mod35.html#inst_tag_2380"  onclick="showContent('inst_tag_2380')">caravel_top.uut.chip_core.spare_logic[0].spare_logic_diode[2].gf180mcu_fd_sc_mcu7t5v0__antenna_inst</a></td>
+<td class="s2 cl rt"> 20.00</td>
+<td class="wht cl rt"></td>
+<td class="wht cl rt"></td>
+<td class="s2 cl rt"><a href="mod35.html#inst_tag_2380_Toggle" > 20.00</a></td>
+<td class="wht cl rt"></td>
+<td class="wht cl rt"></td>
+</tr><tr>
+<td class="wht cl wordwrap"><a href="mod35.html#inst_tag_2381"  onclick="showContent('inst_tag_2381')">caravel_top.uut.chip_core.spare_logic[0].spare_logic_diode[3].gf180mcu_fd_sc_mcu7t5v0__antenna_inst</a></td>
+<td class="s2 cl rt"> 20.00</td>
+<td class="wht cl rt"></td>
+<td class="wht cl rt"></td>
+<td class="s2 cl rt"><a href="mod35.html#inst_tag_2381_Toggle" > 20.00</a></td>
+<td class="wht cl rt"></td>
+<td class="wht cl rt"></td>
+</tr><tr>
+<td class="wht cl wordwrap"><a href="mod35.html#inst_tag_2382"  onclick="showContent('inst_tag_2382')">caravel_top.uut.chip_core.spare_logic[1].spare_logic_diode[0].gf180mcu_fd_sc_mcu7t5v0__antenna_inst</a></td>
+<td class="s2 cl rt"> 20.00</td>
+<td class="wht cl rt"></td>
+<td class="wht cl rt"></td>
+<td class="s2 cl rt"><a href="mod35.html#inst_tag_2382_Toggle" > 20.00</a></td>
+<td class="wht cl rt"></td>
+<td class="wht cl rt"></td>
+</tr><tr>
+<td class="wht cl wordwrap"><a href="mod35.html#inst_tag_2383"  onclick="showContent('inst_tag_2383')">caravel_top.uut.chip_core.spare_logic[1].spare_logic_diode[1].gf180mcu_fd_sc_mcu7t5v0__antenna_inst</a></td>
+<td class="s2 cl rt"> 20.00</td>
+<td class="wht cl rt"></td>
+<td class="wht cl rt"></td>
+<td class="s2 cl rt"><a href="mod35.html#inst_tag_2383_Toggle" > 20.00</a></td>
+<td class="wht cl rt"></td>
+<td class="wht cl rt"></td>
+</tr><tr>
+<td class="wht cl wordwrap"><a href="mod35.html#inst_tag_2384"  onclick="showContent('inst_tag_2384')">caravel_top.uut.chip_core.spare_logic[1].spare_logic_diode[2].gf180mcu_fd_sc_mcu7t5v0__antenna_inst</a></td>
+<td class="s2 cl rt"> 20.00</td>
+<td class="wht cl rt"></td>
+<td class="wht cl rt"></td>
+<td class="s2 cl rt"><a href="mod35.html#inst_tag_2384_Toggle" > 20.00</a></td>
+<td class="wht cl rt"></td>
+<td class="wht cl rt"></td>
+</tr><tr>
+<td class="wht cl wordwrap"><a href="mod35.html#inst_tag_2385"  onclick="showContent('inst_tag_2385')">caravel_top.uut.chip_core.spare_logic[1].spare_logic_diode[3].gf180mcu_fd_sc_mcu7t5v0__antenna_inst</a></td>
+<td class="s2 cl rt"> 20.00</td>
+<td class="wht cl rt"></td>
+<td class="wht cl rt"></td>
+<td class="s2 cl rt"><a href="mod35.html#inst_tag_2385_Toggle" > 20.00</a></td>
+<td class="wht cl rt"></td>
+<td class="wht cl rt"></td>
+</tr><tr>
+<td class="wht cl wordwrap"><a href="mod35.html#inst_tag_2386"  onclick="showContent('inst_tag_2386')">caravel_top.uut.chip_core.spare_logic[2].spare_logic_diode[0].gf180mcu_fd_sc_mcu7t5v0__antenna_inst</a></td>
+<td class="s2 cl rt"> 20.00</td>
+<td class="wht cl rt"></td>
+<td class="wht cl rt"></td>
+<td class="s2 cl rt"><a href="mod35.html#inst_tag_2386_Toggle" > 20.00</a></td>
+<td class="wht cl rt"></td>
+<td class="wht cl rt"></td>
+</tr><tr>
+<td class="wht cl wordwrap"><a href="mod35.html#inst_tag_2387"  onclick="showContent('inst_tag_2387')">caravel_top.uut.chip_core.spare_logic[2].spare_logic_diode[1].gf180mcu_fd_sc_mcu7t5v0__antenna_inst</a></td>
+<td class="s2 cl rt"> 20.00</td>
+<td class="wht cl rt"></td>
+<td class="wht cl rt"></td>
+<td class="s2 cl rt"><a href="mod35.html#inst_tag_2387_Toggle" > 20.00</a></td>
+<td class="wht cl rt"></td>
+<td class="wht cl rt"></td>
+</tr><tr>
+<td class="wht cl wordwrap"><a href="mod35.html#inst_tag_2388"  onclick="showContent('inst_tag_2388')">caravel_top.uut.chip_core.spare_logic[2].spare_logic_diode[2].gf180mcu_fd_sc_mcu7t5v0__antenna_inst</a></td>
+<td class="s2 cl rt"> 20.00</td>
+<td class="wht cl rt"></td>
+<td class="wht cl rt"></td>
+<td class="s2 cl rt"><a href="mod35.html#inst_tag_2388_Toggle" > 20.00</a></td>
+<td class="wht cl rt"></td>
+<td class="wht cl rt"></td>
+</tr><tr>
+<td class="wht cl wordwrap"><a href="mod35.html#inst_tag_2389"  onclick="showContent('inst_tag_2389')">caravel_top.uut.chip_core.spare_logic[2].spare_logic_diode[3].gf180mcu_fd_sc_mcu7t5v0__antenna_inst</a></td>
+<td class="s2 cl rt"> 20.00</td>
+<td class="wht cl rt"></td>
+<td class="wht cl rt"></td>
+<td class="s2 cl rt"><a href="mod35.html#inst_tag_2389_Toggle" > 20.00</a></td>
+<td class="wht cl rt"></td>
+<td class="wht cl rt"></td>
+</tr><tr>
+<td class="wht cl wordwrap"><a href="mod35.html#inst_tag_2390"  onclick="showContent('inst_tag_2390')">caravel_top.uut.chip_core.spare_logic[3].spare_logic_diode[0].gf180mcu_fd_sc_mcu7t5v0__antenna_inst</a></td>
+<td class="s2 cl rt"> 20.00</td>
+<td class="wht cl rt"></td>
+<td class="wht cl rt"></td>
+<td class="s2 cl rt"><a href="mod35.html#inst_tag_2390_Toggle" > 20.00</a></td>
+<td class="wht cl rt"></td>
+<td class="wht cl rt"></td>
+</tr><tr>
+<td class="wht cl wordwrap"><a href="mod35.html#inst_tag_2391"  onclick="showContent('inst_tag_2391')">caravel_top.uut.chip_core.spare_logic[3].spare_logic_diode[1].gf180mcu_fd_sc_mcu7t5v0__antenna_inst</a></td>
+<td class="s2 cl rt"> 20.00</td>
+<td class="wht cl rt"></td>
+<td class="wht cl rt"></td>
+<td class="s2 cl rt"><a href="mod35.html#inst_tag_2391_Toggle" > 20.00</a></td>
+<td class="wht cl rt"></td>
+<td class="wht cl rt"></td>
+</tr><tr>
+<td class="wht cl wordwrap"><a href="mod35.html#inst_tag_2392"  onclick="showContent('inst_tag_2392')">caravel_top.uut.chip_core.spare_logic[3].spare_logic_diode[2].gf180mcu_fd_sc_mcu7t5v0__antenna_inst</a></td>
+<td class="s2 cl rt"> 20.00</td>
+<td class="wht cl rt"></td>
+<td class="wht cl rt"></td>
+<td class="s2 cl rt"><a href="mod35.html#inst_tag_2392_Toggle" > 20.00</a></td>
+<td class="wht cl rt"></td>
+<td class="wht cl rt"></td>
+</tr><tr>
+<td class="wht cl wordwrap"><a href="mod35.html#inst_tag_2393"  onclick="showContent('inst_tag_2393')">caravel_top.uut.chip_core.spare_logic[3].spare_logic_diode[3].gf180mcu_fd_sc_mcu7t5v0__antenna_inst</a></td>
+<td class="s2 cl rt"> 20.00</td>
+<td class="wht cl rt"></td>
+<td class="wht cl rt"></td>
+<td class="s2 cl rt"><a href="mod35.html#inst_tag_2393_Toggle" > 20.00</a></td>
+<td class="wht cl rt"></td>
+<td class="wht cl rt"></td>
+</tr></table></div>
+</div>
+<br clear=all>
+<div name='inst_tag_2378'>
+<hr>
+<a name="inst_tag_2378"></a>
+<div class=modhdr>
+<br clear=all>
+<span class=titlename>Module Instance : <a href="hierarchy2.html#tag_urg_inst_2378" >caravel_top.uut.chip_core.spare_logic[0].spare_logic_diode[0].gf180mcu_fd_sc_mcu7t5v0__antenna_inst</a></span>
+<br clear=all>
+<br clear=all>
+<span class=repname>Instance :</span>
+<br clear=all>
+<table align=left>
+<tr class="sortablehead">
+<td>SCORE</td><td>LINE</td><td>COND</td><td>TOGGLE</td><td>FSM</td><td>BRANCH</td></tr><tr>
+<td class="s2 cl rt"> 20.00</td>
+<td class="wht cl rt"></td>
+<td class="wht cl rt"></td>
+<td class="s2 cl rt"><a href="mod35.html#inst_tag_2378_Toggle" > 20.00</a></td>
+<td class="wht cl rt"></td>
+<td class="wht cl rt"></td>
+</tr></table><br clear=all>
+<br clear=all>
+<span class=repname>Instance's subtree :</span>
+<br clear=all>
+<table align=left>
+<tr class="sortablehead">
+<td>SCORE</td><td>LINE</td><td>COND</td><td>TOGGLE</td><td>FSM</td><td>BRANCH</td></tr><tr>
+<td class="s2 cl rt"> 20.00</td>
+<td class="wht cl rt"></td>
+<td class="wht cl rt"></td>
+<td class="s2 cl rt"> 20.00</td>
+<td class="wht cl rt"></td>
+<td class="wht cl rt"></td>
+</tr></table><br clear=all>
+<br clear=all>
+<span class=repname>Parent : </span>
+<br clear=all>
+<table align=left>
+<tr class="sortablehead">
+<td>SCORE</td><td>LINE</td><td>COND</td><td>TOGGLE</td><td>FSM</td><td>BRANCH</td><td class="alfsrt">NAME</td></tr><tr>
+<td class="s2 cl rt"> 20.00</td>
+<td class="wht cl rt"></td>
+<td class="wht cl rt"></td>
+<td class="s2 cl rt"> 20.00</td>
+<td class="wht cl rt"></td>
+<td class="wht cl rt"></td>
+<td><a href="mod48.html#inst_tag_2470" >spare_logic_diode[0]</a></td>
+</tr></table><br clear=all>
+<br clear=all>
+<span class=repname>Subtrees :</span>
+<br clear=all>
+<table align=left>
+<tr class="sortablehead">
+<td class="alfsrt">NAME</td><td>SCORE</td><td>LINE</td><td>COND</td><td>TOGGLE</td><td>FSM</td><td>BRANCH</td></tr><tr>
+<td colspan=7>no children</td>
+</tr></table><br clear=all>
+</div>
+</div>
+<div name='inst_tag_2379'>
+<hr>
+<a name="inst_tag_2379"></a>
+<div class=modhdr>
+<br clear=all>
+<span class=titlename>Module Instance : <a href="hierarchy2.html#tag_urg_inst_2379" >caravel_top.uut.chip_core.spare_logic[0].spare_logic_diode[1].gf180mcu_fd_sc_mcu7t5v0__antenna_inst</a></span>
+<br clear=all>
+<br clear=all>
+<span class=repname>Instance :</span>
+<br clear=all>
+<table align=left>
+<tr class="sortablehead">
+<td>SCORE</td><td>LINE</td><td>COND</td><td>TOGGLE</td><td>FSM</td><td>BRANCH</td></tr><tr>
+<td class="s2 cl rt"> 20.00</td>
+<td class="wht cl rt"></td>
+<td class="wht cl rt"></td>
+<td class="s2 cl rt"><a href="mod35.html#inst_tag_2379_Toggle" > 20.00</a></td>
+<td class="wht cl rt"></td>
+<td class="wht cl rt"></td>
+</tr></table><br clear=all>
+<br clear=all>
+<span class=repname>Instance's subtree :</span>
+<br clear=all>
+<table align=left>
+<tr class="sortablehead">
+<td>SCORE</td><td>LINE</td><td>COND</td><td>TOGGLE</td><td>FSM</td><td>BRANCH</td></tr><tr>
+<td class="s2 cl rt"> 20.00</td>
+<td class="wht cl rt"></td>
+<td class="wht cl rt"></td>
+<td class="s2 cl rt"> 20.00</td>
+<td class="wht cl rt"></td>
+<td class="wht cl rt"></td>
+</tr></table><br clear=all>
+<br clear=all>
+<span class=repname>Parent : </span>
+<br clear=all>
+<table align=left>
+<tr class="sortablehead">
+<td>SCORE</td><td>LINE</td><td>COND</td><td>TOGGLE</td><td>FSM</td><td>BRANCH</td><td class="alfsrt">NAME</td></tr><tr>
+<td class="s2 cl rt"> 20.00</td>
+<td class="wht cl rt"></td>
+<td class="wht cl rt"></td>
+<td class="s2 cl rt"> 20.00</td>
+<td class="wht cl rt"></td>
+<td class="wht cl rt"></td>
+<td><a href="mod48.html#inst_tag_2471" >spare_logic_diode[1]</a></td>
+</tr></table><br clear=all>
+<br clear=all>
+<span class=repname>Subtrees :</span>
+<br clear=all>
+<table align=left>
+<tr class="sortablehead">
+<td class="alfsrt">NAME</td><td>SCORE</td><td>LINE</td><td>COND</td><td>TOGGLE</td><td>FSM</td><td>BRANCH</td></tr><tr>
+<td colspan=7>no children</td>
+</tr></table><br clear=all>
+</div>
+</div>
+<div name='inst_tag_2380'>
+<hr>
+<a name="inst_tag_2380"></a>
+<div class=modhdr>
+<br clear=all>
+<span class=titlename>Module Instance : <a href="hierarchy2.html#tag_urg_inst_2380" >caravel_top.uut.chip_core.spare_logic[0].spare_logic_diode[2].gf180mcu_fd_sc_mcu7t5v0__antenna_inst</a></span>
+<br clear=all>
+<br clear=all>
+<span class=repname>Instance :</span>
+<br clear=all>
+<table align=left>
+<tr class="sortablehead">
+<td>SCORE</td><td>LINE</td><td>COND</td><td>TOGGLE</td><td>FSM</td><td>BRANCH</td></tr><tr>
+<td class="s2 cl rt"> 20.00</td>
+<td class="wht cl rt"></td>
+<td class="wht cl rt"></td>
+<td class="s2 cl rt"><a href="mod35.html#inst_tag_2380_Toggle" > 20.00</a></td>
+<td class="wht cl rt"></td>
+<td class="wht cl rt"></td>
+</tr></table><br clear=all>
+<br clear=all>
+<span class=repname>Instance's subtree :</span>
+<br clear=all>
+<table align=left>
+<tr class="sortablehead">
+<td>SCORE</td><td>LINE</td><td>COND</td><td>TOGGLE</td><td>FSM</td><td>BRANCH</td></tr><tr>
+<td class="s2 cl rt"> 20.00</td>
+<td class="wht cl rt"></td>
+<td class="wht cl rt"></td>
+<td class="s2 cl rt"> 20.00</td>
+<td class="wht cl rt"></td>
+<td class="wht cl rt"></td>
+</tr></table><br clear=all>
+<br clear=all>
+<span class=repname>Parent : </span>
+<br clear=all>
+<table align=left>
+<tr class="sortablehead">
+<td>SCORE</td><td>LINE</td><td>COND</td><td>TOGGLE</td><td>FSM</td><td>BRANCH</td><td class="alfsrt">NAME</td></tr><tr>
+<td class="s2 cl rt"> 20.00</td>
+<td class="wht cl rt"></td>
+<td class="wht cl rt"></td>
+<td class="s2 cl rt"> 20.00</td>
+<td class="wht cl rt"></td>
+<td class="wht cl rt"></td>
+<td><a href="mod48.html#inst_tag_2472" >spare_logic_diode[2]</a></td>
+</tr></table><br clear=all>
+<br clear=all>
+<span class=repname>Subtrees :</span>
+<br clear=all>
+<table align=left>
+<tr class="sortablehead">
+<td class="alfsrt">NAME</td><td>SCORE</td><td>LINE</td><td>COND</td><td>TOGGLE</td><td>FSM</td><td>BRANCH</td></tr><tr>
+<td colspan=7>no children</td>
+</tr></table><br clear=all>
+</div>
+</div>
+<div name='inst_tag_2381'>
+<hr>
+<a name="inst_tag_2381"></a>
+<div class=modhdr>
+<br clear=all>
+<span class=titlename>Module Instance : <a href="hierarchy2.html#tag_urg_inst_2381" >caravel_top.uut.chip_core.spare_logic[0].spare_logic_diode[3].gf180mcu_fd_sc_mcu7t5v0__antenna_inst</a></span>
+<br clear=all>
+<br clear=all>
+<span class=repname>Instance :</span>
+<br clear=all>
+<table align=left>
+<tr class="sortablehead">
+<td>SCORE</td><td>LINE</td><td>COND</td><td>TOGGLE</td><td>FSM</td><td>BRANCH</td></tr><tr>
+<td class="s2 cl rt"> 20.00</td>
+<td class="wht cl rt"></td>
+<td class="wht cl rt"></td>
+<td class="s2 cl rt"><a href="mod35.html#inst_tag_2381_Toggle" > 20.00</a></td>
+<td class="wht cl rt"></td>
+<td class="wht cl rt"></td>
+</tr></table><br clear=all>
+<br clear=all>
+<span class=repname>Instance's subtree :</span>
+<br clear=all>
+<table align=left>
+<tr class="sortablehead">
+<td>SCORE</td><td>LINE</td><td>COND</td><td>TOGGLE</td><td>FSM</td><td>BRANCH</td></tr><tr>
+<td class="s2 cl rt"> 20.00</td>
+<td class="wht cl rt"></td>
+<td class="wht cl rt"></td>
+<td class="s2 cl rt"> 20.00</td>
+<td class="wht cl rt"></td>
+<td class="wht cl rt"></td>
+</tr></table><br clear=all>
+<br clear=all>
+<span class=repname>Parent : </span>
+<br clear=all>
+<table align=left>
+<tr class="sortablehead">
+<td>SCORE</td><td>LINE</td><td>COND</td><td>TOGGLE</td><td>FSM</td><td>BRANCH</td><td class="alfsrt">NAME</td></tr><tr>
+<td class="s2 cl rt"> 20.00</td>
+<td class="wht cl rt"></td>
+<td class="wht cl rt"></td>
+<td class="s2 cl rt"> 20.00</td>
+<td class="wht cl rt"></td>
+<td class="wht cl rt"></td>
+<td><a href="mod48.html#inst_tag_2473" >spare_logic_diode[3]</a></td>
+</tr></table><br clear=all>
+<br clear=all>
+<span class=repname>Subtrees :</span>
+<br clear=all>
+<table align=left>
+<tr class="sortablehead">
+<td class="alfsrt">NAME</td><td>SCORE</td><td>LINE</td><td>COND</td><td>TOGGLE</td><td>FSM</td><td>BRANCH</td></tr><tr>
+<td colspan=7>no children</td>
+</tr></table><br clear=all>
+</div>
+</div>
+<div name='inst_tag_2382'>
+<hr>
+<a name="inst_tag_2382"></a>
+<div class=modhdr>
+<br clear=all>
+<span class=titlename>Module Instance : <a href="hierarchy2.html#tag_urg_inst_2382" >caravel_top.uut.chip_core.spare_logic[1].spare_logic_diode[0].gf180mcu_fd_sc_mcu7t5v0__antenna_inst</a></span>
+<br clear=all>
+<br clear=all>
+<span class=repname>Instance :</span>
+<br clear=all>
+<table align=left>
+<tr class="sortablehead">
+<td>SCORE</td><td>LINE</td><td>COND</td><td>TOGGLE</td><td>FSM</td><td>BRANCH</td></tr><tr>
+<td class="s2 cl rt"> 20.00</td>
+<td class="wht cl rt"></td>
+<td class="wht cl rt"></td>
+<td class="s2 cl rt"><a href="mod35.html#inst_tag_2382_Toggle" > 20.00</a></td>
+<td class="wht cl rt"></td>
+<td class="wht cl rt"></td>
+</tr></table><br clear=all>
+<br clear=all>
+<span class=repname>Instance's subtree :</span>
+<br clear=all>
+<table align=left>
+<tr class="sortablehead">
+<td>SCORE</td><td>LINE</td><td>COND</td><td>TOGGLE</td><td>FSM</td><td>BRANCH</td></tr><tr>
+<td class="s2 cl rt"> 20.00</td>
+<td class="wht cl rt"></td>
+<td class="wht cl rt"></td>
+<td class="s2 cl rt"> 20.00</td>
+<td class="wht cl rt"></td>
+<td class="wht cl rt"></td>
+</tr></table><br clear=all>
+<br clear=all>
+<span class=repname>Parent : </span>
+<br clear=all>
+<table align=left>
+<tr class="sortablehead">
+<td>SCORE</td><td>LINE</td><td>COND</td><td>TOGGLE</td><td>FSM</td><td>BRANCH</td><td class="alfsrt">NAME</td></tr><tr>
+<td class="s2 cl rt"> 20.00</td>
+<td class="wht cl rt"></td>
+<td class="wht cl rt"></td>
+<td class="s2 cl rt"> 20.00</td>
+<td class="wht cl rt"></td>
+<td class="wht cl rt"></td>
+<td><a href="mod48.html#inst_tag_2474" >spare_logic_diode[0]</a></td>
+</tr></table><br clear=all>
+<br clear=all>
+<span class=repname>Subtrees :</span>
+<br clear=all>
+<table align=left>
+<tr class="sortablehead">
+<td class="alfsrt">NAME</td><td>SCORE</td><td>LINE</td><td>COND</td><td>TOGGLE</td><td>FSM</td><td>BRANCH</td></tr><tr>
+<td colspan=7>no children</td>
+</tr></table><br clear=all>
+</div>
+</div>
+<div name='inst_tag_2383'>
+<hr>
+<a name="inst_tag_2383"></a>
+<div class=modhdr>
+<br clear=all>
+<span class=titlename>Module Instance : <a href="hierarchy2.html#tag_urg_inst_2383" >caravel_top.uut.chip_core.spare_logic[1].spare_logic_diode[1].gf180mcu_fd_sc_mcu7t5v0__antenna_inst</a></span>
+<br clear=all>
+<br clear=all>
+<span class=repname>Instance :</span>
+<br clear=all>
+<table align=left>
+<tr class="sortablehead">
+<td>SCORE</td><td>LINE</td><td>COND</td><td>TOGGLE</td><td>FSM</td><td>BRANCH</td></tr><tr>
+<td class="s2 cl rt"> 20.00</td>
+<td class="wht cl rt"></td>
+<td class="wht cl rt"></td>
+<td class="s2 cl rt"><a href="mod35.html#inst_tag_2383_Toggle" > 20.00</a></td>
+<td class="wht cl rt"></td>
+<td class="wht cl rt"></td>
+</tr></table><br clear=all>
+<br clear=all>
+<span class=repname>Instance's subtree :</span>
+<br clear=all>
+<table align=left>
+<tr class="sortablehead">
+<td>SCORE</td><td>LINE</td><td>COND</td><td>TOGGLE</td><td>FSM</td><td>BRANCH</td></tr><tr>
+<td class="s2 cl rt"> 20.00</td>
+<td class="wht cl rt"></td>
+<td class="wht cl rt"></td>
+<td class="s2 cl rt"> 20.00</td>
+<td class="wht cl rt"></td>
+<td class="wht cl rt"></td>
+</tr></table><br clear=all>
+<br clear=all>
+<span class=repname>Parent : </span>
+<br clear=all>
+<table align=left>
+<tr class="sortablehead">
+<td>SCORE</td><td>LINE</td><td>COND</td><td>TOGGLE</td><td>FSM</td><td>BRANCH</td><td class="alfsrt">NAME</td></tr><tr>
+<td class="s2 cl rt"> 20.00</td>
+<td class="wht cl rt"></td>
+<td class="wht cl rt"></td>
+<td class="s2 cl rt"> 20.00</td>
+<td class="wht cl rt"></td>
+<td class="wht cl rt"></td>
+<td><a href="mod48.html#inst_tag_2475" >spare_logic_diode[1]</a></td>
+</tr></table><br clear=all>
+<br clear=all>
+<span class=repname>Subtrees :</span>
+<br clear=all>
+<table align=left>
+<tr class="sortablehead">
+<td class="alfsrt">NAME</td><td>SCORE</td><td>LINE</td><td>COND</td><td>TOGGLE</td><td>FSM</td><td>BRANCH</td></tr><tr>
+<td colspan=7>no children</td>
+</tr></table><br clear=all>
+</div>
+</div>
+<div name='inst_tag_2384'>
+<hr>
+<a name="inst_tag_2384"></a>
+<div class=modhdr>
+<br clear=all>
+<span class=titlename>Module Instance : <a href="hierarchy2.html#tag_urg_inst_2384" >caravel_top.uut.chip_core.spare_logic[1].spare_logic_diode[2].gf180mcu_fd_sc_mcu7t5v0__antenna_inst</a></span>
+<br clear=all>
+<br clear=all>
+<span class=repname>Instance :</span>
+<br clear=all>
+<table align=left>
+<tr class="sortablehead">
+<td>SCORE</td><td>LINE</td><td>COND</td><td>TOGGLE</td><td>FSM</td><td>BRANCH</td></tr><tr>
+<td class="s2 cl rt"> 20.00</td>
+<td class="wht cl rt"></td>
+<td class="wht cl rt"></td>
+<td class="s2 cl rt"><a href="mod35.html#inst_tag_2384_Toggle" > 20.00</a></td>
+<td class="wht cl rt"></td>
+<td class="wht cl rt"></td>
+</tr></table><br clear=all>
+<br clear=all>
+<span class=repname>Instance's subtree :</span>
+<br clear=all>
+<table align=left>
+<tr class="sortablehead">
+<td>SCORE</td><td>LINE</td><td>COND</td><td>TOGGLE</td><td>FSM</td><td>BRANCH</td></tr><tr>
+<td class="s2 cl rt"> 20.00</td>
+<td class="wht cl rt"></td>
+<td class="wht cl rt"></td>
+<td class="s2 cl rt"> 20.00</td>
+<td class="wht cl rt"></td>
+<td class="wht cl rt"></td>
+</tr></table><br clear=all>
+<br clear=all>
+<span class=repname>Parent : </span>
+<br clear=all>
+<table align=left>
+<tr class="sortablehead">
+<td>SCORE</td><td>LINE</td><td>COND</td><td>TOGGLE</td><td>FSM</td><td>BRANCH</td><td class="alfsrt">NAME</td></tr><tr>
+<td class="s2 cl rt"> 20.00</td>
+<td class="wht cl rt"></td>
+<td class="wht cl rt"></td>
+<td class="s2 cl rt"> 20.00</td>
+<td class="wht cl rt"></td>
+<td class="wht cl rt"></td>
+<td><a href="mod48.html#inst_tag_2476" >spare_logic_diode[2]</a></td>
+</tr></table><br clear=all>
+<br clear=all>
+<span class=repname>Subtrees :</span>
+<br clear=all>
+<table align=left>
+<tr class="sortablehead">
+<td class="alfsrt">NAME</td><td>SCORE</td><td>LINE</td><td>COND</td><td>TOGGLE</td><td>FSM</td><td>BRANCH</td></tr><tr>
+<td colspan=7>no children</td>
+</tr></table><br clear=all>
+</div>
+</div>
+<div name='inst_tag_2385'>
+<hr>
+<a name="inst_tag_2385"></a>
+<div class=modhdr>
+<br clear=all>
+<span class=titlename>Module Instance : <a href="hierarchy2.html#tag_urg_inst_2385" >caravel_top.uut.chip_core.spare_logic[1].spare_logic_diode[3].gf180mcu_fd_sc_mcu7t5v0__antenna_inst</a></span>
+<br clear=all>
+<br clear=all>
+<span class=repname>Instance :</span>
+<br clear=all>
+<table align=left>
+<tr class="sortablehead">
+<td>SCORE</td><td>LINE</td><td>COND</td><td>TOGGLE</td><td>FSM</td><td>BRANCH</td></tr><tr>
+<td class="s2 cl rt"> 20.00</td>
+<td class="wht cl rt"></td>
+<td class="wht cl rt"></td>
+<td class="s2 cl rt"><a href="mod35.html#inst_tag_2385_Toggle" > 20.00</a></td>
+<td class="wht cl rt"></td>
+<td class="wht cl rt"></td>
+</tr></table><br clear=all>
+<br clear=all>
+<span class=repname>Instance's subtree :</span>
+<br clear=all>
+<table align=left>
+<tr class="sortablehead">
+<td>SCORE</td><td>LINE</td><td>COND</td><td>TOGGLE</td><td>FSM</td><td>BRANCH</td></tr><tr>
+<td class="s2 cl rt"> 20.00</td>
+<td class="wht cl rt"></td>
+<td class="wht cl rt"></td>
+<td class="s2 cl rt"> 20.00</td>
+<td class="wht cl rt"></td>
+<td class="wht cl rt"></td>
+</tr></table><br clear=all>
+<br clear=all>
+<span class=repname>Parent : </span>
+<br clear=all>
+<table align=left>
+<tr class="sortablehead">
+<td>SCORE</td><td>LINE</td><td>COND</td><td>TOGGLE</td><td>FSM</td><td>BRANCH</td><td class="alfsrt">NAME</td></tr><tr>
+<td class="s2 cl rt"> 20.00</td>
+<td class="wht cl rt"></td>
+<td class="wht cl rt"></td>
+<td class="s2 cl rt"> 20.00</td>
+<td class="wht cl rt"></td>
+<td class="wht cl rt"></td>
+<td><a href="mod48.html#inst_tag_2477" >spare_logic_diode[3]</a></td>
+</tr></table><br clear=all>
+<br clear=all>
+<span class=repname>Subtrees :</span>
+<br clear=all>
+<table align=left>
+<tr class="sortablehead">
+<td class="alfsrt">NAME</td><td>SCORE</td><td>LINE</td><td>COND</td><td>TOGGLE</td><td>FSM</td><td>BRANCH</td></tr><tr>
+<td colspan=7>no children</td>
+</tr></table><br clear=all>
+</div>
+</div>
+<div name='inst_tag_2386'>
+<hr>
+<a name="inst_tag_2386"></a>
+<div class=modhdr>
+<br clear=all>
+<span class=titlename>Module Instance : <a href="hierarchy2.html#tag_urg_inst_2386" >caravel_top.uut.chip_core.spare_logic[2].spare_logic_diode[0].gf180mcu_fd_sc_mcu7t5v0__antenna_inst</a></span>
+<br clear=all>
+<br clear=all>
+<span class=repname>Instance :</span>
+<br clear=all>
+<table align=left>
+<tr class="sortablehead">
+<td>SCORE</td><td>LINE</td><td>COND</td><td>TOGGLE</td><td>FSM</td><td>BRANCH</td></tr><tr>
+<td class="s2 cl rt"> 20.00</td>
+<td class="wht cl rt"></td>
+<td class="wht cl rt"></td>
+<td class="s2 cl rt"><a href="mod35.html#inst_tag_2386_Toggle" > 20.00</a></td>
+<td class="wht cl rt"></td>
+<td class="wht cl rt"></td>
+</tr></table><br clear=all>
+<br clear=all>
+<span class=repname>Instance's subtree :</span>
+<br clear=all>
+<table align=left>
+<tr class="sortablehead">
+<td>SCORE</td><td>LINE</td><td>COND</td><td>TOGGLE</td><td>FSM</td><td>BRANCH</td></tr><tr>
+<td class="s2 cl rt"> 20.00</td>
+<td class="wht cl rt"></td>
+<td class="wht cl rt"></td>
+<td class="s2 cl rt"> 20.00</td>
+<td class="wht cl rt"></td>
+<td class="wht cl rt"></td>
+</tr></table><br clear=all>
+<br clear=all>
+<span class=repname>Parent : </span>
+<br clear=all>
+<table align=left>
+<tr class="sortablehead">
+<td>SCORE</td><td>LINE</td><td>COND</td><td>TOGGLE</td><td>FSM</td><td>BRANCH</td><td class="alfsrt">NAME</td></tr><tr>
+<td class="s2 cl rt"> 20.00</td>
+<td class="wht cl rt"></td>
+<td class="wht cl rt"></td>
+<td class="s2 cl rt"> 20.00</td>
+<td class="wht cl rt"></td>
+<td class="wht cl rt"></td>
+<td><a href="mod48.html#inst_tag_2478" >spare_logic_diode[0]</a></td>
+</tr></table><br clear=all>
+<br clear=all>
+<span class=repname>Subtrees :</span>
+<br clear=all>
+<table align=left>
+<tr class="sortablehead">
+<td class="alfsrt">NAME</td><td>SCORE</td><td>LINE</td><td>COND</td><td>TOGGLE</td><td>FSM</td><td>BRANCH</td></tr><tr>
+<td colspan=7>no children</td>
+</tr></table><br clear=all>
+</div>
+</div>
+<div name='inst_tag_2387'>
+<hr>
+<a name="inst_tag_2387"></a>
+<div class=modhdr>
+<br clear=all>
+<span class=titlename>Module Instance : <a href="hierarchy2.html#tag_urg_inst_2387" >caravel_top.uut.chip_core.spare_logic[2].spare_logic_diode[1].gf180mcu_fd_sc_mcu7t5v0__antenna_inst</a></span>
+<br clear=all>
+<br clear=all>
+<span class=repname>Instance :</span>
+<br clear=all>
+<table align=left>
+<tr class="sortablehead">
+<td>SCORE</td><td>LINE</td><td>COND</td><td>TOGGLE</td><td>FSM</td><td>BRANCH</td></tr><tr>
+<td class="s2 cl rt"> 20.00</td>
+<td class="wht cl rt"></td>
+<td class="wht cl rt"></td>
+<td class="s2 cl rt"><a href="mod35.html#inst_tag_2387_Toggle" > 20.00</a></td>
+<td class="wht cl rt"></td>
+<td class="wht cl rt"></td>
+</tr></table><br clear=all>
+<br clear=all>
+<span class=repname>Instance's subtree :</span>
+<br clear=all>
+<table align=left>
+<tr class="sortablehead">
+<td>SCORE</td><td>LINE</td><td>COND</td><td>TOGGLE</td><td>FSM</td><td>BRANCH</td></tr><tr>
+<td class="s2 cl rt"> 20.00</td>
+<td class="wht cl rt"></td>
+<td class="wht cl rt"></td>
+<td class="s2 cl rt"> 20.00</td>
+<td class="wht cl rt"></td>
+<td class="wht cl rt"></td>
+</tr></table><br clear=all>
+<br clear=all>
+<span class=repname>Parent : </span>
+<br clear=all>
+<table align=left>
+<tr class="sortablehead">
+<td>SCORE</td><td>LINE</td><td>COND</td><td>TOGGLE</td><td>FSM</td><td>BRANCH</td><td class="alfsrt">NAME</td></tr><tr>
+<td class="s2 cl rt"> 20.00</td>
+<td class="wht cl rt"></td>
+<td class="wht cl rt"></td>
+<td class="s2 cl rt"> 20.00</td>
+<td class="wht cl rt"></td>
+<td class="wht cl rt"></td>
+<td><a href="mod48.html#inst_tag_2479" >spare_logic_diode[1]</a></td>
+</tr></table><br clear=all>
+<br clear=all>
+<span class=repname>Subtrees :</span>
+<br clear=all>
+<table align=left>
+<tr class="sortablehead">
+<td class="alfsrt">NAME</td><td>SCORE</td><td>LINE</td><td>COND</td><td>TOGGLE</td><td>FSM</td><td>BRANCH</td></tr><tr>
+<td colspan=7>no children</td>
+</tr></table><br clear=all>
+</div>
+</div>
+<div name='inst_tag_2388'>
+<hr>
+<a name="inst_tag_2388"></a>
+<div class=modhdr>
+<br clear=all>
+<span class=titlename>Module Instance : <a href="hierarchy2.html#tag_urg_inst_2388" >caravel_top.uut.chip_core.spare_logic[2].spare_logic_diode[2].gf180mcu_fd_sc_mcu7t5v0__antenna_inst</a></span>
+<br clear=all>
+<br clear=all>
+<span class=repname>Instance :</span>
+<br clear=all>
+<table align=left>
+<tr class="sortablehead">
+<td>SCORE</td><td>LINE</td><td>COND</td><td>TOGGLE</td><td>FSM</td><td>BRANCH</td></tr><tr>
+<td class="s2 cl rt"> 20.00</td>
+<td class="wht cl rt"></td>
+<td class="wht cl rt"></td>
+<td class="s2 cl rt"><a href="mod35.html#inst_tag_2388_Toggle" > 20.00</a></td>
+<td class="wht cl rt"></td>
+<td class="wht cl rt"></td>
+</tr></table><br clear=all>
+<br clear=all>
+<span class=repname>Instance's subtree :</span>
+<br clear=all>
+<table align=left>
+<tr class="sortablehead">
+<td>SCORE</td><td>LINE</td><td>COND</td><td>TOGGLE</td><td>FSM</td><td>BRANCH</td></tr><tr>
+<td class="s2 cl rt"> 20.00</td>
+<td class="wht cl rt"></td>
+<td class="wht cl rt"></td>
+<td class="s2 cl rt"> 20.00</td>
+<td class="wht cl rt"></td>
+<td class="wht cl rt"></td>
+</tr></table><br clear=all>
+<br clear=all>
+<span class=repname>Parent : </span>
+<br clear=all>
+<table align=left>
+<tr class="sortablehead">
+<td>SCORE</td><td>LINE</td><td>COND</td><td>TOGGLE</td><td>FSM</td><td>BRANCH</td><td class="alfsrt">NAME</td></tr><tr>
+<td class="s2 cl rt"> 20.00</td>
+<td class="wht cl rt"></td>
+<td class="wht cl rt"></td>
+<td class="s2 cl rt"> 20.00</td>
+<td class="wht cl rt"></td>
+<td class="wht cl rt"></td>
+<td><a href="mod48.html#inst_tag_2480" >spare_logic_diode[2]</a></td>
+</tr></table><br clear=all>
+<br clear=all>
+<span class=repname>Subtrees :</span>
+<br clear=all>
+<table align=left>
+<tr class="sortablehead">
+<td class="alfsrt">NAME</td><td>SCORE</td><td>LINE</td><td>COND</td><td>TOGGLE</td><td>FSM</td><td>BRANCH</td></tr><tr>
+<td colspan=7>no children</td>
+</tr></table><br clear=all>
+</div>
+</div>
+<div name='inst_tag_2389'>
+<hr>
+<a name="inst_tag_2389"></a>
+<div class=modhdr>
+<br clear=all>
+<span class=titlename>Module Instance : <a href="hierarchy2.html#tag_urg_inst_2389" >caravel_top.uut.chip_core.spare_logic[2].spare_logic_diode[3].gf180mcu_fd_sc_mcu7t5v0__antenna_inst</a></span>
+<br clear=all>
+<br clear=all>
+<span class=repname>Instance :</span>
+<br clear=all>
+<table align=left>
+<tr class="sortablehead">
+<td>SCORE</td><td>LINE</td><td>COND</td><td>TOGGLE</td><td>FSM</td><td>BRANCH</td></tr><tr>
+<td class="s2 cl rt"> 20.00</td>
+<td class="wht cl rt"></td>
+<td class="wht cl rt"></td>
+<td class="s2 cl rt"><a href="mod35.html#inst_tag_2389_Toggle" > 20.00</a></td>
+<td class="wht cl rt"></td>
+<td class="wht cl rt"></td>
+</tr></table><br clear=all>
+<br clear=all>
+<span class=repname>Instance's subtree :</span>
+<br clear=all>
+<table align=left>
+<tr class="sortablehead">
+<td>SCORE</td><td>LINE</td><td>COND</td><td>TOGGLE</td><td>FSM</td><td>BRANCH</td></tr><tr>
+<td class="s2 cl rt"> 20.00</td>
+<td class="wht cl rt"></td>
+<td class="wht cl rt"></td>
+<td class="s2 cl rt"> 20.00</td>
+<td class="wht cl rt"></td>
+<td class="wht cl rt"></td>
+</tr></table><br clear=all>
+<br clear=all>
+<span class=repname>Parent : </span>
+<br clear=all>
+<table align=left>
+<tr class="sortablehead">
+<td>SCORE</td><td>LINE</td><td>COND</td><td>TOGGLE</td><td>FSM</td><td>BRANCH</td><td class="alfsrt">NAME</td></tr><tr>
+<td class="s2 cl rt"> 20.00</td>
+<td class="wht cl rt"></td>
+<td class="wht cl rt"></td>
+<td class="s2 cl rt"> 20.00</td>
+<td class="wht cl rt"></td>
+<td class="wht cl rt"></td>
+<td><a href="mod48.html#inst_tag_2481" >spare_logic_diode[3]</a></td>
+</tr></table><br clear=all>
+<br clear=all>
+<span class=repname>Subtrees :</span>
+<br clear=all>
+<table align=left>
+<tr class="sortablehead">
+<td class="alfsrt">NAME</td><td>SCORE</td><td>LINE</td><td>COND</td><td>TOGGLE</td><td>FSM</td><td>BRANCH</td></tr><tr>
+<td colspan=7>no children</td>
+</tr></table><br clear=all>
+</div>
+</div>
+<div name='inst_tag_2390'>
+<hr>
+<a name="inst_tag_2390"></a>
+<div class=modhdr>
+<br clear=all>
+<span class=titlename>Module Instance : <a href="hierarchy2.html#tag_urg_inst_2390" >caravel_top.uut.chip_core.spare_logic[3].spare_logic_diode[0].gf180mcu_fd_sc_mcu7t5v0__antenna_inst</a></span>
+<br clear=all>
+<br clear=all>
+<span class=repname>Instance :</span>
+<br clear=all>
+<table align=left>
+<tr class="sortablehead">
+<td>SCORE</td><td>LINE</td><td>COND</td><td>TOGGLE</td><td>FSM</td><td>BRANCH</td></tr><tr>
+<td class="s2 cl rt"> 20.00</td>
+<td class="wht cl rt"></td>
+<td class="wht cl rt"></td>
+<td class="s2 cl rt"><a href="mod35.html#inst_tag_2390_Toggle" > 20.00</a></td>
+<td class="wht cl rt"></td>
+<td class="wht cl rt"></td>
+</tr></table><br clear=all>
+<br clear=all>
+<span class=repname>Instance's subtree :</span>
+<br clear=all>
+<table align=left>
+<tr class="sortablehead">
+<td>SCORE</td><td>LINE</td><td>COND</td><td>TOGGLE</td><td>FSM</td><td>BRANCH</td></tr><tr>
+<td class="s2 cl rt"> 20.00</td>
+<td class="wht cl rt"></td>
+<td class="wht cl rt"></td>
+<td class="s2 cl rt"> 20.00</td>
+<td class="wht cl rt"></td>
+<td class="wht cl rt"></td>
+</tr></table><br clear=all>
+<br clear=all>
+<span class=repname>Parent : </span>
+<br clear=all>
+<table align=left>
+<tr class="sortablehead">
+<td>SCORE</td><td>LINE</td><td>COND</td><td>TOGGLE</td><td>FSM</td><td>BRANCH</td><td class="alfsrt">NAME</td></tr><tr>
+<td class="s2 cl rt"> 20.00</td>
+<td class="wht cl rt"></td>
+<td class="wht cl rt"></td>
+<td class="s2 cl rt"> 20.00</td>
+<td class="wht cl rt"></td>
+<td class="wht cl rt"></td>
+<td><a href="mod48.html#inst_tag_2482" >spare_logic_diode[0]</a></td>
+</tr></table><br clear=all>
+<br clear=all>
+<span class=repname>Subtrees :</span>
+<br clear=all>
+<table align=left>
+<tr class="sortablehead">
+<td class="alfsrt">NAME</td><td>SCORE</td><td>LINE</td><td>COND</td><td>TOGGLE</td><td>FSM</td><td>BRANCH</td></tr><tr>
+<td colspan=7>no children</td>
+</tr></table><br clear=all>
+</div>
+</div>
+<div name='inst_tag_2391'>
+<hr>
+<a name="inst_tag_2391"></a>
+<div class=modhdr>
+<br clear=all>
+<span class=titlename>Module Instance : <a href="hierarchy2.html#tag_urg_inst_2391" >caravel_top.uut.chip_core.spare_logic[3].spare_logic_diode[1].gf180mcu_fd_sc_mcu7t5v0__antenna_inst</a></span>
+<br clear=all>
+<br clear=all>
+<span class=repname>Instance :</span>
+<br clear=all>
+<table align=left>
+<tr class="sortablehead">
+<td>SCORE</td><td>LINE</td><td>COND</td><td>TOGGLE</td><td>FSM</td><td>BRANCH</td></tr><tr>
+<td class="s2 cl rt"> 20.00</td>
+<td class="wht cl rt"></td>
+<td class="wht cl rt"></td>
+<td class="s2 cl rt"><a href="mod35.html#inst_tag_2391_Toggle" > 20.00</a></td>
+<td class="wht cl rt"></td>
+<td class="wht cl rt"></td>
+</tr></table><br clear=all>
+<br clear=all>
+<span class=repname>Instance's subtree :</span>
+<br clear=all>
+<table align=left>
+<tr class="sortablehead">
+<td>SCORE</td><td>LINE</td><td>COND</td><td>TOGGLE</td><td>FSM</td><td>BRANCH</td></tr><tr>
+<td class="s2 cl rt"> 20.00</td>
+<td class="wht cl rt"></td>
+<td class="wht cl rt"></td>
+<td class="s2 cl rt"> 20.00</td>
+<td class="wht cl rt"></td>
+<td class="wht cl rt"></td>
+</tr></table><br clear=all>
+<br clear=all>
+<span class=repname>Parent : </span>
+<br clear=all>
+<table align=left>
+<tr class="sortablehead">
+<td>SCORE</td><td>LINE</td><td>COND</td><td>TOGGLE</td><td>FSM</td><td>BRANCH</td><td class="alfsrt">NAME</td></tr><tr>
+<td class="s2 cl rt"> 20.00</td>
+<td class="wht cl rt"></td>
+<td class="wht cl rt"></td>
+<td class="s2 cl rt"> 20.00</td>
+<td class="wht cl rt"></td>
+<td class="wht cl rt"></td>
+<td><a href="mod48.html#inst_tag_2483" >spare_logic_diode[1]</a></td>
+</tr></table><br clear=all>
+<br clear=all>
+<span class=repname>Subtrees :</span>
+<br clear=all>
+<table align=left>
+<tr class="sortablehead">
+<td class="alfsrt">NAME</td><td>SCORE</td><td>LINE</td><td>COND</td><td>TOGGLE</td><td>FSM</td><td>BRANCH</td></tr><tr>
+<td colspan=7>no children</td>
+</tr></table><br clear=all>
+</div>
+</div>
+<div name='inst_tag_2392'>
+<hr>
+<a name="inst_tag_2392"></a>
+<div class=modhdr>
+<br clear=all>
+<span class=titlename>Module Instance : <a href="hierarchy2.html#tag_urg_inst_2392" >caravel_top.uut.chip_core.spare_logic[3].spare_logic_diode[2].gf180mcu_fd_sc_mcu7t5v0__antenna_inst</a></span>
+<br clear=all>
+<br clear=all>
+<span class=repname>Instance :</span>
+<br clear=all>
+<table align=left>
+<tr class="sortablehead">
+<td>SCORE</td><td>LINE</td><td>COND</td><td>TOGGLE</td><td>FSM</td><td>BRANCH</td></tr><tr>
+<td class="s2 cl rt"> 20.00</td>
+<td class="wht cl rt"></td>
+<td class="wht cl rt"></td>
+<td class="s2 cl rt"><a href="mod35.html#inst_tag_2392_Toggle" > 20.00</a></td>
+<td class="wht cl rt"></td>
+<td class="wht cl rt"></td>
+</tr></table><br clear=all>
+<br clear=all>
+<span class=repname>Instance's subtree :</span>
+<br clear=all>
+<table align=left>
+<tr class="sortablehead">
+<td>SCORE</td><td>LINE</td><td>COND</td><td>TOGGLE</td><td>FSM</td><td>BRANCH</td></tr><tr>
+<td class="s2 cl rt"> 20.00</td>
+<td class="wht cl rt"></td>
+<td class="wht cl rt"></td>
+<td class="s2 cl rt"> 20.00</td>
+<td class="wht cl rt"></td>
+<td class="wht cl rt"></td>
+</tr></table><br clear=all>
+<br clear=all>
+<span class=repname>Parent : </span>
+<br clear=all>
+<table align=left>
+<tr class="sortablehead">
+<td>SCORE</td><td>LINE</td><td>COND</td><td>TOGGLE</td><td>FSM</td><td>BRANCH</td><td class="alfsrt">NAME</td></tr><tr>
+<td class="s2 cl rt"> 20.00</td>
+<td class="wht cl rt"></td>
+<td class="wht cl rt"></td>
+<td class="s2 cl rt"> 20.00</td>
+<td class="wht cl rt"></td>
+<td class="wht cl rt"></td>
+<td><a href="mod48.html#inst_tag_2484" >spare_logic_diode[2]</a></td>
+</tr></table><br clear=all>
+<br clear=all>
+<span class=repname>Subtrees :</span>
+<br clear=all>
+<table align=left>
+<tr class="sortablehead">
+<td class="alfsrt">NAME</td><td>SCORE</td><td>LINE</td><td>COND</td><td>TOGGLE</td><td>FSM</td><td>BRANCH</td></tr><tr>
+<td colspan=7>no children</td>
+</tr></table><br clear=all>
+</div>
+</div>
+<div name='inst_tag_2393'>
+<hr>
+<a name="inst_tag_2393"></a>
+<div class=modhdr>
+<br clear=all>
+<span class=titlename>Module Instance : <a href="hierarchy2.html#tag_urg_inst_2393" >caravel_top.uut.chip_core.spare_logic[3].spare_logic_diode[3].gf180mcu_fd_sc_mcu7t5v0__antenna_inst</a></span>
+<br clear=all>
+<br clear=all>
+<span class=repname>Instance :</span>
+<br clear=all>
+<table align=left>
+<tr class="sortablehead">
+<td>SCORE</td><td>LINE</td><td>COND</td><td>TOGGLE</td><td>FSM</td><td>BRANCH</td></tr><tr>
+<td class="s2 cl rt"> 20.00</td>
+<td class="wht cl rt"></td>
+<td class="wht cl rt"></td>
+<td class="s2 cl rt"><a href="mod35.html#inst_tag_2393_Toggle" > 20.00</a></td>
+<td class="wht cl rt"></td>
+<td class="wht cl rt"></td>
+</tr></table><br clear=all>
+<br clear=all>
+<span class=repname>Instance's subtree :</span>
+<br clear=all>
+<table align=left>
+<tr class="sortablehead">
+<td>SCORE</td><td>LINE</td><td>COND</td><td>TOGGLE</td><td>FSM</td><td>BRANCH</td></tr><tr>
+<td class="s2 cl rt"> 20.00</td>
+<td class="wht cl rt"></td>
+<td class="wht cl rt"></td>
+<td class="s2 cl rt"> 20.00</td>
+<td class="wht cl rt"></td>
+<td class="wht cl rt"></td>
+</tr></table><br clear=all>
+<br clear=all>
+<span class=repname>Parent : </span>
+<br clear=all>
+<table align=left>
+<tr class="sortablehead">
+<td>SCORE</td><td>LINE</td><td>COND</td><td>TOGGLE</td><td>FSM</td><td>BRANCH</td><td class="alfsrt">NAME</td></tr><tr>
+<td class="s2 cl rt"> 20.00</td>
+<td class="wht cl rt"></td>
+<td class="wht cl rt"></td>
+<td class="s2 cl rt"> 20.00</td>
+<td class="wht cl rt"></td>
+<td class="wht cl rt"></td>
+<td><a href="mod48.html#inst_tag_2485" >spare_logic_diode[3]</a></td>
+</tr></table><br clear=all>
+<br clear=all>
+<span class=repname>Subtrees :</span>
+<br clear=all>
+<table align=left>
+<tr class="sortablehead">
+<td class="alfsrt">NAME</td><td>SCORE</td><td>LINE</td><td>COND</td><td>TOGGLE</td><td>FSM</td><td>BRANCH</td></tr><tr>
+<td colspan=7>no children</td>
+</tr></table><br clear=all>
+</div>
+</div>
+</div>
+<div class="ui-layout-center">
+<div class="ui-layout-center-inner-center">
+<div name='tag_gf180mcu_fd_sc_mcu7t5v0__antenna_func'>
+<a name="Toggle"></a>
+Toggle Coverage for Module : <a href="mod35.html" >gf180mcu_fd_sc_mcu7t5v0__antenna_func</a><br clear=all>
+<table align=left class="noborder">
+<tr>
+<th nowrap width=120></th><th nowrap width=80>Total</th><th nowrap width=80>Covered</th><th nowrap width=80>Percent</th></tr><tr class="s2">
+<td>Totals</td>
+<td class="rt">5</td>
+<td class="rt">1</td>
+<td class="rt">20.00 </td>
+</tr><tr class="s2">
+<td>Total Bits</td>
+<td class="rt">10</td>
+<td class="rt">2</td>
+<td class="rt">20.00 </td>
+</tr><tr class="s2">
+<td nowrap>Total Bits 0->1</td>
+<td class="rt">5</td>
+<td class="rt">1</td>
+<td class="rt">20.00 </td>
+</tr><tr class="s2">
+<td nowrap>Total Bits 1->0</td>
+<td class="rt">5</td>
+<td class="rt">1</td>
+<td class="rt">20.00 </td>
+</tr></table><br clear=all>
+<table align=left class="noborder">
+<tr>
+<th nowrap width=120></th><th nowrap width=80></th><th nowrap width=80></th><th nowrap width=80></th></tr><tr class="s2">
+<td>Ports</td>
+<td class="rt">5</td>
+<td class="rt">1</td>
+<td class="rt">20.00 </td>
+</tr><tr class="s2">
+<td>Port Bits</td>
+<td class="rt">10</td>
+<td class="rt">2</td>
+<td class="rt">20.00 </td>
+</tr><tr class="s2">
+<td nowrap>Port Bits 0->1</td>
+<td class="rt">5</td>
+<td class="rt">1</td>
+<td class="rt">20.00 </td>
+</tr><tr class="s2">
+<td nowrap>Port Bits 1->0</td>
+<td class="rt">5</td>
+<td class="rt">1</td>
+<td class="rt">20.00 </td>
+</tr></table><br clear=all>
+<table align=left class="sortable noborder">
+<caption><b>Port Details</b></caption>
+<tr class="sortablehead">
+<td class="alfsrt">Name</td><td class="alfsrt">Toggle</td><td class="alfsrt">Toggle 1->0</td><td class="alfsrt">Tests</td><td class="alfsrt">Toggle 0->1</td><td class="alfsrt">Tests</td><td class="alfsrt">Direction</td></tr><tr>
+<td>VDD</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl" nowrap><span title = "RTL-IRQ_external/simv/test">T1</span>,<span title = "RTL-IRQ_timer/simv/test">T2</span>,<span title = "RTL-IRQ_uart/simv/test">T3</span></td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl" nowrap><span title = "RTL-IRQ_external/simv/test">T1</span>,<span title = "RTL-IRQ_timer/simv/test">T2</span>,<span title = "RTL-IRQ_uart/simv/test">T3</span></td>
+<td>INOUT</td>
+</tr><tr>
+<td>VSS</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl"></td>
+<td class="s3 cl">No</td>
+<td class="s3 cl"></td>
+<td>INOUT</td>
+</tr><tr>
+<td>VNW</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl"></td>
+<td class="s3 cl">No</td>
+<td class="s3 cl"></td>
+<td>INOUT</td>
+</tr><tr>
+<td>VPW</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl"></td>
+<td class="s3 cl">No</td>
+<td class="s3 cl"></td>
+<td>INOUT</td>
+</tr><tr>
+<td>I</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl"></td>
+<td class="s3 cl">No</td>
+<td class="s3 cl"></td>
+<td>INPUT</td>
+</tr></table><br clear=all>
+</div>
+<div name='inst_tag_2378'>
+<a name="inst_tag_2378_Toggle"></a>
+<b>Toggle Coverage for Instance : <a href="mod35.html#inst_tag_2378" >caravel_top.uut.chip_core.spare_logic[0].spare_logic_diode[0].gf180mcu_fd_sc_mcu7t5v0__antenna_inst</a></b><br clear=all>
+<table align=left class="noborder">
+<tr>
+<th nowrap width=120></th><th nowrap width=80>Total</th><th nowrap width=80>Covered</th><th nowrap width=80>Percent</th></tr><tr class="s2">
+<td>Totals</td>
+<td class="rt">5</td>
+<td class="rt">1</td>
+<td class="rt">20.00 </td>
+</tr><tr class="s2">
+<td>Total Bits</td>
+<td class="rt">10</td>
+<td class="rt">2</td>
+<td class="rt">20.00 </td>
+</tr><tr class="s2">
+<td nowrap>Total Bits 0->1</td>
+<td class="rt">5</td>
+<td class="rt">1</td>
+<td class="rt">20.00 </td>
+</tr><tr class="s2">
+<td nowrap>Total Bits 1->0</td>
+<td class="rt">5</td>
+<td class="rt">1</td>
+<td class="rt">20.00 </td>
+</tr></table><br clear=all>
+<table align=left class="noborder">
+<tr>
+<th nowrap width=120></th><th nowrap width=80></th><th nowrap width=80></th><th nowrap width=80></th></tr><tr class="s2">
+<td>Ports</td>
+<td class="rt">5</td>
+<td class="rt">1</td>
+<td class="rt">20.00 </td>
+</tr><tr class="s2">
+<td>Port Bits</td>
+<td class="rt">10</td>
+<td class="rt">2</td>
+<td class="rt">20.00 </td>
+</tr><tr class="s2">
+<td nowrap>Port Bits 0->1</td>
+<td class="rt">5</td>
+<td class="rt">1</td>
+<td class="rt">20.00 </td>
+</tr><tr class="s2">
+<td nowrap>Port Bits 1->0</td>
+<td class="rt">5</td>
+<td class="rt">1</td>
+<td class="rt">20.00 </td>
+</tr></table><br clear=all>
+<table align=left class="sortable noborder">
+<caption><b>Port Details</b></caption>
+<tr class="sortablehead">
+<td class="alfsrt">Name</td><td class="alfsrt">Toggle</td><td class="alfsrt">Toggle 1->0</td><td class="alfsrt">Tests</td><td class="alfsrt">Toggle 0->1</td><td class="alfsrt">Tests</td><td class="alfsrt">Direction</td></tr><tr>
+<td>VDD</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl" nowrap><span title = "RTL-IRQ_external/simv/test">T1</span>,<span title = "RTL-IRQ_timer/simv/test">T2</span>,<span title = "RTL-IRQ_uart/simv/test">T3</span></td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl" nowrap><span title = "RTL-IRQ_external/simv/test">T1</span>,<span title = "RTL-IRQ_timer/simv/test">T2</span>,<span title = "RTL-IRQ_uart/simv/test">T3</span></td>
+<td>INOUT</td>
+</tr><tr>
+<td>VSS</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl"></td>
+<td class="s3 cl">No</td>
+<td class="s3 cl"></td>
+<td>INOUT</td>
+</tr><tr>
+<td>VNW</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl"></td>
+<td class="s3 cl">No</td>
+<td class="s3 cl"></td>
+<td>INOUT</td>
+</tr><tr>
+<td>VPW</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl"></td>
+<td class="s3 cl">No</td>
+<td class="s3 cl"></td>
+<td>INOUT</td>
+</tr><tr>
+<td>I</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl"></td>
+<td class="s3 cl">No</td>
+<td class="s3 cl"></td>
+<td>INPUT</td>
+</tr></table><br clear=all>
+</div>
+<div name='inst_tag_2379'>
+<a name="inst_tag_2379_Toggle"></a>
+<b>Toggle Coverage for Instance : <a href="mod35.html#inst_tag_2379" >caravel_top.uut.chip_core.spare_logic[0].spare_logic_diode[1].gf180mcu_fd_sc_mcu7t5v0__antenna_inst</a></b><br clear=all>
+<table align=left class="noborder">
+<tr>
+<th nowrap width=120></th><th nowrap width=80>Total</th><th nowrap width=80>Covered</th><th nowrap width=80>Percent</th></tr><tr class="s2">
+<td>Totals</td>
+<td class="rt">5</td>
+<td class="rt">1</td>
+<td class="rt">20.00 </td>
+</tr><tr class="s2">
+<td>Total Bits</td>
+<td class="rt">10</td>
+<td class="rt">2</td>
+<td class="rt">20.00 </td>
+</tr><tr class="s2">
+<td nowrap>Total Bits 0->1</td>
+<td class="rt">5</td>
+<td class="rt">1</td>
+<td class="rt">20.00 </td>
+</tr><tr class="s2">
+<td nowrap>Total Bits 1->0</td>
+<td class="rt">5</td>
+<td class="rt">1</td>
+<td class="rt">20.00 </td>
+</tr></table><br clear=all>
+<table align=left class="noborder">
+<tr>
+<th nowrap width=120></th><th nowrap width=80></th><th nowrap width=80></th><th nowrap width=80></th></tr><tr class="s2">
+<td>Ports</td>
+<td class="rt">5</td>
+<td class="rt">1</td>
+<td class="rt">20.00 </td>
+</tr><tr class="s2">
+<td>Port Bits</td>
+<td class="rt">10</td>
+<td class="rt">2</td>
+<td class="rt">20.00 </td>
+</tr><tr class="s2">
+<td nowrap>Port Bits 0->1</td>
+<td class="rt">5</td>
+<td class="rt">1</td>
+<td class="rt">20.00 </td>
+</tr><tr class="s2">
+<td nowrap>Port Bits 1->0</td>
+<td class="rt">5</td>
+<td class="rt">1</td>
+<td class="rt">20.00 </td>
+</tr></table><br clear=all>
+<table align=left class="sortable noborder">
+<caption><b>Port Details</b></caption>
+<tr class="sortablehead">
+<td class="alfsrt">Name</td><td class="alfsrt">Toggle</td><td class="alfsrt">Toggle 1->0</td><td class="alfsrt">Tests</td><td class="alfsrt">Toggle 0->1</td><td class="alfsrt">Tests</td><td class="alfsrt">Direction</td></tr><tr>
+<td>VDD</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl" nowrap><span title = "RTL-IRQ_external/simv/test">T1</span>,<span title = "RTL-IRQ_timer/simv/test">T2</span>,<span title = "RTL-IRQ_uart/simv/test">T3</span></td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl" nowrap><span title = "RTL-IRQ_external/simv/test">T1</span>,<span title = "RTL-IRQ_timer/simv/test">T2</span>,<span title = "RTL-IRQ_uart/simv/test">T3</span></td>
+<td>INOUT</td>
+</tr><tr>
+<td>VSS</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl"></td>
+<td class="s3 cl">No</td>
+<td class="s3 cl"></td>
+<td>INOUT</td>
+</tr><tr>
+<td>VNW</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl"></td>
+<td class="s3 cl">No</td>
+<td class="s3 cl"></td>
+<td>INOUT</td>
+</tr><tr>
+<td>VPW</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl"></td>
+<td class="s3 cl">No</td>
+<td class="s3 cl"></td>
+<td>INOUT</td>
+</tr><tr>
+<td>I</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl"></td>
+<td class="s3 cl">No</td>
+<td class="s3 cl"></td>
+<td>INPUT</td>
+</tr></table><br clear=all>
+</div>
+<div name='inst_tag_2380'>
+<a name="inst_tag_2380_Toggle"></a>
+<b>Toggle Coverage for Instance : <a href="mod35.html#inst_tag_2380" >caravel_top.uut.chip_core.spare_logic[0].spare_logic_diode[2].gf180mcu_fd_sc_mcu7t5v0__antenna_inst</a></b><br clear=all>
+<table align=left class="noborder">
+<tr>
+<th nowrap width=120></th><th nowrap width=80>Total</th><th nowrap width=80>Covered</th><th nowrap width=80>Percent</th></tr><tr class="s2">
+<td>Totals</td>
+<td class="rt">5</td>
+<td class="rt">1</td>
+<td class="rt">20.00 </td>
+</tr><tr class="s2">
+<td>Total Bits</td>
+<td class="rt">10</td>
+<td class="rt">2</td>
+<td class="rt">20.00 </td>
+</tr><tr class="s2">
+<td nowrap>Total Bits 0->1</td>
+<td class="rt">5</td>
+<td class="rt">1</td>
+<td class="rt">20.00 </td>
+</tr><tr class="s2">
+<td nowrap>Total Bits 1->0</td>
+<td class="rt">5</td>
+<td class="rt">1</td>
+<td class="rt">20.00 </td>
+</tr></table><br clear=all>
+<table align=left class="noborder">
+<tr>
+<th nowrap width=120></th><th nowrap width=80></th><th nowrap width=80></th><th nowrap width=80></th></tr><tr class="s2">
+<td>Ports</td>
+<td class="rt">5</td>
+<td class="rt">1</td>
+<td class="rt">20.00 </td>
+</tr><tr class="s2">
+<td>Port Bits</td>
+<td class="rt">10</td>
+<td class="rt">2</td>
+<td class="rt">20.00 </td>
+</tr><tr class="s2">
+<td nowrap>Port Bits 0->1</td>
+<td class="rt">5</td>
+<td class="rt">1</td>
+<td class="rt">20.00 </td>
+</tr><tr class="s2">
+<td nowrap>Port Bits 1->0</td>
+<td class="rt">5</td>
+<td class="rt">1</td>
+<td class="rt">20.00 </td>
+</tr></table><br clear=all>
+<table align=left class="sortable noborder">
+<caption><b>Port Details</b></caption>
+<tr class="sortablehead">
+<td class="alfsrt">Name</td><td class="alfsrt">Toggle</td><td class="alfsrt">Toggle 1->0</td><td class="alfsrt">Tests</td><td class="alfsrt">Toggle 0->1</td><td class="alfsrt">Tests</td><td class="alfsrt">Direction</td></tr><tr>
+<td>VDD</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl" nowrap><span title = "RTL-IRQ_external/simv/test">T1</span>,<span title = "RTL-IRQ_timer/simv/test">T2</span>,<span title = "RTL-IRQ_uart/simv/test">T3</span></td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl" nowrap><span title = "RTL-IRQ_external/simv/test">T1</span>,<span title = "RTL-IRQ_timer/simv/test">T2</span>,<span title = "RTL-IRQ_uart/simv/test">T3</span></td>
+<td>INOUT</td>
+</tr><tr>
+<td>VSS</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl"></td>
+<td class="s3 cl">No</td>
+<td class="s3 cl"></td>
+<td>INOUT</td>
+</tr><tr>
+<td>VNW</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl"></td>
+<td class="s3 cl">No</td>
+<td class="s3 cl"></td>
+<td>INOUT</td>
+</tr><tr>
+<td>VPW</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl"></td>
+<td class="s3 cl">No</td>
+<td class="s3 cl"></td>
+<td>INOUT</td>
+</tr><tr>
+<td>I</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl"></td>
+<td class="s3 cl">No</td>
+<td class="s3 cl"></td>
+<td>INPUT</td>
+</tr></table><br clear=all>
+</div>
+<div name='inst_tag_2381'>
+<a name="inst_tag_2381_Toggle"></a>
+<b>Toggle Coverage for Instance : <a href="mod35.html#inst_tag_2381" >caravel_top.uut.chip_core.spare_logic[0].spare_logic_diode[3].gf180mcu_fd_sc_mcu7t5v0__antenna_inst</a></b><br clear=all>
+<table align=left class="noborder">
+<tr>
+<th nowrap width=120></th><th nowrap width=80>Total</th><th nowrap width=80>Covered</th><th nowrap width=80>Percent</th></tr><tr class="s2">
+<td>Totals</td>
+<td class="rt">5</td>
+<td class="rt">1</td>
+<td class="rt">20.00 </td>
+</tr><tr class="s2">
+<td>Total Bits</td>
+<td class="rt">10</td>
+<td class="rt">2</td>
+<td class="rt">20.00 </td>
+</tr><tr class="s2">
+<td nowrap>Total Bits 0->1</td>
+<td class="rt">5</td>
+<td class="rt">1</td>
+<td class="rt">20.00 </td>
+</tr><tr class="s2">
+<td nowrap>Total Bits 1->0</td>
+<td class="rt">5</td>
+<td class="rt">1</td>
+<td class="rt">20.00 </td>
+</tr></table><br clear=all>
+<table align=left class="noborder">
+<tr>
+<th nowrap width=120></th><th nowrap width=80></th><th nowrap width=80></th><th nowrap width=80></th></tr><tr class="s2">
+<td>Ports</td>
+<td class="rt">5</td>
+<td class="rt">1</td>
+<td class="rt">20.00 </td>
+</tr><tr class="s2">
+<td>Port Bits</td>
+<td class="rt">10</td>
+<td class="rt">2</td>
+<td class="rt">20.00 </td>
+</tr><tr class="s2">
+<td nowrap>Port Bits 0->1</td>
+<td class="rt">5</td>
+<td class="rt">1</td>
+<td class="rt">20.00 </td>
+</tr><tr class="s2">
+<td nowrap>Port Bits 1->0</td>
+<td class="rt">5</td>
+<td class="rt">1</td>
+<td class="rt">20.00 </td>
+</tr></table><br clear=all>
+<table align=left class="sortable noborder">
+<caption><b>Port Details</b></caption>
+<tr class="sortablehead">
+<td class="alfsrt">Name</td><td class="alfsrt">Toggle</td><td class="alfsrt">Toggle 1->0</td><td class="alfsrt">Tests</td><td class="alfsrt">Toggle 0->1</td><td class="alfsrt">Tests</td><td class="alfsrt">Direction</td></tr><tr>
+<td>VDD</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl" nowrap><span title = "RTL-IRQ_external/simv/test">T1</span>,<span title = "RTL-IRQ_timer/simv/test">T2</span>,<span title = "RTL-IRQ_uart/simv/test">T3</span></td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl" nowrap><span title = "RTL-IRQ_external/simv/test">T1</span>,<span title = "RTL-IRQ_timer/simv/test">T2</span>,<span title = "RTL-IRQ_uart/simv/test">T3</span></td>
+<td>INOUT</td>
+</tr><tr>
+<td>VSS</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl"></td>
+<td class="s3 cl">No</td>
+<td class="s3 cl"></td>
+<td>INOUT</td>
+</tr><tr>
+<td>VNW</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl"></td>
+<td class="s3 cl">No</td>
+<td class="s3 cl"></td>
+<td>INOUT</td>
+</tr><tr>
+<td>VPW</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl"></td>
+<td class="s3 cl">No</td>
+<td class="s3 cl"></td>
+<td>INOUT</td>
+</tr><tr>
+<td>I</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl"></td>
+<td class="s3 cl">No</td>
+<td class="s3 cl"></td>
+<td>INPUT</td>
+</tr></table><br clear=all>
+</div>
+<div name='inst_tag_2382'>
+<a name="inst_tag_2382_Toggle"></a>
+<b>Toggle Coverage for Instance : <a href="mod35.html#inst_tag_2382" >caravel_top.uut.chip_core.spare_logic[1].spare_logic_diode[0].gf180mcu_fd_sc_mcu7t5v0__antenna_inst</a></b><br clear=all>
+<table align=left class="noborder">
+<tr>
+<th nowrap width=120></th><th nowrap width=80>Total</th><th nowrap width=80>Covered</th><th nowrap width=80>Percent</th></tr><tr class="s2">
+<td>Totals</td>
+<td class="rt">5</td>
+<td class="rt">1</td>
+<td class="rt">20.00 </td>
+</tr><tr class="s2">
+<td>Total Bits</td>
+<td class="rt">10</td>
+<td class="rt">2</td>
+<td class="rt">20.00 </td>
+</tr><tr class="s2">
+<td nowrap>Total Bits 0->1</td>
+<td class="rt">5</td>
+<td class="rt">1</td>
+<td class="rt">20.00 </td>
+</tr><tr class="s2">
+<td nowrap>Total Bits 1->0</td>
+<td class="rt">5</td>
+<td class="rt">1</td>
+<td class="rt">20.00 </td>
+</tr></table><br clear=all>
+<table align=left class="noborder">
+<tr>
+<th nowrap width=120></th><th nowrap width=80></th><th nowrap width=80></th><th nowrap width=80></th></tr><tr class="s2">
+<td>Ports</td>
+<td class="rt">5</td>
+<td class="rt">1</td>
+<td class="rt">20.00 </td>
+</tr><tr class="s2">
+<td>Port Bits</td>
+<td class="rt">10</td>
+<td class="rt">2</td>
+<td class="rt">20.00 </td>
+</tr><tr class="s2">
+<td nowrap>Port Bits 0->1</td>
+<td class="rt">5</td>
+<td class="rt">1</td>
+<td class="rt">20.00 </td>
+</tr><tr class="s2">
+<td nowrap>Port Bits 1->0</td>
+<td class="rt">5</td>
+<td class="rt">1</td>
+<td class="rt">20.00 </td>
+</tr></table><br clear=all>
+<table align=left class="sortable noborder">
+<caption><b>Port Details</b></caption>
+<tr class="sortablehead">
+<td class="alfsrt">Name</td><td class="alfsrt">Toggle</td><td class="alfsrt">Toggle 1->0</td><td class="alfsrt">Tests</td><td class="alfsrt">Toggle 0->1</td><td class="alfsrt">Tests</td><td class="alfsrt">Direction</td></tr><tr>
+<td>VDD</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl" nowrap><span title = "RTL-IRQ_external/simv/test">T1</span>,<span title = "RTL-IRQ_timer/simv/test">T2</span>,<span title = "RTL-IRQ_uart/simv/test">T3</span></td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl" nowrap><span title = "RTL-IRQ_external/simv/test">T1</span>,<span title = "RTL-IRQ_timer/simv/test">T2</span>,<span title = "RTL-IRQ_uart/simv/test">T3</span></td>
+<td>INOUT</td>
+</tr><tr>
+<td>VSS</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl"></td>
+<td class="s3 cl">No</td>
+<td class="s3 cl"></td>
+<td>INOUT</td>
+</tr><tr>
+<td>VNW</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl"></td>
+<td class="s3 cl">No</td>
+<td class="s3 cl"></td>
+<td>INOUT</td>
+</tr><tr>
+<td>VPW</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl"></td>
+<td class="s3 cl">No</td>
+<td class="s3 cl"></td>
+<td>INOUT</td>
+</tr><tr>
+<td>I</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl"></td>
+<td class="s3 cl">No</td>
+<td class="s3 cl"></td>
+<td>INPUT</td>
+</tr></table><br clear=all>
+</div>
+<div name='inst_tag_2383'>
+<a name="inst_tag_2383_Toggle"></a>
+<b>Toggle Coverage for Instance : <a href="mod35.html#inst_tag_2383" >caravel_top.uut.chip_core.spare_logic[1].spare_logic_diode[1].gf180mcu_fd_sc_mcu7t5v0__antenna_inst</a></b><br clear=all>
+<table align=left class="noborder">
+<tr>
+<th nowrap width=120></th><th nowrap width=80>Total</th><th nowrap width=80>Covered</th><th nowrap width=80>Percent</th></tr><tr class="s2">
+<td>Totals</td>
+<td class="rt">5</td>
+<td class="rt">1</td>
+<td class="rt">20.00 </td>
+</tr><tr class="s2">
+<td>Total Bits</td>
+<td class="rt">10</td>
+<td class="rt">2</td>
+<td class="rt">20.00 </td>
+</tr><tr class="s2">
+<td nowrap>Total Bits 0->1</td>
+<td class="rt">5</td>
+<td class="rt">1</td>
+<td class="rt">20.00 </td>
+</tr><tr class="s2">
+<td nowrap>Total Bits 1->0</td>
+<td class="rt">5</td>
+<td class="rt">1</td>
+<td class="rt">20.00 </td>
+</tr></table><br clear=all>
+<table align=left class="noborder">
+<tr>
+<th nowrap width=120></th><th nowrap width=80></th><th nowrap width=80></th><th nowrap width=80></th></tr><tr class="s2">
+<td>Ports</td>
+<td class="rt">5</td>
+<td class="rt">1</td>
+<td class="rt">20.00 </td>
+</tr><tr class="s2">
+<td>Port Bits</td>
+<td class="rt">10</td>
+<td class="rt">2</td>
+<td class="rt">20.00 </td>
+</tr><tr class="s2">
+<td nowrap>Port Bits 0->1</td>
+<td class="rt">5</td>
+<td class="rt">1</td>
+<td class="rt">20.00 </td>
+</tr><tr class="s2">
+<td nowrap>Port Bits 1->0</td>
+<td class="rt">5</td>
+<td class="rt">1</td>
+<td class="rt">20.00 </td>
+</tr></table><br clear=all>
+<table align=left class="sortable noborder">
+<caption><b>Port Details</b></caption>
+<tr class="sortablehead">
+<td class="alfsrt">Name</td><td class="alfsrt">Toggle</td><td class="alfsrt">Toggle 1->0</td><td class="alfsrt">Tests</td><td class="alfsrt">Toggle 0->1</td><td class="alfsrt">Tests</td><td class="alfsrt">Direction</td></tr><tr>
+<td>VDD</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl" nowrap><span title = "RTL-IRQ_external/simv/test">T1</span>,<span title = "RTL-IRQ_timer/simv/test">T2</span>,<span title = "RTL-IRQ_uart/simv/test">T3</span></td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl" nowrap><span title = "RTL-IRQ_external/simv/test">T1</span>,<span title = "RTL-IRQ_timer/simv/test">T2</span>,<span title = "RTL-IRQ_uart/simv/test">T3</span></td>
+<td>INOUT</td>
+</tr><tr>
+<td>VSS</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl"></td>
+<td class="s3 cl">No</td>
+<td class="s3 cl"></td>
+<td>INOUT</td>
+</tr><tr>
+<td>VNW</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl"></td>
+<td class="s3 cl">No</td>
+<td class="s3 cl"></td>
+<td>INOUT</td>
+</tr><tr>
+<td>VPW</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl"></td>
+<td class="s3 cl">No</td>
+<td class="s3 cl"></td>
+<td>INOUT</td>
+</tr><tr>
+<td>I</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl"></td>
+<td class="s3 cl">No</td>
+<td class="s3 cl"></td>
+<td>INPUT</td>
+</tr></table><br clear=all>
+</div>
+<div name='inst_tag_2384'>
+<a name="inst_tag_2384_Toggle"></a>
+<b>Toggle Coverage for Instance : <a href="mod35.html#inst_tag_2384" >caravel_top.uut.chip_core.spare_logic[1].spare_logic_diode[2].gf180mcu_fd_sc_mcu7t5v0__antenna_inst</a></b><br clear=all>
+<table align=left class="noborder">
+<tr>
+<th nowrap width=120></th><th nowrap width=80>Total</th><th nowrap width=80>Covered</th><th nowrap width=80>Percent</th></tr><tr class="s2">
+<td>Totals</td>
+<td class="rt">5</td>
+<td class="rt">1</td>
+<td class="rt">20.00 </td>
+</tr><tr class="s2">
+<td>Total Bits</td>
+<td class="rt">10</td>
+<td class="rt">2</td>
+<td class="rt">20.00 </td>
+</tr><tr class="s2">
+<td nowrap>Total Bits 0->1</td>
+<td class="rt">5</td>
+<td class="rt">1</td>
+<td class="rt">20.00 </td>
+</tr><tr class="s2">
+<td nowrap>Total Bits 1->0</td>
+<td class="rt">5</td>
+<td class="rt">1</td>
+<td class="rt">20.00 </td>
+</tr></table><br clear=all>
+<table align=left class="noborder">
+<tr>
+<th nowrap width=120></th><th nowrap width=80></th><th nowrap width=80></th><th nowrap width=80></th></tr><tr class="s2">
+<td>Ports</td>
+<td class="rt">5</td>
+<td class="rt">1</td>
+<td class="rt">20.00 </td>
+</tr><tr class="s2">
+<td>Port Bits</td>
+<td class="rt">10</td>
+<td class="rt">2</td>
+<td class="rt">20.00 </td>
+</tr><tr class="s2">
+<td nowrap>Port Bits 0->1</td>
+<td class="rt">5</td>
+<td class="rt">1</td>
+<td class="rt">20.00 </td>
+</tr><tr class="s2">
+<td nowrap>Port Bits 1->0</td>
+<td class="rt">5</td>
+<td class="rt">1</td>
+<td class="rt">20.00 </td>
+</tr></table><br clear=all>
+<table align=left class="sortable noborder">
+<caption><b>Port Details</b></caption>
+<tr class="sortablehead">
+<td class="alfsrt">Name</td><td class="alfsrt">Toggle</td><td class="alfsrt">Toggle 1->0</td><td class="alfsrt">Tests</td><td class="alfsrt">Toggle 0->1</td><td class="alfsrt">Tests</td><td class="alfsrt">Direction</td></tr><tr>
+<td>VDD</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl" nowrap><span title = "RTL-IRQ_external/simv/test">T1</span>,<span title = "RTL-IRQ_timer/simv/test">T2</span>,<span title = "RTL-IRQ_uart/simv/test">T3</span></td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl" nowrap><span title = "RTL-IRQ_external/simv/test">T1</span>,<span title = "RTL-IRQ_timer/simv/test">T2</span>,<span title = "RTL-IRQ_uart/simv/test">T3</span></td>
+<td>INOUT</td>
+</tr><tr>
+<td>VSS</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl"></td>
+<td class="s3 cl">No</td>
+<td class="s3 cl"></td>
+<td>INOUT</td>
+</tr><tr>
+<td>VNW</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl"></td>
+<td class="s3 cl">No</td>
+<td class="s3 cl"></td>
+<td>INOUT</td>
+</tr><tr>
+<td>VPW</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl"></td>
+<td class="s3 cl">No</td>
+<td class="s3 cl"></td>
+<td>INOUT</td>
+</tr><tr>
+<td>I</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl"></td>
+<td class="s3 cl">No</td>
+<td class="s3 cl"></td>
+<td>INPUT</td>
+</tr></table><br clear=all>
+</div>
+<div name='inst_tag_2385'>
+<a name="inst_tag_2385_Toggle"></a>
+<b>Toggle Coverage for Instance : <a href="mod35.html#inst_tag_2385" >caravel_top.uut.chip_core.spare_logic[1].spare_logic_diode[3].gf180mcu_fd_sc_mcu7t5v0__antenna_inst</a></b><br clear=all>
+<table align=left class="noborder">
+<tr>
+<th nowrap width=120></th><th nowrap width=80>Total</th><th nowrap width=80>Covered</th><th nowrap width=80>Percent</th></tr><tr class="s2">
+<td>Totals</td>
+<td class="rt">5</td>
+<td class="rt">1</td>
+<td class="rt">20.00 </td>
+</tr><tr class="s2">
+<td>Total Bits</td>
+<td class="rt">10</td>
+<td class="rt">2</td>
+<td class="rt">20.00 </td>
+</tr><tr class="s2">
+<td nowrap>Total Bits 0->1</td>
+<td class="rt">5</td>
+<td class="rt">1</td>
+<td class="rt">20.00 </td>
+</tr><tr class="s2">
+<td nowrap>Total Bits 1->0</td>
+<td class="rt">5</td>
+<td class="rt">1</td>
+<td class="rt">20.00 </td>
+</tr></table><br clear=all>
+<table align=left class="noborder">
+<tr>
+<th nowrap width=120></th><th nowrap width=80></th><th nowrap width=80></th><th nowrap width=80></th></tr><tr class="s2">
+<td>Ports</td>
+<td class="rt">5</td>
+<td class="rt">1</td>
+<td class="rt">20.00 </td>
+</tr><tr class="s2">
+<td>Port Bits</td>
+<td class="rt">10</td>
+<td class="rt">2</td>
+<td class="rt">20.00 </td>
+</tr><tr class="s2">
+<td nowrap>Port Bits 0->1</td>
+<td class="rt">5</td>
+<td class="rt">1</td>
+<td class="rt">20.00 </td>
+</tr><tr class="s2">
+<td nowrap>Port Bits 1->0</td>
+<td class="rt">5</td>
+<td class="rt">1</td>
+<td class="rt">20.00 </td>
+</tr></table><br clear=all>
+<table align=left class="sortable noborder">
+<caption><b>Port Details</b></caption>
+<tr class="sortablehead">
+<td class="alfsrt">Name</td><td class="alfsrt">Toggle</td><td class="alfsrt">Toggle 1->0</td><td class="alfsrt">Tests</td><td class="alfsrt">Toggle 0->1</td><td class="alfsrt">Tests</td><td class="alfsrt">Direction</td></tr><tr>
+<td>VDD</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl" nowrap><span title = "RTL-IRQ_external/simv/test">T1</span>,<span title = "RTL-IRQ_timer/simv/test">T2</span>,<span title = "RTL-IRQ_uart/simv/test">T3</span></td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl" nowrap><span title = "RTL-IRQ_external/simv/test">T1</span>,<span title = "RTL-IRQ_timer/simv/test">T2</span>,<span title = "RTL-IRQ_uart/simv/test">T3</span></td>
+<td>INOUT</td>
+</tr><tr>
+<td>VSS</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl"></td>
+<td class="s3 cl">No</td>
+<td class="s3 cl"></td>
+<td>INOUT</td>
+</tr><tr>
+<td>VNW</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl"></td>
+<td class="s3 cl">No</td>
+<td class="s3 cl"></td>
+<td>INOUT</td>
+</tr><tr>
+<td>VPW</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl"></td>
+<td class="s3 cl">No</td>
+<td class="s3 cl"></td>
+<td>INOUT</td>
+</tr><tr>
+<td>I</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl"></td>
+<td class="s3 cl">No</td>
+<td class="s3 cl"></td>
+<td>INPUT</td>
+</tr></table><br clear=all>
+</div>
+<div name='inst_tag_2386'>
+<a name="inst_tag_2386_Toggle"></a>
+<b>Toggle Coverage for Instance : <a href="mod35.html#inst_tag_2386" >caravel_top.uut.chip_core.spare_logic[2].spare_logic_diode[0].gf180mcu_fd_sc_mcu7t5v0__antenna_inst</a></b><br clear=all>
+<table align=left class="noborder">
+<tr>
+<th nowrap width=120></th><th nowrap width=80>Total</th><th nowrap width=80>Covered</th><th nowrap width=80>Percent</th></tr><tr class="s2">
+<td>Totals</td>
+<td class="rt">5</td>
+<td class="rt">1</td>
+<td class="rt">20.00 </td>
+</tr><tr class="s2">
+<td>Total Bits</td>
+<td class="rt">10</td>
+<td class="rt">2</td>
+<td class="rt">20.00 </td>
+</tr><tr class="s2">
+<td nowrap>Total Bits 0->1</td>
+<td class="rt">5</td>
+<td class="rt">1</td>
+<td class="rt">20.00 </td>
+</tr><tr class="s2">
+<td nowrap>Total Bits 1->0</td>
+<td class="rt">5</td>
+<td class="rt">1</td>
+<td class="rt">20.00 </td>
+</tr></table><br clear=all>
+<table align=left class="noborder">
+<tr>
+<th nowrap width=120></th><th nowrap width=80></th><th nowrap width=80></th><th nowrap width=80></th></tr><tr class="s2">
+<td>Ports</td>
+<td class="rt">5</td>
+<td class="rt">1</td>
+<td class="rt">20.00 </td>
+</tr><tr class="s2">
+<td>Port Bits</td>
+<td class="rt">10</td>
+<td class="rt">2</td>
+<td class="rt">20.00 </td>
+</tr><tr class="s2">
+<td nowrap>Port Bits 0->1</td>
+<td class="rt">5</td>
+<td class="rt">1</td>
+<td class="rt">20.00 </td>
+</tr><tr class="s2">
+<td nowrap>Port Bits 1->0</td>
+<td class="rt">5</td>
+<td class="rt">1</td>
+<td class="rt">20.00 </td>
+</tr></table><br clear=all>
+<table align=left class="sortable noborder">
+<caption><b>Port Details</b></caption>
+<tr class="sortablehead">
+<td class="alfsrt">Name</td><td class="alfsrt">Toggle</td><td class="alfsrt">Toggle 1->0</td><td class="alfsrt">Tests</td><td class="alfsrt">Toggle 0->1</td><td class="alfsrt">Tests</td><td class="alfsrt">Direction</td></tr><tr>
+<td>VDD</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl" nowrap><span title = "RTL-IRQ_external/simv/test">T1</span>,<span title = "RTL-IRQ_timer/simv/test">T2</span>,<span title = "RTL-IRQ_uart/simv/test">T3</span></td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl" nowrap><span title = "RTL-IRQ_external/simv/test">T1</span>,<span title = "RTL-IRQ_timer/simv/test">T2</span>,<span title = "RTL-IRQ_uart/simv/test">T3</span></td>
+<td>INOUT</td>
+</tr><tr>
+<td>VSS</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl"></td>
+<td class="s3 cl">No</td>
+<td class="s3 cl"></td>
+<td>INOUT</td>
+</tr><tr>
+<td>VNW</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl"></td>
+<td class="s3 cl">No</td>
+<td class="s3 cl"></td>
+<td>INOUT</td>
+</tr><tr>
+<td>VPW</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl"></td>
+<td class="s3 cl">No</td>
+<td class="s3 cl"></td>
+<td>INOUT</td>
+</tr><tr>
+<td>I</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl"></td>
+<td class="s3 cl">No</td>
+<td class="s3 cl"></td>
+<td>INPUT</td>
+</tr></table><br clear=all>
+</div>
+<div name='inst_tag_2387'>
+<a name="inst_tag_2387_Toggle"></a>
+<b>Toggle Coverage for Instance : <a href="mod35.html#inst_tag_2387" >caravel_top.uut.chip_core.spare_logic[2].spare_logic_diode[1].gf180mcu_fd_sc_mcu7t5v0__antenna_inst</a></b><br clear=all>
+<table align=left class="noborder">
+<tr>
+<th nowrap width=120></th><th nowrap width=80>Total</th><th nowrap width=80>Covered</th><th nowrap width=80>Percent</th></tr><tr class="s2">
+<td>Totals</td>
+<td class="rt">5</td>
+<td class="rt">1</td>
+<td class="rt">20.00 </td>
+</tr><tr class="s2">
+<td>Total Bits</td>
+<td class="rt">10</td>
+<td class="rt">2</td>
+<td class="rt">20.00 </td>
+</tr><tr class="s2">
+<td nowrap>Total Bits 0->1</td>
+<td class="rt">5</td>
+<td class="rt">1</td>
+<td class="rt">20.00 </td>
+</tr><tr class="s2">
+<td nowrap>Total Bits 1->0</td>
+<td class="rt">5</td>
+<td class="rt">1</td>
+<td class="rt">20.00 </td>
+</tr></table><br clear=all>
+<table align=left class="noborder">
+<tr>
+<th nowrap width=120></th><th nowrap width=80></th><th nowrap width=80></th><th nowrap width=80></th></tr><tr class="s2">
+<td>Ports</td>
+<td class="rt">5</td>
+<td class="rt">1</td>
+<td class="rt">20.00 </td>
+</tr><tr class="s2">
+<td>Port Bits</td>
+<td class="rt">10</td>
+<td class="rt">2</td>
+<td class="rt">20.00 </td>
+</tr><tr class="s2">
+<td nowrap>Port Bits 0->1</td>
+<td class="rt">5</td>
+<td class="rt">1</td>
+<td class="rt">20.00 </td>
+</tr><tr class="s2">
+<td nowrap>Port Bits 1->0</td>
+<td class="rt">5</td>
+<td class="rt">1</td>
+<td class="rt">20.00 </td>
+</tr></table><br clear=all>
+<table align=left class="sortable noborder">
+<caption><b>Port Details</b></caption>
+<tr class="sortablehead">
+<td class="alfsrt">Name</td><td class="alfsrt">Toggle</td><td class="alfsrt">Toggle 1->0</td><td class="alfsrt">Tests</td><td class="alfsrt">Toggle 0->1</td><td class="alfsrt">Tests</td><td class="alfsrt">Direction</td></tr><tr>
+<td>VDD</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl" nowrap><span title = "RTL-IRQ_external/simv/test">T1</span>,<span title = "RTL-IRQ_timer/simv/test">T2</span>,<span title = "RTL-IRQ_uart/simv/test">T3</span></td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl" nowrap><span title = "RTL-IRQ_external/simv/test">T1</span>,<span title = "RTL-IRQ_timer/simv/test">T2</span>,<span title = "RTL-IRQ_uart/simv/test">T3</span></td>
+<td>INOUT</td>
+</tr><tr>
+<td>VSS</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl"></td>
+<td class="s3 cl">No</td>
+<td class="s3 cl"></td>
+<td>INOUT</td>
+</tr><tr>
+<td>VNW</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl"></td>
+<td class="s3 cl">No</td>
+<td class="s3 cl"></td>
+<td>INOUT</td>
+</tr><tr>
+<td>VPW</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl"></td>
+<td class="s3 cl">No</td>
+<td class="s3 cl"></td>
+<td>INOUT</td>
+</tr><tr>
+<td>I</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl"></td>
+<td class="s3 cl">No</td>
+<td class="s3 cl"></td>
+<td>INPUT</td>
+</tr></table><br clear=all>
+</div>
+<div name='inst_tag_2388'>
+<a name="inst_tag_2388_Toggle"></a>
+<b>Toggle Coverage for Instance : <a href="mod35.html#inst_tag_2388" >caravel_top.uut.chip_core.spare_logic[2].spare_logic_diode[2].gf180mcu_fd_sc_mcu7t5v0__antenna_inst</a></b><br clear=all>
+<table align=left class="noborder">
+<tr>
+<th nowrap width=120></th><th nowrap width=80>Total</th><th nowrap width=80>Covered</th><th nowrap width=80>Percent</th></tr><tr class="s2">
+<td>Totals</td>
+<td class="rt">5</td>
+<td class="rt">1</td>
+<td class="rt">20.00 </td>
+</tr><tr class="s2">
+<td>Total Bits</td>
+<td class="rt">10</td>
+<td class="rt">2</td>
+<td class="rt">20.00 </td>
+</tr><tr class="s2">
+<td nowrap>Total Bits 0->1</td>
+<td class="rt">5</td>
+<td class="rt">1</td>
+<td class="rt">20.00 </td>
+</tr><tr class="s2">
+<td nowrap>Total Bits 1->0</td>
+<td class="rt">5</td>
+<td class="rt">1</td>
+<td class="rt">20.00 </td>
+</tr></table><br clear=all>
+<table align=left class="noborder">
+<tr>
+<th nowrap width=120></th><th nowrap width=80></th><th nowrap width=80></th><th nowrap width=80></th></tr><tr class="s2">
+<td>Ports</td>
+<td class="rt">5</td>
+<td class="rt">1</td>
+<td class="rt">20.00 </td>
+</tr><tr class="s2">
+<td>Port Bits</td>
+<td class="rt">10</td>
+<td class="rt">2</td>
+<td class="rt">20.00 </td>
+</tr><tr class="s2">
+<td nowrap>Port Bits 0->1</td>
+<td class="rt">5</td>
+<td class="rt">1</td>
+<td class="rt">20.00 </td>
+</tr><tr class="s2">
+<td nowrap>Port Bits 1->0</td>
+<td class="rt">5</td>
+<td class="rt">1</td>
+<td class="rt">20.00 </td>
+</tr></table><br clear=all>
+<table align=left class="sortable noborder">
+<caption><b>Port Details</b></caption>
+<tr class="sortablehead">
+<td class="alfsrt">Name</td><td class="alfsrt">Toggle</td><td class="alfsrt">Toggle 1->0</td><td class="alfsrt">Tests</td><td class="alfsrt">Toggle 0->1</td><td class="alfsrt">Tests</td><td class="alfsrt">Direction</td></tr><tr>
+<td>VDD</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl" nowrap><span title = "RTL-IRQ_external/simv/test">T1</span>,<span title = "RTL-IRQ_timer/simv/test">T2</span>,<span title = "RTL-IRQ_uart/simv/test">T3</span></td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl" nowrap><span title = "RTL-IRQ_external/simv/test">T1</span>,<span title = "RTL-IRQ_timer/simv/test">T2</span>,<span title = "RTL-IRQ_uart/simv/test">T3</span></td>
+<td>INOUT</td>
+</tr><tr>
+<td>VSS</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl"></td>
+<td class="s3 cl">No</td>
+<td class="s3 cl"></td>
+<td>INOUT</td>
+</tr><tr>
+<td>VNW</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl"></td>
+<td class="s3 cl">No</td>
+<td class="s3 cl"></td>
+<td>INOUT</td>
+</tr><tr>
+<td>VPW</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl"></td>
+<td class="s3 cl">No</td>
+<td class="s3 cl"></td>
+<td>INOUT</td>
+</tr><tr>
+<td>I</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl"></td>
+<td class="s3 cl">No</td>
+<td class="s3 cl"></td>
+<td>INPUT</td>
+</tr></table><br clear=all>
+</div>
+<div name='inst_tag_2389'>
+<a name="inst_tag_2389_Toggle"></a>
+<b>Toggle Coverage for Instance : <a href="mod35.html#inst_tag_2389" >caravel_top.uut.chip_core.spare_logic[2].spare_logic_diode[3].gf180mcu_fd_sc_mcu7t5v0__antenna_inst</a></b><br clear=all>
+<table align=left class="noborder">
+<tr>
+<th nowrap width=120></th><th nowrap width=80>Total</th><th nowrap width=80>Covered</th><th nowrap width=80>Percent</th></tr><tr class="s2">
+<td>Totals</td>
+<td class="rt">5</td>
+<td class="rt">1</td>
+<td class="rt">20.00 </td>
+</tr><tr class="s2">
+<td>Total Bits</td>
+<td class="rt">10</td>
+<td class="rt">2</td>
+<td class="rt">20.00 </td>
+</tr><tr class="s2">
+<td nowrap>Total Bits 0->1</td>
+<td class="rt">5</td>
+<td class="rt">1</td>
+<td class="rt">20.00 </td>
+</tr><tr class="s2">
+<td nowrap>Total Bits 1->0</td>
+<td class="rt">5</td>
+<td class="rt">1</td>
+<td class="rt">20.00 </td>
+</tr></table><br clear=all>
+<table align=left class="noborder">
+<tr>
+<th nowrap width=120></th><th nowrap width=80></th><th nowrap width=80></th><th nowrap width=80></th></tr><tr class="s2">
+<td>Ports</td>
+<td class="rt">5</td>
+<td class="rt">1</td>
+<td class="rt">20.00 </td>
+</tr><tr class="s2">
+<td>Port Bits</td>
+<td class="rt">10</td>
+<td class="rt">2</td>
+<td class="rt">20.00 </td>
+</tr><tr class="s2">
+<td nowrap>Port Bits 0->1</td>
+<td class="rt">5</td>
+<td class="rt">1</td>
+<td class="rt">20.00 </td>
+</tr><tr class="s2">
+<td nowrap>Port Bits 1->0</td>
+<td class="rt">5</td>
+<td class="rt">1</td>
+<td class="rt">20.00 </td>
+</tr></table><br clear=all>
+<table align=left class="sortable noborder">
+<caption><b>Port Details</b></caption>
+<tr class="sortablehead">
+<td class="alfsrt">Name</td><td class="alfsrt">Toggle</td><td class="alfsrt">Toggle 1->0</td><td class="alfsrt">Tests</td><td class="alfsrt">Toggle 0->1</td><td class="alfsrt">Tests</td><td class="alfsrt">Direction</td></tr><tr>
+<td>VDD</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl" nowrap><span title = "RTL-IRQ_external/simv/test">T1</span>,<span title = "RTL-IRQ_timer/simv/test">T2</span>,<span title = "RTL-IRQ_uart/simv/test">T3</span></td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl" nowrap><span title = "RTL-IRQ_external/simv/test">T1</span>,<span title = "RTL-IRQ_timer/simv/test">T2</span>,<span title = "RTL-IRQ_uart/simv/test">T3</span></td>
+<td>INOUT</td>
+</tr><tr>
+<td>VSS</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl"></td>
+<td class="s3 cl">No</td>
+<td class="s3 cl"></td>
+<td>INOUT</td>
+</tr><tr>
+<td>VNW</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl"></td>
+<td class="s3 cl">No</td>
+<td class="s3 cl"></td>
+<td>INOUT</td>
+</tr><tr>
+<td>VPW</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl"></td>
+<td class="s3 cl">No</td>
+<td class="s3 cl"></td>
+<td>INOUT</td>
+</tr><tr>
+<td>I</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl"></td>
+<td class="s3 cl">No</td>
+<td class="s3 cl"></td>
+<td>INPUT</td>
+</tr></table><br clear=all>
+</div>
+<div name='inst_tag_2390'>
+<a name="inst_tag_2390_Toggle"></a>
+<b>Toggle Coverage for Instance : <a href="mod35.html#inst_tag_2390" >caravel_top.uut.chip_core.spare_logic[3].spare_logic_diode[0].gf180mcu_fd_sc_mcu7t5v0__antenna_inst</a></b><br clear=all>
+<table align=left class="noborder">
+<tr>
+<th nowrap width=120></th><th nowrap width=80>Total</th><th nowrap width=80>Covered</th><th nowrap width=80>Percent</th></tr><tr class="s2">
+<td>Totals</td>
+<td class="rt">5</td>
+<td class="rt">1</td>
+<td class="rt">20.00 </td>
+</tr><tr class="s2">
+<td>Total Bits</td>
+<td class="rt">10</td>
+<td class="rt">2</td>
+<td class="rt">20.00 </td>
+</tr><tr class="s2">
+<td nowrap>Total Bits 0->1</td>
+<td class="rt">5</td>
+<td class="rt">1</td>
+<td class="rt">20.00 </td>
+</tr><tr class="s2">
+<td nowrap>Total Bits 1->0</td>
+<td class="rt">5</td>
+<td class="rt">1</td>
+<td class="rt">20.00 </td>
+</tr></table><br clear=all>
+<table align=left class="noborder">
+<tr>
+<th nowrap width=120></th><th nowrap width=80></th><th nowrap width=80></th><th nowrap width=80></th></tr><tr class="s2">
+<td>Ports</td>
+<td class="rt">5</td>
+<td class="rt">1</td>
+<td class="rt">20.00 </td>
+</tr><tr class="s2">
+<td>Port Bits</td>
+<td class="rt">10</td>
+<td class="rt">2</td>
+<td class="rt">20.00 </td>
+</tr><tr class="s2">
+<td nowrap>Port Bits 0->1</td>
+<td class="rt">5</td>
+<td class="rt">1</td>
+<td class="rt">20.00 </td>
+</tr><tr class="s2">
+<td nowrap>Port Bits 1->0</td>
+<td class="rt">5</td>
+<td class="rt">1</td>
+<td class="rt">20.00 </td>
+</tr></table><br clear=all>
+<table align=left class="sortable noborder">
+<caption><b>Port Details</b></caption>
+<tr class="sortablehead">
+<td class="alfsrt">Name</td><td class="alfsrt">Toggle</td><td class="alfsrt">Toggle 1->0</td><td class="alfsrt">Tests</td><td class="alfsrt">Toggle 0->1</td><td class="alfsrt">Tests</td><td class="alfsrt">Direction</td></tr><tr>
+<td>VDD</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl" nowrap><span title = "RTL-IRQ_external/simv/test">T1</span>,<span title = "RTL-IRQ_timer/simv/test">T2</span>,<span title = "RTL-IRQ_uart/simv/test">T3</span></td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl" nowrap><span title = "RTL-IRQ_external/simv/test">T1</span>,<span title = "RTL-IRQ_timer/simv/test">T2</span>,<span title = "RTL-IRQ_uart/simv/test">T3</span></td>
+<td>INOUT</td>
+</tr><tr>
+<td>VSS</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl"></td>
+<td class="s3 cl">No</td>
+<td class="s3 cl"></td>
+<td>INOUT</td>
+</tr><tr>
+<td>VNW</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl"></td>
+<td class="s3 cl">No</td>
+<td class="s3 cl"></td>
+<td>INOUT</td>
+</tr><tr>
+<td>VPW</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl"></td>
+<td class="s3 cl">No</td>
+<td class="s3 cl"></td>
+<td>INOUT</td>
+</tr><tr>
+<td>I</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl"></td>
+<td class="s3 cl">No</td>
+<td class="s3 cl"></td>
+<td>INPUT</td>
+</tr></table><br clear=all>
+</div>
+<div name='inst_tag_2391'>
+<a name="inst_tag_2391_Toggle"></a>
+<b>Toggle Coverage for Instance : <a href="mod35.html#inst_tag_2391" >caravel_top.uut.chip_core.spare_logic[3].spare_logic_diode[1].gf180mcu_fd_sc_mcu7t5v0__antenna_inst</a></b><br clear=all>
+<table align=left class="noborder">
+<tr>
+<th nowrap width=120></th><th nowrap width=80>Total</th><th nowrap width=80>Covered</th><th nowrap width=80>Percent</th></tr><tr class="s2">
+<td>Totals</td>
+<td class="rt">5</td>
+<td class="rt">1</td>
+<td class="rt">20.00 </td>
+</tr><tr class="s2">
+<td>Total Bits</td>
+<td class="rt">10</td>
+<td class="rt">2</td>
+<td class="rt">20.00 </td>
+</tr><tr class="s2">
+<td nowrap>Total Bits 0->1</td>
+<td class="rt">5</td>
+<td class="rt">1</td>
+<td class="rt">20.00 </td>
+</tr><tr class="s2">
+<td nowrap>Total Bits 1->0</td>
+<td class="rt">5</td>
+<td class="rt">1</td>
+<td class="rt">20.00 </td>
+</tr></table><br clear=all>
+<table align=left class="noborder">
+<tr>
+<th nowrap width=120></th><th nowrap width=80></th><th nowrap width=80></th><th nowrap width=80></th></tr><tr class="s2">
+<td>Ports</td>
+<td class="rt">5</td>
+<td class="rt">1</td>
+<td class="rt">20.00 </td>
+</tr><tr class="s2">
+<td>Port Bits</td>
+<td class="rt">10</td>
+<td class="rt">2</td>
+<td class="rt">20.00 </td>
+</tr><tr class="s2">
+<td nowrap>Port Bits 0->1</td>
+<td class="rt">5</td>
+<td class="rt">1</td>
+<td class="rt">20.00 </td>
+</tr><tr class="s2">
+<td nowrap>Port Bits 1->0</td>
+<td class="rt">5</td>
+<td class="rt">1</td>
+<td class="rt">20.00 </td>
+</tr></table><br clear=all>
+<table align=left class="sortable noborder">
+<caption><b>Port Details</b></caption>
+<tr class="sortablehead">
+<td class="alfsrt">Name</td><td class="alfsrt">Toggle</td><td class="alfsrt">Toggle 1->0</td><td class="alfsrt">Tests</td><td class="alfsrt">Toggle 0->1</td><td class="alfsrt">Tests</td><td class="alfsrt">Direction</td></tr><tr>
+<td>VDD</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl" nowrap><span title = "RTL-IRQ_external/simv/test">T1</span>,<span title = "RTL-IRQ_timer/simv/test">T2</span>,<span title = "RTL-IRQ_uart/simv/test">T3</span></td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl" nowrap><span title = "RTL-IRQ_external/simv/test">T1</span>,<span title = "RTL-IRQ_timer/simv/test">T2</span>,<span title = "RTL-IRQ_uart/simv/test">T3</span></td>
+<td>INOUT</td>
+</tr><tr>
+<td>VSS</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl"></td>
+<td class="s3 cl">No</td>
+<td class="s3 cl"></td>
+<td>INOUT</td>
+</tr><tr>
+<td>VNW</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl"></td>
+<td class="s3 cl">No</td>
+<td class="s3 cl"></td>
+<td>INOUT</td>
+</tr><tr>
+<td>VPW</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl"></td>
+<td class="s3 cl">No</td>
+<td class="s3 cl"></td>
+<td>INOUT</td>
+</tr><tr>
+<td>I</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl"></td>
+<td class="s3 cl">No</td>
+<td class="s3 cl"></td>
+<td>INPUT</td>
+</tr></table><br clear=all>
+</div>
+<div name='inst_tag_2392'>
+<a name="inst_tag_2392_Toggle"></a>
+<b>Toggle Coverage for Instance : <a href="mod35.html#inst_tag_2392" >caravel_top.uut.chip_core.spare_logic[3].spare_logic_diode[2].gf180mcu_fd_sc_mcu7t5v0__antenna_inst</a></b><br clear=all>
+<table align=left class="noborder">
+<tr>
+<th nowrap width=120></th><th nowrap width=80>Total</th><th nowrap width=80>Covered</th><th nowrap width=80>Percent</th></tr><tr class="s2">
+<td>Totals</td>
+<td class="rt">5</td>
+<td class="rt">1</td>
+<td class="rt">20.00 </td>
+</tr><tr class="s2">
+<td>Total Bits</td>
+<td class="rt">10</td>
+<td class="rt">2</td>
+<td class="rt">20.00 </td>
+</tr><tr class="s2">
+<td nowrap>Total Bits 0->1</td>
+<td class="rt">5</td>
+<td class="rt">1</td>
+<td class="rt">20.00 </td>
+</tr><tr class="s2">
+<td nowrap>Total Bits 1->0</td>
+<td class="rt">5</td>
+<td class="rt">1</td>
+<td class="rt">20.00 </td>
+</tr></table><br clear=all>
+<table align=left class="noborder">
+<tr>
+<th nowrap width=120></th><th nowrap width=80></th><th nowrap width=80></th><th nowrap width=80></th></tr><tr class="s2">
+<td>Ports</td>
+<td class="rt">5</td>
+<td class="rt">1</td>
+<td class="rt">20.00 </td>
+</tr><tr class="s2">
+<td>Port Bits</td>
+<td class="rt">10</td>
+<td class="rt">2</td>
+<td class="rt">20.00 </td>
+</tr><tr class="s2">
+<td nowrap>Port Bits 0->1</td>
+<td class="rt">5</td>
+<td class="rt">1</td>
+<td class="rt">20.00 </td>
+</tr><tr class="s2">
+<td nowrap>Port Bits 1->0</td>
+<td class="rt">5</td>
+<td class="rt">1</td>
+<td class="rt">20.00 </td>
+</tr></table><br clear=all>
+<table align=left class="sortable noborder">
+<caption><b>Port Details</b></caption>
+<tr class="sortablehead">
+<td class="alfsrt">Name</td><td class="alfsrt">Toggle</td><td class="alfsrt">Toggle 1->0</td><td class="alfsrt">Tests</td><td class="alfsrt">Toggle 0->1</td><td class="alfsrt">Tests</td><td class="alfsrt">Direction</td></tr><tr>
+<td>VDD</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl" nowrap><span title = "RTL-IRQ_external/simv/test">T1</span>,<span title = "RTL-IRQ_timer/simv/test">T2</span>,<span title = "RTL-IRQ_uart/simv/test">T3</span></td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl" nowrap><span title = "RTL-IRQ_external/simv/test">T1</span>,<span title = "RTL-IRQ_timer/simv/test">T2</span>,<span title = "RTL-IRQ_uart/simv/test">T3</span></td>
+<td>INOUT</td>
+</tr><tr>
+<td>VSS</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl"></td>
+<td class="s3 cl">No</td>
+<td class="s3 cl"></td>
+<td>INOUT</td>
+</tr><tr>
+<td>VNW</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl"></td>
+<td class="s3 cl">No</td>
+<td class="s3 cl"></td>
+<td>INOUT</td>
+</tr><tr>
+<td>VPW</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl"></td>
+<td class="s3 cl">No</td>
+<td class="s3 cl"></td>
+<td>INOUT</td>
+</tr><tr>
+<td>I</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl"></td>
+<td class="s3 cl">No</td>
+<td class="s3 cl"></td>
+<td>INPUT</td>
+</tr></table><br clear=all>
+</div>
+<div name='inst_tag_2393'>
+<a name="inst_tag_2393_Toggle"></a>
+<b>Toggle Coverage for Instance : <a href="mod35.html#inst_tag_2393" >caravel_top.uut.chip_core.spare_logic[3].spare_logic_diode[3].gf180mcu_fd_sc_mcu7t5v0__antenna_inst</a></b><br clear=all>
+<table align=left class="noborder">
+<tr>
+<th nowrap width=120></th><th nowrap width=80>Total</th><th nowrap width=80>Covered</th><th nowrap width=80>Percent</th></tr><tr class="s2">
+<td>Totals</td>
+<td class="rt">5</td>
+<td class="rt">1</td>
+<td class="rt">20.00 </td>
+</tr><tr class="s2">
+<td>Total Bits</td>
+<td class="rt">10</td>
+<td class="rt">2</td>
+<td class="rt">20.00 </td>
+</tr><tr class="s2">
+<td nowrap>Total Bits 0->1</td>
+<td class="rt">5</td>
+<td class="rt">1</td>
+<td class="rt">20.00 </td>
+</tr><tr class="s2">
+<td nowrap>Total Bits 1->0</td>
+<td class="rt">5</td>
+<td class="rt">1</td>
+<td class="rt">20.00 </td>
+</tr></table><br clear=all>
+<table align=left class="noborder">
+<tr>
+<th nowrap width=120></th><th nowrap width=80></th><th nowrap width=80></th><th nowrap width=80></th></tr><tr class="s2">
+<td>Ports</td>
+<td class="rt">5</td>
+<td class="rt">1</td>
+<td class="rt">20.00 </td>
+</tr><tr class="s2">
+<td>Port Bits</td>
+<td class="rt">10</td>
+<td class="rt">2</td>
+<td class="rt">20.00 </td>
+</tr><tr class="s2">
+<td nowrap>Port Bits 0->1</td>
+<td class="rt">5</td>
+<td class="rt">1</td>
+<td class="rt">20.00 </td>
+</tr><tr class="s2">
+<td nowrap>Port Bits 1->0</td>
+<td class="rt">5</td>
+<td class="rt">1</td>
+<td class="rt">20.00 </td>
+</tr></table><br clear=all>
+<table align=left class="sortable noborder">
+<caption><b>Port Details</b></caption>
+<tr class="sortablehead">
+<td class="alfsrt">Name</td><td class="alfsrt">Toggle</td><td class="alfsrt">Toggle 1->0</td><td class="alfsrt">Tests</td><td class="alfsrt">Toggle 0->1</td><td class="alfsrt">Tests</td><td class="alfsrt">Direction</td></tr><tr>
+<td>VDD</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl" nowrap><span title = "RTL-IRQ_external/simv/test">T1</span>,<span title = "RTL-IRQ_timer/simv/test">T2</span>,<span title = "RTL-IRQ_uart/simv/test">T3</span></td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl" nowrap><span title = "RTL-IRQ_external/simv/test">T1</span>,<span title = "RTL-IRQ_timer/simv/test">T2</span>,<span title = "RTL-IRQ_uart/simv/test">T3</span></td>
+<td>INOUT</td>
+</tr><tr>
+<td>VSS</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl"></td>
+<td class="s3 cl">No</td>
+<td class="s3 cl"></td>
+<td>INOUT</td>
+</tr><tr>
+<td>VNW</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl"></td>
+<td class="s3 cl">No</td>
+<td class="s3 cl"></td>
+<td>INOUT</td>
+</tr><tr>
+<td>VPW</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl"></td>
+<td class="s3 cl">No</td>
+<td class="s3 cl"></td>
+<td>INOUT</td>
+</tr><tr>
+<td>I</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl"></td>
+<td class="s3 cl">No</td>
+<td class="s3 cl"></td>
+<td>INPUT</td>
+</tr></table><br clear=all>
+</div>
+</div>
+<div class="ui-layout-center-inner-north">
+<div id="center-bread-crumb" class="breadCrumb module urg-margin-bottom">
+  <ul name="inst_tag_2378">
+    <li>
+      <a href="#inst_tag_2378_Toggle">Toggle</a>    </li>
+  </ul>
+  <ul name="inst_tag_2379">
+    <li>
+      <a href="#inst_tag_2379_Toggle">Toggle</a>    </li>
+  </ul>
+  <ul name="inst_tag_2380">
+    <li>
+      <a href="#inst_tag_2380_Toggle">Toggle</a>    </li>
+  </ul>
+  <ul name="inst_tag_2381">
+    <li>
+      <a href="#inst_tag_2381_Toggle">Toggle</a>    </li>
+  </ul>
+  <ul name="inst_tag_2382">
+    <li>
+      <a href="#inst_tag_2382_Toggle">Toggle</a>    </li>
+  </ul>
+  <ul name="inst_tag_2383">
+    <li>
+      <a href="#inst_tag_2383_Toggle">Toggle</a>    </li>
+  </ul>
+  <ul name="inst_tag_2384">
+    <li>
+      <a href="#inst_tag_2384_Toggle">Toggle</a>    </li>
+  </ul>
+  <ul name="inst_tag_2385">
+    <li>
+      <a href="#inst_tag_2385_Toggle">Toggle</a>    </li>
+  </ul>
+  <ul name="inst_tag_2386">
+    <li>
+      <a href="#inst_tag_2386_Toggle">Toggle</a>    </li>
+  </ul>
+  <ul name="inst_tag_2387">
+    <li>
+      <a href="#inst_tag_2387_Toggle">Toggle</a>    </li>
+  </ul>
+  <ul name="inst_tag_2388">
+    <li>
+      <a href="#inst_tag_2388_Toggle">Toggle</a>    </li>
+  </ul>
+  <ul name="inst_tag_2389">
+    <li>
+      <a href="#inst_tag_2389_Toggle">Toggle</a>    </li>
+  </ul>
+  <ul name="inst_tag_2390">
+    <li>
+      <a href="#inst_tag_2390_Toggle">Toggle</a>    </li>
+  </ul>
+  <ul name="inst_tag_2391">
+    <li>
+      <a href="#inst_tag_2391_Toggle">Toggle</a>    </li>
+  </ul>
+  <ul name="inst_tag_2392">
+    <li>
+      <a href="#inst_tag_2392_Toggle">Toggle</a>    </li>
+  </ul>
+  <ul name="inst_tag_2393">
+    <li>
+      <a href="#inst_tag_2393_Toggle">Toggle</a>    </li>
+  </ul>
+  <ul name="tag_gf180mcu_fd_sc_mcu7t5v0__antenna_func">
+    <li>
+      <a href="#Toggle">Toggle</a>    </li>
+  </ul>
+</div>
+</div>
+</div>
+<div class="ui-layout-south">
+<table align=center><tr><td class="s0 cl">0%</td>
+<td class="s1 cl">10%</td>
+<td class="s2 cl">20%</td>
+<td class="s3 cl">30%</td>
+<td class="s4 cl">40%</td>
+<td class="s5 cl">50%</td>
+<td class="s6 cl">60%</td>
+<td class="s7 cl">70%</td>
+<td class="s8 cl">80%</td>
+<td class="s9 cl">90%</td>
+<td class="s10 cl">100%</td></tr></table></div>
+</body>
+</html>
